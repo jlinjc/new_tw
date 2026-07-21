@@ -199,7 +199,7 @@ def compute_stock_stats(episodes):
                 s = stocks.setdefault(key, {
                     "stock_name": p["stock_name"], "ticker": p.get("ticker"),
                     "n": 0, "bull": 0, "bear": 0, "teachers": set(),
-                    "last_date": "", "rets_m1": [], "ex_m1": [],
+                    "last_date": "", "rets_m1": [], "ex_m1": [], "mentions": [],
                 })
                 s["n"] += 1
                 if p["stance"] == "看多":
@@ -213,8 +213,18 @@ def compute_stock_stats(episodes):
                 ex = (p.get("excess") or {}).get("m1")
                 if ex is not None:
                     s["ex_m1"].append(ex)
+                s["mentions"].append({
+                    "date": ep["date"], "video_id": ep["id"],
+                    "teacher": t["name"], "stance": p["stance"],
+                    "action": p.get("action"), "confidence": p.get("confidence"),
+                    "entry": (p["perf"]["entry_price"] if p.get("perf") else None),
+                    "ret_m1": (p["perf"]["ret"].get("m1") if p.get("perf") else None),
+                    "ex_m1": (p.get("excess") or {}).get("m1"),
+                    "quote": p.get("quote", ""),
+                })
     out = []
     for s in stocks.values():
+        s["mentions"].sort(key=lambda m: m["date"], reverse=True)
         out.append({
             "stock_name": s["stock_name"], "ticker": s["ticker"], "n": s["n"],
             "bull": s["bull"], "bear": s["bear"],
@@ -223,9 +233,122 @@ def compute_stock_stats(episodes):
                            if s["rets_m1"] else None),
             "avg_ex_m1": (round(sum(s["ex_m1"]) / len(s["ex_m1"]), 5)
                           if s["ex_m1"] else None),
+            "mentions": s["mentions"],
         })
     out.sort(key=lambda r: (-r["n"], r["last_date"]))
     return out
+
+
+def _scored_picks(episodes):
+    """展平所有可計分推薦（看多/看空且有股價），附上共識人數與信心標記。"""
+    out = []
+    for ep in episodes:
+        # 同一集內，同一標的同一方向有幾位「不同老師」表態＝共識強度
+        agree = {}
+        for t in ep["teachers"]:
+            for p in t["picks"]:
+                if p["stance"] not in ("看多", "看空"):
+                    continue
+                key = (p.get("ticker") or p["stock_name"], p["stance"])
+                agree.setdefault(key, set()).add(t["name"])
+        for t in ep["teachers"]:
+            for p in t["picks"]:
+                if p["stance"] not in ("看多", "看空") or not p.get("perf"):
+                    continue
+                key = (p.get("ticker") or p["stock_name"], p["stance"])
+                out.append({
+                    "date": ep["date"], "teacher": t["name"],
+                    "stance": p["stance"], "sign": -1 if p["stance"] == "看空" else 1,
+                    "confidence": p.get("confidence"),
+                    "consensus_n": len(agree.get(key, ())),
+                    "ret": p["perf"]["ret"], "excess": p.get("excess") or {},
+                })
+    return out
+
+
+def compute_backtest(episodes, teacher_stats):
+    """篩選策略比較：不同過濾條件下的勝率與超額，回答「篩選能否提高勝率」。
+
+    以「贏大盤」（多空調整後超額 > 0）為主要勝率定義，因為那才是相對
+    於「無腦買指數」真正多出來的邊際價值；同時附「賺錢率」（報酬 > 0）。
+    """
+    picks = _scored_picks(episodes)
+    good = {r["name"] for r in teacher_stats
+            if r["h"]["m1"]["n"] >= 10 and (r["h"]["m1"]["avg_excess"] or 0) > 0}
+    cohorts = [
+        ("all", "全部推薦", lambda p: True),
+        ("high", "高信心", lambda p: p["confidence"] == "high"),
+        ("consensus", "共識（≥2 位老師同看）", lambda p: p["consensus_n"] >= 2),
+        ("strong", "強共識（≥3 位）", lambda p: p["consensus_n"] >= 3),
+        ("top", "前段班老師", lambda p: p["teacher"] in good),
+        ("top_consensus", "前段班＋共識", lambda p: p["teacher"] in good and p["consensus_n"] >= 2),
+    ]
+    result = {}
+    for key, label, pred in cohorts:
+        hrow = {}
+        for h in HORIZONS:
+            exs, rets = [], []
+            for p in picks:
+                if not pred(p):
+                    continue
+                ex, r = p["excess"].get(h), p["ret"].get(h)
+                if ex is None or r is None:
+                    continue
+                exs.append(p["sign"] * ex)
+                rets.append(p["sign"] * r)
+            n = len(exs)
+            if n:
+                beat = sum(1 for e in exs if e > 0)
+                profit = sum(1 for r in rets if r > 0)
+                hrow[h] = {"n": n, "beat": round(beat / n, 4),
+                           "beat_ci": wilson_ci(beat, n),
+                           "profit": round(profit / n, 4),
+                           "avg_ex": round(sum(exs) / n, 5),
+                           "avg_ret": round(sum(rets) / n, 5)}
+            else:
+                hrow[h] = {"n": 0, "beat": None, "beat_ci": None,
+                           "profit": None, "avg_ex": None, "avg_ret": None}
+        result[key] = {"label": label, "h": hrow}
+    return {"cohorts": result,
+            "order": [c[0] for c in cohorts],
+            "good_teachers": sorted(good)}
+
+
+def compute_consensus(episodes):
+    """共識標的：同一集有 ≥2 位老師對同一標的同方向表態。"""
+    rows = []
+    for ep in episodes:
+        groups = {}
+        for t in ep["teachers"]:
+            for p in t["picks"]:
+                if p["stance"] not in ("看多", "看空"):
+                    continue
+                key = (p.get("ticker") or p["stock_name"], p["stance"])
+                g = groups.setdefault(key, {
+                    "stock_name": p["stock_name"], "ticker": p.get("ticker"),
+                    "stance": p["stance"], "teachers": [],
+                    "rets": [], "exs": []})
+                g["teachers"].append(t["name"])
+                if p.get("perf") and p["perf"]["ret"].get("m1") is not None:
+                    g["rets"].append(p["perf"]["ret"]["m1"])
+                ex = (p.get("excess") or {}).get("m1")
+                if ex is not None:
+                    g["exs"].append(ex)
+        for g in groups.values():
+            if len(g["teachers"]) < 2:
+                continue
+            rows.append({
+                "date": ep["date"], "video_id": ep["id"],
+                "stock_name": g["stock_name"], "ticker": g["ticker"],
+                "stance": g["stance"], "n_teachers": len(g["teachers"]),
+                "teachers": sorted(g["teachers"]),
+                "avg_ret_m1": (round(sum(g["rets"]) / len(g["rets"]), 5)
+                               if g["rets"] else None),
+                "avg_ex_m1": (round(sum(g["exs"]) / len(g["exs"]), 5)
+                              if g["exs"] else None),
+            })
+    rows.sort(key=lambda r: (r["date"], r["n_teachers"]), reverse=True)
+    return rows
 
 
 HTML_TEMPLATE = """<!DOCTYPE html>
@@ -392,7 +515,9 @@ a { color: var(--accent); }
   <div class="sub">資料更新：__GENERATED__ ｜ 進場點＝播出日後首個交易日收盤 ｜ 命中＝依多空方向調整後報酬 &gt; 0 ｜ 超額＝相對加權指數</div>
   <div class="tiles" id="tiles"></div>
   <div class="tabs">
-    <button class="tab active" data-view="episodes" onclick="switchTab(this)">集數列表</button>
+    <button class="tab active" data-view="overview" onclick="switchTab(this)">總覽</button>
+    <button class="tab" data-view="consensus" onclick="switchTab(this)">共識標的</button>
+    <button class="tab" data-view="episodes" onclick="switchTab(this)">集數列表</button>
     <button class="tab" data-view="teachers" onclick="switchTab(this)">老師排行</button>
     <button class="tab" data-view="stocks" onclick="switchTab(this)">個股彙總</button>
     <button class="tab" data-view="quality" onclick="switchTab(this)">資料品質</button>
@@ -403,7 +528,7 @@ a { color: var(--accent); }
 const DATA = __DATA__;
 const HORIZONS = ["d3","w1","w2","m1"];
 const HL = {d3:"+3日", w1:"+1週", w2:"+2週", m1:"+1月"};
-let view = "episodes", currentEp = null;
+let view = "overview", currentEp = null;
 
 function toggleTheme() {
   const r = document.documentElement;
@@ -446,10 +571,147 @@ function switchTab(btn) {
 
 function render() {
   const el = document.getElementById("content");
-  if (view === "episodes") el.innerHTML = currentEp ? epDetail(currentEp) : epList();
+  if (view === "overview") el.innerHTML = overviewView();
+  else if (view === "consensus") el.innerHTML = consensusView();
+  else if (view === "episodes") el.innerHTML = currentEp ? epDetail(currentEp) : epList();
   else if (view === "teachers") { el.innerHTML = curveSection() + teacherTable(); wireCurveHover(); }
   else if (view === "quality") el.innerHTML = qualityView();
   else el.innerHTML = stockTable();
+}
+
+// ====== 總覽：把「數字說話」的結論放最前面 ======
+function teacherM1(name) {
+  const r = (DATA.teacherStats || []).find(t => t.name === name);
+  return r ? r.h.m1 : null;
+}
+
+function overviewView() {
+  const bt = DATA.backtest;
+  const all = bt.cohorts.all.h.m1;
+  // 結論句：整體是否贏過大盤
+  let html = `<div class="card">
+    <div class="chart-title" style="margin-bottom:6px">這節目的推薦，到底能不能贏大盤？</div>
+    <div class="note" style="margin:0 0 10px">以「播出後隔日進場、滿一個月」且有明確多空方向的 ${all.n} 筆推薦計算。勝率＝贏過加權指數的比例（50% 代表跟指數一樣、沒有加值）。</div>
+    <div class="tiles" style="margin:0">
+      ${bigStat("整體贏大盤率", all.beat, "pct", all.beat_ci)}
+      ${bigStat("整體賺錢率", all.profit, "pct")}
+      ${bigStat("平均超額報酬", all.avg_ex, "signed")}
+      ${bigStat("平均報酬", all.avg_ret, "signed")}
+    </div></div>`;
+
+  // 篩選策略比較：核心「數字說話」
+  html += `<div class="card">
+    <div class="chart-title" style="margin-bottom:4px">篩選策略比較：哪種過濾條件勝率最高？</div>
+    <div class="note" style="margin:0 0 8px">同樣是滿一個月的推薦，套用不同篩選後的「贏大盤率」與「平均超額」。<b>粗體</b>＝Wilson 95% 信賴區間下緣仍 &gt; 50%（統計上真的贏，不是運氣）。前段班老師＝樣本≥10 且歷史平均超額為正者。</div>
+    <div style="overflow-x:auto"><table><thead><tr>
+      <th>篩選條件</th><th class="num">樣本數</th><th class="num">贏大盤率</th>
+      <th class="num">賺錢率</th><th class="num">平均超額</th><th class="num">平均報酬</th>
+    </tr></thead><tbody>`;
+  bt.order.forEach(k => {
+    const c = bt.cohorts[k], m = c.h.m1;
+    const sig = m.beat_ci && m.beat_ci[0] > 0.5;
+    html += `<tr><td>${esc(c.label)}</td>
+      <td class="num">${m.n}</td>
+      <td class="num"><span class="${sig?'sig':''}">${m.beat===null?"–":(m.beat*100).toFixed(0)+"%"}</span>${m.beat_ci?`<div class="ci">${(m.beat_ci[0]*100).toFixed(0)}–${(m.beat_ci[1]*100).toFixed(0)}%</div>`:""}</td>
+      <td class="num">${m.profit===null?"–":(m.profit*100).toFixed(0)+"%"}</td>
+      <td class="num ${cls(m.avg_ex)}">${pct(m.avg_ex)}</td>
+      <td class="num ${cls(m.avg_ret)}">${pct(m.avg_ret)}</td></tr>`;
+  });
+  html += `</tbody></table></div></div>`;
+
+  // 最新一集可跟單清單：把老師的歷史命中率貼上去，直接篩
+  const latest = DATA.episodes[0];
+  if (latest) {
+    html += `<div class="card">
+      <div class="chart-title" style="margin-bottom:2px">最新一集推薦（${latest.date}）＋老師歷史戰績</div>
+      <div class="note" style="margin:0 0 8px">最新的推薦還沒到評分時間，但可用「推薦這檔的老師過去 +1月贏大盤率」先篩：多位老師同看、且這些老師歷史準的，優先關注。</div>`;
+    html += latestPickTable(latest);
+    html += `</div>`;
+  }
+  return html;
+}
+
+function bigStat(label, val, kind, ci) {
+  let disp = "–", c = "";
+  if (val !== null && val !== undefined) {
+    if (kind === "pct") disp = (val*100).toFixed(0) + "%";
+    else if (kind === "signed") { disp = pct(val); c = cls(val); }
+  }
+  const sub = ci ? `<div class="ci" style="margin-top:2px">95% CI ${(ci[0]*100).toFixed(0)}–${(ci[1]*100).toFixed(0)}%</div>` : "";
+  return `<div class="tile"><div class="v ${c}">${disp}</div><div class="k">${esc(label)}</div>${sub}</div>`;
+}
+
+function latestPickTable(ep) {
+  const good = new Set((DATA.backtest.good_teachers) || []);
+  // 聚合同集同標的同方向 → 幾位老師 + 他們的歷史 m1 命中率
+  const groups = {};
+  ep.teachers.forEach(t => t.picks.forEach(p => {
+    if (p.stance !== "看多" && p.stance !== "看空") return;
+    const key = (p.ticker || p.stock_name) + "|" + p.stance;
+    const g = groups[key] || (groups[key] = {stock_name:p.stock_name, ticker:p.ticker,
+      stance:p.stance, teachers:[], confs:[]});
+    g.teachers.push(t.name); g.confs.push(p.confidence);
+  }));
+  const rows = Object.values(groups).map(g => {
+    const recs = g.teachers.map(teacherM1).filter(Boolean);
+    const beats = recs.map(r => r.hit_rate).filter(x => x !== null);
+    const avgBeat = beats.length ? beats.reduce((a,b)=>a+b,0)/beats.length : null;
+    const topN = g.teachers.filter(n => good.has(n));
+    // 高訊號＝共識(≥2)或有前段班老師推：這才是值得優先看的
+    const signal = g.teachers.length >= 2 || topN.length > 0;
+    return {...g, avgBeat, topN, signal};
+  });
+  rows.sort((a,b) => (b.teachers.length - a.teachers.length) || ((b.avgBeat||0)-(a.avgBeat||0)));
+  const hi = rows.filter(r => r.signal), lo = rows.filter(r => !r.signal);
+  const rowHtml = r => `<tr>
+      <td>${esc(r.stock_name)} ${r.ticker?`<span style="color:var(--muted)">(${esc(r.ticker)})</span>`:""}</td>
+      <td>${stanceChip(r.stance)}</td>
+      <td class="num">${r.teachers.length>=2?`<b>${r.teachers.length}</b>`:r.teachers.length}</td>
+      <td>${r.teachers.map(n => good.has(n)?`<b class="teacher-name">${esc(n)}★</b>`:esc(n)).join("、")}</td>
+      <td class="num ${r.avgBeat!==null?(r.avgBeat>0.5?'pos':r.avgBeat<0.5?'neg':''):''}">${r.avgBeat===null?"–":(r.avgBeat*100).toFixed(0)+"%"}</td></tr>`;
+  let html = `<div style="overflow-x:auto"><table><thead><tr>
+    <th>標的</th><th>方向</th><th class="num">同看老師</th><th>老師（★＝前段班）</th>
+    <th class="num">這些老師歷史命中率</th></tr></thead><tbody>`;
+  html += (hi.length ? hi.map(rowHtml).join("")
+    : `<tr><td colspan="5" class="note" style="border:none">這集沒有共識或前段班老師的推薦。</td></tr>`);
+  if (lo.length) {
+    html += `<tr id="loToggleRow"><td colspan="5" style="border:none;padding-top:8px">
+      <span class="back" onclick="document.getElementById('loRows').style.display='table-row-group';this.parentElement.parentElement.style.display='none'">＋ 顯示其餘 ${lo.length} 檔單一老師推薦</span></td></tr>`;
+    html += `</tbody><tbody id="loRows" style="display:none">` + lo.map(rowHtml).join("");
+  }
+  return html + `</tbody></table></div>`;
+}
+
+// ====== 共識標的 ======
+let consMode = "all";
+function setConsMode(m) { consMode = m; render(); }
+function consensusView() {
+  const rows = (DATA.consensus || []).filter(r => consMode === "all" || r.stance === consMode);
+  const matured = rows.filter(r => r.avg_ex_m1 !== null);
+  const beat = matured.filter(r => (r.stance === "看空" ? -r.avg_ex_m1 : r.avg_ex_m1) > 0).length;
+  let html = `<div class="note">同一集有 ≥2 位老師對同一檔股票同方向表態＝「共識標的」。共識通常比單一老師更值得參考——右邊數字就是驗證。</div>`;
+  html += `<div class="tiles" style="margin-bottom:12px">
+    <div class="tile"><div class="v">${rows.length}</div><div class="k">共識標的次數</div></div>
+    <div class="tile"><div class="v">${matured.length? (beat/matured.length*100).toFixed(0)+'%':'–'}</div><div class="k">滿月贏大盤率（${matured.length} 筆已評分）</div></div>
+  </div>`;
+  html += `<div class="chips">
+    <button class="chipbtn ${consMode==='all'?'on':''}" onclick="setConsMode('all')">全部</button>
+    <button class="chipbtn ${consMode==='看多'?'on':''}" onclick="setConsMode('看多')">只看多</button>
+    <button class="chipbtn ${consMode==='看空'?'on':''}" onclick="setConsMode('看空')">只看空</button></div>`;
+  html += `<div class="card" style="overflow-x:auto"><table><thead><tr>
+    <th>日期</th><th>標的</th><th>方向</th><th class="num">同看老師</th><th>老師</th>
+    <th class="num">+1月報酬</th><th class="num">+1月超額</th></tr></thead><tbody>`;
+  rows.forEach(r => {
+    html += `<tr>
+      <td style="white-space:nowrap">${r.date}</td>
+      <td style="white-space:nowrap">${esc(r.stock_name)} ${r.ticker?`<span style="color:var(--muted)">(${esc(r.ticker)})</span>`:""}</td>
+      <td>${stanceChip(r.stance)}</td>
+      <td class="num"><b>${r.n_teachers}</b></td>
+      <td>${r.teachers.map(esc).join("、")}</td>
+      <td class="num ${cls(r.avg_ret_m1)}">${pct(r.avg_ret_m1)}</td>
+      <td class="num ${cls(r.avg_ex_m1)}">${pct(r.avg_ex_m1)}</td></tr>`;
+  });
+  return html + `</tbody></table></div>`;
 }
 
 function epList() {
@@ -712,21 +974,22 @@ function stockTable() {
   const rows = DATA.stockStats;
   if (!rows.length) return `<div class="note">尚無資料。</div>`;
   let html = `<input class="search" placeholder="搜尋股票名稱或代號..." oninput="filterStocks(this.value)">`;
+  html += `<div class="note" style="margin-top:0">點任一列可展開，看每次是誰、哪天、什麼價位推薦、後續表現。</div>`;
   html += `<div class="card" style="overflow-x:auto"><table><thead><tr>
     <th>股票</th><th class="num">被提及</th><th class="num">看多</th><th class="num">看空</th>
     <th>推薦老師</th><th class="num">+1月平均報酬</th><th class="num">+1月平均超額</th><th>最近提及</th>
     </tr></thead><tbody id="stockRows">`;
-  html += rows.map(stockRow).join("");
+  html += rows.map((r, i) => stockRow(r, i)).join("");
   return html + `</tbody></table></div>`;
 }
-function stockRow(r) {
+function stockRow(r, i) {
   const MAX_SHOWN = 4;
   const shown = r.teachers.slice(0, MAX_SHOWN).map(esc).join("、");
   const rest = r.teachers.length - MAX_SHOWN;
   const teacherCell = rest > 0
     ? `<span title="${esc(r.teachers.join("、"))}">${shown} 等 ${r.teachers.length} 人</span>`
     : shown;
-  return `<tr data-key="${esc(r.stock_name)} ${r.ticker||""}">
+  return `<tr class="clickable" data-key="${esc(r.stock_name)} ${r.ticker||""}" onclick="toggleStock(${i}, this)">
     <td>${esc(r.stock_name)} ${r.ticker ? `<span style="color:var(--muted)">(${r.ticker})</span>` : ""}</td>
     <td class="num">${r.n}</td><td class="num">${r.bull}</td><td class="num">${r.bear}</td>
     <td>${teacherCell}</td>
@@ -734,15 +997,37 @@ function stockRow(r) {
     <td class="num ${cls(r.avg_ex_m1)}">${pct(r.avg_ex_m1)}</td>
     <td>${r.last_date}</td></tr>`;
 }
+function toggleStock(i, tr) {
+  const nxt = tr.nextElementSibling;
+  if (nxt && nxt.classList.contains("detail")) { nxt.remove(); return; }
+  const r = DATA.stockStats[i];
+  const epUrl = {}; DATA.episodes.forEach(e => epUrl[e.id] = e.url);
+  const rows = r.mentions.map(m => `<tr>
+    <td style="white-space:nowrap"><a href="${epUrl[m.video_id]||'#'}" target="_blank">${m.date}</a></td>
+    <td>${esc(m.teacher)}</td><td>${stanceChip(m.stance)}</td>
+    <td>${esc(m.action||"")}</td>
+    <td class="num">${m.entry??"–"}</td>
+    <td class="num ${cls(m.ret_m1)}">${pct(m.ret_m1)}</td>
+    <td class="num ${cls(m.ex_m1)}">${pct(m.ex_m1)}</td>
+    <td class="qquote">${m.quote?"「"+esc(m.quote)+"」":""}</td></tr>`).join("");
+  const detail = document.createElement("tr");
+  detail.className = "detail";
+  detail.innerHTML = `<td colspan="8" style="background:var(--page);padding:8px 12px">
+    <table style="width:100%"><thead><tr><th>日期</th><th>老師</th><th>方向</th><th>建議</th>
+    <th class="num">進場價</th><th class="num">+1月報酬</th><th class="num">+1月超額</th><th>原句</th></tr></thead>
+    <tbody>${rows}</tbody></table></td>`;
+  tr.after(detail);
+}
 function filterStocks(q) {
   q = q.trim().toLowerCase();
   document.querySelectorAll("#stockRows tr").forEach(tr => {
+    if (tr.classList.contains("detail")) { tr.remove(); return; }
     tr.style.display = !q || tr.dataset.key.toLowerCase().includes(q) ? "" : "none";
   });
 }
 
 const initView = location.hash.replace("#", "");
-if (["episodes", "teachers", "stocks", "quality"].includes(initView)) {
+if (["overview", "consensus", "episodes", "teachers", "stocks", "quality"].includes(initView)) {
   view = initView;
   document.querySelectorAll(".tab").forEach(t =>
     t.classList.toggle("active", t.dataset.view === view));
@@ -757,12 +1042,15 @@ render();
 
 def main():
     episodes = load_data()
+    teacher_stats = compute_teacher_stats(episodes)
     data = {
         "episodes": episodes,
-        "teacherStats": compute_teacher_stats(episodes),
+        "teacherStats": teacher_stats,
         "stockStats": compute_stock_stats(episodes),
         "teacherCurves": compute_teacher_curves(episodes),
         "quality": compute_quality(episodes),
+        "backtest": compute_backtest(episodes, teacher_stats),
+        "consensus": compute_consensus(episodes),
     }
     html = (HTML_TEMPLATE
             .replace("__GENERATED__", datetime.now().strftime("%Y-%m-%d %H:%M"))
