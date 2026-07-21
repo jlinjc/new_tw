@@ -3,7 +3,7 @@
  "market_view": "本波修正主因是韓股去槓桿賣壓、外資調節及聯準會升息疑慮所致的資金緊縮,而非基本面轉弱;今日千點下影線被視為止跌訊號,短線支撐落在44000至45000點,高檔47000至48000點若無1.3至1.4兆量能推升則不宜追價,操作上建議逢拉回月線分批布局、不追高不殺低,並保留約2至3成現金水位。",
  "teachers": [
   {
-   "name": "容逸燊(Eason)",
+   "name": "容逸燊",
    "picks": [
     {
      "stock_name": "台積電",
@@ -38,8 +38,8 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "聚鼎(逐字稿記為「副頂」,股名依語境推測,未完全確認)",
-     "ticker": null,
+     "stock_name": "聚鼎",
+     "ticker": "6224",
      "market": "TW",
      "stance": "看多",
      "action": "不宜再殺在相對低檔區,可留意持續走強",
@@ -51,11 +51,12 @@
      "target_price": null,
      "confidence": "high",
      "quote": "今天事實上盤中一度打到跌停了,可是收盤衝了15%,跌停到漲5%",
-     "tw_market": null
+     "tw_market": "TWSE",
+     "name_note": "逐字稿記為「副頂」,股名依語境推測,未完全確認"
     },
     {
-     "stock_name": "廣積(工業電腦IPC,逐字稿記為「廣機」,股名未完全確認)",
-     "ticker": null,
+     "stock_name": "廣積",
+     "ticker": "8050",
      "market": "TW",
      "stance": "看多",
      "action": "回檔不破月線可留意布局",
@@ -68,10 +69,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "它可以看到最近一期外資是非常的翻多...其實又穩住月線開始往上墊高",
-     "tw_market": null
+     "tw_market": "TPEX",
+     "name_note": "工業電腦IPC,逐字稿記為「廣機」,股名未完全確認"
     },
     {
-     "stock_name": "廣通(網通/軍工概念,股名未完全確認)",
+     "stock_name": "廣通",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -85,7 +87,8 @@
      "target_price": "50-52元(突破後加碼)",
      "confidence": "high",
      "quote": "如果關鍵價位可以突破的話...再去做一個加碼",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "網通/軍工概念,股名未完全確認"
     },
     {
      "stock_name": "元大台灣50",
@@ -118,7 +121,7 @@
    ]
   },
   {
-   "name": "紀緯明(小明同學)",
+   "name": "紀緯明",
    "picks": [
     {
      "stock_name": "台積電",
@@ -211,7 +214,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "東點光電(CPO綠光晶片概念,股名待確認)",
+     "stock_name": "東點光電",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -222,7 +225,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "在做綠光片的東點光電這有三位數的成長",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "CPO綠光晶片概念,股名待確認"
     },
     {
      "stock_name": "雷虎",
@@ -296,8 +300,8 @@
    "name": "股魚",
    "picks": [
     {
-     "stock_name": "京鼎(逐字稿記為「金測」,股名依語境推測,未完全確認)",
-     "ticker": null,
+     "stock_name": "京鼎",
+     "ticker": "3413",
      "market": "TW",
      "stance": "看多",
      "action": "股價回落到財報估值區間(約2600元)可留意,不追高",
@@ -309,7 +313,8 @@
      "target_price": "約2600元(財報估值)",
      "confidence": "medium",
      "quote": "以這間公司來講,它目前在2026年人家預估他大概可以賺到接近65塊錢...大概接近到2600左右就會回到一個財報估值的一個範圍",
-     "tw_market": null
+     "tw_market": "TWSE",
+     "name_note": "逐字稿記為「金測」,股名依語境推測,未完全確認"
     },
     {
      "stock_name": "達新材",
@@ -358,7 +363,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "復華全球AI50(主動式ETF)",
+     "stock_name": "復華全球AI50",
      "ticker": "00409A",
      "market": "ETF",
      "stance": "看多",
@@ -371,7 +376,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "00409A就有這樣的功能喔!8月12號正式來做募集,發行價只需要10塊錢喔",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "主動式ETF"
     }
    ]
   }

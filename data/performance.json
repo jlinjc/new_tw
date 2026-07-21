@@ -606,14 +606,42 @@
   "video_id": "-MSH5Oeta0s",
   "date": "2026-06-29",
   "teacher": "林漢偉",
-  "stock_name": "中興電（或士電，講稿不清）",
-  "ticker": null,
-  "symbol": null,
+  "stock_name": "中興電",
+  "ticker": "1513",
+  "symbol": "1513.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-06-30",
+   "entry_price": 170.81,
+   "ret": {
+    "d3": -0.00282,
+    "w1": -0.0113,
+    "w2": -0.03986,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-30",
+   "entry_price": 46125.91,
+   "ret": {
+    "d3": 0.01419,
+    "w1": -0.01402,
+    "w2": -0.01072,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.01701,
+   "w1": 0.00272,
+   "w2": -0.02914,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": false,
+   "m1": null
+  }
  },
  {
   "video_id": "-MSH5Oeta0s",
@@ -1029,7 +1057,7 @@
   "video_id": "-Yt0wxF-lO4",
   "date": "2026-07-03",
   "teacher": "鍾國忠",
-  "stock_name": "半導體設備股(整體族群)",
+  "stock_name": "半導體設備股",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -1124,7 +1152,7 @@
   "video_id": "-Yt0wxF-lO4",
   "date": "2026-07-03",
   "teacher": "黃豐凱",
-  "stock_name": "龍亭(4989)",
+  "stock_name": "龍亭",
   "ticker": "4989",
   "symbol": "4989.TW",
   "stance": "看多",
@@ -1447,7 +1475,7 @@
   "video_id": "-Yt0wxF-lO4",
   "date": "2026-07-03",
   "teacher": "黃豐凱",
-  "stock_name": "亞光(疑似)",
+  "stock_name": "亞光",
   "ticker": "3019",
   "symbol": "3019.TW",
   "stance": "看多",
@@ -1488,17 +1516,17 @@
   "video_id": "-Yt0wxF-lO4",
   "date": "2026-07-03",
   "teacher": "黃豐凱",
-  "stock_name": "長榮航太(疑似)",
-  "ticker": "8341",
-  "symbol": "8341.TW",
+  "stock_name": "長榮航太",
+  "ticker": "2645",
+  "symbol": "2645.TW",
   "stance": "看多",
   "perf": {
    "entry_date": "2026-07-06",
-   "entry_price": 77.0,
+   "entry_price": 233.04,
    "ret": {
-    "d3": -0.00519,
-    "w1": -0.01039,
-    "w2": -0.01429,
+    "d3": 0.0084,
+    "w1": 0.07921,
+    "w2": -0.10746,
     "m1": null
    }
   },
@@ -1513,14 +1541,14 @@
    }
   },
   "excess": {
-   "d3": 0.02062,
-   "w1": 0.02867,
-   "w2": 0.03562,
+   "d3": 0.03421,
+   "w1": 0.11827,
+   "w2": -0.05755,
    "m1": null
   },
   "hit": {
-   "d3": false,
-   "w1": false,
+   "d3": true,
+   "w1": true,
    "w2": false,
    "m1": null
   }
@@ -1529,7 +1557,7 @@
   "video_id": "-Yt0wxF-lO4",
   "date": "2026-07-03",
   "teacher": "黃豐凱",
-  "stock_name": "ABF設備廠(日資背景,音似強新)",
+  "stock_name": "ABF設備廠",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -1829,19 +1857,42 @@
   "video_id": "-Yt0wxF-lO4",
   "date": "2026-07-03",
   "teacher": "高憲容",
-  "stock_name": "訊芯-KY(疑似,語音辨識為財新科)",
-  "ticker": null,
-  "symbol": null,
+  "stock_name": "訊芯-KY",
+  "ticker": "6451",
+  "symbol": "6451.TW",
   "stance": "中性",
-  "perf": null,
-  "bench": null,
-  "excess": null,
+  "perf": {
+   "entry_date": "2026-07-06",
+   "entry_price": 521.0,
+   "ret": {
+    "d3": -0.00576,
+    "w1": -0.0595,
+    "w2": -0.24088,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-06",
+   "entry_price": 46556.39,
+   "ret": {
+    "d3": -0.02581,
+    "w1": -0.03906,
+    "w2": -0.04991,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.02005,
+   "w1": -0.02044,
+   "w2": -0.19097,
+   "m1": null
+  },
   "hit": {}
  },
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "容逸燊(Eason)",
+  "teacher": "容逸燊",
   "stock_name": "台積電",
   "ticker": "2330",
   "symbol": "2330.TW",
@@ -1882,7 +1933,7 @@
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "容逸燊(Eason)",
+  "teacher": "容逸燊",
   "stock_name": "國巨",
   "ticker": "2327",
   "symbol": "2327.TW",
@@ -1923,8 +1974,90 @@
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "容逸燊(Eason)",
-  "stock_name": "聚鼎(逐字稿記為「副頂」,股名依語境推測,未完全確認)",
+  "teacher": "容逸燊",
+  "stock_name": "聚鼎",
+  "ticker": "6224",
+  "symbol": "6224.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-15",
+   "entry_price": 64.5,
+   "ret": {
+    "d3": -0.13953,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-15",
+   "entry_price": 45631.59,
+   "ret": {
+    "d3": -0.06973,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.0698,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "0XLrxzE3uWM",
+  "date": "2026-07-14",
+  "teacher": "容逸燊",
+  "stock_name": "廣積",
+  "ticker": "8050",
+  "symbol": "8050.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-15",
+   "entry_price": 61.1,
+   "ret": {
+    "d3": -0.09002,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-15",
+   "entry_price": 45631.59,
+   "ret": {
+    "d3": -0.06973,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.02029,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "0XLrxzE3uWM",
+  "date": "2026-07-14",
+  "teacher": "容逸燊",
+  "stock_name": "廣通",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -1936,33 +2069,7 @@
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "容逸燊(Eason)",
-  "stock_name": "廣積(工業電腦IPC,逐字稿記為「廣機」,股名未完全確認)",
-  "ticker": null,
-  "symbol": null,
-  "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
- },
- {
-  "video_id": "0XLrxzE3uWM",
-  "date": "2026-07-14",
-  "teacher": "容逸燊(Eason)",
-  "stock_name": "廣通(網通/軍工概念,股名未完全確認)",
-  "ticker": null,
-  "symbol": null,
-  "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
- },
- {
-  "video_id": "0XLrxzE3uWM",
-  "date": "2026-07-14",
-  "teacher": "容逸燊(Eason)",
+  "teacher": "容逸燊",
   "stock_name": "元大台灣50",
   "ticker": "0050",
   "symbol": "0050.TW",
@@ -1998,7 +2105,7 @@
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "容逸燊(Eason)",
+  "teacher": "容逸燊",
   "stock_name": "元大台灣50反1",
   "ticker": "00632R",
   "symbol": "00632R.TW",
@@ -2034,7 +2141,7 @@
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "紀緯明(小明同學)",
+  "teacher": "紀緯明",
   "stock_name": "台積電",
   "ticker": "2330",
   "symbol": "2330.TW",
@@ -2075,7 +2182,7 @@
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "紀緯明(小明同學)",
+  "teacher": "紀緯明",
   "stock_name": "台達電",
   "ticker": "2308",
   "symbol": "2308.TW",
@@ -2116,7 +2223,7 @@
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "紀緯明(小明同學)",
+  "teacher": "紀緯明",
   "stock_name": "聯發科",
   "ticker": "2454",
   "symbol": "2454.TW",
@@ -2157,7 +2264,7 @@
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "紀緯明(小明同學)",
+  "teacher": "紀緯明",
   "stock_name": "大立光",
   "ticker": "3008",
   "symbol": "3008.TW",
@@ -2198,7 +2305,7 @@
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "紀緯明(小明同學)",
+  "teacher": "紀緯明",
   "stock_name": "先進光",
   "ticker": "3362",
   "symbol": "3362.TWO",
@@ -2239,7 +2346,7 @@
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "紀緯明(小明同學)",
+  "teacher": "紀緯明",
   "stock_name": "華星光",
   "ticker": "4979",
   "symbol": "4979.TWO",
@@ -2280,8 +2387,8 @@
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "紀緯明(小明同學)",
-  "stock_name": "東點光電(CPO綠光晶片概念,股名待確認)",
+  "teacher": "紀緯明",
+  "stock_name": "東點光電",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -2293,7 +2400,7 @@
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "紀緯明(小明同學)",
+  "teacher": "紀緯明",
   "stock_name": "雷虎",
   "ticker": "8033",
   "symbol": "8033.TW",
@@ -2329,7 +2436,7 @@
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "紀緯明(小明同學)",
+  "teacher": "紀緯明",
   "stock_name": "雅航",
   "ticker": "2630",
   "symbol": "2630.TW",
@@ -2370,7 +2477,7 @@
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "紀緯明(小明同學)",
+  "teacher": "紀緯明",
   "stock_name": "中光電",
   "ticker": "5371",
   "symbol": "5371.TWO",
@@ -2411,7 +2518,7 @@
  {
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
-  "teacher": "紀緯明(小明同學)",
+  "teacher": "紀緯明",
   "stock_name": "海華",
   "ticker": "3694",
   "symbol": "3694.TW",
@@ -2453,14 +2560,42 @@
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
   "teacher": "股魚",
-  "stock_name": "京鼎(逐字稿記為「金測」,股名依語境推測,未完全確認)",
-  "ticker": null,
-  "symbol": null,
+  "stock_name": "京鼎",
+  "ticker": "3413",
+  "symbol": "3413.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-07-15",
+   "entry_price": 348.0,
+   "ret": {
+    "d3": 0.03161,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-15",
+   "entry_price": 45631.59,
+   "ret": {
+    "d3": -0.06973,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.10134,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "0XLrxzE3uWM",
@@ -2589,7 +2724,7 @@
   "video_id": "0XLrxzE3uWM",
   "date": "2026-07-14",
   "teacher": "股魚",
-  "stock_name": "復華全球AI50(主動式ETF)",
+  "stock_name": "復華全球AI50",
   "ticker": "00409A",
   "symbol": "00409A.TW",
   "stance": "看多",
@@ -3671,7 +3806,7 @@
   "video_id": "6HW8Hx3QYKY",
   "date": "2026-07-17",
   "teacher": "鍾國忠",
-  "stock_name": "丹雅（原音辨識不確定）",
+  "stock_name": "丹雅",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -3684,7 +3819,7 @@
   "video_id": "6HW8Hx3QYKY",
   "date": "2026-07-17",
   "teacher": "鍾國忠",
-  "stock_name": "元大台灣50（0050）",
+  "stock_name": "元大台灣50",
   "ticker": "0050",
   "symbol": "0050.TW",
   "stance": "看多",
@@ -3725,7 +3860,7 @@
   "video_id": "6HW8Hx3QYKY",
   "date": "2026-07-17",
   "teacher": "鍾國忠",
-  "stock_name": "元大高股息（0056）",
+  "stock_name": "元大高股息",
   "ticker": "0056",
   "symbol": "0056.TW",
   "stance": "看多",
@@ -3848,7 +3983,7 @@
   "video_id": "6HW8Hx3QYKY",
   "date": "2026-07-17",
   "teacher": "翁士峻",
-  "stock_name": "立敦電子（原音利噸，辨識不確定）",
+  "stock_name": "立敦電子",
   "ticker": "6259",
   "symbol": "6259.TWO",
   "stance": "看多",
@@ -3889,7 +4024,7 @@
   "video_id": "6HW8Hx3QYKY",
   "date": "2026-07-17",
   "teacher": "翁士峻",
-  "stock_name": "台信科（原音辨識不確定）",
+  "stock_name": "台信科",
   "ticker": null,
   "symbol": null,
   "stance": "看空",
@@ -4148,7 +4283,7 @@
   "video_id": "6HW8Hx3QYKY",
   "date": "2026-07-17",
   "teacher": "雷老闆",
-  "stock_name": "合晶／合成檔（原音辨識不確定，被動元件相關個股）",
+  "stock_name": "合晶／合成檔",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -5664,20 +5799,48 @@
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
   "teacher": "鍾國忠",
-  "stock_name": "國眾(大眾集團旗下IC顧問/AI、5G相關公司,確切代號待確認)",
-  "ticker": null,
-  "symbol": null,
+  "stock_name": "國眾",
+  "ticker": "5410",
+  "symbol": "5410.TWO",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-06-15",
+   "entry_price": 48.0,
+   "ret": {
+    "d3": -0.06771,
+    "w1": -0.075,
+    "w2": -0.07812,
+    "m1": -0.19896
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-15",
+   "entry_price": 45396.99,
+   "ret": {
+    "d3": 0.02353,
+    "w1": 0.03753,
+    "w2": 0.01606,
+    "m1": 0.00502
+   }
+  },
+  "excess": {
+   "d3": -0.09124,
+   "w1": -0.11253,
+   "w2": -0.09418,
+   "m1": -0.20398
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": false,
+   "m1": false
+  }
  },
  {
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
   "teacher": "鍾國忠",
-  "stock_name": "高息成長軟體股(鍾國忠提及第二檔,逐字稿代號不清,疑似3029系列)",
+  "stock_name": "高息成長軟體股",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -5731,7 +5894,7 @@
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
   "teacher": "雷老闆",
-  "stock_name": "宜鼎國際(逐字稿唸作怡婷)",
+  "stock_name": "宜鼎國際",
   "ticker": "5289",
   "symbol": "5289.TWO",
   "stance": "看多",
@@ -5808,7 +5971,7 @@
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
   "teacher": "雷老闆",
-  "stock_name": "南亞科技/華邦電(同族群記憶體股)",
+  "stock_name": "南亞科技/華邦電",
   "ticker": "2408",
   "symbol": "2408.TW",
   "stance": "看多",
@@ -5849,7 +6012,7 @@
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
   "teacher": "雷老闆",
-  "stock_name": "台燿科技(逐字稿唸作台耀/台藥)",
+  "stock_name": "台燿科技",
   "ticker": "6274",
   "symbol": "6274.TWO",
   "stance": "看多",
@@ -5890,7 +6053,7 @@
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
   "teacher": "雷老闆",
-  "stock_name": "臻鼎-KY(逐字稿唸作真頂)",
+  "stock_name": "臻鼎-KY",
   "ticker": "4958",
   "symbol": "4958.TW",
   "stance": "看多",
@@ -5972,7 +6135,7 @@
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
   "teacher": "雷老闆",
-  "stock_name": "欣興電子(逐字稿唸作星星)",
+  "stock_name": "欣興電子",
   "ticker": "3037",
   "symbol": "3037.TW",
   "stance": "看多",
@@ -6013,7 +6176,7 @@
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
   "teacher": "雷老闆",
-  "stock_name": "光聖科技(逐字稿唸作光盛)",
+  "stock_name": "光聖科技",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -6026,19 +6189,47 @@
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
   "teacher": "雷老闆",
-  "stock_name": "華星光(逐字稿唸作華新光,確切名稱待確認)",
-  "ticker": null,
-  "symbol": null,
+  "stock_name": "華星光",
+  "ticker": "4979",
+  "symbol": "4979.TWO",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-06-15",
+   "entry_price": 547.17,
+   "ret": {
+    "d3": 0.03091,
+    "w1": -0.04545,
+    "w2": -0.13818,
+    "m1": -0.25069
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-15",
+   "entry_price": 45396.99,
+   "ret": {
+    "d3": 0.02353,
+    "w1": 0.03753,
+    "w2": 0.01606,
+    "m1": 0.00502
+   }
+  },
+  "excess": {
+   "d3": 0.00738,
+   "w1": -0.08298,
+   "w2": -0.15424,
+   "m1": -0.25571
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": false,
+   "m1": false
+  }
  },
  {
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
-  "teacher": "翁世峻",
+  "teacher": "翁士峻",
   "stock_name": "國巨",
   "ticker": "2327",
   "symbol": "2327.TW",
@@ -6079,8 +6270,8 @@
  {
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
-  "teacher": "翁世峻",
-  "stock_name": "台慶科技(逐字稿唸作台信科)",
+  "teacher": "翁士峻",
+  "stock_name": "台慶科技",
   "ticker": "3264",
   "symbol": "3264.TWO",
   "stance": "看多",
@@ -6120,8 +6311,8 @@
  {
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
-  "teacher": "翁世峻",
-  "stock_name": "利敦(確切代號待確認)",
+  "teacher": "翁士峻",
+  "stock_name": "利敦",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -6133,8 +6324,8 @@
  {
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
-  "teacher": "翁世峻",
-  "stock_name": "日電貿(逐字稿唸作日電貌)",
+  "teacher": "翁士峻",
+  "stock_name": "日電貿",
   "ticker": "3090",
   "symbol": "3090.TW",
   "stance": "看多",
@@ -6174,8 +6365,8 @@
  {
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
-  "teacher": "翁世峻",
-  "stock_name": "聯茂電子(逐字稿唸作聯貿)",
+  "teacher": "翁士峻",
+  "stock_name": "聯茂電子",
   "ticker": "6213",
   "symbol": "6213.TW",
   "stance": "看多",
@@ -6215,8 +6406,8 @@
  {
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
-  "teacher": "翁世峻",
-  "stock_name": "臻鼎-KY(逐字稿唸作真頂)",
+  "teacher": "翁士峻",
+  "stock_name": "臻鼎-KY",
   "ticker": "4958",
   "symbol": "4958.TW",
   "stance": "看多",
@@ -6256,7 +6447,7 @@
  {
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
-  "teacher": "翁世峻",
+  "teacher": "翁士峻",
   "stock_name": "大量科技",
   "ticker": "3167",
   "symbol": "3167.TW",
@@ -6297,7 +6488,7 @@
  {
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
-  "teacher": "翁世峻",
+  "teacher": "翁士峻",
   "stock_name": "亞翔工程",
   "ticker": "6139",
   "symbol": "6139.TW",
@@ -6338,7 +6529,7 @@
  {
   "video_id": "7Ssxu_DPmrE",
   "date": "2026-06-12",
-  "teacher": "翁世峻",
+  "teacher": "翁士峻",
   "stock_name": "漢唐集成",
   "ticker": "2404",
   "symbol": "2404.TW",
@@ -6621,7 +6812,7 @@
   "video_id": "8ZXakIfqRMU",
   "date": "2026-07-06",
   "teacher": "李永年",
-  "stock_name": "MCU相關個股(語音辨識代號不明，原文疑似「MNCO」)",
+  "stock_name": "MCU相關個股",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -6716,7 +6907,7 @@
   "video_id": "8ZXakIfqRMU",
   "date": "2026-07-06",
   "teacher": "陳唯泰",
-  "stock_name": "低價封測概念股(菱生精密等，原文「林生、福懋科」語音辨識不確定)",
+  "stock_name": "低價封測概念股",
   "ticker": null,
   "symbol": null,
   "stance": "觀望",
@@ -7119,7 +7310,7 @@
   "video_id": "8ZXakIfqRMU",
   "date": "2026-07-06",
   "teacher": "林漢偉",
-  "stock_name": "宜鼎國際或十銓科技(原文「怡鼎」，轉錄辨識不確定)",
+  "stock_name": "宜鼎國際或十銓科技",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -7132,7 +7323,7 @@
   "video_id": "8ZXakIfqRMU",
   "date": "2026-07-06",
   "teacher": "林漢偉",
-  "stock_name": "台光電(Elite Material)",
+  "stock_name": "台光電",
   "ticker": "2383",
   "symbol": "2383.TW",
   "stance": "看多",
@@ -7173,7 +7364,7 @@
   "video_id": "8ZXakIfqRMU",
   "date": "2026-07-06",
   "teacher": "林漢偉",
-  "stock_name": "南電(Nan Ya PCB)",
+  "stock_name": "南電",
   "ticker": "8046",
   "symbol": "8046.TW",
   "stance": "觀望",
@@ -7209,7 +7400,7 @@
   "video_id": "8ZXakIfqRMU",
   "date": "2026-07-06",
   "teacher": "林漢偉",
-  "stock_name": "00984A(主動式高股息ETF)",
+  "stock_name": "00984A",
   "ticker": "00984A",
   "symbol": "00984A.TW",
   "stance": "看多",
@@ -7373,7 +7564,7 @@
   "video_id": "cpTdupsOvtE",
   "date": "2026-06-30",
   "teacher": "容逸燊",
-  "stock_name": "GD(語音辨識不確定,疑為家登精密等廠務/設備供應鏈個股)",
+  "stock_name": "GD",
   "ticker": null,
   "symbol": null,
   "stance": "觀望",
@@ -8001,7 +8192,7 @@
   "video_id": "cpTdupsOvtE",
   "date": "2026-06-30",
   "teacher": "紀緯明",
-  "stock_name": "折米(語音辨識不確定,個股名稱待考)",
+  "stock_name": "折米",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -8027,14 +8218,42 @@
   "video_id": "cpTdupsOvtE",
   "date": "2026-06-30",
   "teacher": "紀緯明",
-  "stock_name": "松川精密(語音辨識不確定,可能為松穿精密等個股)",
-  "ticker": null,
-  "symbol": null,
+  "stock_name": "松川精密",
+  "ticker": "7788",
+  "symbol": "7788.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-07-01",
+   "entry_price": 254.0,
+   "ret": {
+    "d3": -0.05906,
+    "w1": -0.04528,
+    "w2": 0.06102,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-01",
+   "entry_price": 47018.99,
+   "ret": {
+    "d3": -0.00984,
+    "w1": -0.02732,
+    "w2": -0.02965,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.04922,
+   "w1": -0.01796,
+   "w2": 0.09067,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": true,
+   "m1": null
+  }
  },
  {
   "video_id": "cpTdupsOvtE",
@@ -8440,7 +8659,7 @@
   "video_id": "cpTdupsOvtE",
   "date": "2026-06-30",
   "teacher": "張林忠",
-  "stock_name": "健策(語音辨識不確定,原文為「建設」)",
+  "stock_name": "健策",
   "ticker": "3653",
   "symbol": "3653.TW",
   "stance": "觀望",
@@ -8512,7 +8731,7 @@
   "video_id": "cpTdupsOvtE",
   "date": "2026-06-30",
   "teacher": "張林忠",
-  "stock_name": "台拉丁(語音辨識不確定,個股名稱待考)",
+  "stock_name": "台拉丁",
   "ticker": null,
   "symbol": null,
   "stance": "觀望",
@@ -8566,7 +8785,7 @@
   "video_id": "DV0AMcvNyIY",
   "date": "2026-06-08",
   "teacher": "李永年",
-  "stock_name": "辛耘（推測，原音「星雲」）",
+  "stock_name": "辛耘",
   "ticker": "3583",
   "symbol": "3583.TW",
   "stance": "看多",
@@ -8607,7 +8826,7 @@
   "video_id": "DV0AMcvNyIY",
   "date": "2026-06-08",
   "teacher": "李永年",
-  "stock_name": "致茂（推測，原音「智貿／致貿」）",
+  "stock_name": "致茂",
   "ticker": "2360",
   "symbol": "2360.TW",
   "stance": "看多",
@@ -8689,7 +8908,7 @@
   "video_id": "DV0AMcvNyIY",
   "date": "2026-06-08",
   "teacher": "李永年",
-  "stock_name": "大毅科技（推測，原音「大億」，國巨集團子公司）",
+  "stock_name": "大毅科技",
   "ticker": "2478",
   "symbol": "2478.TW",
   "stance": "看多",
@@ -8730,7 +8949,7 @@
   "video_id": "DV0AMcvNyIY",
   "date": "2026-06-08",
   "teacher": "楊雲翔",
-  "stock_name": "反向型ETF（原音「反一」，推測為元大台灣50反1或同類商品）",
+  "stock_name": "反向型ETF",
   "ticker": null,
   "symbol": null,
   "stance": "看空",
@@ -8743,7 +8962,7 @@
   "video_id": "DV0AMcvNyIY",
   "date": "2026-06-08",
   "teacher": "楊雲翔",
-  "stock_name": "SpaceX衛星題材股（逐字稿股名不明確）",
+  "stock_name": "SpaceX衛星題材股",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -8797,7 +9016,7 @@
   "video_id": "DV0AMcvNyIY",
   "date": "2026-06-08",
   "teacher": "楊雲翔",
-  "stock_name": "力成科技（推測，原音「例程」）",
+  "stock_name": "力成科技",
   "ticker": null,
   "symbol": null,
   "stance": "觀望",
@@ -8810,7 +9029,7 @@
   "video_id": "DV0AMcvNyIY",
   "date": "2026-06-08",
   "teacher": "楊雲翔",
-  "stock_name": "神達（MiTAC）",
+  "stock_name": "神達",
   "ticker": "3706",
   "symbol": "3706.TW",
   "stance": "看多",
@@ -8892,7 +9111,7 @@
   "video_id": "DV0AMcvNyIY",
   "date": "2026-06-08",
   "teacher": "楊雲翔",
-  "stock_name": "緯創（推測，原音「偽創」）",
+  "stock_name": "緯創",
   "ticker": "3231",
   "symbol": "3231.TW",
   "stance": "看多",
@@ -8933,7 +9152,7 @@
   "video_id": "DV0AMcvNyIY",
   "date": "2026-06-08",
   "teacher": "楊雲翔",
-  "stock_name": "可成科技（推測，原音「可塵／可乘」）",
+  "stock_name": "可成科技",
   "ticker": "2474",
   "symbol": "2474.TW",
   "stance": "看多",
@@ -9046,14 +9265,42 @@
   "video_id": "DV0AMcvNyIY",
   "date": "2026-06-08",
   "teacher": "楊雲翔",
-  "stock_name": "信紘科（推測，原音「信用科」）",
-  "ticker": null,
-  "symbol": null,
+  "stock_name": "信紘科",
+  "ticker": "6667",
+  "symbol": "6667.TWO",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-06-09",
+   "entry_price": 265.9,
+   "ret": {
+    "d3": -0.02708,
+    "w1": -0.00361,
+    "w2": 0.0286,
+    "m1": -0.04098
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-09",
+   "entry_price": 44704.44,
+   "ret": {
+    "d3": -0.01198,
+    "w1": 0.02471,
+    "w2": 0.02996,
+    "m1": 0.01454
+   }
+  },
+  "excess": {
+   "d3": -0.0151,
+   "w1": -0.02832,
+   "w2": -0.00136,
+   "m1": -0.05552
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": true,
+   "m1": false
+  }
  },
  {
   "video_id": "DV0AMcvNyIY",
@@ -9100,7 +9347,7 @@
   "video_id": "DV0AMcvNyIY",
   "date": "2026-06-08",
   "teacher": "林漢偉",
-  "stock_name": "市值型ETF（如0050等）",
+  "stock_name": "市值型ETF",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -9154,7 +9401,7 @@
   "video_id": "DV0AMcvNyIY",
   "date": "2026-06-08",
   "teacher": "林漢偉",
-  "stock_name": "十銓科技（推測，原音「怡鼎」）",
+  "stock_name": "十銓科技",
   "ticker": "4967",
   "symbol": "4967.TW",
   "stance": "看多",
@@ -9195,7 +9442,7 @@
   "video_id": "DV0AMcvNyIY",
   "date": "2026-06-08",
   "teacher": "林漢偉",
-  "stock_name": "力積電（推測，原音「利基電」）",
+  "stock_name": "力積電",
   "ticker": "6770",
   "symbol": "6770.TW",
   "stance": "觀望",
@@ -9555,7 +9802,7 @@
   "video_id": "DxsKj-AksVU",
   "date": "2026-07-21",
   "teacher": "紀緯明",
-  "stock_name": "南亞/南亞科(南亞集團)",
+  "stock_name": "南亞/南亞科",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -9594,9 +9841,9 @@
   "video_id": "DxsKj-AksVU",
   "date": "2026-07-21",
   "teacher": "紀緯明",
-  "stock_name": "富鼎(原文口誤,推測)",
-  "ticker": null,
-  "symbol": null,
+  "stock_name": "富鼎",
+  "ticker": "8261",
+  "symbol": "8261.TW",
   "stance": "觀望",
   "perf": null,
   "bench": null,
@@ -10181,7 +10428,7 @@
   "video_id": "eW1988tVKkQ",
   "date": "2026-05-13",
   "teacher": "王建文",
-  "stock_name": "藥華/藥環(語音辨識不確定,疑為低軌衛星概念低價股)",
+  "stock_name": "藥華/藥環",
   "ticker": null,
   "symbol": null,
   "stance": "中性",
@@ -10194,7 +10441,7 @@
   "video_id": "eW1988tVKkQ",
   "date": "2026-05-13",
   "teacher": "王建文",
-  "stock_name": "健策(深脈)",
+  "stock_name": "健策",
   "ticker": "3653",
   "symbol": "3653.TW",
   "stance": "看多",
@@ -10394,7 +10641,7 @@
   "video_id": "eW1988tVKkQ",
   "date": "2026-05-13",
   "teacher": "王建文",
-  "stock_name": "漢磊(語音辨識為「貿細」)",
+  "stock_name": "漢磊",
   "ticker": "3707",
   "symbol": "3707.TWO",
   "stance": "看多",
@@ -10435,7 +10682,7 @@
   "video_id": "eW1988tVKkQ",
   "date": "2026-05-13",
   "teacher": "王建文",
-  "stock_name": "主動式ETF(00981A/00403A)",
+  "stock_name": "主動式ETF",
   "ticker": null,
   "symbol": null,
   "stance": "觀望",
@@ -10448,7 +10695,7 @@
   "video_id": "eW1988tVKkQ",
   "date": "2026-05-13",
   "teacher": "權證小哥",
-  "stock_name": "CPO相關個股(語音辨識為「聯軍」,身份不確定)",
+  "stock_name": "CPO相關個股",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -10502,7 +10749,7 @@
   "video_id": "eW1988tVKkQ",
   "date": "2026-05-13",
   "teacher": "權證小哥",
-  "stock_name": "前頂(語音辨識不確定)",
+  "stock_name": "前頂",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -10551,7 +10798,7 @@
   "video_id": "eW1988tVKkQ",
   "date": "2026-05-13",
   "teacher": "權證小哥",
-  "stock_name": "健策(建策)",
+  "stock_name": "健策",
   "ticker": "3653",
   "symbol": "3653.TW",
   "stance": "觀望",
@@ -10587,7 +10834,7 @@
   "video_id": "eW1988tVKkQ",
   "date": "2026-05-13",
   "teacher": "權證小哥",
-  "stock_name": "一詮/一拳(語音辨識不確定)",
+  "stock_name": "一詮/一拳",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -10682,14 +10929,42 @@
   "video_id": "eW1988tVKkQ",
   "date": "2026-05-13",
   "teacher": "權證小哥",
-  "stock_name": "新盛力(語音辨識為「新勝利」,身份不確定)",
-  "ticker": null,
-  "symbol": null,
+  "stock_name": "新盛力",
+  "ticker": "4931",
+  "symbol": "4931.TWO",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-05-14",
+   "entry_price": 196.4,
+   "ret": {
+    "d3": -0.07809,
+    "w1": -0.02771,
+    "w2": 0.0529,
+    "m1": 0.18892
+   }
+  },
+  "bench": {
+   "entry_date": "2026-05-14",
+   "entry_price": 41751.75,
+   "ret": {
+    "d3": -0.03775,
+    "w1": -0.00919,
+    "w2": 0.04514,
+    "m1": 0.0579
+   }
+  },
+  "excess": {
+   "d3": -0.04034,
+   "w1": -0.01852,
+   "w2": 0.00776,
+   "m1": 0.13102
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": true,
+   "m1": true
+  }
  },
  {
   "video_id": "eW1988tVKkQ",
@@ -10736,7 +11011,7 @@
   "video_id": "eW1988tVKkQ",
   "date": "2026-05-13",
   "teacher": "權證小哥",
-  "stock_name": "核心控(語音辨識不確定)",
+  "stock_name": "核心控",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -10749,7 +11024,7 @@
   "video_id": "eW1988tVKkQ",
   "date": "2026-05-13",
   "teacher": "權證小哥",
-  "stock_name": "和珍堂(語音辨識不確定)",
+  "stock_name": "和珍堂",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -10762,7 +11037,7 @@
   "video_id": "eW1988tVKkQ",
   "date": "2026-05-13",
   "teacher": "權證小哥",
-  "stock_name": "經緯(語音辨識不確定,型態疑似M頭)",
+  "stock_name": "經緯",
   "ticker": null,
   "symbol": null,
   "stance": "看空",
@@ -10775,7 +11050,7 @@
   "video_id": "eW1988tVKkQ",
   "date": "2026-05-13",
   "teacher": "權證小哥",
-  "stock_name": "鋼鐵股(如龍鋼等,個別標的不確定)",
+  "stock_name": "鋼鐵股",
   "ticker": null,
   "symbol": null,
   "stance": "中性",
@@ -11357,7 +11632,7 @@
   "video_id": "ezK6Uefj5qY",
   "date": "2026-07-09",
   "teacher": "翁士峻",
-  "stock_name": "衛星/光模塊概念股（語音辨識不清，原文近似「滑通」）",
+  "stock_name": "衛星/光模塊概念股",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -11411,14 +11686,42 @@
   "video_id": "ezK6Uefj5qY",
   "date": "2026-07-09",
   "teacher": "翁士峻",
-  "stock_name": "希華（原文「西華」，語音辨識不確定）",
-  "ticker": null,
-  "symbol": null,
+  "stock_name": "希華",
+  "ticker": "2484",
+  "symbol": "2484.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-07-10",
+   "entry_price": 90.7,
+   "ret": {
+    "d3": -0.10143,
+    "w1": -0.11025,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-13",
+   "entry_price": 45380.52,
+   "ret": {
+    "d3": 0.00539,
+    "w1": -0.06458,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.10682,
+   "w1": -0.04567,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "ezK6Uefj5qY",
@@ -13804,7 +14107,7 @@
   "video_id": "HdMGvqnjQlE",
   "date": "2026-06-10",
   "teacher": "王建文",
-  "stock_name": "光學玻璃毛胚廠（逐字稿諧音「連儀光」，正確股名待確認）",
+  "stock_name": "光學玻璃毛胚廠",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -13817,7 +14120,7 @@
   "video_id": "HdMGvqnjQlE",
   "date": "2026-06-10",
   "teacher": "王建文",
-  "stock_name": "低軌衛星概念股（逐字稿諧音「藥華」，正確股名待確認）",
+  "stock_name": "低軌衛星概念股",
   "ticker": null,
   "symbol": null,
   "stance": "觀望",
@@ -15663,7 +15966,7 @@
   "video_id": "IPt1CTeRrro",
   "date": "2026-06-22",
   "teacher": "股魚",
-  "stock_name": "關鍵資源ETF(稀土/鈾礦/貴金屬)",
+  "stock_name": "關鍵資源ETF",
   "ticker": "009821",
   "symbol": "009821.TW",
   "stance": "看多",
@@ -15697,6 +16000,960 @@
    "d3": false,
    "w1": false,
    "w2": false,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "蔡明翰",
+  "stock_name": "台積電",
+  "ticker": "2330",
+  "symbol": "2330.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 2465.0,
+   "ret": {
+    "d3": -0.01014,
+    "w1": -0.01014,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.01165,
+   "w1": -0.00775,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "蔡明翰",
+  "stock_name": "景碩",
+  "ticker": "3189",
+  "symbol": "3189.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 755.0,
+   "ret": {
+    "d3": 0.08477,
+    "w1": 0.11921,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.10656,
+   "w1": 0.1216,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "蔡明翰",
+  "stock_name": "台光電",
+  "ticker": "2383",
+  "symbol": "2383.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 5315.0,
+   "ret": {
+    "d3": -0.03575,
+    "w1": -0.04421,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.01396,
+   "w1": -0.04182,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "蔡明翰",
+  "stock_name": "智邦",
+  "ticker": "2345",
+  "symbol": "2345.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 2415.0,
+   "ret": {
+    "d3": -0.00414,
+    "w1": -0.03106,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.01765,
+   "w1": -0.02867,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "紀緯明",
+  "stock_name": "大立光",
+  "ticker": "3008",
+  "symbol": "3008.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 3950.0,
+   "ret": {
+    "d3": 0.1,
+    "w1": 0.02278,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.12179,
+   "w1": 0.02517,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "紀緯明",
+  "stock_name": "上詮",
+  "ticker": "3363",
+  "symbol": "3363.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 640.0,
+   "ret": {
+    "d3": -0.06094,
+    "w1": -0.06719,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.03915,
+   "w1": -0.0648,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "紀緯明",
+  "stock_name": "波若威",
+  "ticker": "3163",
+  "symbol": "3163.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 777.0,
+   "ret": {
+    "d3": -0.03475,
+    "w1": -0.0296,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.01296,
+   "w1": -0.02721,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "紀緯明",
+  "stock_name": "潛頂",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "紀緯明",
+  "stock_name": "國巨",
+  "ticker": "2327",
+  "symbol": "2327.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 891.0,
+   "ret": {
+    "d3": -0.08418,
+    "w1": -0.10438,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.06239,
+   "w1": -0.10199,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "紀緯明",
+  "stock_name": "凱美",
+  "ticker": "2375",
+  "symbol": "2375.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 192.0,
+   "ret": {
+    "d3": -0.03646,
+    "w1": -0.11458,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.01467,
+   "w1": -0.11219,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "紀緯明",
+  "stock_name": "聚鼎",
+  "ticker": "6224",
+  "symbol": "6224.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 75.1,
+   "ret": {
+    "d3": -0.10386,
+    "w1": -0.14115,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.08207,
+   "w1": -0.13876,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "紀緯明",
+  "stock_name": "環球晶",
+  "ticker": "6488",
+  "symbol": "6488.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 1225.26,
+   "ret": {
+    "d3": 0.20732,
+    "w1": 0.20325,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.22911,
+   "w1": 0.20564,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "紀緯明",
+  "stock_name": "嘉晶",
+  "ticker": "3016",
+  "symbol": "3016.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 120.0,
+   "ret": {
+    "d3": 0.1125,
+    "w1": 0.025,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.13429,
+   "w1": 0.02739,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "紀緯明",
+  "stock_name": "合晶",
+  "ticker": "6182",
+  "symbol": "6182.TWO",
+  "stance": "觀望",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 160.0,
+   "ret": {
+    "d3": 0.18437,
+    "w1": 0.12187,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.20616,
+   "w1": 0.12426,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {}
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "高憲容",
+  "stock_name": "南亞科",
+  "ticker": "2408",
+  "symbol": "2408.TW",
+  "stance": "觀望",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 396.0,
+   "ret": {
+    "d3": 0.06818,
+    "w1": 0.21465,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.08997,
+   "w1": 0.21704,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {}
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "高憲容",
+  "stock_name": "華邦電",
+  "ticker": "2344",
+  "symbol": "2344.TW",
+  "stance": "觀望",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 168.5,
+   "ret": {
+    "d3": -0.0089,
+    "w1": 0.07122,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.01289,
+   "w1": 0.07361,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {}
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "高憲容",
+  "stock_name": "威剛",
+  "ticker": "3260",
+  "symbol": "3260.TWO",
+  "stance": "看空",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 404.0,
+   "ret": {
+    "d3": 0.00248,
+    "w1": 0.0099,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.02427,
+   "w1": 0.01229,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "高憲容",
+  "stock_name": "群聯",
+  "ticker": "8299",
+  "symbol": "8299.TWO",
+  "stance": "看空",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 2140.0,
+   "ret": {
+    "d3": 0.01402,
+    "w1": -0.01636,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.03581,
+   "w1": -0.01397,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": true,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "高憲容",
+  "stock_name": "創見",
+  "ticker": "2451",
+  "symbol": "2451.TW",
+  "stance": "看空",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 250.0,
+   "ret": {
+    "d3": 0.01,
+    "w1": 0.012,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.03179,
+   "w1": 0.01439,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "高憲容",
+  "stock_name": "聯發科",
+  "ticker": "2454",
+  "symbol": "2454.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 3995.0,
+   "ret": {
+    "d3": -0.04255,
+    "w1": -0.06383,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.02076,
+   "w1": -0.06144,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "高憲容",
+  "stock_name": "力旺",
+  "ticker": "3529",
+  "symbol": "3529.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 2680.0,
+   "ret": {
+    "d3": -0.04851,
+    "w1": -0.05597,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.02672,
+   "w1": -0.05358,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "高憲容",
+  "stock_name": "世芯-KY",
+  "ticker": "3661",
+  "symbol": "3661.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 4065.0,
+   "ret": {
+    "d3": 0.01722,
+    "w1": -0.08118,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.03901,
+   "w1": -0.07879,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "高憲容",
+  "stock_name": "（語音辨識為「細創」，正式名稱不確定）",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "高憲容",
+  "stock_name": "原相",
+  "ticker": "3227",
+  "symbol": "3227.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 217.7,
+   "ret": {
+    "d3": -0.07671,
+    "w1": -0.09738,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.05492,
+   "w1": -0.09499,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "kMQpMKFxXkM",
+  "date": "2026-07-07",
+  "teacher": "高憲容",
+  "stock_name": "祥碩",
+  "ticker": "5269",
+  "symbol": "5269.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-07-08",
+   "entry_price": 1477.93,
+   "ret": {
+    "d3": -0.00984,
+    "w1": -0.00656,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-08",
+   "entry_price": 45734.41,
+   "ret": {
+    "d3": -0.02179,
+    "w1": -0.00239,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.01195,
+   "w1": -0.00417,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
    "m1": null
   }
  },
@@ -15745,7 +17002,7 @@
   "video_id": "KTDIcYhWpEM",
   "date": "2026-06-17",
   "teacher": "朱家泓",
-  "stock_name": "光學股（原文「連漪光」，語音辨識不清，具體標的無法確認）",
+  "stock_name": "光學股",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -15840,7 +17097,7 @@
   "video_id": "KTDIcYhWpEM",
   "date": "2026-06-17",
   "teacher": "朱家泓",
-  "stock_name": "強茂（原文「恰茂」）",
+  "stock_name": "強茂",
   "ticker": "2481",
   "symbol": "2481.TW",
   "stance": "看多",
@@ -16168,7 +17425,7 @@
   "video_id": "KTDIcYhWpEM",
   "date": "2026-06-17",
   "teacher": "高憲容",
-  "stock_name": "辛耘（原文「新雲」，語音辨識不確定）",
+  "stock_name": "辛耘",
   "ticker": "3583",
   "symbol": "3583.TW",
   "stance": "看多",
@@ -16209,14 +17466,42 @@
   "video_id": "KTDIcYhWpEM",
   "date": "2026-06-17",
   "teacher": "高憲容",
-  "stock_name": "昇陽半導體（原文「生陽辦」／「照臉實業」，語音辨識不清）",
-  "ticker": null,
-  "symbol": null,
+  "stock_name": "昇陽半導體",
+  "ticker": "8028",
+  "symbol": "8028.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-06-18",
+   "entry_price": 311.5,
+   "ret": {
+    "d3": -0.00642,
+    "w1": -0.08347,
+    "w2": 0.07384,
+    "m1": -0.03692
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-18",
+   "entry_price": 46465.2,
+   "ret": {
+    "d3": -0.00907,
+    "w1": -0.04075,
+    "w2": 0.00679,
+    "m1": -0.04804
+   }
+  },
+  "excess": {
+   "d3": 0.00265,
+   "w1": -0.04272,
+   "w2": 0.06705,
+   "m1": 0.01112
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": true,
+   "m1": false
+  }
  },
  {
   "video_id": "KTDIcYhWpEM",
@@ -16509,7 +17794,7 @@
   "video_id": "KTDIcYhWpEM",
   "date": "2026-06-17",
   "teacher": "翁士峻",
-  "stock_name": "台肖（語音辨識不清，疑為被動元件相關個股）",
+  "stock_name": "台肖",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -17468,7 +18753,7 @@
   "video_id": "mBchT5bA38U",
   "date": "2026-07-13",
   "teacher": "馮志源",
-  "stock_name": "00988B(中信高評級非投等債ETF)",
+  "stock_name": "00988B",
   "ticker": "00988B",
   "symbol": "00988B.TW",
   "stance": "看多",
@@ -17640,7 +18925,7 @@
   "video_id": "NUBlDxpRTKU",
   "date": "2026-06-03",
   "teacher": "朱家泓",
-  "stock_name": "被動元件股（語音辨識不清，原文為「滅亡石」，正式名稱待確認）",
+  "stock_name": "被動元件股",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -17653,7 +18938,7 @@
   "video_id": "NUBlDxpRTKU",
   "date": "2026-06-03",
   "teacher": "朱家泓",
-  "stock_name": "彩晶（面板轉型股，語音辨識原文為「金晶」）",
+  "stock_name": "彩晶",
   "ticker": "6116",
   "symbol": "6116.TW",
   "stance": "看多",
@@ -17940,7 +19225,7 @@
   "video_id": "NUBlDxpRTKU",
   "date": "2026-06-03",
   "teacher": "王建文",
-  "stock_name": "頂元（友達集團相關個股，名稱因語音辨識可能有誤差）",
+  "stock_name": "頂元",
   "ticker": null,
   "symbol": null,
   "stance": "觀望",
@@ -18030,7 +19315,7 @@
   "video_id": "NUBlDxpRTKU",
   "date": "2026-06-03",
   "teacher": "王建文",
-  "stock_name": "博通（Broadcom）",
+  "stock_name": "博通",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -18043,7 +19328,7 @@
   "video_id": "NUBlDxpRTKU",
   "date": "2026-06-03",
   "teacher": "王建文",
-  "stock_name": "麥威爾（Marvell）",
+  "stock_name": "麥威爾",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -18456,7 +19741,7 @@
   "video_id": "NUBlDxpRTKU",
   "date": "2026-06-03",
   "teacher": "權證小哥",
-  "stock_name": "力積電（語音辨識原文為「立成／歷程」，名稱待確認）",
+  "stock_name": "力積電",
   "ticker": "6770",
   "symbol": "6770.TW",
   "stance": "看多",
@@ -18497,7 +19782,7 @@
   "video_id": "NUBlDxpRTKU",
   "date": "2026-06-03",
   "teacher": "權證小哥",
-  "stock_name": "月城（語音辨識不確定，正式名稱待確認，持有大量台積電股票）",
+  "stock_name": "月城",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -18510,18 +19795,18 @@
   "video_id": "NUBlDxpRTKU",
   "date": "2026-06-03",
   "teacher": "權證小哥",
-  "stock_name": "日電貿（語音辨識原文為「日電帽」）",
-  "ticker": "3624",
-  "symbol": "3624.TWO",
+  "stock_name": "日電貿",
+  "ticker": "3090",
+  "symbol": "3090.TW",
   "stance": "看多",
   "perf": {
    "entry_date": "2026-06-04",
-   "entry_price": 102.65,
+   "entry_price": 217.64,
    "ret": {
-    "d3": 0.08696,
-    "w1": 0.0628,
-    "w2": 0.55072,
-    "m1": 0.42995
+    "d3": 0.04072,
+    "w1": 0.0543,
+    "w2": 0.50452,
+    "m1": 0.56219
    }
   },
   "bench": {
@@ -18535,10 +19820,10 @@
    }
   },
   "excess": {
-   "d3": 0.10826,
-   "w1": 0.11814,
-   "w2": 0.53347,
-   "m1": 0.41071
+   "d3": 0.06202,
+   "w1": 0.10964,
+   "w2": 0.48727,
+   "m1": 0.54295
   },
   "hit": {
    "d3": true,
@@ -18551,7 +19836,7 @@
   "video_id": "NUBlDxpRTKU",
   "date": "2026-06-03",
   "teacher": "權證小哥",
-  "stock_name": "德威（語音辨識不確定，電力／電纜或功率半導體相關個股，正式名稱待確認）",
+  "stock_name": "德威",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -19803,7 +21088,7 @@
    "entry_date": "2026-07-16",
    "entry_price": 333.26,
    "ret": {
-    "d3": -0.02015,
+    "d3": -0.01956,
     "w1": null,
     "w2": null,
     "m1": null
@@ -19820,7 +21105,7 @@
    }
   },
   "excess": {
-   "d3": 0.01036,
+   "d3": 0.01095,
    "w1": null,
    "w2": null,
    "m1": null
@@ -19844,7 +21129,7 @@
    "entry_date": "2026-07-16",
    "entry_price": 207.4,
    "ret": {
-    "d3": -0.01143,
+    "d3": -0.01061,
     "w1": null,
     "w2": null,
     "m1": null
@@ -19861,7 +21146,7 @@
    }
   },
   "excess": {
-   "d3": 0.01908,
+   "d3": 0.0199,
    "w1": null,
    "w2": null,
    "m1": null
@@ -20610,14 +21895,42 @@
   "video_id": "Or-gZxDhTS0",
   "date": "2026-07-08",
   "teacher": "楊雲翔",
-  "stock_name": "玉晶光(逐字稿原文「玉芒」，正式名稱待確認)",
-  "ticker": null,
-  "symbol": null,
+  "stock_name": "玉晶光",
+  "ticker": "3406",
+  "symbol": "3406.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-07-09",
+   "entry_price": 616.0,
+   "ret": {
+    "d3": -0.04708,
+    "w1": -0.09578,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-07-09",
+   "entry_price": 45354.61,
+   "ret": {
+    "d3": 0.00611,
+    "w1": -0.05916,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.05319,
+   "w1": -0.03662,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "Or-gZxDhTS0",
@@ -21200,7 +22513,7 @@
   "video_id": "P5C8_4lTyuA",
   "date": "2026-06-04",
   "teacher": "陳威良",
-  "stock_name": "CPO族群（聯亞、光聖等）",
+  "stock_name": "CPO族群",
   "ticker": null,
   "symbol": null,
   "stance": "中性",
@@ -21767,7 +23080,7 @@
   "video_id": "P5C8_4lTyuA",
   "date": "2026-06-04",
   "teacher": "馮志源",
-  "stock_name": "大華優利高息30(00918)",
+  "stock_name": "大華優利高息30",
   "ticker": "00918",
   "symbol": "00918.TW",
   "stance": "看多",
@@ -21972,7 +23285,7 @@
   "video_id": "Q9_XaRjNiQw",
   "date": "2026-07-02",
   "teacher": "蔡明翰",
-  "stock_name": "合晶(語音辨識為「合金」，代號不確定)",
+  "stock_name": "合晶",
   "ticker": "6182",
   "symbol": "6182.TWO",
   "stance": "看多",
@@ -22013,7 +23326,7 @@
   "video_id": "Q9_XaRjNiQw",
   "date": "2026-07-02",
   "teacher": "蔡明翰",
-  "stock_name": "帆宣(語音辨識為「繁瑄」)",
+  "stock_name": "帆宣",
   "ticker": "6196",
   "symbol": "6196.TW",
   "stance": "看多",
@@ -22505,7 +23818,7 @@
   "video_id": "Q9_XaRjNiQw",
   "date": "2026-07-02",
   "teacher": "陳唯泰",
-  "stock_name": "旭隼(語音辨識為「續準」)",
+  "stock_name": "旭隼",
   "ticker": "6409",
   "symbol": "6409.TW",
   "stance": "看多",
@@ -22546,7 +23859,7 @@
   "video_id": "Q9_XaRjNiQw",
   "date": "2026-07-02",
   "teacher": "陳唯泰",
-  "stock_name": "祥碩(語音辨識為「詳速」)",
+  "stock_name": "祥碩",
   "ticker": "5269",
   "symbol": "5269.TW",
   "stance": "看多",
@@ -22746,7 +24059,7 @@
   "video_id": "Q9_XaRjNiQw",
   "date": "2026-07-02",
   "teacher": "陳唯泰",
-  "stock_name": "緯穎(語音辨識為「維茂」，代號不確定)",
+  "stock_name": "緯穎",
   "ticker": "6669",
   "symbol": "6669.TW",
   "stance": "看空",
@@ -22910,7 +24223,7 @@
   "video_id": "Q9_XaRjNiQw",
   "date": "2026-07-02",
   "teacher": "楊雲翔",
-  "stock_name": "晶圓相關個股(語音辨識為「晶圓店」，個股名稱不確定)",
+  "stock_name": "晶圓相關個股",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -22964,7 +24277,7 @@
   "video_id": "Q9_XaRjNiQw",
   "date": "2026-07-02",
   "teacher": "楊雲翔",
-  "stock_name": "亞力電機(語音辨識為「亞歷」)",
+  "stock_name": "亞力電機",
   "ticker": "1514",
   "symbol": "1514.TW",
   "stance": "看多",
@@ -23072,6 +24385,47 @@
    "m1": null
   },
   "hit": {}
+ },
+ {
+  "video_id": "QsalSLSwfqY",
+  "date": "2026-05-31",
+  "teacher": "吳杰",
+  "stock_name": "元大台灣50",
+  "ticker": "0050",
+  "symbol": "0050.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 104.86,
+   "ret": {
+    "d3": 0.00569,
+    "w1": -0.04313,
+    "w2": -0.00237,
+    "m1": 0.03649
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": -0.0018,
+   "w1": -0.00265,
+   "w2": -0.00367,
+   "m1": -0.00059
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": false,
+   "m1": true
+  }
  },
  {
   "video_id": "qw1JFUaPZ2c",
@@ -23290,7 +24644,7 @@
   "video_id": "qw1JFUaPZ2c",
   "date": "2026-06-16",
   "teacher": "紀緯明",
-  "stock_name": "折米(股票代號6742，正式名稱因語音辨識不清無法確認)",
+  "stock_name": "折米",
   "ticker": "6742",
   "symbol": "6742.TW",
   "stance": "看多",
@@ -23700,7 +25054,7 @@
   "video_id": "qw1JFUaPZ2c",
   "date": "2026-06-16",
   "teacher": "紀緯明",
-  "stock_name": "致遠(語音辨識名稱不確定)",
+  "stock_name": "致遠",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -23713,14 +25067,42 @@
   "video_id": "qw1JFUaPZ2c",
   "date": "2026-06-16",
   "teacher": "紀緯明",
-  "stock_name": "九齊(新唐轉投資MCU公司，語音辨識名稱不確定)",
-  "ticker": null,
-  "symbol": null,
+  "stock_name": "九齊",
+  "ticker": "6494",
+  "symbol": "6494.TWO",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-06-17",
+   "entry_price": 67.4,
+   "ret": {
+    "d3": 0.0178,
+    "w1": -0.0178,
+    "w2": 0.00445,
+    "m1": -0.23739
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-17",
+   "entry_price": 45877.39,
+   "ret": {
+    "d3": 0.02666,
+    "w1": 0.00824,
+    "w2": 0.01889,
+    "m1": -0.07471
+   }
+  },
+  "excess": {
+   "d3": -0.00886,
+   "w1": -0.02604,
+   "w2": -0.01444,
+   "m1": -0.16268
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": true,
+   "m1": false
+  }
  },
  {
   "video_id": "qw1JFUaPZ2c",
@@ -24905,6 +26287,975 @@
   }
  },
  {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "鍾國忠",
+  "stock_name": "南亞電路板",
+  "ticker": "8046",
+  "symbol": "8046.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 1080.0,
+   "ret": {
+    "d3": 0.06019,
+    "w1": -0.00463,
+    "w2": 0.17593,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.02143,
+   "w1": -0.03922,
+   "w2": 0.18175,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": true,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "鍾國忠",
+  "stock_name": "台塑勝高",
+  "ticker": "3532",
+  "symbol": "3532.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 330.29,
+   "ret": {
+    "d3": 0.22961,
+    "w1": 0.22659,
+    "w2": 0.40634,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.19085,
+   "w1": 0.192,
+   "w2": 0.41216,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": true,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "黃豐凱",
+  "stock_name": "台積電",
+  "ticker": "2330",
+  "symbol": "2330.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 2370.0,
+   "ret": {
+    "d3": 0.04008,
+    "w1": 0.03797,
+    "w2": 0.02954,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.00132,
+   "w1": 0.00338,
+   "w2": 0.03536,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": true,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "黃豐凱",
+  "stock_name": "台積電相關ETF",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "黃豐凱",
+  "stock_name": "景碩",
+  "ticker": "3189",
+  "symbol": "3189.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 808.62,
+   "ret": {
+    "d3": 0.02645,
+    "w1": -0.05641,
+    "w2": 0.01284,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.01231,
+   "w1": -0.091,
+   "w2": 0.01866,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": true,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "黃豐凱",
+  "stock_name": "南亞電路板",
+  "ticker": "8046",
+  "symbol": "8046.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 1080.0,
+   "ret": {
+    "d3": 0.06019,
+    "w1": -0.00463,
+    "w2": 0.17593,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.02143,
+   "w1": -0.03922,
+   "w2": 0.18175,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": true,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "黃豐凱",
+  "stock_name": "台達電",
+  "ticker": "2308",
+  "symbol": "2308.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 1905.0,
+   "ret": {
+    "d3": 0.03412,
+    "w1": 0.04724,
+    "w2": -0.00787,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.00464,
+   "w1": 0.01265,
+   "w2": -0.00205,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": false,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "黃豐凱",
+  "stock_name": "世界先進",
+  "ticker": "5347",
+  "symbol": "5347.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 203.68,
+   "ret": {
+    "d3": -0.05036,
+    "w1": -0.09171,
+    "w2": -0.12362,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.08912,
+   "w1": -0.1263,
+   "w2": -0.1178,
+   "m1": null
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": false,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "黃豐凱",
+  "stock_name": "聯電",
+  "ticker": "2303",
+  "symbol": "2303.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 161.24,
+   "ret": {
+    "d3": 0.00915,
+    "w1": 0.0122,
+    "w2": -0.04801,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.02961,
+   "w1": -0.02239,
+   "w2": -0.04219,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": false,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "黃豐凱",
+  "stock_name": "日月光投控",
+  "ticker": "3711",
+  "symbol": "3711.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 621.32,
+   "ret": {
+    "d3": 0.15949,
+    "w1": 0.09283,
+    "w2": 0.07835,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.12073,
+   "w1": 0.05824,
+   "w2": 0.08417,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": true,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "黃豐凱",
+  "stock_name": "精材",
+  "ticker": "3374",
+  "symbol": "3374.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 281.0,
+   "ret": {
+    "d3": 0.12456,
+    "w1": 0.14591,
+    "w2": 0.27402,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.0858,
+   "w1": 0.11132,
+   "w2": 0.27984,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": true,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "黃豐凱",
+  "stock_name": "漢唐",
+  "ticker": "2404",
+  "symbol": "2404.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 1317.67,
+   "ret": {
+    "d3": 0.01838,
+    "w1": -0.02941,
+    "w2": -0.09559,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.02038,
+   "w1": -0.064,
+   "w2": -0.08977,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": false,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "黃豐凱",
+  "stock_name": "雷科",
+  "ticker": "6207",
+  "symbol": "6207.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 132.93,
+   "ret": {
+    "d3": 0.13858,
+    "w1": 0.08989,
+    "w2": 0.05243,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.09982,
+   "w1": 0.0553,
+   "w2": 0.05825,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": true,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "權證小哥",
+  "stock_name": "台光電",
+  "ticker": "2383",
+  "symbol": "2383.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 5450.0,
+   "ret": {
+    "d3": 0.03761,
+    "w1": 0.00459,
+    "w2": -0.05963,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.00115,
+   "w1": -0.03,
+   "w2": -0.05381,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": false,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "權證小哥",
+  "stock_name": "南亞電路板",
+  "ticker": "8046",
+  "symbol": "8046.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 1080.0,
+   "ret": {
+    "d3": 0.06019,
+    "w1": -0.00463,
+    "w2": 0.17593,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.02143,
+   "w1": -0.03922,
+   "w2": 0.18175,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": true,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "權證小哥",
+  "stock_name": "聯茂",
+  "ticker": "6213",
+  "symbol": "6213.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 341.13,
+   "ret": {
+    "d3": 0.05091,
+    "w1": 0.16083,
+    "w2": 0.05384,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.01215,
+   "w1": 0.12624,
+   "w2": 0.05966,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": true,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "權證小哥",
+  "stock_name": "騰輝電子-KY",
+  "ticker": "6672",
+  "symbol": "6672.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 281.5,
+   "ret": {
+    "d3": 0.05684,
+    "w1": 0.09414,
+    "w2": -0.02309,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.01808,
+   "w1": 0.05955,
+   "w2": -0.01727,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": false,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "權證小哥",
+  "stock_name": "國巨",
+  "ticker": "2327",
+  "symbol": "2327.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 1040.0,
+   "ret": {
+    "d3": 0.01442,
+    "w1": -0.03365,
+    "w2": -0.21538,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": -0.02434,
+   "w1": -0.06824,
+   "w2": -0.20956,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": false,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "權證小哥",
+  "stock_name": "華新科",
+  "ticker": "2492",
+  "symbol": "2492.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 511.29,
+   "ret": {
+    "d3": 0.09144,
+    "w1": 0.08366,
+    "w2": -0.1805,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.05268,
+   "w1": 0.04907,
+   "w2": -0.17468,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": false,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "權證小哥",
+  "stock_name": "大毅",
+  "ticker": "2478",
+  "symbol": "2478.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 202.73,
+   "ret": {
+    "d3": 0.1122,
+    "w1": 0.04878,
+    "w2": -0.19353,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.07344,
+   "w1": 0.01419,
+   "w2": -0.18771,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": false,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "權證小哥",
+  "stock_name": "日電貿",
+  "ticker": "3090",
+  "symbol": "3090.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 299.38,
+   "ret": {
+    "d3": 0.03881,
+    "w1": 0.13567,
+    "w2": -0.13823,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 5e-05,
+   "w1": 0.10108,
+   "w2": -0.13241,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": false,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "權證小哥",
+  "stock_name": "台塑勝高",
+  "ticker": "3532",
+  "symbol": "3532.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 330.29,
+   "ret": {
+    "d3": 0.22961,
+    "w1": 0.22659,
+    "w2": 0.40634,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.19085,
+   "w1": 0.192,
+   "w2": 0.41216,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": true,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "權證小哥",
+  "stock_name": "環球晶圓",
+  "ticker": "6488",
+  "symbol": "6488.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 911.48,
+   "ret": {
+    "d3": 0.31694,
+    "w1": 0.45902,
+    "w2": 0.62295,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.27818,
+   "w1": 0.42443,
+   "w2": 0.62877,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": true,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "權證小哥",
+  "stock_name": "禾伸堂",
+  "ticker": "3026",
+  "symbol": "3026.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-29",
+   "entry_price": 766.0,
+   "ret": {
+    "d3": 0.17363,
+    "w1": 0.25718,
+    "w2": 0.18146,
+    "m1": null
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-29",
+   "entry_price": 44999.9,
+   "ret": {
+    "d3": 0.03876,
+    "w1": 0.03459,
+    "w2": -0.00582,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": 0.13487,
+   "w1": 0.22259,
+   "w2": 0.18728,
+   "m1": null
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": true,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "UfAM2jmXm0w",
+  "date": "2026-06-26",
+  "teacher": "權證小哥",
+  "stock_name": "LINEKY",
+  "ticker": null,
+  "symbol": null,
+  "stance": "觀望",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
   "video_id": "ujQNSqHnvl4",
   "date": "2026-06-01",
   "teacher": "李永年",
@@ -25149,7 +27500,7 @@
   "video_id": "ujQNSqHnvl4",
   "date": "2026-06-01",
   "teacher": "李永年",
-  "stock_name": "星星（語音辨識不確定，正式股票名稱無法確認）",
+  "stock_name": "星星",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -25444,13 +27795,36 @@
   "video_id": "ujQNSqHnvl4",
   "date": "2026-06-01",
   "teacher": "林漢偉",
-  "stock_name": "力積電（語音辨識為「利基電」，正式名稱推測，代號待確認）",
-  "ticker": null,
-  "symbol": null,
+  "stock_name": "力積電",
+  "ticker": "6770",
+  "symbol": "6770.TW",
   "stance": "中性",
-  "perf": null,
-  "bench": null,
-  "excess": null,
+  "perf": {
+   "entry_date": "2026-06-02",
+   "entry_price": 85.9,
+   "ret": {
+    "d3": -0.13155,
+    "w1": -0.16764,
+    "w2": -0.17346,
+    "m1": -0.13038
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-02",
+   "entry_price": 45557.31,
+   "ret": {
+    "d3": -0.01068,
+    "w1": -0.01872,
+    "w2": 0.00553,
+    "m1": 0.02605
+   }
+  },
+  "excess": {
+   "d3": -0.12087,
+   "w1": -0.14892,
+   "w2": -0.17899,
+   "m1": -0.15643
+  },
   "hit": {}
  },
  {
@@ -25493,7 +27867,7 @@
   "video_id": "ujQNSqHnvl4",
   "date": "2026-06-01",
   "teacher": "林漢偉",
-  "stock_name": "宜鼎（語音辨識為「伊頂」，代號推測待確認）",
+  "stock_name": "宜鼎",
   "ticker": "5289",
   "symbol": "5289.TWO",
   "stance": "看多",
@@ -25534,7 +27908,7 @@
   "video_id": "ujQNSqHnvl4",
   "date": "2026-06-01",
   "teacher": "林漢偉",
-  "stock_name": "創見（語音辨識為「創建」，代號推測待確認）",
+  "stock_name": "創見",
   "ticker": "2451",
   "symbol": "2451.TW",
   "stance": "中性",
@@ -25606,7 +27980,7 @@
   "video_id": "ujQNSqHnvl4",
   "date": "2026-06-01",
   "teacher": "楊雲翔",
-  "stock_name": "日電貿（語音辨識為「日電帽/日電報」，代號推測待確認）",
+  "stock_name": "日電貿",
   "ticker": "3090",
   "symbol": "3090.TW",
   "stance": "看多",
@@ -25688,20 +28062,48 @@
   "video_id": "ujQNSqHnvl4",
   "date": "2026-06-01",
   "teacher": "楊雲翔",
-  "stock_name": "中美晶（語音辨識為「中美金」，正式名稱推測，代號待確認）",
-  "ticker": null,
-  "symbol": null,
+  "stock_name": "中美晶",
+  "ticker": "5483",
+  "symbol": "5483.TWO",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-06-02",
+   "entry_price": 164.5,
+   "ret": {
+    "d3": -0.07295,
+    "w1": -0.06687,
+    "w2": 0.06383,
+    "m1": 0.22188
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-02",
+   "entry_price": 45557.31,
+   "ret": {
+    "d3": -0.01068,
+    "w1": -0.01872,
+    "w2": 0.00553,
+    "m1": 0.02605
+   }
+  },
+  "excess": {
+   "d3": -0.06227,
+   "w1": -0.04815,
+   "w2": 0.0583,
+   "m1": 0.19583
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": true,
+   "m1": true
+  }
  },
  {
   "video_id": "ujQNSqHnvl4",
   "date": "2026-06-01",
   "teacher": "楊雲翔",
-  "stock_name": "陳明天（語音辨識疑似錯誤，指某AI液冷機殼股，正式名稱不確定）",
+  "stock_name": "陳明天",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -26042,7 +28444,7 @@
   "video_id": "UtbbWH8Fpes",
   "date": "2026-06-15",
   "teacher": "林漢偉",
-  "stock_name": "利基電（語音辨識不確定正式名稱，矽電容題材股）",
+  "stock_name": "利基電",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -26219,7 +28621,7 @@
   "video_id": "UtbbWH8Fpes",
   "date": "2026-06-15",
   "teacher": "林漢偉",
-  "stock_name": "同泰電子（語音辨識為同心電，推測）",
+  "stock_name": "同泰電子",
   "ticker": "8039",
   "symbol": "8039.TW",
   "stance": "看多",
@@ -26583,7 +28985,7 @@
   "video_id": "UtbbWH8Fpes",
   "date": "2026-06-15",
   "teacher": "王建文",
-  "stock_name": "玉晶光（語音辨識為預金關，推測，光學鏡頭二哥股）",
+  "stock_name": "玉晶光",
   "ticker": "3406",
   "symbol": "3406.TW",
   "stance": "看多",
@@ -26624,7 +29026,7 @@
   "video_id": "UtbbWH8Fpes",
   "date": "2026-06-15",
   "teacher": "王建文",
-  "stock_name": "聯鈞光電（語音辨識為聯軍，推測）",
+  "stock_name": "聯鈞光電",
   "ticker": "3576",
   "symbol": "3576.TW",
   "stance": "看多",
@@ -26701,7 +29103,7 @@
   "video_id": "UtbbWH8Fpes",
   "date": "2026-06-15",
   "teacher": "王建文",
-  "stock_name": "訊芯-KY（語音辨識為訊星，推測）",
+  "stock_name": "訊芯-KY",
   "ticker": "6451",
   "symbol": "6451.TW",
   "stance": "看多",
@@ -26931,7 +29333,7 @@
  {
   "video_id": "Vl8dEH3VuWo",
   "date": "2026-06-02",
-  "teacher": "高憲榮",
+  "teacher": "高憲容",
   "stock_name": "台積電",
   "ticker": "2330",
   "symbol": "2330.TW",
@@ -26972,7 +29374,7 @@
  {
   "video_id": "Vl8dEH3VuWo",
   "date": "2026-06-02",
-  "teacher": "高憲榮",
+  "teacher": "高憲容",
   "stock_name": "鴻海",
   "ticker": "2317",
   "symbol": "2317.TW",
@@ -27013,7 +29415,7 @@
  {
   "video_id": "Vl8dEH3VuWo",
   "date": "2026-06-02",
-  "teacher": "高憲榮",
+  "teacher": "高憲容",
   "stock_name": "緯創",
   "ticker": "3231",
   "symbol": "3231.TW",
@@ -27054,7 +29456,7 @@
  {
   "video_id": "Vl8dEH3VuWo",
   "date": "2026-06-02",
-  "teacher": "高憲榮",
+  "teacher": "高憲容",
   "stock_name": "神達",
   "ticker": "3706",
   "symbol": "3706.TW",
@@ -27095,7 +29497,7 @@
  {
   "video_id": "Vl8dEH3VuWo",
   "date": "2026-06-02",
-  "teacher": "高憲榮",
+  "teacher": "高憲容",
   "stock_name": "合勤控股",
   "ticker": "3491",
   "symbol": "3491.TWO",
@@ -27136,7 +29538,7 @@
  {
   "video_id": "Vl8dEH3VuWo",
   "date": "2026-06-02",
-  "teacher": "高憲榮",
+  "teacher": "高憲容",
   "stock_name": "中鼎",
   "ticker": "9933",
   "symbol": "9933.TW",
@@ -27177,7 +29579,7 @@
  {
   "video_id": "Vl8dEH3VuWo",
   "date": "2026-06-02",
-  "teacher": "高憲榮",
+  "teacher": "高憲容",
   "stock_name": "國巨",
   "ticker": "2327",
   "symbol": "2327.TW",
@@ -27218,7 +29620,7 @@
  {
   "video_id": "Vl8dEH3VuWo",
   "date": "2026-06-02",
-  "teacher": "高憲榮",
+  "teacher": "高憲容",
   "stock_name": "寶達科技",
   "ticker": "3537",
   "symbol": "3537.TWO",
@@ -27259,7 +29661,7 @@
  {
   "video_id": "Vl8dEH3VuWo",
   "date": "2026-06-02",
-  "teacher": "高憲榮",
+  "teacher": "高憲容",
   "stock_name": "佳邦",
   "ticker": "6284",
   "symbol": "6284.TWO",
@@ -27300,7 +29702,7 @@
  {
   "video_id": "Vl8dEH3VuWo",
   "date": "2026-06-02",
-  "teacher": "高憲榮",
+  "teacher": "高憲容",
   "stock_name": "華興科",
   "ticker": null,
   "symbol": null,
@@ -27313,7 +29715,7 @@
  {
   "video_id": "Vl8dEH3VuWo",
   "date": "2026-06-02",
-  "teacher": "高憲榮",
+  "teacher": "高憲容",
   "stock_name": "大銀微系統",
   "ticker": "4576",
   "symbol": "4576.TW",
@@ -27354,7 +29756,7 @@
  {
   "video_id": "Vl8dEH3VuWo",
   "date": "2026-06-02",
-  "teacher": "高憲榮",
+  "teacher": "高憲容",
   "stock_name": "和椿科技",
   "ticker": "6215",
   "symbol": "6215.TW",
@@ -28818,6 +31220,1045 @@
   }
  },
  {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "鍾國忠",
+  "stock_name": "鴻海",
+  "ticker": "2317",
+  "symbol": "2317.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 285.01,
+   "ret": {
+    "d3": -0.0017,
+    "w1": -0.08177,
+    "w2": -0.08859,
+    "m1": -0.15503
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": -0.00919,
+   "w1": -0.04129,
+   "w2": -0.08989,
+   "m1": -0.19211
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": false,
+   "m1": false
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "鍾國忠",
+  "stock_name": "緯創",
+  "ticker": "3231",
+  "symbol": "3231.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 167.84,
+   "ret": {
+    "d3": 0.01149,
+    "w1": -0.06034,
+    "w2": -0.07184,
+    "m1": -0.08333
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": 0.004,
+   "w1": -0.01986,
+   "w2": -0.07314,
+   "m1": -0.12041
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": false,
+   "m1": false
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "鍾國忠",
+  "stock_name": "台積電",
+  "ticker": "2330",
+  "symbol": "2330.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 2348.73,
+   "ret": {
+    "d3": 0.01274,
+    "w1": -0.02548,
+    "w2": 0.01118,
+    "m1": 0.06653
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": 0.00525,
+   "w1": 0.015,
+   "w2": 0.00988,
+   "m1": 0.02945
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": true,
+   "m1": true
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "鍾國忠",
+  "stock_name": "華邦電",
+  "ticker": "2344",
+  "symbol": "2344.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 168.0,
+   "ret": {
+    "d3": 0.06845,
+    "w1": -0.08333,
+    "w2": 0.125,
+    "m1": 0.13095
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": 0.06096,
+   "w1": -0.04285,
+   "w2": 0.1237,
+   "m1": 0.09387
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": true,
+   "m1": true
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "鍾國忠",
+  "stock_name": "廣運",
+  "ticker": "6125",
+  "symbol": "6125.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 73.3,
+   "ret": {
+    "d3": -0.09141,
+    "w1": -0.13915,
+    "w2": -0.16235,
+    "m1": -0.20327
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": -0.0989,
+   "w1": -0.09867,
+   "w2": -0.16365,
+   "m1": -0.24035
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": false,
+   "m1": false
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "鍾國忠",
+  "stock_name": "半導體設備廠",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "鍾國忠",
+  "stock_name": "順德",
+  "ticker": "2351",
+  "symbol": "2351.TW",
+  "stance": "觀望",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 202.0,
+   "ret": {
+    "d3": 0.04455,
+    "w1": -0.09406,
+    "w2": -0.08911,
+    "m1": 0.01733
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": 0.03706,
+   "w1": -0.05358,
+   "w2": -0.09041,
+   "m1": -0.01975
+  },
+  "hit": {}
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "黃豐凱",
+  "stock_name": "日月光投控",
+  "ticker": "3711",
+  "symbol": "3711.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 595.56,
+   "ret": {
+    "d3": -0.01331,
+    "w1": -0.1015,
+    "w2": -0.0183,
+    "m1": 0.16972
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": -0.0208,
+   "w1": -0.06102,
+   "w2": -0.0196,
+   "m1": 0.13264
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": false,
+   "m1": true
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "黃豐凱",
+  "stock_name": "世芯-KY",
+  "ticker": "3661",
+  "symbol": "3661.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 4855.0,
+   "ret": {
+    "d3": -0.10608,
+    "w1": -0.14109,
+    "w2": -0.12461,
+    "m1": -0.08342
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": -0.11357,
+   "w1": -0.10061,
+   "w2": -0.12591,
+   "m1": -0.1205
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": false,
+   "m1": false
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "黃豐凱",
+  "stock_name": "訊芯-KY",
+  "ticker": "6451",
+  "symbol": "6451.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 627.0,
+   "ret": {
+    "d3": 0.08453,
+    "w1": -0.04306,
+    "w2": -0.16427,
+    "m1": -0.16427
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": 0.07704,
+   "w1": -0.00258,
+   "w2": -0.16557,
+   "m1": -0.20135
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": false,
+   "m1": false
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "黃豐凱",
+  "stock_name": "上詮",
+  "ticker": "3363",
+  "symbol": "3363.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 809.0,
+   "ret": {
+    "d3": 0.03832,
+    "w1": 0.02472,
+    "w2": -0.12608,
+    "m1": -0.33622
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": 0.03083,
+   "w1": 0.0652,
+   "w2": -0.12738,
+   "m1": -0.3733
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": false,
+   "m1": false
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "黃豐凱",
+  "stock_name": "聯發科",
+  "ticker": "2454",
+  "symbol": "2454.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 4527.95,
+   "ret": {
+    "d3": -0.02744,
+    "w1": -0.10648,
+    "w2": -0.01866,
+    "m1": -0.0483
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": -0.03493,
+   "w1": -0.066,
+   "w2": -0.01996,
+   "m1": -0.08538
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": false,
+   "m1": false
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "黃豐凱",
+  "stock_name": "台達電",
+  "ticker": "2308",
+  "symbol": "2308.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 2407.41,
+   "ret": {
+    "d3": 0.00207,
+    "w1": -0.06818,
+    "w2": -0.08678,
+    "m1": -0.17339
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": -0.00542,
+   "w1": -0.0277,
+   "w2": -0.08808,
+   "m1": -0.21047
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": false,
+   "m1": false
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "黃豐凱",
+  "stock_name": "華碩",
+  "ticker": "2357",
+  "symbol": "2357.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 786.78,
+   "ret": {
+    "d3": 0.06571,
+    "w1": 0.00836,
+    "w2": -0.05376,
+    "m1": -0.16495
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": 0.05822,
+   "w1": 0.04884,
+   "w2": -0.05506,
+   "m1": -0.20203
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": false,
+   "m1": false
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "黃豐凱",
+  "stock_name": "廣達",
+  "ticker": "2382",
+  "symbol": "2382.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 357.25,
+   "ret": {
+    "d3": 0.08456,
+    "w1": 0.01074,
+    "w2": -0.00671,
+    "m1": -0.00134
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": 0.07707,
+   "w1": 0.05122,
+   "w2": -0.00801,
+   "m1": -0.03842
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": false,
+   "m1": false
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "黃豐凱",
+  "stock_name": "金運",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "黃豐凱",
+  "stock_name": "順德",
+  "ticker": "2351",
+  "symbol": "2351.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 202.0,
+   "ret": {
+    "d3": 0.04455,
+    "w1": -0.09406,
+    "w2": -0.08911,
+    "m1": 0.01733
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": 0.03706,
+   "w1": -0.05358,
+   "w2": -0.09041,
+   "m1": -0.01975
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": false,
+   "m1": true
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "高憲容",
+  "stock_name": "台積電",
+  "ticker": "2330",
+  "symbol": "2330.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 2348.73,
+   "ret": {
+    "d3": 0.01274,
+    "w1": -0.02548,
+    "w2": 0.01118,
+    "m1": 0.06653
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": 0.00525,
+   "w1": 0.015,
+   "w2": 0.00988,
+   "m1": 0.02945
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": true,
+   "m1": true
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "高憲容",
+  "stock_name": "力成",
+  "ticker": "6239",
+  "symbol": "6239.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 366.0,
+   "ret": {
+    "d3": -0.03279,
+    "w1": -0.15574,
+    "w2": -0.10656,
+    "m1": -0.08333
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": -0.04028,
+   "w1": -0.11526,
+   "w2": -0.10786,
+   "m1": -0.12041
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": false,
+   "m1": false
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "高憲容",
+  "stock_name": "超豐",
+  "ticker": "2441",
+  "symbol": "2441.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 137.5,
+   "ret": {
+    "d3": -0.00727,
+    "w1": -0.10182,
+    "w2": -0.07636,
+    "m1": 0.00364
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": -0.01476,
+   "w1": -0.06134,
+   "w2": -0.07766,
+   "m1": -0.03344
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": false,
+   "m1": true
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "高憲容",
+  "stock_name": "華邦電集團—華東",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "高憲容",
+  "stock_name": "精測",
+  "ticker": "6510",
+  "symbol": "6510.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 3272.35,
+   "ret": {
+    "d3": 0.06535,
+    "w1": 0.08359,
+    "w2": 0.09271,
+    "m1": -0.00152
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": 0.05786,
+   "w1": 0.12407,
+   "w2": 0.09141,
+   "m1": -0.0386
+  },
+  "hit": {
+   "d3": true,
+   "w1": true,
+   "w2": true,
+   "m1": false
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "高憲容",
+  "stock_name": "世界先進",
+  "ticker": "5347",
+  "symbol": "5347.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 174.86,
+   "ret": {
+    "d3": -0.08939,
+    "w1": -0.1257,
+    "w2": -0.02514,
+    "m1": 0.14246
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": -0.09688,
+   "w1": -0.08522,
+   "w2": -0.02644,
+   "m1": 0.10538
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": false,
+   "m1": true
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "高憲容",
+  "stock_name": "鴻海",
+  "ticker": "2317",
+  "symbol": "2317.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 285.01,
+   "ret": {
+    "d3": -0.0017,
+    "w1": -0.08177,
+    "w2": -0.08859,
+    "m1": -0.15503
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": -0.00919,
+   "w1": -0.04129,
+   "w2": -0.08989,
+   "m1": -0.19211
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": false,
+   "m1": false
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "高憲容",
+  "stock_name": "國巨",
+  "ticker": "2327",
+  "symbol": "2327.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 784.37,
+   "ret": {
+    "d3": -0.05949,
+    "w1": -0.04937,
+    "w2": 0.19841,
+    "m1": 0.45339
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": -0.06698,
+   "w1": -0.00889,
+   "w2": 0.19711,
+   "m1": 0.41631
+  },
+  "hit": {
+   "d3": false,
+   "w1": false,
+   "w2": true,
+   "m1": true
+  }
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "高憲容",
+  "stock_name": "易登",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "高憲容",
+  "stock_name": "昇達科",
+  "ticker": "3491",
+  "symbol": "3491.TWO",
+  "stance": "中性",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 2165.0,
+   "ret": {
+    "d3": -0.09931,
+    "w1": -0.17552,
+    "w2": -0.28176,
+    "m1": -0.41801
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": -0.1068,
+   "w1": -0.13504,
+   "w2": -0.28306,
+   "m1": -0.45509
+  },
+  "hit": {}
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "高憲容",
+  "stock_name": "信頎",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YCpvbPgMF0A",
+  "date": "2026-05-29",
+  "teacher": "高憲容",
+  "stock_name": "康舒",
+  "ticker": "6282",
+  "symbol": "6282.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-06-01",
+   "entry_price": 65.8,
+   "ret": {
+    "d3": 0.07599,
+    "w1": -0.10638,
+    "w2": -0.11398,
+    "m1": -0.1155
+   }
+  },
+  "bench": {
+   "entry_date": "2026-06-01",
+   "entry_price": 45337.91,
+   "ret": {
+    "d3": 0.00749,
+    "w1": -0.04048,
+    "w2": 0.0013,
+    "m1": 0.03708
+   }
+  },
+  "excess": {
+   "d3": 0.0685,
+   "w1": -0.0659,
+   "w2": -0.11528,
+   "m1": -0.15258
+  },
+  "hit": {
+   "d3": true,
+   "w1": false,
+   "w2": false,
+   "m1": false
+  }
+ },
+ {
   "video_id": "ZORgvQe4qsk",
   "date": "2026-06-24",
   "teacher": "朱家泓",
@@ -29308,7 +32749,7 @@
   "video_id": "ZORgvQe4qsk",
   "date": "2026-06-24",
   "teacher": "王建文",
-  "stock_name": "功率半導體概念股(郭台銘、陳泰銘共同持股，語音辨識名稱不確定)",
+  "stock_name": "功率半導體概念股",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -29321,7 +32762,7 @@
   "video_id": "ZORgvQe4qsk",
   "date": "2026-06-24",
   "teacher": "王建文",
-  "stock_name": "聯電集團投資控股股(暫譯「系統」，語音辨識名稱不確定)",
+  "stock_name": "聯電集團投資控股股",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -29698,7 +33139,7 @@
   "video_id": "zOSj6E2awjo",
   "date": "2026-06-23",
   "teacher": "蔡明翰",
-  "stock_name": "記憶體相關ETF(未具體點名)",
+  "stock_name": "記憶體相關ETF",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -30178,7 +33619,7 @@
   "video_id": "zOSj6E2awjo",
   "date": "2026-06-23",
   "teacher": "紀緯明",
-  "stock_name": "貿易(中美晶集團旗下個股，聽打疑有誤)",
+  "stock_name": "貿易",
   "ticker": null,
   "symbol": null,
   "stance": "看多",
@@ -30273,7 +33714,7 @@
   "video_id": "zOSj6E2awjo",
   "date": "2026-06-23",
   "teacher": "紀緯明",
-  "stock_name": "國泰美國20年美債(TWD/一般型)",
+  "stock_name": "國泰美國20年美債",
   "ticker": "00687B",
   "symbol": "00687B.TW",
   "stance": "看多",
@@ -30286,7 +33727,7 @@
   "video_id": "zOSj6E2awjo",
   "date": "2026-06-23",
   "teacher": "紀緯明",
-  "stock_name": "國泰美國20年美債(美元加掛/不配息)",
+  "stock_name": "國泰美國20年美債",
   "ticker": "00687C",
   "symbol": "00687C.TW",
   "stance": "看多",

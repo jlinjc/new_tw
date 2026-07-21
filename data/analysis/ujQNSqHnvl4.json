@@ -107,7 +107,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "星星（語音辨識不確定，正式股票名稱無法確認）",
+     "stock_name": "星星",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -119,7 +119,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "這個星星其實也是一樣，星星當然他的基本面是很好的，像他4月年增4300%，43倍，EPS 1.85元",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不確定，正式股票名稱無法確認"
     }
    ]
   },
@@ -243,8 +244,8 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "力積電（語音辨識為「利基電」，正式名稱推測，代號待確認）",
-     "ticker": null,
+     "stock_name": "力積電",
+     "ticker": "6770",
      "market": "TW",
      "stance": "中性",
      "action": "漲多拉回後觀察，追或不追見仁見智",
@@ -256,7 +257,8 @@
      "target_price": "88元（已達）",
      "confidence": "medium",
      "quote": "除了利基電有點開高走低，因為大摩給他目標價是88塊，已經到價了……但黃董的股票要不要追，我覺得見仁見智",
-     "tw_market": null
+     "tw_market": "TWSE",
+     "name_note": "語音辨識為「利基電」，正式名稱推測，代號待確認"
     },
     {
      "stock_name": "旺宏",
@@ -274,7 +276,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "宜鼎（語音辨識為「伊頂」，代號推測待確認）",
+     "stock_name": "宜鼎",
      "ticker": "5289",
      "market": "TW",
      "stance": "看多",
@@ -285,10 +287,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "像群聯啊像伊頂也創了新高",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "name_note": "語音辨識為「伊頂」，代號推測待確認"
     },
     {
-     "stock_name": "創見（語音辨識為「創建」，代號推測待確認）",
+     "stock_name": "創見",
      "ticker": "2451",
      "market": "TW",
      "stance": "中性",
@@ -299,7 +302,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "像所謂創建還沒有過高……我覺得目前看起來都還算是股價比較合理一點",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "語音辨識為「創建」，代號推測待確認"
     },
     {
      "stock_name": "威剛",
@@ -322,7 +326,7 @@
    "name": "楊雲翔",
    "picks": [
     {
-     "stock_name": "日電貿（語音辨識為「日電帽/日電報」，代號推測待確認）",
+     "stock_name": "日電貿",
      "ticker": "3090",
      "market": "TW",
      "stance": "看多",
@@ -335,7 +339,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "所以手上剛好有買到日電貿的朋友，可能要考慮移動停利了",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "語音辨識為「日電帽/日電報」，代號推測待確認"
     },
     {
      "stock_name": "華晶科",
@@ -357,8 +362,8 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "中美晶（語音辨識為「中美金」，正式名稱推測，代號待確認）",
-     "ticker": null,
+     "stock_name": "中美晶",
+     "ticker": "5483",
      "market": "TW",
      "stance": "看多",
      "action": "拉回頸線有支撐可留意加碼或持有",
@@ -369,10 +374,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "當它越過以後……在所謂的頸線位置有在整理過，在守的時候，基本上我覺得它還是可以增加進場",
-     "tw_market": null
+     "tw_market": "TPEX",
+     "name_note": "語音辨識為「中美金」，正式名稱推測，代號待確認"
     },
     {
-     "stock_name": "陳明天（語音辨識疑似錯誤，指某AI液冷機殼股，正式名稱不確定）",
+     "stock_name": "陳明天",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -388,7 +394,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "這裡面我們來看一下線形，它真的沒有什麼漲，沒錯，這個就是一個很明顯的WD……法人有估到大概8.7元，才100多元，估到8.7元",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識疑似錯誤，指某AI液冷機殼股，正式名稱不確定"
     }
    ]
   }

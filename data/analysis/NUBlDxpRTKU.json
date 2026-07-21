@@ -67,7 +67,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "被動元件股（語音辨識不清，原文為「滅亡石」，正式名稱待確認）",
+     "stock_name": "被動元件股",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -79,10 +79,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "所以連續就走了兩波，被動元件其實大部分都長這樣子，今天可能吃了一根黑K，可是多頭沒破。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不清，原文為「滅亡石」，正式名稱待確認"
     },
     {
-     "stock_name": "彩晶（面板轉型股，語音辨識原文為「金晶」）",
+     "stock_name": "彩晶",
      "ticker": "6116",
      "market": "TW",
      "stance": "看多",
@@ -94,7 +95,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "這個已經把高點過，底部就完成了，再加上連續兩天放量，均線也做好了。",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "面板轉型股，語音辨識原文為「金晶」"
     },
     {
      "stock_name": "華碩",
@@ -192,7 +194,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "頂元（友達集團相關個股，名稱因語音辨識可能有誤差）",
+     "stock_name": "頂元",
      "ticker": null,
      "market": "TW",
      "stance": "觀望",
@@ -205,7 +207,8 @@
      "target_price": "區間操作，留意能否突破歷史高點",
      "confidence": "low",
      "quote": "這是區間的下緣、區間上緣，大家就先區間操作，看有沒有機會去突破歷史高。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "友達集團相關個股，名稱因語音辨識可能有誤差"
     },
     {
      "stock_name": "金寶",
@@ -240,7 +243,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "博通（Broadcom）",
+     "stock_name": "博通",
      "ticker": null,
      "market": "US",
      "stance": "看多",
@@ -252,10 +255,11 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "我們的看法是接下來，包括預估第二季的相關營收、獲利、EPS，其實都比第一季還要好。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "Broadcom"
     },
     {
-     "stock_name": "麥威爾（Marvell）",
+     "stock_name": "麥威爾",
      "ticker": null,
      "market": "US",
      "stance": "看多",
@@ -267,7 +271,8 @@
      "target_price": "市值看向兆元美金",
      "confidence": "high",
      "quote": "麥威爾的市值要衝向兆元美金……輝達有投資麥威爾，這樣講真的還蠻猛的。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "Marvell"
     },
     {
      "stock_name": "旺宏",
@@ -426,7 +431,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "力積電（語音辨識原文為「立成／歷程」，名稱待確認）",
+     "stock_name": "力積電",
      "ticker": "6770",
      "market": "TW",
      "stance": "看多",
@@ -438,10 +443,11 @@
      "target_price": "月線附近",
      "confidence": "low",
      "quote": "如果真的修正到月線附近，那我還是會買，因為它是儲置的回檔，我就認為它是浪子回頭。",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "語音辨識原文為「立成／歷程」，名稱待確認"
     },
     {
-     "stock_name": "月城（語音辨識不確定，正式名稱待確認，持有大量台積電股票）",
+     "stock_name": "月城",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -453,11 +459,12 @@
      "target_price": null,
      "confidence": "low",
      "quote": "只要主力沒有大賣，看起來拉回都是一個不錯的買點。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不確定，正式名稱待確認，持有大量台積電股票"
     },
     {
-     "stock_name": "日電貿（語音辨識原文為「日電帽」）",
-     "ticker": "3624",
+     "stock_name": "日電貿",
+     "ticker": "3090",
      "market": "TW",
      "stance": "看多",
      "action": "留意落後補漲機會",
@@ -468,10 +475,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "這種同族群一起被關，未來一定會有一個同族群一堆要出關輪流的利多，被動元件拉回是讓你早買一點。",
-     "tw_market": "TPEX"
+     "tw_market": "TWSE",
+     "name_note": "語音辨識原文為「日電帽」"
     },
     {
-     "stock_name": "德威（語音辨識不確定，電力／電纜或功率半導體相關個股，正式名稱待確認）",
+     "stock_name": "德威",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -483,7 +491,8 @@
      "target_price": "上升月線",
      "confidence": "low",
      "quote": "阻力沒有大賣，拉回都是好買一點……稍微靠近一點月線就噴了，代表是很強勢的回檔。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不確定，電力／電纜或功率半導體相關個股，正式名稱待確認"
     }
    ]
   }

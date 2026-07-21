@@ -154,9 +154,17 @@ def _has_symbol(p) -> bool:
 
 
 def compute_quality(episodes):
-    """資料品質面板：無法對應代號、低歸屬信心、抓不到股價的清單。"""
+    """資料品質面板：無法對應代號、低歸屬信心、抓不到股價的清單。
+
+    「無股價資料」只計真正查無報價的情形；播出僅一兩天、進場交易日
+    尚未發生的推薦不計入（那只是「還沒有」，等下一交易日自動補上，
+    不是資料問題），避免把真正的異常淹沒在暫時性的「太新」雜訊裡。
+    """
+    today = datetime.now().date()
     items = []
     for ep in episodes:
+        ep_date = datetime.fromisoformat(ep["date"]).date()
+        too_new = (today - ep_date).days < 3
         for t in ep["teachers"]:
             for p in t["picks"]:
                 issues = []
@@ -165,7 +173,7 @@ def compute_quality(episodes):
                     issues.append("no_ticker")
                 if p.get("confidence") == "low":
                     issues.append("low_conf")
-                if _has_symbol(p) and not p.get("perf"):
+                if _has_symbol(p) and not p.get("perf") and not too_new:
                     issues.append("no_price")
                 if not issues:
                     continue
@@ -515,13 +523,16 @@ const SCOLORS = ["var(--s1)","var(--s2)","var(--s3)","var(--s4)","var(--s5)","va
 function setCurveH(h) { curveH = h; render(); }
 
 function curveData(h) {
+  // 逐筆「累積平均」而非累積加總：加總會讓推薦筆數多的老師被推向極端數字
+  // （可能到 -300% 這種不合理的視覺誤導），且筆數不同的老師無法公平比較；
+  // 累積平均全程停留在合理的報酬率量級，且天然可跨老師比較。
   return (DATA.teacherCurves || []).map((c, i) => {
-    let cum = 0; const pts = [];
+    let sum = 0, n = 0; const pts = [];
     c.points.forEach(p => {
       const e = p.ex[h];
       if (e === null || e === undefined) return;
-      cum += e;
-      pts.push({x: Date.parse(p.date), y: cum, date: p.date, stock: p.stock});
+      sum += e; n++;
+      pts.push({x: Date.parse(p.date), y: sum / n, n, date: p.date, stock: p.stock});
     });
     return {name: c.name, color: SCOLORS[i % SCOLORS.length], pts};
   }).filter(s => s.pts.length >= 2);
@@ -597,10 +608,10 @@ function curveSection() {
   const seg = `<div class="seg">` + HORIZONS.map(h =>
     `<button class="${h===curveH?'on':''}" onclick="setCurveH('${h}')">${HL[h]}</button>`).join("") + `</div>`;
   return `<div class="card">
-    <div class="chart-head"><span class="chart-title">累積超額報酬（等權跟單）</span>${seg}</div>
+    <div class="chart-head"><span class="chart-title">累積平均超額報酬（等權跟單）</span>${seg}</div>
     <div class="legend">${legend}</div>
     <div class="viz"><svg id="curveSvg" viewBox="0 0 ${W} ${H}" role="img" aria-label="老師累積超額報酬曲線">${g}</svg><div class="tip" id="curveTip"></div></div>
-    <div class="note" style="margin-bottom:0">每筆有明確多空方向且有股價資料的推薦等權計算，依進場日累加「多空調整後超額報酬」（看空反向計）；僅顯示樣本最多的前 ${series.length} 位老師。</div>
+    <div class="note" style="margin-bottom:0">每筆有明確多空方向且有股價資料的推薦等權計算，依進場日累積計算「多空調整後超額報酬」（看空反向計）的移動平均，因此不同推薦筆數的老師可直接比較；僅顯示樣本最多的前 ${series.length} 位老師。</div>
   </div>`;
 }
 
@@ -709,10 +720,16 @@ function stockTable() {
   return html + `</tbody></table></div>`;
 }
 function stockRow(r) {
+  const MAX_SHOWN = 4;
+  const shown = r.teachers.slice(0, MAX_SHOWN).map(esc).join("、");
+  const rest = r.teachers.length - MAX_SHOWN;
+  const teacherCell = rest > 0
+    ? `<span title="${esc(r.teachers.join("、"))}">${shown} 等 ${r.teachers.length} 人</span>`
+    : shown;
   return `<tr data-key="${esc(r.stock_name)} ${r.ticker||""}">
     <td>${esc(r.stock_name)} ${r.ticker ? `<span style="color:var(--muted)">(${r.ticker})</span>` : ""}</td>
     <td class="num">${r.n}</td><td class="num">${r.bull}</td><td class="num">${r.bear}</td>
-    <td>${r.teachers.map(esc).join("、")}</td>
+    <td>${teacherCell}</td>
     <td class="num ${cls(r.avg_ret_m1)}">${pct(r.avg_ret_m1)}</td>
     <td class="num ${cls(r.avg_ex_m1)}">${pct(r.avg_ex_m1)}</td>
     <td>${r.last_date}</td></tr>`;

@@ -55,8 +55,8 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "國眾(大眾集團旗下IC顧問/AI、5G相關公司,確切代號待確認)",
-     "ticker": null,
+     "stock_name": "國眾",
+     "ticker": "5410",
      "market": "TW",
      "stance": "看多",
      "action": "高息成長股,逢低布局",
@@ -69,10 +69,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "這家公司是大眾集團的公司,主要是提供相關的企業的IC的顧問諮詢跟AI、5G運用的部分",
-     "tw_market": null
+     "tw_market": "TPEX",
+     "name_note": "大眾集團旗下IC顧問/AI、5G相關公司,確切代號待確認"
     },
     {
-     "stock_name": "高息成長軟體股(鍾國忠提及第二檔,逐字稿代號不清,疑似3029系列)",
+     "stock_name": "高息成長軟體股",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -86,7 +87,8 @@
      "target_price": "約96.5元(庫藏股買超上限價位)",
      "confidence": "low",
      "quote": "這家公司...最近公布他的庫藏股已經買了1800張,均價大概95.62",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "鍾國忠提及第二檔,逐字稿代號不清,疑似3029系列"
     }
    ]
   },
@@ -110,7 +112,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "宜鼎國際(逐字稿唸作怡婷)",
+     "stock_name": "宜鼎國際",
      "ticker": "5289",
      "market": "TW",
      "stance": "看多",
@@ -122,7 +124,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "我覺得怡婷在這邊大家可以注意一下",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "name_note": "逐字稿唸作怡婷"
     },
     {
      "stock_name": "群聯電子",
@@ -139,7 +142,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "南亞科技/華邦電(同族群記憶體股)",
+     "stock_name": "南亞科技/華邦電",
      "ticker": "2408",
      "market": "TW",
      "stance": "看多",
@@ -150,10 +153,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "那跟她很像的有誰?有群聯啊。有南亞科、華邦電。這個同一個族群的",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "同族群記憶體股"
     },
     {
-     "stock_name": "台燿科技(逐字稿唸作台耀/台藥)",
+     "stock_name": "台燿科技",
      "ticker": "6274",
      "market": "TW",
      "stance": "看多",
@@ -168,10 +172,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "現在大家今年30幾塊的EPS,明年估到60幾塊,最高有機會估到90%到100%的增幅",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "name_note": "逐字稿唸作台耀/台藥"
     },
     {
-     "stock_name": "臻鼎-KY(逐字稿唸作真頂)",
+     "stock_name": "臻鼎-KY",
      "ticker": "4958",
      "market": "TW",
      "stance": "看多",
@@ -182,7 +187,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "我可能會比較喜歡真頂...跟景碩",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "逐字稿唸作真頂"
     },
     {
      "stock_name": "景碩科技",
@@ -199,7 +205,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "欣興電子(逐字稿唸作星星)",
+     "stock_name": "欣興電子",
      "ticker": "3037",
      "market": "TW",
      "stance": "看多",
@@ -210,10 +216,11 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "你真的不知道要選誰?你選星星。因為最大最安全",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "逐字稿唸作星星"
     },
     {
-     "stock_name": "光聖科技(逐字稿唸作光盛)",
+     "stock_name": "光聖科技",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -226,11 +233,12 @@
      "target_price": null,
      "confidence": "low",
      "quote": "你光通真的不要選誰的時候你就選產業的優等生...而且他最新的一個月的營收開出來,營收全部由於市場預期",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "逐字稿唸作光盛"
     },
     {
-     "stock_name": "華星光(逐字稿唸作華新光,確切名稱待確認)",
-     "ticker": null,
+     "stock_name": "華星光",
+     "ticker": "4979",
      "market": "TW",
      "stance": "看多",
      "action": "逢低承接,留意補漲",
@@ -241,12 +249,13 @@
      "target_price": null,
      "confidence": "low",
      "quote": "像華新光這一些呢,我就會覺得說本益比已經修正四成了",
-     "tw_market": null
+     "tw_market": "TPEX",
+     "name_note": "逐字稿唸作華新光,確切名稱待確認"
     }
    ]
   },
   {
-   "name": "翁世峻",
+   "name": "翁士峻",
    "picks": [
     {
      "stock_name": "國巨",
@@ -265,7 +274,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "台慶科技(逐字稿唸作台信科)",
+     "stock_name": "台慶科技",
      "ticker": "3264",
      "market": "TW",
      "stance": "看多",
@@ -278,10 +287,11 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "台信科AI佔比...今年可能會慢慢的拉到14%,而且他有跨入CPU",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "name_note": "逐字稿唸作台信科"
     },
     {
-     "stock_name": "利敦(確切代號待確認)",
+     "stock_name": "利敦",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -292,10 +302,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "這三檔被動:國巨、台信科、利敦都是創歷史新高",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "確切代號待確認"
     },
     {
-     "stock_name": "日電貿(逐字稿唸作日電貌)",
+     "stock_name": "日電貿",
      "ticker": "3090",
      "market": "TW",
      "stance": "看多",
@@ -307,10 +318,11 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "日電貌漲到256塊,5月15號也是大概一個月前而已就已經漲8成了",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "逐字稿唸作日電貌"
     },
     {
-     "stock_name": "聯茂電子(逐字稿唸作聯貿)",
+     "stock_name": "聯茂電子",
      "ticker": "6213",
      "market": "TW",
      "stance": "看多",
@@ -323,10 +335,11 @@
      "target_price": "340元",
      "confidence": "high",
      "quote": "法人的目標價我也給大家做參考,中信目標價是340塊,然後凱基是340元",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "逐字稿唸作聯貿"
     },
     {
-     "stock_name": "臻鼎-KY(逐字稿唸作真頂)",
+     "stock_name": "臻鼎-KY",
      "ticker": "4958",
      "market": "TW",
      "stance": "看多",
@@ -340,7 +353,8 @@
      "target_price": "690元",
      "confidence": "high",
      "quote": "凱基有把目標價調到690塊,所以目前來看這個ABF四雄是真頂最強,他籌碼最漂亮",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "逐字稿唸作真頂"
     },
     {
      "stock_name": "大量科技",

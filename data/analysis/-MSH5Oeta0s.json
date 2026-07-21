@@ -257,8 +257,8 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "中興電（或士電，講稿不清）",
-     "ticker": null,
+     "stock_name": "中興電",
+     "ticker": "1513",
      "market": "TW",
      "stance": "看多",
      "action": "拉回月線關卡可逢低承接",
@@ -268,7 +268,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "爆量大黑K，北四科概念股就有點僵溫下來，但目前來看業績跟在手訂單我覺得還是滿的，這邊是逢低去承接他應該還有不錯的買點",
-     "tw_market": null
+     "tw_market": "TWSE",
+     "name_note": "或士電，講稿不清"
     },
     {
      "stock_name": "東元",

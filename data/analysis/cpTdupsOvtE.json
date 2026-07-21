@@ -54,7 +54,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "GD(語音辨識不確定,疑為家登精密等廠務/設備供應鏈個股)",
+     "stock_name": "GD",
      "ticker": null,
      "market": "TW",
      "stance": "觀望",
@@ -65,7 +65,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "因為GD最近常有投信的賣壓,在做一個調整的動作...等到不再破低,等到直穩之後再去做一個分批的介入",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不確定,疑為家登精密等廠務/設備供應鏈個股"
     },
     {
      "stock_name": "強茂",
@@ -296,7 +297,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "折米(語音辨識不確定,個股名稱待考)",
+     "stock_name": "折米",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -307,7 +308,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "同樣的以折米來講也是啊,在橫盤整理,回檔的時候最好買,創高的時候不要追",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不確定,個股名稱待考"
     },
     {
      "stock_name": "台慶科",
@@ -325,8 +327,8 @@
      "tw_market": null
     },
     {
-     "stock_name": "松川精密(語音辨識不確定,可能為松穿精密等個股)",
-     "ticker": null,
+     "stock_name": "松川精密",
+     "ticker": "7788",
      "market": "TW",
      "stance": "看多",
      "action": "留意布局",
@@ -336,7 +338,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "另外的話松川晶密也大於1...同時具備三個條件的有一個是台慶科,一個是松穿精密",
-     "tw_market": null
+     "tw_market": "TWSE",
+     "name_note": "語音辨識不確定,可能為松穿精密等個股"
     },
     {
      "stock_name": "松上",
@@ -492,7 +495,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "健策(語音辨識不確定,原文為「建設」)",
+     "stock_name": "健策",
      "ticker": "3653",
      "market": "TW",
      "stance": "觀望",
@@ -503,7 +506,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "均線下彎的時候,因為它沒有紅棒,所以你不用太注意",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "語音辨識不確定,原文為「建設」"
     },
     {
      "stock_name": "奇鋐",
@@ -520,7 +524,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "台拉丁(語音辨識不確定,個股名稱待考)",
+     "stock_name": "台拉丁",
      "ticker": null,
      "market": "TW",
      "stance": "觀望",
@@ -531,7 +535,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "台拉丁也是啊,現在離這個均線還有一段的距離,這可能要特別的小心一下",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不確定,個股名稱待考"
     }
    ]
   }

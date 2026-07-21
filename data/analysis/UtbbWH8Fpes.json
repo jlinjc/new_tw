@@ -135,7 +135,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "利基電（語音辨識不確定正式名稱，矽電容題材股）",
+     "stock_name": "利基電",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -146,7 +146,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "明天要出關的是利基電，今天股價也差一點漲停，明天利基電也可以一併來看待",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不確定正式名稱，矽電容題材股"
     },
     {
      "stock_name": "環球晶",
@@ -208,7 +209,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "同泰電子（語音辨識為同心電，推測）",
+     "stock_name": "同泰電子",
      "ticker": "8039",
      "market": "TW",
      "stance": "看多",
@@ -219,7 +220,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "同心電其實離前高非常的接近啦…籌碼面看起來同心電比較好",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "語音辨識為同心電，推測"
     },
     {
      "stock_name": "華通",
@@ -345,7 +347,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "玉晶光（語音辨識為預金關，推測，光學鏡頭二哥股）",
+     "stock_name": "玉晶光",
      "ticker": "3406",
      "market": "TW",
      "stance": "看多",
@@ -358,10 +360,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "上禮拜才來講嘛，現在已經漲了7.5%…如果大立光再上去，大哥上去了，二哥不表態也說不過去嘛",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "語音辨識為預金關，推測，光學鏡頭二哥股"
     },
     {
-     "stock_name": "聯鈞光電（語音辨識為聯軍，推測）",
+     "stock_name": "聯鈞光電",
      "ticker": "3576",
      "market": "TW",
      "stance": "看多",
@@ -374,7 +377,8 @@
      "target_price": "挑戰602元",
      "confidence": "medium",
      "quote": "這檔股票要去挑戰602應該難度不高…全球前三大雷射二極體的封裝測試場，那當然這個就是他的優勢",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "語音辨識為聯軍，推測"
     },
     {
      "stock_name": "波若威",
@@ -391,7 +395,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "訊芯-KY（語音辨識為訊星，推測）",
+     "stock_name": "訊芯-KY",
      "ticker": "6451",
      "market": "TW",
      "stance": "看多",
@@ -403,7 +407,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "4月EPS0.04是轉虧為盈…他是光收發模組一條龍什麼都能做，加速開發ASIC的產品",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "語音辨識為訊星，推測"
     }
    ]
   }

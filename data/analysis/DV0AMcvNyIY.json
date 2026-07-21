@@ -22,7 +22,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "辛耘（推測，原音「星雲」）",
+     "stock_name": "辛耘",
      "ticker": "3583",
      "market": "TW",
      "stance": "看多",
@@ -34,10 +34,11 @@
      "target_price": "短線壓力約850-878元（月均線壓力區）",
      "confidence": "high",
      "quote": "如果能夠站上月線的話我覺得這個多單呢就可以加碼",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "推測，原音「星雲」"
     },
     {
-     "stock_name": "致茂（推測，原音「智貿／致貿」）",
+     "stock_name": "致茂",
      "ticker": "2360",
      "market": "TW",
      "stance": "看多",
@@ -49,7 +50,8 @@
      "target_price": "原文提及短撐、短壓區間，惟數字疑似有誤植，僅供參考",
      "confidence": "high",
      "quote": "這檔股票以後還有機會可以再創新高的",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "推測，原音「智貿／致貿」"
     },
     {
      "stock_name": "國巨",
@@ -67,7 +69,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "大毅科技（推測，原音「大億」，國巨集團子公司）",
+     "stock_name": "大毅科技",
      "ticker": "2478",
      "market": "TW",
      "stance": "看多",
@@ -79,7 +81,8 @@
      "target_price": "短壓150-154元，站上154-158元可期待更高點；拉回支撐125-127元",
      "confidence": "high",
      "quote": "開跌停收紅還創新高，這厲害了吧",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "推測，原音「大億」，國巨集團子公司"
     }
    ]
   },
@@ -87,7 +90,7 @@
    "name": "楊雲翔",
    "picks": [
     {
-     "stock_name": "反向型ETF（原音「反一」，推測為元大台灣50反1或同類商品）",
+     "stock_name": "反向型ETF",
      "ticker": null,
      "market": "ETF",
      "stance": "看空",
@@ -99,10 +102,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "雲翔哥買了很多反一，買了1000張",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "原音「反一」，推測為元大台灣50反1或同類商品"
     },
     {
-     "stock_name": "SpaceX衛星題材股（逐字稿股名不明確）",
+     "stock_name": "SpaceX衛星題材股",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -114,7 +118,8 @@
      "target_price": "頸線支撐位置（原文未提供精確數字）",
      "confidence": "high",
      "quote": "如果你認為說看好，這個SpaceX衛星的題材，大概可以重新再做一個介入",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "逐字稿股名不明確"
     },
     {
      "stock_name": "光寶科",
@@ -132,7 +137,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "力成科技（推測，原音「例程」）",
+     "stock_name": "力成科技",
      "ticker": null,
      "market": "TW",
      "stance": "觀望",
@@ -144,10 +149,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "放量大量的收黑來講，放大量大黑應該先停利一趟會比較好",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "推測，原音「例程」"
     },
     {
-     "stock_name": "神達（MiTAC）",
+     "stock_name": "神達",
      "ticker": "3706",
      "market": "TW",
      "stance": "看多",
@@ -160,7 +166,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "如果你用一個本益比這麼低的情況下，它創高的機會我覺得還是很高",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "MiTAC"
     },
     {
      "stock_name": "廣達",
@@ -179,7 +186,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "緯創（推測，原音「偽創」）",
+     "stock_name": "緯創",
      "ticker": "3231",
      "market": "TW",
      "stance": "看多",
@@ -190,10 +197,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "台灣廣達偽創來講為什麼會整個看這兩支？原因就是他也幫Dell代工",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "推測，原音「偽創」"
     },
     {
-     "stock_name": "可成科技（推測，原音「可塵／可乘」）",
+     "stock_name": "可成科技",
      "ticker": "2474",
      "market": "TW",
      "stance": "看多",
@@ -205,7 +213,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "可乘，我覺得機會點也很大……拉回我覺得也是一個所謂的介入機會點",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "推測，原音「可塵／可乘」"
     },
     {
      "stock_name": "亞翔",
@@ -238,8 +247,8 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "信紘科（推測，原音「信用科」）",
-     "ticker": null,
+     "stock_name": "信紘科",
+     "ticker": "6667",
      "market": "TW",
      "stance": "看多",
      "action": "股價回測上升軌道下緣時可留意布局，目標挑戰前高",
@@ -250,7 +259,8 @@
      "target_price": "上升軌道下緣為支撐，目標挑戰前高",
      "confidence": "high",
      "quote": "今天剛好就打到所謂的上升軌道的下緣位置……這一根拉起來真的拉得很漂亮",
-     "tw_market": null
+     "tw_market": "TPEX",
+     "name_note": "推測，原音「信用科」"
     }
    ]
   },
@@ -273,7 +283,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "市值型ETF（如0050等）",
+     "stock_name": "市值型ETF",
      "ticker": null,
      "market": "ETF",
      "stance": "看多",
@@ -284,7 +294,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "撿了一些所謂確定性很高的像台積電啊，像市值型的ETF啊",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "如0050等"
     },
     {
      "stock_name": "華邦電",
@@ -303,7 +314,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "十銓科技（推測，原音「怡鼎」）",
+     "stock_name": "十銓科技",
      "ticker": "4967",
      "market": "TW",
      "stance": "看多",
@@ -315,10 +326,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "如果他明天如果能夠重新回到日線以上的話，那是有機會讓整個模組場裡面有一些比價的效應",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "推測，原音「怡鼎」"
     },
     {
-     "stock_name": "力積電（推測，原音「利基電」）",
+     "stock_name": "力積電",
      "ticker": "6770",
      "market": "TW",
      "stance": "觀望",
@@ -329,7 +341,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "但收盤裡面跌比較重可能就利基電跟群聯啦",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "推測，原音「利基電」"
     },
     {
      "stock_name": "群聯電子",

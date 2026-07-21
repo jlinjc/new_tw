@@ -224,7 +224,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "衛星/光模塊概念股（語音辨識不清，原文近似「滑通」）",
+     "stock_name": "衛星/光模塊概念股",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -237,7 +237,8 @@
      "target_price": "法人看300餘元（統一385元、富邦344元）",
      "confidence": "low",
      "quote": "法人目標其實都抓300多啊，比如說統一是385、富邦是344，你現在股價才223",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不清，原文近似「滑通」"
     },
     {
      "stock_name": "晶技",
@@ -256,8 +257,8 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "希華（原文「西華」，語音辨識不確定）",
-     "ticker": null,
+     "stock_name": "希華",
+     "ticker": "2484",
      "market": "TW",
      "stance": "看多",
      "action": "拉回破五日線為買點",
@@ -268,7 +269,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "西華就比較活潑一點、比較強勢……上禮拜是直接往上衝，直接衝到102元",
-     "tw_market": null
+     "tw_market": "TWSE",
+     "name_note": "原文「西華」，語音辨識不確定"
     },
     {
      "stock_name": "長榮航太",

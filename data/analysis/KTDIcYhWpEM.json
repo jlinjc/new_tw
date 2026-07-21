@@ -21,7 +21,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "光學股（原文「連漪光」，語音辨識不清，具體標的無法確認）",
+     "stock_name": "光學股",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -32,7 +32,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "光學等一下會延續講，5月10號講到現在，連漪光漲了85%，這兩檔還有辦法介入嗎？這個沒有漲到那麼多啦，那個標的太兇了。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "原文「連漪光」，語音辨識不清，具體標的無法確認"
     },
     {
      "stock_name": "大立光",
@@ -65,7 +66,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "強茂（原文「恰茂」）",
+     "stock_name": "強茂",
      "ticker": "2481",
      "market": "TW",
      "stance": "看多",
@@ -77,7 +78,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "恰茂它目前算是一個盤整，但是還沒有突破，這個也有可能端午節過後它就開始發動，可以去鎖它一下。",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "原文「恰茂」"
     },
     {
      "stock_name": "台半",
@@ -192,7 +194,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "辛耘（原文「新雲」，語音辨識不確定）",
+     "stock_name": "辛耘",
      "ticker": "3583",
      "market": "TW",
      "stance": "看多",
@@ -203,11 +205,12 @@
      "target_price": null,
      "confidence": "low",
      "quote": "新雲還有汪志哥這都還是剛剛開始來做卡位的。",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "原文「新雲」，語音辨識不確定"
     },
     {
-     "stock_name": "昇陽半導體（原文「生陽辦」／「照臉實業」，語音辨識不清）",
-     "ticker": null,
+     "stock_name": "昇陽半導體",
+     "ticker": "8028",
      "market": "TW",
      "stance": "看多",
      "action": "留意大戶及投信、外資同步加碼",
@@ -218,7 +221,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "生陽辦有連續2個禮拜大戶在做增持，而且不少投信、外資都有在做同步加碼的動作。",
-     "tw_market": null
+     "tw_market": "TWSE",
+     "name_note": "原文「生陽辦」／「照臉實業」，語音辨識不清"
     },
     {
      "stock_name": "漢唐",
@@ -333,7 +337,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "台肖（語音辨識不清，疑為被動元件相關個股）",
+     "stock_name": "台肖",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -345,7 +349,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "台肖的話，目前在做整理，不過台肖的姿態也相當高啊，最近投信也是連續幾天都在買，應該有機會拉作帳。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不清，疑為被動元件相關個股"
     },
     {
      "stock_name": "臻鼎-KY",

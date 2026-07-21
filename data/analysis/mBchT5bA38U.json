@@ -289,7 +289,7 @@
      "tw_market": null
     },
     {
-     "stock_name": "00988B(中信高評級非投等債ETF)",
+     "stock_name": "00988B",
      "ticker": "00988B",
      "market": "ETF",
      "stance": "看多",
@@ -304,7 +304,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "如果你今天擔心股市的波動,除了把高估值的股票賣掉、提高現金部位之外,債的部分也要好好選,要選擇存續期間比較短、高票息高殖利率的非投等債,像00988B這樣的商品。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "中信高評級非投等債ETF"
     }
    ]
   }

@@ -165,7 +165,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "CPO族群（聯亞、光聖等）",
+     "stock_name": "CPO族群",
      "ticker": null,
      "market": "TW",
      "stance": "中性",
@@ -177,7 +177,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "理論上這裡其實投資的機會應該大於風險，因為技術面它已經從高位階變成整理過後區間的低位階",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "聯亞、光聖等"
     },
     {
      "stock_name": "聯鈞",
@@ -398,7 +399,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "大華優利高息30(00918)",
+     "stock_name": "大華優利高息30",
      "ticker": "00918",
      "market": "ETF",
      "stance": "看多",
@@ -412,7 +413,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "它的單季年化配息率有高達17%，掛牌以來總共有12次填息，9次完成填息，其實已經很高，75%",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "00918"
     }
    ]
   }

@@ -139,7 +139,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "光學玻璃毛胚廠（逐字稿諧音「連儀光」，正確股名待確認）",
+     "stock_name": "光學玻璃毛胚廠",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -152,10 +152,11 @@
      "target_price": "歷史高點68.4元",
      "confidence": "low",
      "quote": "他是全球第二大的光學玻璃毛胚廠，如果這個股價再往上延伸，因為他的歷史高點是68塊4，快接近了",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "逐字稿諧音「連儀光」，正確股名待確認"
     },
     {
-     "stock_name": "低軌衛星概念股（逐字稿諧音「藥華」，正確股名待確認）",
+     "stock_name": "低軌衛星概念股",
      "ticker": null,
      "market": "TW",
      "stance": "觀望",
@@ -168,7 +169,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "它第一期還沒有賺錢，如果轉虧為盈，數字就跳上去，目前投信是沒有在買，看投信什麼時候再來青睞",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "逐字稿諧音「藥華」，正確股名待確認"
     }
    ]
   },

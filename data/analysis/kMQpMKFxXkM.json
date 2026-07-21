@@ -121,7 +121,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "潛頂（語音辨識，正式名稱及代號待查）",
+     "stock_name": "潛頂",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -133,7 +133,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "以前頂來講的話，大戶的持股一樣在上禮拜終於增加了，那前頂在做的呢其實是做所謂的外置雷射光源",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識，正式名稱及代號待查"
     },
     {
      "stock_name": "國巨",

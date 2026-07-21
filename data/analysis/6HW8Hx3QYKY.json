@@ -102,7 +102,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "丹雅（原音辨識不確定）",
+     "stock_name": "丹雅",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -113,10 +113,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "舉個例子像丹雅從6月18號以來買了25萬張。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "原音辨識不確定"
     },
     {
-     "stock_name": "元大台灣50（0050）",
+     "stock_name": "元大台灣50",
      "ticker": "0050",
      "market": "ETF",
      "stance": "看多",
@@ -128,10 +129,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "你下禮拜你剛好可以用比較低的價錢去買0050、0056，這樣算是不錯，對，因為息是已經確定的。",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "0050"
     },
     {
-     "stock_name": "元大高股息（0056）",
+     "stock_name": "元大高股息",
      "ticker": "0056",
      "market": "ETF",
      "stance": "看多",
@@ -143,7 +145,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "你下禮拜你剛好可以用比較低的價錢去買0050、0056，這樣算是不錯，對，因為息是已經確定的。",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "0056"
     }
    ]
   },
@@ -185,7 +188,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "立敦電子（原音利噸，辨識不確定）",
+     "stock_name": "立敦電子",
      "ticker": "6259",
      "market": "TW",
      "stance": "看多",
@@ -198,10 +201,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "利噸看起來是比較強，因為他跟母公司是立隆電，等於說是上下游…可以做一個整合的一條龍優勢。",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "name_note": "原音利噸，辨識不確定"
     },
     {
-     "stock_name": "台信科（原音辨識不確定）",
+     "stock_name": "台信科",
      "ticker": null,
      "market": "TW",
      "stance": "看空",
@@ -213,7 +217,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "台信科的話投信最近五天是賣超了468張，之前買的做停損了，而且季線也跌破了，他是領先大盤破季線。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "原音辨識不確定"
     },
     {
      "stock_name": "南亞科",
@@ -319,7 +324,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "合晶／合成檔（原音辨識不確定，被動元件相關個股）",
+     "stock_name": "合晶／合成檔",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -331,7 +336,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "再來看一下像被動元件另外一檔就合成檔……因為它在這一波是最純的，除了很多人的之外，他也創了他以前那個歷史天價，把它超過去了。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "原音辨識不確定，被動元件相關個股"
     },
     {
      "stock_name": "南電",

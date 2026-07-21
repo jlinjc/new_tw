@@ -285,8 +285,8 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "玉晶光(逐字稿原文「玉芒」，正式名稱待確認)",
-     "ticker": null,
+     "stock_name": "玉晶光",
+     "ticker": "3406",
      "market": "TW",
      "stance": "看多",
      "action": "季線附近搶弱勢反彈",
@@ -297,7 +297,8 @@
      "target_price": "反彈滿足點約370元，季線附近，空間約20%",
      "confidence": "low",
      "quote": "它從483……今天最低曾經跌破300塊，弱勢反彈0.382的滿足點大概在370元左右，剛好又觸及季線，這裡可能還有20%的空間。",
-     "tw_market": null
+     "tw_market": "TWSE",
+     "name_note": "逐字稿原文「玉芒」，正式名稱待確認"
     },
     {
      "stock_name": "康舒",

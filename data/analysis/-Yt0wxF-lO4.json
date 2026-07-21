@@ -73,7 +73,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "半導體設備股(整體族群)",
+     "stock_name": "半導體設備股",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -87,7 +87,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "我認為大概有四個重點的部分...設備股還是可以去做期待",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "整體族群"
     }
    ]
   },
@@ -126,7 +127,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "龍亭(4989)",
+     "stock_name": "龍亭",
      "ticker": "4989",
      "market": "TW",
      "stance": "看多",
@@ -137,7 +138,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "還有4989的龍科也會好",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "4989"
     },
     {
      "stock_name": "南亞電路板",
@@ -250,7 +252,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "亞光(疑似)",
+     "stock_name": "亞光",
      "ticker": "3019",
      "market": "TW",
      "stance": "看多",
@@ -262,11 +264,12 @@
      "target_price": null,
      "confidence": "low",
      "quote": "這一檔基本上就是做攝像頭...它今天是過昨天的高。所以它的形態是比中方電要更強",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "疑似"
     },
     {
-     "stock_name": "長榮航太(疑似)",
-     "ticker": "8341",
+     "stock_name": "長榮航太",
+     "ticker": "2645",
      "market": "TW",
      "stance": "看多",
      "action": "留意",
@@ -276,10 +279,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "長榮航胎那些,今天都亮燈漲停",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "疑似"
     },
     {
-     "stock_name": "ABF設備廠(日資背景,音似強新)",
+     "stock_name": "ABF設備廠",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -292,7 +296,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "這個是ABF的這個設備廠。最近好厲害啊。強廣噴出。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "日資背景,音似強新"
     }
    ]
   },
@@ -414,8 +419,8 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "訊芯-KY(疑似,語音辨識為財新科)",
-     "ticker": null,
+     "stock_name": "訊芯-KY",
+     "ticker": "6451",
      "market": "TW",
      "stance": "中性",
      "action": "觀望(均線糾結)",
@@ -427,7 +432,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "財新科的部分...EPS今年反而估計有機會大幅度提升到8塊半所以股價目前是均線糾結的狀態",
-     "tw_market": null
+     "tw_market": "TWSE",
+     "name_note": "疑似,語音辨識為財新科"
     }
    ]
   }

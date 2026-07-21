@@ -301,7 +301,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "南亞/南亞科(南亞集團)",
+     "stock_name": "南亞/南亞科",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -313,7 +313,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "這兩個都是南亞集團嘛,對不對,所以目前這兩檔看來多頭趨勢是沒有被影響的",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "南亞集團"
     },
     {
      "stock_name": "力智電子",
@@ -348,8 +349,8 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "富鼎(原文口誤,推測)",
-     "ticker": null,
+     "stock_name": "富鼎",
+     "ticker": "8261",
      "market": "TW",
      "stance": "觀望",
      "action": "暫不介入,待處置期結束再評估",
@@ -360,7 +361,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "今天副頂它在處置期間,如果它沒有在處置的話我可能會想買,但因為它在處置期間有流動性的問題",
-     "tw_market": null
+     "tw_market": "TWSE",
+     "name_note": "原文口誤,推測"
     },
     {
      "stock_name": "強茂",

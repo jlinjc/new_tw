@@ -100,7 +100,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "MCU相關個股(語音辨識代號不明，原文疑似「MNCO」)",
+     "stock_name": "MCU相關個股",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -113,7 +113,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "為什麼看好MNCO因為MNCO市場庫存去化已經去化完畢了…年增率百分之208",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識代號不明，原文疑似「MNCO」"
     }
    ]
   },
@@ -153,7 +154,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "低價封測概念股(菱生精密等，原文「林生、福懋科」語音辨識不確定)",
+     "stock_name": "低價封測概念股",
      "ticker": null,
      "market": "TW",
      "stance": "觀望",
@@ -165,7 +166,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "如果說接下來看到領頭大哥真的有效做突破了，這些中衛接的或者是低檔個股它就有機會往上做發動",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "菱生精密等，原文「林生、福懋科」語音辨識不確定"
     },
     {
      "stock_name": "華泰",
@@ -326,7 +328,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "宜鼎國際或十銓科技(原文「怡鼎」，轉錄辨識不確定)",
+     "stock_name": "宜鼎國際或十銓科技",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -338,10 +340,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "他交出82億的營收年增將近快要700%…可能第二季怡頂可以賺到96元",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "原文「怡鼎」，轉錄辨識不確定"
     },
     {
-     "stock_name": "台光電(Elite Material)",
+     "stock_name": "台光電",
      "ticker": "2383",
      "market": "TW",
      "stance": "看多",
@@ -354,10 +357,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "還好月線是有守穩的，所以今天大家盤後可能要觀察台光電的籌碼",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "Elite Material"
     },
     {
-     "stock_name": "南電(Nan Ya PCB)",
+     "stock_name": "南電",
      "ticker": "8046",
      "market": "TW",
      "stance": "觀望",
@@ -370,10 +374,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "南電本益比又比較偏高一些…股價這邊應該是有一些漲多修正的賣壓",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "Nan Ya PCB"
     },
     {
-     "stock_name": "00984A(主動式高股息ETF)",
+     "stock_name": "00984A",
      "ticker": "00984A",
      "market": "ETF",
      "stance": "看多",
@@ -387,7 +392,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "984A從去年掛牌到現在經過一年的時間考驗交出75.67%的報酬率…年化配息率10%雙雙創下它的掛牌的新高",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "主動式高股息ETF"
     }
    ]
   }

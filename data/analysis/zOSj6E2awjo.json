@@ -50,7 +50,7 @@
      "tw_market": null
     },
     {
-     "stock_name": "記憶體相關ETF(未具體點名)",
+     "stock_name": "記憶體相關ETF",
      "ticker": null,
      "market": "ETF",
      "stance": "看多",
@@ -61,7 +61,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "買美光或我們之前跟大家講的記憶體的ETF,我覺得相對來講比較值得長抱",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "未具體點名"
     },
     {
      "stock_name": "國巨",
@@ -275,7 +276,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "貿易(中美晶集團旗下個股，聽打疑有誤)",
+     "stock_name": "貿易",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -287,7 +288,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "兩個禮拜前跟大家介紹的,是中美晶集團裡面的,兩個禮拜漲快要38%",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "中美晶集團旗下個股，聽打疑有誤"
     },
     {
      "stock_name": "力智電子",
@@ -323,7 +325,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "國泰美國20年美債(TWD/一般型)",
+     "stock_name": "國泰美國20年美債",
      "ticker": "00687B",
      "market": "ETF",
      "stance": "看多",
@@ -336,10 +338,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "你不需要賣掉,反而在聯準會預期升息過程裡你有可能領到更多利息,按照短中長節奏去買就OK",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "TWD/一般型"
     },
     {
-     "stock_name": "國泰美國20年美債(美元加掛/不配息)",
+     "stock_name": "國泰美國20年美債",
      "ticker": "00687C",
      "market": "ETF",
      "stance": "看多",
@@ -352,7 +355,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "00687C是加掛型,以美元去做交割,不需要去做換匯,它不配息,讓你持續去累積",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "美元加掛/不配息"
     }
    ]
   }

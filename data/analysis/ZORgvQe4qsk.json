@@ -194,7 +194,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "功率半導體概念股(郭台銘、陳泰銘共同持股，語音辨識名稱不確定)",
+     "stock_name": "功率半導體概念股",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -207,10 +207,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "因為這是首富的公司,兩大首富國巨、鴻海,大股東就是國巨跟鴻海嘛，如果有回撤5月27號的高點,應該站在買方順勢操作。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "郭台銘、陳泰銘共同持股，語音辨識名稱不確定"
     },
     {
-     "stock_name": "聯電集團投資控股股(暫譯「系統」，語音辨識名稱不確定)",
+     "stock_name": "聯電集團投資控股股",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -223,7 +224,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "系統持有聯電的張數是26萬張，董事長洪嘉聰，今年首季EPS轉正，前五月營收年增107%，這檔股票是轉機，聯電再上去的話這檔股票大家要留意。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "暫譯「系統」，語音辨識名稱不確定"
     }
    ]
   },

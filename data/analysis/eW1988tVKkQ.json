@@ -169,7 +169,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "藥華/藥環(語音辨識不確定,疑為低軌衛星概念低價股)",
+     "stock_name": "藥華/藥環",
      "ticker": null,
      "market": "TW",
      "stance": "中性",
@@ -181,10 +181,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "藥環也回檔了一陣子,這次回來說真的形態上他是比華通難看很多。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不確定,疑為低軌衛星概念低價股"
     },
     {
-     "stock_name": "健策(深脈)",
+     "stock_name": "健策",
      "ticker": "3653",
      "market": "TW",
      "stance": "看多",
@@ -197,7 +198,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "目前訂單能見度到2027年第一季,他主要的客戶就是SpaceX、蘋果、台達電。",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "深脈"
     },
     {
      "stock_name": "群創",
@@ -260,7 +262,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "漢磊(語音辨識為「貿細」)",
+     "stock_name": "漢磊",
      "ticker": "3707",
      "market": "TW",
      "stance": "看多",
@@ -273,10 +275,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "這檔股票其實漲上來之後,然後壓回我覺得大家也可以留意。",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "name_note": "語音辨識為「貿細」"
     },
     {
-     "stock_name": "主動式ETF(00981A/00403A)",
+     "stock_name": "主動式ETF",
      "ticker": null,
      "market": "ETF",
      "stance": "觀望",
@@ -288,7 +291,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "如果你要參考981A或00403A的話,有時候你可能要注意一下,因為有時候你看到要買,結果隔天就殺了。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "00981A/00403A"
     }
    ]
   },
@@ -296,7 +300,7 @@
    "name": "權證小哥",
    "picks": [
     {
-     "stock_name": "CPO相關個股(語音辨識為「聯軍」,身份不確定)",
+     "stock_name": "CPO相關個股",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -308,7 +312,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "聯軍在這裡盤整,不過呢這就是他的籌碼,其實蠻漂亮的,主力是往上的。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識為「聯軍」,身份不確定"
     },
     {
      "stock_name": "全新光電科技",
@@ -327,7 +332,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "前頂(語音辨識不確定)",
+     "stock_name": "前頂",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -339,7 +344,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "前頂籌碼是非常好,它這個回檔主力都沒賣的。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不確定"
     },
     {
      "stock_name": "華星光通",
@@ -358,7 +364,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "健策(建策)",
+     "stock_name": "健策",
      "ticker": "3653",
      "market": "TW",
      "stance": "觀望",
@@ -370,10 +376,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "這個他一次20分鐘一盤,他假如一直往下走你就不要接。",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "建策"
     },
     {
-     "stock_name": "一詮/一拳(語音辨識不確定)",
+     "stock_name": "一詮/一拳",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -385,7 +392,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "一拳這個型態呢就蠻漂亮的,它反而是創高後的回檔。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不確定"
     },
     {
      "stock_name": "台勝科",
@@ -416,8 +424,8 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "新盛力(語音辨識為「新勝利」,身份不確定)",
-     "ticker": null,
+     "stock_name": "新盛力",
+     "ticker": "4931",
      "market": "TW",
      "stance": "看多",
      "action": "回檔可接",
@@ -428,7 +436,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "新勝立(新盛力)的籌碼其實蠻漂亮的,主力買、外資買,然後全鎮大戶在,這種不錯啊,拉回早買一點。",
-     "tw_market": null
+     "tw_market": "TPEX",
+     "name_note": "語音辨識為「新勝利」,身份不確定"
     },
     {
      "stock_name": "大立光",
@@ -446,7 +455,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "核心控(語音辨識不確定)",
+     "stock_name": "核心控",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -457,10 +466,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "他最近籌碼比較漂亮,然後他主力有在買嗎?然後關鍵也有在買。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不確定"
     },
     {
-     "stock_name": "和珍堂(語音辨識不確定)",
+     "stock_name": "和珍堂",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -472,10 +482,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "你看這個只要回漲到月線,回漲到上升月線都是好的買點,那最近主力又買很多。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不確定"
     },
     {
-     "stock_name": "經緯(語音辨識不確定,型態疑似M頭)",
+     "stock_name": "經緯",
      "ticker": null,
      "market": "TW",
      "stance": "看空",
@@ -487,10 +498,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "出關的第一天開高賣點,就是這個開高的賣點是很好賣點。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識不確定,型態疑似M頭"
     },
     {
-     "stock_name": "鋼鐵股(如龍鋼等,個別標的不確定)",
+     "stock_name": "鋼鐵股",
      "ticker": null,
      "market": "TW",
      "stance": "中性",
@@ -502,7 +514,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "鋼鐵最近有一些是有在動的,像前陣龍鋼有一天就大漲。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "如龍鋼等,個別標的不確定"
     }
    ]
   }

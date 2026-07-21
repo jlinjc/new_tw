@@ -106,7 +106,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "折米(股票代號6742，正式名稱因語音辨識不清無法確認)",
+     "stock_name": "折米",
      "ticker": "6742",
      "market": "TW",
      "stance": "看多",
@@ -118,7 +118,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "6742這檔，特別是今天一根長紅K又重新站上了所有的均線，所以在這個位置上動能轉強，我覺得這種股票也是可以先續抱。",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "股票代號6742，正式名稱因語音辨識不清無法確認"
     },
     {
      "stock_name": "台達電",
@@ -265,7 +266,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "致遠(語音辨識名稱不確定)",
+     "stock_name": "致遠",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -277,11 +278,12 @@
      "target_price": null,
      "confidence": "high",
      "quote": "致遠也算是少數在台股裡面跟半導體相關卻漲不多的，它位階其實很低，還在年線附近。",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識名稱不確定"
     },
     {
-     "stock_name": "九齊(新唐轉投資MCU公司，語音辨識名稱不確定)",
-     "ticker": null,
+     "stock_name": "九齊",
+     "ticker": "6494",
      "market": "TW",
      "stance": "看多",
      "action": "拉回測試後為買點",
@@ -293,7 +295,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "以它5月營收年增率79.43%……而且他是一個量增價漲的結構，看到外資連續四天買超。",
-     "tw_market": null
+     "tw_market": "TPEX",
+     "name_note": "新唐轉投資MCU公司，語音辨識名稱不確定"
     },
     {
      "stock_name": "聯發科",

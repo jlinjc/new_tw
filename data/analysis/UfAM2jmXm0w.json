@@ -1,0 +1,426 @@
+{
+ "episode_summary": "本週台股從高點48218回落近4000點，主因台美韓同步收縮融資、去槓桿，台積電更被禁止融資買進；三位老師一致認為這是健康的資金泡泡消化而非反轉，建議下週結算後逢低布局。焦點題材包括台塑集團電子概念股、台積電供應鏈（成熟製程、先進封裝、設備）、ABF載板／PCB籌碼轉佳，以及被動元件、矽晶圓等處置股解禁後的「浪子回頭」買點。",
+ "market_view": "大盤本週跌近4000點（現貨）、期貨跌近5000點，主要反映台美韓同步收縮資金、去槓桿，並非基本面轉空；短線支撐看43650（5%拉回及上升趨勢線）與45000整數關卡，前波低點44447、44454未被跌破顯示週線仍是上揚，投信近兩日大舉買超，老師們建議下週半年線結算後逢低分批布局，但仍須慎選有集團或籌碼支撐的個股。",
+ "teachers": [
+  {
+   "name": "鍾國忠",
+   "picks": [
+    {
+     "stock_name": "南亞電路板",
+     "ticker": "8046",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局",
+     "reasons": [
+      "剛納入台灣50成分股，股價創新高後拉回續強",
+      "營收年增近35%，第一季EPS 2.03元，全年上看挑戰EPS 13元",
+      "股息2元已填息，若藍電（南電）走強可帶動大盤多頭氣息"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "因為他剛被納入台灣50成分股股價創新高後來壓下來後來創新高…如果藍電沒辦法走強的話整個台股的多頭氣息就會完全被打下來",
+     "tw_market": "TWSE",
+     "name_note": "南電"
+    },
+    {
+     "stock_name": "台塑勝高",
+     "ticker": "3532",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局，穩健型投資人可留意",
+     "reasons": [
+      "南亞科為其重要股東同時也是最大客戶，貢獻近50%訂單",
+      "營收成長16.1%，EPS 0.96優於去年同期",
+      "預估今年EPS上看5元，明年股利有機會配到3.7元，股價位於長期打底區"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "重點是藍雅科是他的重要股東也是最大的客戶，貢獻他將近50%的訂單…我認為他今年有機會挑戰…5塊錢的實力非常高",
+     "tw_market": "TWSE",
+     "name_note": "台勝科"
+    }
+   ]
+  },
+  {
+   "name": "黃豐凱",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局（融資受限者可透過ETF加碼）",
+     "reasons": [
+      "毛利率已從53%升至66%，第二季估上看接近70%",
+      "淨利率由42%大幅提升至58%，成長16個百分點",
+      "法說會可望對資本支出釋出更明朗、正面的宣示",
+      "融資雖被禁但基本面無虞，護國神山地位不變"
+     ],
+     "target_price": "支撐約2330/2270，壓力約2375，今日收2340",
+     "confidence": "high",
+     "quote": "我覺得基本上跟著台積電這一掛就對了…去買ETF買ETF是很好的機會",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台積電相關ETF",
+     "ticker": null,
+     "market": "ETF",
+     "stance": "看多",
+     "action": "融資受限下以ETF布局台積電",
+     "reasons": [
+      "台積電融資已被禁止，一張200萬散戶難負擔",
+      "可透過持有高比重台積電之ETF間接參與"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "買不下去怎麼辦？可以買ETF啦，買ETF有很多的台積電啊",
+     "tw_market": null
+    },
+    {
+     "stock_name": "景碩",
+     "ticker": "3189",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱，仍有上漲空間",
+     "reasons": [
+      "今日創歷史新高，3月以來已上漲158%",
+      "持續向客戶喊漲價，ABF載板供需缺口擴大",
+      "族群（載板）行情尚未結束"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "我們之前有推過景碩，景碩今天也是創歷史新高…我說其實它還是有空間在漲",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南亞電路板",
+     "ticker": "8046",
+     "market": "TW",
+     "stance": "看多",
+     "action": "持續看好，跟進漲價",
+     "reasons": [
+      "與景碩同步向客戶喊漲價",
+      "Apple已包下其產能以確保載板供應"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "包括景碩、南電都在跟客戶講說我要漲價…南電我之前講過南電就是被Apple包產能",
+     "tw_market": "TWSE",
+     "name_note": "南電"
+    },
+    {
+     "stock_name": "台達電",
+     "ticker": "2308",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回至季線／月線分批布局，勿急於追價",
+     "reasons": [
+      "第三季處於Rubin轉Artre世代交替的青黃不接期，訂單青黃不接屬預期中利空",
+      "已跌破季線，型態上接近買點區",
+      "回檔量大但未收最低，留下下影線，顯示賣壓有限",
+      "產業面（AI伺服器）長線无虞"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "其實這個買點就出現在這裡…破季線了…但是你不能這時候就跳進去買了應該是要再等一下",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "世界先進",
+     "ticker": "5347",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱偏多操作",
+     "reasons": [
+      "承接台積電成熟／先進製程外溢訂單",
+      "與NXP合作於新加坡投資12吋晶圓廠",
+      "走勢相對緩、尚未大幅表態，籌碼未放量"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "世界先進其實也有默默的在做先進製程…所以世界先進可能還會再往上",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "聯電",
+     "ticker": "2303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱偏多操作",
+     "reasons": [
+      "攜手Intel推進先進封裝且有進展",
+      "成功打入高通供應鏈"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "聯電…也跟Intel攜手先進封裝而且也有不錯的進展，他現在打入高通了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "日月光投控",
+     "ticker": "3711",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "台積電釋出封裝訂單給日月光",
+      "外資持續積極買超，即使投信未跟進"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "它有丟出來封裝訂單…這是日月光…外資怎樣？外資拼命買啊",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "精材",
+     "ticker": "3374",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意，關注是否突破前波大量高點",
+     "reasons": [
+      "承接台積電CIS封裝訂單",
+      "外資積極買超，投信尚未跟進，籌碼仍有想像空間"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "這是台積電的CIS的封裝…它已經這個大量高快要突破了所以還可以注意",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "漢唐",
+     "ticker": "2404",
+     "market": "TW",
+     "stance": "看多",
+     "action": "提前卡位，但留意股性投機、波動大",
+     "reasons": [
+      "台積電法說會前設備族群可提前卡位",
+      "投信由賣轉買，剛開始進場僅兩天",
+      "股價曾跌停又漲停，波動大需注意風險"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "之前的漢唐投信是大賣的，現在才開始買…我覺得這個股票怎麼會變得這麼投機",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "雷科",
+     "ticker": "6207",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "由COWAS跨入COPOS設備領域，代理翹曲量測技術",
+      "已成為台積電指定供應商",
+      "股價已隨題材走揚，出現大量後續漲"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "雷科本身在COWAS裡面他就有代理…翹曲量測的，所以他已經從COWAS進入COPOS，而且成為台積電指定的廠商",
+     "tw_market": "TPEX"
+    }
+   ]
+  },
+  {
+   "name": "權證小哥",
+   "picks": [
+    {
+     "stock_name": "台光電",
+     "ticker": "2383",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回至平行通道下緣或月線分批買進",
+     "reasons": [
+      "PCB族群籌碼指標股，主力回檔期間並未大賣",
+      "目前仍處置（背關）中，尚未跌破月線",
+      "出關後可望重新領漲整體PCB族群"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "這種回檔主力沒有大賣，拉回都是讓你找買點的…如果是到下通道還不是說到月線，月線是第一個買點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南亞電路板",
+     "ticker": "8046",
+     "market": "TW",
+     "stance": "看多",
+     "action": "等回檔再介入（若未於開布林時進場）",
+     "reasons": [
+      "先前籌碼轉差因大股東南亞／南亞科申報轉讓賣壓",
+      "賣壓消化後籌碼轉佳，開布林後外資、投信連三日買超"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "外資連三買投信也連三買，所以他的籌碼變得很漂亮",
+     "tw_market": "TWSE",
+     "name_note": "南電"
+    },
+    {
+     "stock_name": "聯茂",
+     "ticker": "6213",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意，惟近日力道略歇",
+     "reasons": [
+      "公布五月營收非常亮眼",
+      "籌碼由弱轉強，持續買超",
+      "今日轉弱、收黑K，短線動能稍緩"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "聯茂是因為他有公布五月字節（營收）非常漂亮…今天看起來就有點沒力了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "騰輝電子-KY",
+     "ticker": "6672",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意資金轉入",
+     "reasons": [
+      "籌碼原本不佳，本週資金明顯湧入",
+      "同族群PCB股整理已久，資金轉向承接"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "6672的騰輝電子也是騰波機板…之前籌碼沒有很好，最近這禮拜呢資金紛紛湧進來",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意有機會挑戰前高",
+     "reasons": [
+      "主力籌碼仍佳，即使股價近期下跌",
+      "知名法人（姚姐）加碼，帶動市場跟進買盤"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "姚姐呢他有加碼國聚哦…我覺得國聚最近呢雖然下跌但是呢他整個主力籌碼是還不錯",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華新科",
+     "ticker": "2492",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回檔至月線附近找買點",
+     "reasons": [
+      "屬被動元件浪子回頭族群，主力照線未破",
+      "出關後短線曾急漲又再度被處置，屬短線過熱後正常回檔"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "這種回檔一樣這條線沒有掉下來的話，回檔到月線附近都是好的買點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "大毅",
+     "ticker": "2478",
+     "market": "TW",
+     "stance": "看多",
+     "action": "浪子回頭型態，可留意買點",
+     "reasons": [
+      "處置（背關）後主力照線未破",
+      "符合浪子回頭型態，買點浮現"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "大一背關之後呢漲一下之後又再跌回來，再跌一根下來的話就會是浪子回頭，他的買點也不錯",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "日電貿",
+     "ticker": "3090",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續留意",
+     "reasons": [
+      "投信持續買超，籌碼支撐股價偏強",
+      "阻力線未見大跌，屬浪子回頭候選"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "投信很愛他，投信在360還在買…所以他才這麼強",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台塑勝高",
+     "ticker": "3532",
+     "market": "TW",
+     "stance": "看多",
+     "action": "浪子回頭，留意買點",
+     "reasons": [
+      "處置期間主力籌碼未大賣",
+      "主主力線指標為紅，屬浪子回頭候選"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "台勝科0-2也不錯…這些後面是有機會的",
+     "tw_market": "TWSE",
+     "name_note": "台勝科"
+    },
+    {
+     "stock_name": "環球晶圓",
+     "ticker": "6488",
+     "market": "TW",
+     "stance": "看多",
+     "action": "平行通道下緣為分批買點",
+     "reasons": [
+      "處置後股價已回落，主力照線未破",
+      "股價打到平行通道下緣，屬浪子回頭買點區"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "環球金呢我們在上禮拜就說了這禮拜呢他是有機會浪子回頭了…主力照線也是沒有掉下去",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "禾伸堂",
+     "ticker": "3026",
+     "market": "TW",
+     "stance": "看多",
+     "action": "分批買進，勿一次重壓",
+     "reasons": [
+      "股價已回到月線",
+      "主力照線雖略下彎但仍可接受，建議分批布局",
+      "須等出關後才有機會挑戰歷史前高（900元）"
+     ],
+     "target_price": "前高約900元（需等出關挑戰）",
+     "confidence": "medium",
+     "quote": "和尚堂今天是回到一個月線，那主力造線雖然有稍微有點下彎但也還可以啦，所以像這種有點下彎的你要買你可能就要分批買",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "LINEKY",
+     "ticker": null,
+     "market": "TW",
+     "stance": "觀望",
+     "action": "不建議追價",
+     "reasons": [
+      "非因基本面轉強，而是被高股息ETF單日大量納入買盤推升",
+      "與被動元件／矽晶圓族群基本面無關，性質不同被混入名單"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "LINEKY我就沒那麼喜歡，因為LINEKY他主要是因為他被高股息ETF納入，他跟這個族群沒有關係",
+     "tw_market": null,
+     "name_note": "辨識不確定"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "UfAM2jmXm0w",
+  "title": "【理財達人秀】跌掉4千點反彈會來？主力籌碼勇敢撿？台積電融資被禁 成熟製程.封測跟賺？PCB.被動.矽晶圓決戰籌碼！｜李兆華、鍾國忠、黃豐凱、權證小哥2026.06.26【電視完整版】",
+  "date": "2026-06-26",
+  "duration": 2923,
+  "url": "https://www.youtube.com/watch?v=UfAM2jmXm0w"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}
