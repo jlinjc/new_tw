@@ -38,7 +38,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "台慶科(語音辨識為台信科,名稱不確定)",
+     "stock_name": "台慶科",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -51,10 +51,11 @@
      "target_price": "老師估算距前波高點仍有約40%上漲空間",
      "confidence": "low",
      "quote": "半三腰的還要有40%哦...台信科是這邊主力轉買大戶增持",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識為台信科,名稱不確定"
     },
     {
-     "stock_name": "小型被動元件股(可轉債轉換價197,名稱不確定)",
+     "stock_name": "小型被動元件股",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -69,7 +70,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "CEB轉換價197今天剛過轉換價,今天所漲停了...400張大戶有70%以上,又只有8個人",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "可轉債轉換價197,名稱不確定"
     },
     {
      "stock_name": "啟碁",
@@ -88,7 +90,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "台揚(軍工+低軌衛星,名稱不確定)",
+     "stock_name": "台揚",
      "ticker": "2314",
      "market": "TW",
      "stance": "看多",
@@ -100,10 +102,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "4月23號Eason有找到他盤整很久了,他本來大家把他當軍工,後來發現是軍工加低軌衛星",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "軍工+低軌衛星,名稱不確定"
     },
     {
-     "stock_name": "昇達科(語音辨識為森達科,名稱不確定)",
+     "stock_name": "昇達科",
      "ticker": "3491",
      "market": "TW",
      "stance": "中性",
@@ -115,7 +118,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "而且森達科也是被關的,現在族群大哥真的要被關,背觀才是認證",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "name_note": "語音辨識為森達科,名稱不確定"
     }
    ]
   },
@@ -138,8 +142,8 @@
      "tw_market": null
     },
     {
-     "stock_name": "光聖(語音辨識為光盛,名稱不確定,CPO舊主流股)",
-     "ticker": null,
+     "stock_name": "光聖",
+     "ticker": "6442",
      "market": "TW",
      "stance": "看空",
      "action": "已跌破季線,若無新訂單或新題材應考慮換股",
@@ -151,10 +155,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "光盛你看這個線型,這個就破季線,怎麼辦?要換股嗎",
-     "tw_market": null
+     "tw_market": "TWSE",
+     "name_note": "語音辨識為光盛,名稱不確定,CPO舊主流股"
     },
     {
-     "stock_name": "達運精密(友達集團光感測股,名稱不確定)",
+     "stock_name": "達運精密",
      "ticker": "6120",
      "market": "TW",
      "stance": "看多",
@@ -168,10 +173,11 @@
      "target_price": "上看前高935元",
      "confidence": "low",
      "quote": "他有零化音就是那個AXT...去開發高速微型光偵測器PD產品,就是說針對AI的資料中心",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "友達集團光感測股,名稱不確定"
     },
     {
-     "stock_name": "上詮光纖(名稱不確定)",
+     "stock_name": "上詮光纖",
      "ticker": "3363",
      "market": "TW",
      "stance": "看多",
@@ -184,7 +190,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "它有開發光纖陣列對準偶合模組...另外就是他也有佈局2.5D、3D的先進封裝架構",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "name_note": "名稱不確定"
     },
     {
      "stock_name": "美光",
@@ -299,7 +306,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "創意(Global Unichip)",
+     "stock_name": "創意",
      "ticker": "3443",
      "market": "TW",
      "stance": "觀望",
@@ -312,7 +319,8 @@
      "target_price": "券商目標價8000元(對照現況已重挫逾半根跌停)",
      "confidence": "high",
      "quote": "剛有券商上調目標價到8000耶...這裡你發現說這個是一個M頭的跡象,這種確立",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "Global Unichip"
     },
     {
      "stock_name": "華新科",
@@ -363,7 +371,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "歷程(名稱不確定,疑為被動元件相關股)",
+     "stock_name": "歷程",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -375,7 +383,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "這次來講如果走一天我們應該要走掉了,因為這次已經有達到所謂的停利的一個點位",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "名稱不確定,疑為被動元件相關股"
     },
     {
      "stock_name": "亞翔工程",
@@ -424,7 +433,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "先進封裝膠材廠(語音辨識為新寶紅,名稱不確定)",
+     "stock_name": "先進封裝膠材廠",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -436,7 +445,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "它還有一個之前講到的新寶紅,這是一個會很賺錢的公司,在現在的先進封裝裡面,它的高階的一個膠材",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "語音辨識為新寶紅,名稱不確定"
     }
    ]
   }

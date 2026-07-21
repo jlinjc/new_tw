@@ -6,7 +6,7 @@
 import json
 import re
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from config import ANALYSIS_DIR, DASHBOARD_HTML, PERFORMANCE_JSON
 
@@ -351,6 +351,48 @@ def compute_consensus(episodes):
     return rows
 
 
+def compute_weekly_focus(episodes, good_teachers, window_days=7):
+    """本週焦點：最近 window_days 天內，多位老師（或前段班老師）同方向表態的標的。
+
+    這是最極簡的決策入口——打開就知道「這幾天該關注什麼」。
+    """
+    if not episodes:
+        return None
+    good = set(good_teachers)
+    latest_d = datetime.fromisoformat(episodes[0]["date"]).date()
+    start_d = latest_d - timedelta(days=window_days - 1)
+    groups, dates_in = {}, set()
+    for ep in episodes:
+        d = datetime.fromisoformat(ep["date"]).date()
+        if not (start_d <= d <= latest_d):
+            continue
+        dates_in.add(ep["date"])
+        for t in ep["teachers"]:
+            for p in t["picks"]:
+                if p["stance"] not in ("看多", "看空"):
+                    continue
+                key = (p.get("ticker") or p["stock_name"], p["stance"])
+                g = groups.setdefault(key, {
+                    "stock_name": p["stock_name"], "ticker": p.get("ticker"),
+                    "stance": p["stance"], "teachers": set()})
+                g["teachers"].add(t["name"])
+    items = []
+    for g in groups.values():
+        ts = sorted(g["teachers"])
+        tops = [n for n in ts if n in good]
+        # 焦點卡只留「真共識」（≥2 位老師同看）；單一老師推的太多，會變雜訊
+        if len(ts) >= 2:
+            items.append({
+                "stock_name": g["stock_name"], "ticker": g["ticker"],
+                "stance": g["stance"], "n_teachers": len(ts),
+                "teachers": ts, "top_teachers": tops})
+    keyfn = lambda i: (i["n_teachers"], len(i["top_teachers"]))
+    longs = sorted([i for i in items if i["stance"] == "看多"], key=keyfn, reverse=True)
+    shorts = sorted([i for i in items if i["stance"] == "看空"], key=keyfn, reverse=True)
+    return {"start": start_d.isoformat(), "end": latest_d.isoformat(),
+            "n_episodes": len(dates_in), "longs": longs, "shorts": shorts}
+
+
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
@@ -506,6 +548,20 @@ a { color: var(--accent); }
   color: var(--ink2); cursor: pointer; }
 .chipbtn.on { background: var(--accent); border-color: var(--accent);
   color: #fff; font-weight: 600; }
+.focus { border: 1px solid var(--border); border-left: 4px solid var(--accent);
+  background: var(--surface); border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; }
+.focus h2 { font-size: 17px; margin: 0 0 2px; }
+.focus .win { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+.focus .grp { font-size: 13px; font-weight: 600; color: var(--ink2); margin: 10px 0 6px; }
+.fgrid { display: flex; flex-wrap: wrap; gap: 8px; }
+.fchip { border: 1px solid var(--border); border-radius: 10px; padding: 8px 12px;
+  background: var(--page); min-width: 128px; }
+.fchip.bull { border-left: 3px solid var(--up); }
+.fchip.bear { border-left: 3px solid var(--down); }
+.fchip .s { font-weight: 650; font-size: 15px; }
+.fchip .tk { color: var(--muted); font-weight: 400; font-size: 13px; }
+.fchip .m { font-size: 12px; color: var(--ink2); margin-top: 3px; }
+.fchip .star { color: var(--accent); font-weight: 650; }
 </style>
 </head>
 <body>
@@ -585,11 +641,38 @@ function teacherM1(name) {
   return r ? r.h.m1 : null;
 }
 
+function mdDate(iso) { const p = (iso||"").split("-"); return p.length===3 ? `${+p[1]}/${+p[2]}` : iso; }
+
+function focusCard() {
+  const f = DATA.weeklyFocus;
+  if (!f || (!f.longs.length && !f.shorts.length))
+    return `<div class="focus"><h2>📌 本週焦點</h2><div class="note" style="margin:0">最近一週沒有多位老師共識、也沒有前段班老師點名的標的。</div></div>`;
+  const chip = (i) => {
+    const parts = [];
+    if (i.n_teachers >= 2) parts.push(`<b>${i.n_teachers} 位老師</b>`);
+    else parts.push(esc(i.teachers[0]));
+    if (i.top_teachers.length) parts.push(`<span class="star">★${i.top_teachers.length} 前段班</span>`);
+    return `<div class="fchip ${i.stance==='看多'?'bull':'bear'}">
+      <div class="s">${esc(i.stock_name)} ${i.ticker?`<span class="tk">${esc(i.ticker)}</span>`:""}</div>
+      <div class="m">${parts.join(" ・ ")}</div></div>`;
+  };
+  let html = `<div class="focus"><h2>📌 本週焦點</h2>
+    <div class="win">${mdDate(f.start)}–${mdDate(f.end)} 共 ${f.n_episodes} 集 ｜ 多位老師同看或前段班老師（★）點名的標的</div>`;
+  if (f.longs.length)
+    html += `<div class="grp" style="color:var(--up)">看多／可留意買點</div><div class="fgrid">${f.longs.map(chip).join("")}</div>`;
+  if (f.shorts.length)
+    html += `<div class="grp" style="color:var(--down)">看空／建議避開</div><div class="fgrid">${f.shorts.map(chip).join("")}</div>`;
+  html += `<div class="note" style="margin:10px 0 0">★＝歷史平均超額為正的前段班老師。想看共識標的歷史命中率，點上方「共識標的」。</div></div>`;
+  return html;
+}
+
 function overviewView() {
   const bt = DATA.backtest;
   const all = bt.cohorts.all.h.m1;
+  // 最極簡的決策入口放最前面
+  let html = focusCard();
   // 結論句：整體是否贏過大盤
-  let html = `<div class="card">
+  html += `<div class="card">
     <div class="chart-title" style="margin-bottom:6px">這節目的推薦，到底能不能贏大盤？</div>
     <div class="note" style="margin:0 0 10px">以「播出後隔日進場、滿一個月」且有明確多空方向的 ${all.n} 筆推薦計算。勝率＝贏過加權指數的比例（50% 代表跟指數一樣、沒有加值）。</div>
     <div class="tiles" style="margin:0">
@@ -1049,9 +1132,11 @@ def main():
         "stockStats": compute_stock_stats(episodes),
         "teacherCurves": compute_teacher_curves(episodes),
         "quality": compute_quality(episodes),
-        "backtest": compute_backtest(episodes, teacher_stats),
         "consensus": compute_consensus(episodes),
     }
+    data["backtest"] = compute_backtest(episodes, teacher_stats)
+    data["weeklyFocus"] = compute_weekly_focus(
+        episodes, data["backtest"]["good_teachers"])
     html = (HTML_TEMPLATE
             .replace("__GENERATED__", datetime.now().strftime("%Y-%m-%d %H:%M"))
             .replace("__DATA__", json.dumps(data, ensure_ascii=False)))

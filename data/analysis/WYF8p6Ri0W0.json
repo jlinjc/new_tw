@@ -23,7 +23,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "半導體設備股（亞翔等）",
+     "stock_name": "半導體設備股",
      "ticker": null,
      "market": "TW",
      "stance": "看多",
@@ -35,7 +35,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "長線而言我覺得這兩個族群都是可以關注的焦點",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "亞翔等"
     },
     {
      "stock_name": "亞翔",
@@ -52,8 +53,8 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "志聖（語音為「自勝」，代號校正信心較低）",
-     "ticker": null,
+     "stock_name": "志聖",
+     "ticker": "2467",
      "market": "TW",
      "stance": "看多",
      "action": "續抱",
@@ -63,7 +64,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "設備的部分看到自勝也是持續，相對而言都在持續創高",
-     "tw_market": null
+     "tw_market": "TWSE",
+     "name_note": "語音為「自勝」，代號校正信心較低"
     },
     {
      "stock_name": "聯亞",
@@ -81,7 +83,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "光聖（語音為「光盛」）",
+     "stock_name": "光聖",
      "ticker": "6442",
      "market": "TW",
      "stance": "看多",
@@ -93,7 +95,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "光盛之前連季線都跌破了，現在也通通收復了，昨天開股東會也是講的業績翻倍很好",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "語音為「光盛」"
     },
     {
      "stock_name": "南亞科",
@@ -126,7 +129,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "美國純記憶體ETF（今年4月掛牌，未指名）",
+     "stock_name": "美國純記憶體ETF",
      "ticker": null,
      "market": "US",
      "stance": "看多",
@@ -138,7 +141,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "很純Memory的ETF……這三檔的股票加起來超過七成，這個才叫做記憶體",
-     "tw_market": null
+     "tw_market": null,
+     "name_note": "今年4月掛牌，未指名"
     }
    ]
   },
@@ -245,7 +249,7 @@
    "name": "陳唯泰",
    "picks": [
     {
-     "stock_name": "力成（歷程）",
+     "stock_name": "力成",
      "ticker": "6239",
      "market": "TW",
      "stance": "看多",
@@ -257,7 +261,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "歷程連續四根的漲停板",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "歷程"
     },
     {
      "stock_name": "金寶",
@@ -293,8 +298,8 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "京鼎（語音為「監點」，代號不確定）",
-     "ticker": null,
+     "stock_name": "京鼎",
+     "ticker": "3413",
      "market": "TW",
      "stance": "中性",
      "action": "拉回時再佈局",
@@ -305,10 +310,11 @@
      "target_price": null,
      "confidence": "low",
      "quote": "如果就目前的7塊錢的EPS來看，我個人覺得本益比有點偏高，操作上會比較傾向趁拉回的時候再來佈局",
-     "tw_market": null
+     "tw_market": "TWSE",
+     "name_note": "語音為「監點」，代號不確定"
     },
     {
-     "stock_name": "緯穎（語音為「微影」）",
+     "stock_name": "緯穎",
      "ticker": "6669",
      "market": "TW",
      "stance": "中性",
@@ -321,7 +327,8 @@
      "target_price": "除權參考價約為原股價三分之一，市場預期反彈至約4000～5000元",
      "confidence": "high",
      "quote": "如果因為這消息跌6%，其實沒有很嚴重，不是什麼跌停嚇死大家……應該他就會先去做一個持穩的動作",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "語音為「微影」"
     },
     {
      "stock_name": "台塑",
@@ -356,7 +363,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "頎邦（語音為「奇邦」）",
+     "stock_name": "頎邦",
      "ticker": "6147",
      "market": "TW",
      "stance": "看多",
@@ -367,7 +374,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "奇邦也是屬歷史高檔，從幾十塊漲上來",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "name_note": "語音為「奇邦」"
     },
     {
      "stock_name": "日月光",
@@ -384,7 +392,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "京元電（語音為「晶圓店」）",
+     "stock_name": "京元電",
      "ticker": "2449",
      "market": "TW",
      "stance": "中性",
@@ -395,7 +403,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "投信持有晶圓店它的一個持股比重太高，是超過15%，所以其實能夠加碼的空間比較少",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "name_note": "語音為「晶圓店」"
     },
     {
      "stock_name": "南茂",
