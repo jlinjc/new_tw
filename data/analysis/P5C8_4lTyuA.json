@@ -1,0 +1,431 @@
+{
+ "episode_summary": "台股今日開低走低收最低，重挫781點失守46,000點，主因美股ADP就業數據強勁反而升高聯準會不降息疑慮，加上博通財報雖優但AI晶片展望保守，導致CPO、光通訊與飆漲多時的AI權值股全面重挫甚至跌停。三位老師分別看好電力／重電與被動元件族群逢低布局（容逸燊）、CPO落後指標股聯鈞與AI PC、證券股評價重估（陳威良）、台積電股息含金量與高股息ETF00918逆襲行情（馮志源）。",
+ "market_view": "加權指數雖大跌781點至46,000點，但Eason認為近期爆量後目前是量縮拉回，這幾天若再下跌都是買點而非賣點，投信資金仍源源不絕；不過7、8月除息旺季前，若股票在高檔除息，大股東可能提前獲利了結，須留意此波段的風險。整體AI基本面仍向上，建議逢回布局而非追高。",
+ "teachers": [
+  {
+   "name": "容逸燊",
+   "picks": [
+    {
+     "stock_name": "士林電機",
+     "ticker": "1503",
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線急漲，建議等拉回再布局",
+     "reasons": [
+      "受惠輝達北士科總部題材，為重電族群指標",
+      "連續兩天漲停，帶動整個重電板塊",
+      "若回檔可觀察此波發動點是否跌破，判斷資金是否留在此族群"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "市電呢它在這一波重電當中它變成指標，因為輝達總部就在這邊，所以短線急漲最好等稍微拉回一下下再去做一個佈局",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "亞力",
+     "ticker": "1514",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察持續性",
+     "reasons": [
+      "與士林電機同為本波重電族群最強勢的兩檔",
+      "昨日型態已顯示相對強勢，今日延續漲停"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "重電的話今天強的是士電跟亞力，昨天有在講形態的時候這兩檔形態是相較之下是好的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "中興電",
+     "ticker": "1513",
+     "market": "TW",
+     "stance": "觀望",
+     "action": null,
+     "reasons": [
+      "前幾年政府標案爭議事件後股性變差，較不受青睞"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "中興電因為去年前年有政府標案的狀況了，所以它股性一直就變得比較差",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華城",
+     "ticker": "1519",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回不破低檔區可留意布局",
+     "reasons": [
+      "凱基投顧出具報告，目標價高於現價",
+      "未來三年EPS成長、毛利率跳升",
+      "訂單能見度高，長期底部區在今年低點附近，不易再破底"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "凱基投顧喊到哪裡其實比現在這個價位還高一些些，未來三年的EPS成長毛利率也在做一個跳升，底部區不容易被跌破",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "強茂",
+     "ticker": "2481",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢長黑拉回不破月線找買點（買黑不買紅）",
+     "reasons": [
+      "英飛凌、威世等大廠MOSFET、PMIC產品陸續調漲",
+      "投信近期開始進場",
+      "股性為長黑拉回後隔兩天止穩即為切入點，趨勢仍向上"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "長黑之後如果過一兩天它沒有再破低，其實就是一個不錯的切入點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "法說會（出關）前逢低介入，出關後觀察法人資金",
+     "reasons": [
+      "外資大摩小摩同步調升目標價至1000元",
+      "股價快到季線，為潛在買點",
+      "即將召開法說會，未來MLCC漲價、國巨具定價能力"
+     ],
+     "target_price": "1000",
+     "confidence": "high",
+     "quote": "外資出報告大摩小摩都同步調升到1000塊，如果出關之前再持續殺下來，我認為是一個不錯的介入點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "立隆電",
+     "ticker": "2472",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察關鍵價位197（CB轉換價）支撐，逢低布局",
+     "reasons": [
+      "股價回落至季線附近，相對被動元件族群仍屬低檔便宜",
+      "外資與隔日沖資金尚未出清，籌碼未完全鬆動",
+      "留意CB轉換價197元能否守穩"
+     ],
+     "target_price": "197",
+     "confidence": "medium",
+     "quote": "注意下關鍵價位197可不可以站上，CB轉換價，如果還要買真的很便宜的被動，我覺得大家可以去注意",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "日電貿",
+     "ticker": "3090",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回分批布局，跌破月線可加碼",
+     "reasons": [
+      "代理日系與三星電機被動元件產品，具備漲價庫存效益",
+      "近期守住前波低點，開始築平台",
+      "大戶、外資開始買進"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "我認為這個地方可以先去佈局1.2，如果真的再有急殺來到月線之下的話，再買1.2",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "陳威良",
+   "picks": [
+    {
+     "stock_name": "博通",
+     "ticker": null,
+     "market": "US",
+     "stance": "中性",
+     "action": "觀望，非真正利空",
+     "reasons": [
+      "財報優於預期（EPS 2.44元優於預估2.39元），並非真正踩雷",
+      "市場擔憂在於對未來AI晶片展望保守及ASIC市占疑慮"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "博通的財報其實是好的，只是對於未來AI晶片的展望卻是有一點點的保守",
+     "tw_market": null
+    },
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察是否受惠博通ASIC市占轉單",
+     "reasons": [
+      "博通ASIC若下一世代市占下滑，聯發科可能是受惠者"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "博通在ASIC的部分遇到一個大對手，聯發科，會不會就是聯發科的機會會更好",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "CPO族群（聯亞、光聖等）",
+     "ticker": null,
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察整理後回升",
+     "reasons": [
+      "技術面已從高位階拉回整理至相對低位階，投資機會大於風險",
+      "需要有領頭股才能發動下一波"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "理論上這裡其實投資的機會應該大於風險，因為技術面它已經從高位階變成整理過後區間的低位階",
+     "tw_market": null
+    },
+    {
+     "stock_name": "聯鈞",
+     "ticker": "3450",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回換手後可留意，回升可期",
+     "reasons": [
+      "4月以來型態為底底高並創歷史新高，與同族群走勢不同",
+      "股東會宣布明後年產能連續倍增，法人買進再買進",
+      "投信持續買超，外資早期進場區間仍在低檔"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "公司成立二十幾年來從來沒有過，今年的產能它要倍增，明年的產能還要再倍增，法人就是買進再買進",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "鴻海",
+     "ticker": "2317",
+     "market": "TW",
+     "stance": "看多",
+     "action": "守住6/1缺口視為強勢拉回可買點",
+     "reasons": [
+      "6/1缺口若守住屬強勢拉回可買",
+      "歷史高點375元已無實質壓力，籌碼早已洗清",
+      "可能於6月或第三季挑戰高盛目標價400元"
+     ],
+     "target_price": "400",
+     "confidence": "high",
+     "quote": "這個缺口只要守住的話，它都算強勢拉回，甚至不排除在6月份或第三季就有機會看到高盛的400元目標價",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "緯創",
+     "ticker": "3231",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察能否站回177元，拉回158-172.5為加碼區",
+     "reasons": [
+      "今日小跌破177元關鍵支撐，但僅量縮微跌破1元，給予觀察時間",
+      "第二道缺口158-172.5元為理想加碼點",
+      "無籌碼套牢壓力，本益比評價可望持續上修"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果以這個位置來講，就是它的第二道缺口，這個位置大概在158到172.5，我覺得會是一個非常好的加碼機會點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華碩",
+     "ticker": "2357",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察三日內能否站回932元",
+     "reasons": [
+      "4月單月EPS年增2.8倍，單月賺7.15元，優於首季一半以上獲利",
+      "市場喊出目標價1200元，有機會挑戰千元股"
+     ],
+     "target_price": "1200",
+     "confidence": "high",
+     "quote": "因為現在市場已經有喊到1200元，我覺得確實有機會變千元股",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "仁寶",
+     "ticker": "2324",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回逢低找買點",
+     "reasons": [
+      "今日重挫9%屬獲利回吐，本益比僅十幾倍偏低",
+      "可趁拉回挑選有興趣標的"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "今天直接又吐9%回去，大家反而視為從裡面去挑選自己這兩天有興趣的標的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "統一證",
+     "ticker": "2855",
+     "market": "TW",
+     "stance": "看多",
+     "action": "沿五日線布局續抱",
+     "reasons": [
+      "剛納入0919成分股，投信買進",
+      "前四月EPS已達3.16元，超越去年全年新高",
+      "轉投資統一投信董監改選後會計科目變更，5月EPS多認列1.35元"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "它前4月賺3.16元已經比去年全年的歷史新高還要更多了，5月份EPS直接多1.35元",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "群益證",
+     "ticker": "6005",
+     "market": "TW",
+     "stance": "看多",
+     "action": null,
+     "reasons": [
+      "為市占前十大券商中少數獨立掛牌者之一，屬純證券股"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "市占前10名當中現在有獨立掛牌的一個是統一證，一個是群益證",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "凱基金",
+     "ticker": "2883",
+     "market": "TW",
+     "stance": "中性",
+     "action": "短線急漲乖離大留意回檔，中長線仍具評價空間",
+     "reasons": [
+      "連續三天噴出乖離加大，短線有拉回壓力",
+      "法人目標價已上修至29.5元，每股淨值23元，股淨比本益比不算貴"
+     ],
+     "target_price": "29.5",
+     "confidence": "medium",
+     "quote": "法人已經把目標價上修到29.5，因為它的每股淨值就有23，雖然短線急漲，但股淨比或本益比說實在也沒有很貴",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "元大金",
+     "ticker": "2885",
+     "market": "TW",
+     "stance": "觀望",
+     "action": null,
+     "reasons": [
+      "旗下券商獲利放入金控後被稀釋，不如純證券股明顯"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "元大證賺2.12元，可是整個金控只有賺1.64元，代表這個券商放在金控底下這個獲利好像就沒有那麼明顯",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "富邦金",
+     "ticker": "2881",
+     "market": "TW",
+     "stance": "觀望",
+     "action": null,
+     "reasons": [
+      "壽險、銀行業務對獲利影響大於券商業務"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "你更不要說像富邦金或國泰金，對他們來說可能壽險或銀行會更重要",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國泰金",
+     "ticker": "2882",
+     "market": "TW",
+     "stance": "觀望",
+     "action": null,
+     "reasons": [
+      "壽險、銀行業務對獲利影響大於券商業務"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "你更不要說像富邦金或國泰金，對他們來說可能壽險或銀行會更重要",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "馮志源",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低買進續抱，除息前後留意填息",
+     "reasons": [
+      "股利連年成長，去年18元、今年至少24元，下一次配息將由6元增至7元",
+      "下週除息，預期可快速秒填息",
+      "台積電條款生效後，基金與主動式ETF可將台積電權重拉高至25%，預估一個月內發生，將帶來大買盤"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "魏哲家董事長有講，去年是18塊，今年至少24塊，而且下一季開始台積電的股利就會增加，變成7塊錢",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華城",
+     "ticker": "1519",
+     "market": "TW",
+     "stance": "看多",
+     "action": "除息行情逢拉回布局",
+     "reasons": [
+      "起漲前股價30元以下，殖利率接近5%，具安全氣囊效果",
+      "具長線電力相關題材，題材發酵後股價飆漲",
+      "今日雖重挫跌停，但長線題材與殖利率保護仍在"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "雖然今天有比較深的回檔被打到跌停，但我覺得也不用擔心，因為它有一個長線的題材，而且有一個股息殖利率的保護",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "東元",
+     "ticker": "1504",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點，短多操作",
+     "reasons": [
+      "每年配息2元，殖利率有低檔保護",
+      "均線翻多頭，形態轉強",
+      "具電力相關題材，跟隨華城族群上漲"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "東元有配2塊錢，跌到低檔的時候股息殖利率也還蠻不錯，現在均線翻為多頭，我覺得目前來講反而變短多",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "大華優利高息30(00918)",
+     "ticker": "00918",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "逢低長期持有／定期定額布局",
+     "reasons": [
+      "5月以來漲幅30.9%，領先0050與多檔主動式ETF",
+      "本季配息由0.62元跳升至1.26元，單季年化配息率達17%",
+      "前兩大成分股國巨、聯電合計權重約20%，且於去年底低點時已納入指數",
+      "歷史12次配息中9次完成填息，比例達75%，目前股價創新高即完全填息"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "它的單季年化配息率有高達17%，掛牌以來總共有12次填息，9次完成填息，其實已經很高，75%",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "P5C8_4lTyuA",
+  "title": "【理財達人秀】台積魏哲家喊買 台股怕不降息 CPO跌要買 AI PC換手攻？電力股滿格 被動何時接？高息ETF懂配又會填 避風港？｜李兆華、容逸燊、陳威良、馮志源2026.06.04【電視完整版】",
+  "date": "2026-06-04",
+  "duration": 2928,
+  "url": "https://www.youtube.com/watch?v=P5C8_4lTyuA"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

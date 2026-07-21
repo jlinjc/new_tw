@@ -1,0 +1,482 @@
+{
+ "episode_summary": "本集三位老師皆對台股後市偏樂觀：蔡明翰以輝達順利發債250億美元、外資報告顯示台灣出口訂單與全球股市連動佐證AI資本支出續強，主張「買紅不買黑」追強被動元件、矽晶圓等補漲股並看好台積電；紀緯明聚焦電源與IC設計中小型股，主打聯發科、貿聯KY、台半、松川精密等籌碼集中的強勢股；張林忠則從期權籌碼、正逆價差與VIX指標判斷市場恐慌情緒已過、電子尚未真正接棒，並以量化選股挑出聯電、南亞科、華邦電等記憶體與晶圓代工股。",
+ "market_view": "大盤延續反彈格局但尚未真正轉入多頭，關鍵在於電子股能否真正接棒目前偏強的金融股；本週市場關注日央升息、Fed會議(新主席Walsh首度亮相)與台灣央行決策，但來賓普遍認為升息疑慮偏向假議題／短線利空，VIX指標顯示恐慌情緒已近尾聲，外資期貨空單雖高但套利成分不低，逢回檔仍偏多操作。",
+ "teachers": [
+  {
+   "name": "蔡明翰",
+   "picks": [
+    {
+     "stock_name": "輝達",
+     "ticker": null,
+     "market": "US",
+     "stance": "看多",
+     "action": null,
+     "reasons": [
+      "發債250億美元獲超額認購3.4倍，顯示市場資金充裕、信心足",
+      "有錢公司選擇發債是因為融資成本更低，不影響股東權益",
+      "同時買回庫藏股可縮小股本、拉高EPS，對股價是正向",
+      "外資報告顯示AI資本支出預估不斷快速上修，軍備競賽不會停"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "輝達發債250億美元，超額認購3.4倍，所以代表他這次發債是沒有問題的，這對股市是一個正向。",
+     "tw_market": null
+    },
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回檔可留意布局",
+     "reasons": [
+      "外資(Alicia)最新報告將12個月目標價上調",
+      "以目前每季營收持續創高的架構，一年角度來看目標價具合理性",
+      "公司預期營收看到年底前都維持走高",
+      "近期ADR轉強，有機會與輝達同步在美股走強後回流台股大型股"
+     ],
+     "target_price": "外資上調目標價3500元(12個月)；蔡明翰以一年角度認為看到3000元屬合理",
+     "confidence": "high",
+     "quote": "今天Alessia上調台積電到3500塊錢……我覺得就目前的角度一年來到3000塊是一個非常合理的一個架構。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華新科",
+     "ticker": "2492",
+     "market": "TW",
+     "stance": "看多",
+     "action": "整理後突破可追價",
+     "reasons": [
+      "被動元件族群持續走高，屬強勢族群代表個股",
+      "先經過整理後今天剛突破，屬相對安全的強勢股"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "這代表個股就是華新科，最近的被動元件是不斷的往上走高，他最起碼有整理之後今天才剛剛突破，所以應該說買強者。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "環球晶",
+     "ticker": "6488",
+     "market": "TW",
+     "stance": "看多",
+     "action": "突破後可留意",
+     "reasons": [
+      "矽晶圓族群代表個股，今日創歷史新高",
+      "屬震盪整理後剛突破的相對安全型態"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "環球晶歷史新高，也是震盪之後剛突破的，我覺得相對來講就是在其中取得安全。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "中性",
+     "action": "斜率過陡風險較高，能承受風險者可留意，保守者等整理過的標的",
+     "reasons": [
+      "近期股價斜率非常陡，追價風險相對較高",
+      "仍屬光學鏡頭強勢族群成員"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "大立光最近的斜率很陡，當然如果你願意的話我覺得是OK的，我們盡量選擇有整理過轉強的個股會相對比較好一些。",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "紀緯明",
+   "picks": [
+    {
+     "stock_name": "雷科",
+     "ticker": "6207",
+     "market": "TW",
+     "stance": "看多",
+     "action": "站上5日均線持續抱，未跌破不要輕易下車",
+     "reasons": [
+      "玻璃基板長期產業趨勢題材，介入時間點早",
+      "連兩根漲停但尚未過前高，仍具上攻空間",
+      "同時具備設備(Covus)相關題材，多題材加持"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "5月19號講的雷科這檔現在市場上很熱……這種股票站上五日均線，沒跌破五日均線不要下車。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "折米(股票代號6742，正式名稱因語音辨識不清無法確認)",
+     "ticker": "6742",
+     "market": "TW",
+     "stance": "看多",
+     "action": "動能轉強可續抱",
+     "reasons": [
+      "今日一根長紅K重新站上所有均線",
+      "在此位置上動能轉強"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "6742這檔，特別是今天一根長紅K又重新站上了所有的均線，所以在這個位置上動能轉強，我覺得這種股票也是可以先續抱。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台達電",
+     "ticker": "2308",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回檔不破可站在買方；長紅K站回月線加上法人進場為好買點",
+     "reasons": [
+      "Computex攤位展示表現亮眼，電源題材具說服力",
+      "大型電源股今年常見一漲再漲(如南亞科、國巨)，不宜預設高點",
+      "目前股價呈現底底高、頭頭高的多頭型態"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台達電在Computex的那個櫃位真的是太棒了，股價回檔這個地方其實沒有在動，你其實都可以站在買方。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "光寶科",
+     "ticker": "2301",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低仍可期待，不必太失望",
+     "reasons": [
+      "取消可轉債發行反而是好事，不會稀釋股權",
+      "取消原因是股價已在高檔，公司想避免低價定價，非基本面利空",
+      "參考中華化案例，延後發行後股價仍持續走高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "光寶科取消可轉債發行……我覺得光寶科還是可以去做期待，大家不要對他太失望。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "貿聯KY",
+     "ticker": "3665",
+     "market": "TW",
+     "stance": "看多",
+     "action": "未跌破5日均線續抱不用賣；未介入者拉回測前高不破即為進場點",
+     "reasons": [
+      "產能利用率高達9成",
+      "今日股價漲停創高，突破前波所有高點",
+      "外資近兩個交易日轉為買方，量增價漲結構成形",
+      "具碳化矽高壓直流相關題材"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "貿聯今天漲停創高……外資這兩個交易日開始站在買方，量增價漲的結構，現階段就是先續抱，沒有跌破五日均線不用賣。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台半",
+     "ticker": "5425",
+     "market": "TW",
+     "stance": "看多",
+     "action": "追強關注，留意拉回表現",
+     "reasons": [
+      "功率半導體股，籌碼鎖定率漂亮，主力沒有跑掉",
+      "與碳化矽及LED相關，屬多題材個股",
+      "外資近五個交易日站在買方",
+      "股價一度攻上漲停"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "功率半導體包含像是台半跟強茂，現階段來看他們的籌碼鎖定率都非常漂亮，所以主力沒有跑掉。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "強茂",
+     "ticker": "2481",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續留意籌碼面",
+     "reasons": [
+      "功率半導體族群，籌碼鎖定率佳"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "功率半導體包含像是台半跟強茂，現階段來看他們的籌碼鎖定率都非常漂亮。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "松川精密",
+     "ticker": "7788",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回測5日均線即為買點，守住5日均線",
+     "reasons": [
+      "台灣繼電器(計電器)龍頭大廠",
+      "產品供應台達電、光寶科等電源大廠",
+      "每季EPS約2-3元，具起漲點條件",
+      "外資幾乎持續站在買方"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "松川精密最主要就是在台灣計電器No.1大廠，只要守住五日均線……回到五日均線都會是買點。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "新唐",
+     "ticker": "4919",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續觀察",
+     "reasons": [
+      "籌碼鎖定率高，股價相對強勢",
+      "MCU族群短線動能可望延續"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "目前為什麼新唐股價強，因為它鎖定率高。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "盛群",
+     "ticker": "6202",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回檔休息後可望再漲",
+     "reasons": [
+      "MCU族群籌碼鎖定率不低",
+      "前面漲多回檔休息，短線動能可望延續"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "盛群跟新唐來講的話，股價短線上面動能應該都會延續，只是因為前面漲多回檔休息一下，後面再上。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "智原",
+     "ticker": "3035",
+     "market": "TW",
+     "stance": "看多",
+     "action": "貼近年線，停損容易設；若過高有翻倍空間",
+     "reasons": [
+      "獲利尚未爆發因專案認列時間遞延，非基本面問題",
+      "營收真正爆發可能落在今年下半年或明年",
+      "目前股價貼近年線，距年線約10%空間，停損好設",
+      "若IP設計族群整體動起來，有機會重返高點"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "智原……你現在距離年限大概也就10%的空間，你的停損很好設，但是股價如果要往上創高重返榮耀，上面是有翻倍的空間。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "致遠(語音辨識名稱不確定)",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "低位階留意補漲",
+     "reasons": [
+      "台股中少數與半導體相關但漲幅落後的個股",
+      "目前位階很低，接近年線附近"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "致遠也算是少數在台股裡面跟半導體相關卻漲不多的，它位階其實很低，還在年線附近。",
+     "tw_market": null
+    },
+    {
+     "stock_name": "九齊(新唐轉投資MCU公司，語音辨識名稱不確定)",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回測試後為買點",
+     "reasons": [
+      "新唐轉投資做中低階MCU，填補供給缺口",
+      "5月營收年增率達79.43%，基本面轉強",
+      "外資連續四天買超，量增價漲結構成形"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "以它5月營收年增率79.43%……而且他是一個量增價漲的結構，看到外資連續四天買超。",
+     "tw_market": null
+    },
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "現在為最強最好標的可買進，資金不足可買零股",
+     "reasons": [
+      "投信包含今日仍持續買超",
+      "沿月線慣性上攻，過去每次靠近月均線就是新一波起漲點",
+      "目前收盤價距目標價仍有約10%空間"
+     ],
+     "target_price": "5000元以上(五字頭)",
+     "confidence": "high",
+     "quote": "我非常有信心說他(聯發科)5000……現在的這個收盤價距離五字頭大概還有10%的空間，我覺得五字頭只是基本盤而已。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "創意",
+     "ticker": "3443",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意資金回流",
+     "reasons": [
+      "IP設計族群資金出現回流現象"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "IP設計我們可以看到創意、世芯KY，我也認為在現階段資金有回流的這樣的現象。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "世芯KY",
+     "ticker": "3661",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意資金回流",
+     "reasons": [
+      "IP設計族群資金出現回流現象"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "IP設計我們可以看到創意、世芯KY，我也認為在現階段資金有回流的這樣的現象。",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "張林忠",
+   "picks": [
+    {
+     "stock_name": "華通",
+     "ticker": "2313",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回至上升軌道線且KD跌到40以下為甜蜜買點",
+     "reasons": [
+      "低軌衛星題材股，衛星數量增加、面板面積擴大帶動需求",
+      "毛利率一年內約20-25%，拉長看有望逼近30%",
+      "近期回檔屬SpaceX上市利多出盡的短線修正，上升軌道線尚未跌破"
+     ],
+     "target_price": "前波高點310.5元(壓力)",
+     "confidence": "high",
+     "quote": "華通高點在310.5這邊開始進行很大的修正，但上升軌道線都還沒有跌破，看到KD來到40以下就是一個還不錯的甜蜜點位。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "京元電子",
+     "ticker": "2449",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望",
+     "reasons": [
+      "封測族群近期表現不佳，前高369元附近承壓",
+      "網路社群評價偏負面，需長時間等待測試期",
+      "今年營收年增率可望達37%，基本面無太大問題",
+      "籌碼面相對較差，是主要弱點"
+     ],
+     "target_price": "前波高點369元(壓力)",
+     "confidence": "high",
+     "quote": "京元電子營收年增應該有到37%，今年基本面沒有什麼太大問題，我覺得只是籌碼看起來比較差一些。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "力成",
+     "ticker": "6239",
+     "market": "TW",
+     "stance": "看多",
+     "action": "依量化選股策略進場(KD由40以下翻揚)",
+     "reasons": [
+      "符合KD黃金交叉、20日均線上揚、融資增加、EPS大於1元的選股條件",
+      "受惠超微(AMD)蘇姿丰宣布投資台灣百億題材"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "6月15號買了兩檔立成跟中美晶……這一段是蘇媽媽送她禮物說要投資台灣100億，押回之後回後買上漲，KD剛才到40以下所以他在6月15號被拉出來。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "中美晶",
+     "ticker": "5483",
+     "market": "TW",
+     "stance": "看多",
+     "action": "依量化選股策略進場",
+     "reasons": [
+      "符合KD黃金交叉、20日均線上揚、融資增加、EPS大於1元的選股條件"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "6月15號買了兩檔立成跟中美晶，這個都還不錯，價格分別是348跟167。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "國泰金",
+     "ticker": "2882",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望",
+     "reasons": [
+      "個股期貨量化選股結果之一，但近期報酬表現較差"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "國泰金大概是這樣的狀況，就是過去5天持有的。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯電",
+     "ticker": "2303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "依策略今日開盤買進，關注能否挑戰前高",
+     "reasons": [
+      "KD壓到40以下後出現反彈翻揚",
+      "符合量化選股(KD黃金交叉、20日均線向上、融資增加、EPS>1)條件"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "今天符合的話有三檔，今天就是聯電、南亞科跟華邦電，這大家都好喜歡的，今天的表現也都還OK。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "依策略今日開盤買進",
+     "reasons": [
+      "KD在40以下，均線仍在上升",
+      "記憶體雙雄之一，符合量化選股條件"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "南亞科一樣40以下，那華邦電也是40以下，均線還是正在上升，所以今天開盤買進。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "看多",
+     "action": "依策略今日開盤買進，已套牢者續抱不動",
+     "reasons": [
+      "KD在40以下出現反彈，均線仍在上升",
+      "記憶體雙雄之一，符合量化選股條件"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "華邦電我買在很高，被套牢怎麼辦？我就說你不要動，結果這邊後來他上去應該還蠻高興。",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "qw1JFUaPZ2c",
+  "title": "【理財達人秀】FED放鷹免驚 輝達發債是終極暗號？台灣掌AI賺多少 被動.矽晶圓.光學買強就對？電源+IC設計看大做小 震照賺？｜李兆華、蔡明翰、紀緯明、張林忠2026.06.16【電視完整版】",
+  "date": "2026-06-16",
+  "duration": 2931,
+  "url": "https://www.youtube.com/watch?v=qw1JFUaPZ2c"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

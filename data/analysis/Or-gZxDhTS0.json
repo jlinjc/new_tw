@@ -1,0 +1,393 @@
+{
+ "episode_summary": "本集聚焦台股在高檔遇到融資水位偏高、AI「鬼故事」（記憶體疑慮、輝達化身AI央行等）干擾下量縮橫盤整理。三位老師分別從技術面（朱家泓）、CPO／先進封裝產業趨勢（王建文）、資金輪動與生技避風港（楊雲翔）角度，教大家如何避免被套牢、找出低基期可留意的標的，並提醒被動元件龍頭國巨技術轉弱、資金正轉向生技與軍工塑化等低價股。",
+ "market_view": "大盤處於盤整格局，上檔壓力約48200點（前波高點爆大量），下檔支撐約44450點（月線附近），近期成交量持續萎縮但尚未出現崩盤訊號；三位老師皆認為多頭格局未改變，屬於良性換手整理，建議資金部位控制在五成以下、不追高、嚴設停損，避免在高檔震盪中被套牢。",
+ "teachers": [
+  {
+   "name": "朱家泓",
+   "picks": [
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "看空",
+     "action": "空手勿接，等法說會反應",
+     "reasons": [
+      "漲多回檔幅度深，跌破月線形成短線空頭",
+      "接近前波底部，若法說無利多反彈不漲應趕快離場"
+     ],
+     "target_price": "5300附近為近期高點，短線偏空",
+     "confidence": "high",
+     "quote": "它現在是空頭，空手不能撿，撿了就要準備再跌，因為什麼叫空頭就是繼續跌嘛。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看空",
+     "action": "觀望，等法說會反應",
+     "reasons": [
+      "基本面未變但技術面轉空，跌破月線出現頭頭低",
+      "若解套或小賠應先離開，等法說會後續行情"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "南亞科也是類似這種情形，它基本面什麼都沒有改變，但是它的技術面改變了，所以它技術面也是一個短線空頭。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱／留意法說會後表態",
+     "reasons": [
+      "三檔中形態最強勢，站穩月線且接近歷史高點",
+      "若法說會加持突破下降切線，有機會創歷史新高，帶動大盤"
+     ],
+     "target_price": "前波高點區約2535附近待突破",
+     "confidence": "high",
+     "quote": "台積電其實是三個圖形裡面最好的，它其實最強勢……如果法說會的加持這個往上，那很容易就會突破下降切線，如果它創歷史高點台股就不至於會大跌。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "欣興",
+     "ticker": "3037",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回後找買點",
+     "reasons": [
+      "跌勢已止住，屬多頭回後等上漲的鎖股型態"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "今天呢已經止住了，它沒有再跌了，換句話講這是一個多頭回後等上漲，鎖股等上漲的股票。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "景碩",
+     "ticker": "3189",
+     "market": "TW",
+     "stance": "看空",
+     "action": "暫時避開",
+     "reasons": [
+      "出現頭頭低型態，接近形成標準頭部",
+      "若跌破頸線量能又大，恐成明顯頭部"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "這支股票最好暫時避開，不要做它，做景碩……這一跌破就是一個很標準的麥當勞的頭。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南亞",
+     "ticker": "1303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回留意",
+     "reasons": [
+      "塑化族群低檔上攻，僅跌一天即止跌，訊號偏強"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "南亞算強的囉，在塑化裡面南亞前面整理過一段時間然後突然就拉了兩波快到200，可是還是很強。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "希華",
+     "ticker": "2484",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回後找買點",
+     "reasons": [
+      "石英元件族群發酵一陣子，昨大跌今不跌，屬回後買上漲的強勢慣性"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "石英元件……昨天大跌今天又不跌，這也是一個回後買上漲，表示目前它的慣性還沒有改變。",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "王建文",
+   "picks": [
+    {
+     "stock_name": "聯亞光電",
+     "ticker": "3081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低承接",
+     "reasons": [
+      "六月營收創新高，率先漲停，屬CPO低位接轉強標的",
+      "投信由棄手轉為回補，買盤可能陸續進場"
+     ],
+     "target_price": "重返2000元以上",
+     "confidence": "high",
+     "quote": "聯亞的營收是創高……投信有回來買一些的話，搞不好那個買盤會慢慢的進來。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "聯鈞",
+     "ticker": "3450",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "六月營收同創新高，屬CPO兩道光概念股之一"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "聯亞、聯鈞六月營收創新高，這兩天陸陸續續出來了，這些低位接轉強的買起來似乎比較不用害怕。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "訊芯-KY",
+     "ticker": "6451",
+     "market": "TW",
+     "stance": "看多",
+     "action": "壓回找買點",
+     "reasons": [
+      "與台積電CoWoS/CPO有合作，將規劃資本支出擴展CPO產能",
+      "若台積電釋出CoWoS正面訊息，市場將直接聯想到此股"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "訊芯-KY跟聯鈞是CPO裡面的兩道光……這檔股票如果台積電釋出那個CoWoS相關正面的訊息的話，大家直接會聯想到它，這檔股票壓下來我的想法（是可以接）。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "廣達",
+     "ticker": "2382",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意能否突破前高",
+     "reasons": [
+      "AI伺服器抗跌，股價創新高",
+      "AI伺服器營收年增三位數看法未變，訂單能見度到2027年"
+     ],
+     "target_price": "438",
+     "confidence": "high",
+     "quote": "廣達雖然是雲端伺服器非常純的公司，也創新高了……只是說有沒有機會去攻這個438很重要。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "鴻海",
+     "ticker": "2317",
+     "market": "TW",
+     "stance": "中性",
+     "action": "逢低勿殺，續抱觀察",
+     "reasons": [
+      "本益比偏低，配息政策穩健，原則上不宜殺低",
+      "接近年線224，若外資賣壓延續股價承壓，但認為不用急著在年線附近賣出"
+     ],
+     "target_price": "年線224附近為關注水位",
+     "confidence": "high",
+     "quote": "這個股票原則上就是不要殺低，只是什麼時候攻上來可能要看整個盤面的發展。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "群創",
+     "ticker": "3481",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意能否突破前波高點",
+     "reasons": [
+      "月EPS由0.24成長至0.27",
+      "扇出型封裝(FOPLP)產能滿載，且為矽光子產業聯盟成員",
+      "若CoWoS/CoPoS題材延燒，姿態高、人氣旺"
+     ],
+     "target_price": "前波高點",
+     "confidence": "high",
+     "quote": "這檔股票其實姿態很高，我的看法如果說CoPoS材料題材上來的時候，它是有機會去攻過這個前波高點。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "力成",
+     "ticker": "6239",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意均線糾結後表態",
+     "reasons": [
+      "計畫擴充FOPLP產能並佈局CPO",
+      "投信雖仍賣壓但外資已回頭買進，籌碼面轉佳",
+      "均線糾結，若營收展現爆發力有機會噴出"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "他有說過他要擴充FOPLP的產能，他也要佈局CPO……我發現力成真的是要等一等，就會來那麼一段。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "上詮",
+     "ticker": "3363",
+     "market": "TW",
+     "stance": "看多",
+     "action": "追蹤",
+     "reasons": [
+      "CPO主流技術(FAU)持續推進，為受惠股",
+      "高盛出具正面報告，股價由腰斬轉為漲停"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "高盛送暖上詮，上詮還真的漲耶，因為上詮本來是腰斬……今天漲停。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意法說會表態，關注整數關卡",
+     "reasons": [
+      "64均線落在3550，均線趨勢向上",
+      "客戶對AU相關規格要求僅一成，公司可做到四成，若釋出正面訊息屬利多"
+     ],
+     "target_price": "整數關卡4500",
+     "confidence": "high",
+     "quote": "我的看法是其實整數關卡4500，我們就先看64均線是3550，那是均線的趨勢向上，所以這檔股票大家要注意。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察7/16法說會",
+     "reasons": [
+      "若CoWoS/矽光子先進封裝進度提前量產，將領先英特爾與三星，鞏固競爭優勢",
+      "是拉動大盤與台廠供應鏈的關鍵指標股"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "台積電如果能夠提前量產、產能夠開出來的話，那當然你不管是Intel也好或者是三星，你要過來搶單的話可能就沒有那麼容易。",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "楊雲翔",
+   "picks": [
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看空",
+     "action": "停損／不宜逢低承接，等回落至支撐再觀察",
+     "reasons": [
+      "技術面已跌破千元關卡，由支撐轉壓力",
+      "乖離過大，難以等到回測季線（季線落點約600，現價落差近一倍）",
+      "日線前高換手量區850為關鍵支撐，須守住"
+     ],
+     "target_price": "支撐850，跌破千元後千元轉壓力",
+     "confidence": "high",
+     "quote": "破掉了，已經破掉了，也是1000塊附近……它是要賣掉的點，不是這個時候來接。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "玉晶光(逐字稿原文「玉芒」，正式名稱待確認)",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "季線附近搶弱勢反彈",
+     "reasons": [
+      "六月營收創高",
+      "股價自483高點腰斬跌破300元，跌幅逾180元，符合弱勢反彈滿足點測試"
+     ],
+     "target_price": "反彈滿足點約370元，季線附近，空間約20%",
+     "confidence": "low",
+     "quote": "它從483……今天最低曾經跌破300塊，弱勢反彈0.382的滿足點大概在370元左右，剛好又觸及季線，這裡可能還有20%的空間。",
+     "tw_market": null
+    },
+    {
+     "stock_name": "康舒",
+     "ticker": "6282",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢季線拉回接回",
+     "reasons": [
+      "2026年EPS預估約2.8元，本益比偏低",
+      "歷史經驗顯示觸及季線且量能放大後常有一段漲幅（曾自20幾元漲至50元，漲幅逾80%）",
+      "切入HVDC電源機櫃搭配BBU供應鏈，客戶群多為北美CSP大廠"
+     ],
+     "target_price": "重返70元",
+     "confidence": "high",
+     "quote": "它今天出現一個紅棒，剛好觸及季線供上來又過月線，我覺得它有機會，在這裡再拉過70的機會蠻大。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "順達",
+     "ticker": "3211",
+     "market": "TW",
+     "stance": "看多",
+     "action": "追蹤(留意評價已不低)",
+     "reasons": [
+      "BBU族群代表作，營收表現持續亮眼",
+      "本益比約33倍，評價已不算便宜，需留意追價風險"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "最強的是順達……他一直在營收上都是非常漂亮，不過本益比大概33倍左右。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "藥華藥",
+     "ticker": "6446",
+     "market": "TW",
+     "stance": "看多",
+     "action": "追蹤布局",
+     "reasons": [
+      "自主研發、自行製造，毛利率高達87%，居生技股之冠",
+      "EPS成長性佳，本益比雖高(約58倍)但明年可望降至約30倍",
+      "為生技避風港資金指標股，股價位於右上角強勢區"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "藥華藥一直在右上角哦，所以生技股裡面EPS高的今天雲翔哥有幫我們挑出來了……它自己研發自己製造，所以毛利率最高，87%。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "美時",
+     "ticker": "1795",
+     "market": "TW",
+     "stance": "看多",
+     "action": "突破整理區間可留意",
+     "reasons": [
+      "屬併購型成長模式，毛利率高達50%以上，EPS由18元估至20元、明年看高至27元",
+      "透過財務整合降低利息支出(1.4億美金降至1億美金)，可望多增半個股本獲利",
+      "今日為兩個月橫盤整理後首根帶量突破"
+     ],
+     "target_price": "凱基估值500元（現價約200元）",
+     "confidence": "high",
+     "quote": "凱基有估過500塊，因為他認為2028年以後EPS可以超過25塊……今天是兩個月橫盤整理後第一根帶量的突破點。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "保瑞",
+     "ticker": "6472",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望",
+     "reasons": [
+      "屬CDMO併購型代工模式，但毛利率相對較低，股價表現疲弱"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "類似所謂的保瑞，但保瑞的股價好慘，因為它的毛利比較低，毛利不高。",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "Or-gZxDhTS0",
+  "title": "【理財達人秀】台股拉尾 籌碼延長賽？塑化.軍工低價回後買？CPO.CoPoS提前賺 國巨要先賣？BBU.生技低基期安心買?｜李兆華、朱家泓、王建文、楊雲翔2026.07.08【電視完整版】",
+  "date": "2026-07-08",
+  "duration": 2930,
+  "url": "https://www.youtube.com/watch?v=Or-gZxDhTS0"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

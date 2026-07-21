@@ -1,0 +1,390 @@
+{
+ "episode_summary": "本集因南韓股市去槓桿賣壓外溢及美國聯準會可能因CPI升溫而升息的疑慮,台股盤中一度重挫近1700點,但留下逾千點的下影線,而6月上市櫃營收有187家創新高,顯示基本面並未轉弱。三位來賓容逸燊、紀緯明、股魚分別針對被動元件、CPO與軍工無人機、封測與特用化學等超跌族群,提出分批進場與價值浮現的操作建議。",
+ "market_view": "本波修正主因是韓股去槓桿賣壓、外資調節及聯準會升息疑慮所致的資金緊縮,而非基本面轉弱;今日千點下影線被視為止跌訊號,短線支撐落在44000至45000點,高檔47000至48000點若無1.3至1.4兆量能推升則不宜追價,操作上建議逢拉回月線分批布局、不追高不殺低,並保留約2至3成現金水位。",
+ "teachers": [
+  {
+   "name": "容逸燊(Eason)",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "法說會後可留意逢低佈局,不急於一兩天內追價",
+     "reasons": [
+      "本益比相對偏低,中長線位階已越來越便宜",
+      "明年EPS預估看到130元左右",
+      "外資若要卡位法說會行情會提前買進,現在已買不夠"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台積電本益比也相對偏低...因為明年的EPS已經看到130左右",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "分批進場(可分兩到三次買進),創低買一次;反彈到月線附近先減碼約一半,確認站穩月線往上再續加碼剩餘資金",
+     "reasons": [
+      "兩週內跌幅達五成屬超殺,MLCC本身無實質利空,主因是韓國去槓桿及記憶體族群利空外溢",
+      "今年EPS仍上修,明年毛利率也在上修,產業基本面無虞",
+      "籌碼面主力已出現轉買動作"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "兩個禮拜跌五成...這個不管你是用技術面看或籌碼面看...我都認為是超殺的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聚鼎(逐字稿記為「副頂」,股名依語境推測,未完全確認)",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "不宜再殺在相對低檔區,可留意持續走強",
+     "reasons": [
+      "除息期間股價逆勢抗跌,顯示籌碼穩定",
+      "被動元件族群中相對強勢的領頭羊,今日盤中一度跌停拉回收漲逾5%",
+      "月線指標已開始翻揚向上"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "今天事實上盤中一度打到跌停了,可是收盤衝了15%,跌停到漲5%",
+     "tw_market": null
+    },
+    {
+     "stock_name": "廣積(工業電腦IPC,逐字稿記為「廣機」,股名未完全確認)",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "回檔不破月線可留意布局",
+     "reasons": [
+      "最新一期外資由賣轉買、明顯翻多",
+      "此波下殺後已站穩月線並持續墊高",
+      "與大盤走勢脫鉤,相對獨立抗跌",
+      "龍頭廠研華同步走強,顯示族群轉強"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "它可以看到最近一期外資是非常的翻多...其實又穩住月線開始往上墊高",
+     "tw_market": null
+    },
+    {
+     "stock_name": "廣通(網通/軍工概念,股名未完全確認)",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "可先卡位約一半部位,股價突破關鍵價位50-52元再加碼",
+     "reasons": [
+      "具國防標案及無人機軍工題材,籌碼穩定",
+      "Wi-Fi7升級及歐美電信商光纖基礎建設升級為長線動能",
+      "6月營收表現不錯,今年EPS上看3元",
+      "法人籌碼近期出現轉買"
+     ],
+     "target_price": "50-52元(突破後加碼)",
+     "confidence": "high",
+     "quote": "如果關鍵價位可以突破的話...再去做一個加碼",
+     "tw_market": null
+    },
+    {
+     "stock_name": "元大台灣50",
+     "ticker": "0050",
+     "market": "ETF",
+     "stance": "觀望",
+     "action": "不建議作為避險放空標的",
+     "reasons": [
+      "台積電為成分股權重最重的股票,目前走勢最強,放空此類ETF避險效果不佳"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "要放空非台積電的ETF...就是0050,這個就不太適合",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "元大台灣50反1",
+     "ticker": "00632R",
+     "market": "ETF",
+     "stance": "觀望",
+     "action": "不建議作為避險工具",
+     "reasons": [
+      "同樣以台積電為主要追蹤標的,台積電目前最強勢,避險效果不佳"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "反1因為是台積電為主,所以...也沒那麼適合",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "紀緯明(小明同學)",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱,不宜在此處殺低賣出",
+     "reasons": [
+      "屬於有實際營收獲利的權值股,指數反彈將由這類權值股領軍"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "你如果手上是這些公司什麼台積電、台達電、聯發科,沒有必要在這邊殺低賣在沒有尊嚴的位置",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台達電",
+     "ticker": "2308",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱,不宜在此處殺低賣出",
+     "reasons": [
+      "屬於有實際營收獲利的權值股,指數反彈將由這類權值股領軍"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "你如果手上是這些公司什麼台積電、台達電、聯發科,沒有必要在這邊殺低賣在沒有尊嚴的位置",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱,不宜在此處殺低賣出",
+     "reasons": [
+      "屬於有實際營收獲利的權值股,指數反彈將由這類權值股領軍"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "你如果手上是這些公司什麼台積電、台達電、聯發科,沒有必要在這邊殺低賣在沒有尊嚴的位置",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回月線找買點,留意止穩後回補",
+     "reasons": [
+      "大戶於上週已悄悄進場布局",
+      "具挑戰5字頭高價實力,現因大盤不佳被壓在月線之下",
+      "股價將重新挑戰前波高點"
+     ],
+     "target_price": "挑戰前波高點(未提供明確數字)",
+     "confidence": "high",
+     "quote": "大立光是有上5字頭的這個潛力的...股價我認為他一樣要站回去月線",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "先進光",
+     "ticker": "3362",
+     "market": "TW",
+     "stance": "看多",
+     "action": "月線之下可留意,逢低布局",
+     "reasons": [
+      "上週已優先站上月線,技術面領先大立光",
+      "產品為CPO用V-Groove及MT相關零組件,預計8月送驗證",
+      "2027年該應用營收佔比看到30%,營收純度可能優於大立光"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "先進光在上個禮拜是優先站上月線...預計在今年8月就要送驗證...2027年佔比就要到30%",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "華星光",
+     "ticker": "4979",
+     "market": "TW",
+     "stance": "看多",
+     "action": "先觀察融資是否大幅減少、出現止跌紅K並站回5日均線後再小量試單",
+     "reasons": [
+      "大戶持股增加,6月營收年增27.68%,成長動能延續",
+      "股價自高點已近乎腰斬,跌幅深",
+      "為CPO族群中最早發動、營收純度較高的公司"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果看到一根紅K重新站回5日均線那個位置,我覺得是可以去做強單的動作",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "東點光電(CPO綠光晶片概念,股名待確認)",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": null,
+     "reasons": [
+      "CPO用綠光片營收出現三位數成長,顯示CPO產品已開始放量"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "在做綠光片的東點光電這有三位數的成長",
+     "tw_market": null
+    },
+    {
+     "stock_name": "雷虎",
+     "ticker": "8033",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "不追高,待拉回或整理後再評估",
+     "reasons": [
+      "已上漲超過兩週且持續創新高,追價風險較高",
+      "可作為觀察無人機族群強弱的參考指標股"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "現在去追雷虎,叫我我也不敢",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "雅航",
+     "ticker": "2630",
+     "market": "TW",
+     "stance": "看多",
+     "action": "股價拉回測試5日均線可留意買點",
+     "reasons": [
+      "取得中科院授權之機體製造與維修",
+      "負責銳鳶二號無人機組裝及後續維修訂單",
+      "若追上雷虎前高,上方仍有約20%價差空間"
+     ],
+     "target_price": "上方約20%價差空間(相對雷虎前高)",
+     "confidence": "high",
+     "quote": "如果後面他要去追上雷虎平前高的話,上方大概都還有20%左右的空間",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "中光電",
+     "ticker": "5371",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意股價跳空長紅突破訊號",
+     "reasons": [
+      "連續兩週大戶持股增加",
+      "已完成無人機出貨並取得軍用無人機訂單且交付,產能可再放大",
+      "均線呈多頭排列",
+      "相對雷虎股價落後,具補漲空間"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "中光電應該還有挑戰高點的空間",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "海華",
+     "ticker": "3694",
+     "market": "TW",
+     "stance": "看多",
+     "action": "待站上年線出現轉強訊號後介入",
+     "reasons": [
+      "為雷虎供應鏈相關集團股(合作公司雷虎持股30%)",
+      "取得經濟部無人機補助案",
+      "從事AI影像辨識、低延遲影像及長距通訊模組",
+      "去年EPS 4元、現價65元,本益比僅16倍多,相對低估",
+      "上週大戶已悄悄進場卡位"
+     ],
+     "target_price": "本益比抓20倍,上看8字頭(約80元)",
+     "confidence": "high",
+     "quote": "它EPS去年是4塊錢,現在的股價是65塊,所以代表本益比只有16倍多一點點...你抓個20倍...上方也都已經抓到要八字頭了",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "股魚",
+   "picks": [
+    {
+     "stock_name": "京鼎(逐字稿記為「金測」,股名依語境推測,未完全確認)",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "股價回落到財報估值區間(約2600元)可留意,不追高",
+     "reasons": [
+      "2026年預估EPS約65元,公司預期2027年YOY仍有近三成成長",
+      "封測產業平均本益比約40倍,以此推算合理股價約2600元,目前股價已接近該區間,下檔有限",
+      "股價回落是本益比修正,並非獲利能力轉弱"
+     ],
+     "target_price": "約2600元(財報估值)",
+     "confidence": "medium",
+     "quote": "以這間公司來講,它目前在2026年人家預估他大概可以賺到接近65塊錢...大概接近到2600左右就會回到一個財報估值的一個範圍",
+     "tw_market": null
+    },
+    {
+     "stock_name": "達新材",
+     "ticker": "5432",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意股價接近年線及財報估值區間時進場",
+     "reasons": [
+      "產業本益比約33倍,預估今年EPS近10元,財報估值約330元附近",
+      "具特用化學及半導體封裝材料供應題材",
+      "股價自高點回落後已出現橫盤震盪、接近年線"
+     ],
+     "target_price": "約330元(財報估值)",
+     "confidence": "medium",
+     "quote": "以達新材料來講的話呢,它的一個整體產業的本益比大概落在33倍左右,我們預估它到年底大概可以賺到接近10塊錢...大概它的一個財報估值的話呢會落在330的這個上下",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "復華未來50",
+     "ticker": "00991A",
+     "market": "ETF",
+     "stance": "看多",
+     "action": null,
+     "reasons": [
+      "今年以來含息報酬率達97.3%,排名居冠,顯示投信操盤能力強",
+      "近期回檔幅度控制得宜,相對抗跌"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "00991A 復華未來50,你看,目前整個含息報酬率的話瞬間衝到97.3%,相當於在整體排名中拿到第一名",
+     "tw_market": null
+    },
+    {
+     "stock_name": "復華台灣科技優息",
+     "ticker": "00929",
+     "market": "ETF",
+     "stance": "看多",
+     "action": null,
+     "reasons": [
+      "今年以來報酬率達75.4%,為台灣首檔以科技為主題的月配型產品",
+      "顯示同一投信團隊在科技選股上具備獨特能力"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "00929這一檔科技優息...今年以來的話呢,他的交出了將近75.4%的一個表現",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "復華全球AI50(主動式ETF)",
+     "ticker": "00409A",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "8月12日開始接受申購,可留意(發行價10元)",
+     "reasons": [
+      "可一次布局台灣、日本、韓國、美國相關AI供應鏈股票,分散單一市場風險",
+      "投資範圍不僅算力供應鏈,亦涵蓋生產力工具、醫療應用、軍工航太、Energy等延伸應用題材",
+      "由過去主動與被動操盤績效皆優異的復華團隊操刀選股"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "00409A就有這樣的功能喔!8月12號正式來做募集,發行價只需要10塊錢喔",
+     "tw_market": null
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "0XLrxzE3uWM",
+  "title": "【理財達人秀】台股拉千點下影線 提早結算？6月營家誰錯殺 主被動分批撿？軍工避風港 CPO低檔轉強？半導體亂流 封測機會到？｜李兆華、容逸燊、紀緯明、股魚2026.07.14【電視完整版】",
+  "date": "2026-07-14",
+  "duration": 2931,
+  "url": "https://www.youtube.com/watch?v=0XLrxzE3uWM"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

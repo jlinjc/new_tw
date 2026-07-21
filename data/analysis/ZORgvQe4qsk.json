@@ -1,0 +1,338 @@
+{
+ "episode_summary": "節目聚焦台股連兩日重挫逾1000點、外資單日大賣1700多億創史上最大賣超、期貨空單暴增至8萬多口的现象，三位老師一致認為這是高檔獲利了結的正常修正，並非轉空訊號。朱家泓從技術面教大家「弱弱換強」汰弱換強選股，王建文聚焦集團作帳與CPO擴散效應，林信富則分析記憶體與石英（時脈）元件產業的中長期買點。",
+ "market_view": "大盤在外資史上最大單日賣超（逾1700億元）、空單增至8萬多口的衝擊下重挫破月線，三位老師皆認為多頭格局與趨勢架構並未改變，這只是漲多後的正常修正與獲利了結，回測月線反而是找買點的機會，不必過度恐慌。",
+ "teachers": [
+  {
+   "name": "朱家泓",
+   "picks": [
+    {
+     "stock_name": "群創",
+     "ticker": "3481",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱，回後買上漲",
+     "reasons": [
+      "比大盤強，大盤跌千點它仍是紅K",
+      "持續上漲的強勢股"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "比如說群創它就是比大盤強。它還沒有跌破。它現在一度漲了。而且它也漲很多啦。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢弱勢股換強，續抱",
+     "reasons": [
+      "帶領被動元件族群",
+      "五日均線附近，大盤跌千點仍收紅",
+      "外資目標價看到1500多"
+     ],
+     "target_price": "1500元(外資目標)",
+     "confidence": "high",
+     "quote": "外資目標看到1,500吧,1,500多。那這個就是強勢股假設你手上有這個的話就給他換一下。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華新科",
+     "ticker": "2492",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回後買上漲，可用來換弱勢股",
+     "reasons": [
+      "被動元件族群，代表族群強勢",
+      "創歷史高點",
+      "紅K且未跌破五日均線"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "這也沒問題啊這又創歷史高點了,今天是紅K而且沒有跌破五均。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台達電",
+     "ticker": "2308",
+     "market": "TW",
+     "stance": "看空",
+     "action": "趁反彈減碼／不建議追高",
+     "reasons": [
+      "技術面轉弱，形成頭頭低的空頭排列",
+      "月線下彎、季線已跌破"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台達電是很好的公司，但是我講弱就是它的技術面弱了嘛，這是空頭，頭頭低。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯電",
+     "ticker": "2303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回後買上漲，不追高",
+     "reasons": [
+      "5月13日推薦以來已上漲8成",
+      "拉回測月線後迅速站回，多頭未改變"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "聯電5月13號講這邊的話已經漲8成，它回到月線馬上就站上去了，所以它還是一個回後買上漲。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "瑞昱",
+     "ticker": "2379",
+     "market": "TW",
+     "stance": "看多",
+     "action": "可追蹤，量增可追價",
+     "reasons": [
+      "大型網通IC領頭羊之一",
+      "連續上漲轉強變活潑",
+      "籌碼與技術架構皆轉佳"
+     ],
+     "target_price": "挑戰1000元(過970)",
+     "confidence": "high",
+     "quote": "瑞昱最近開始轉強了，連續漲了4天，這個時候去鎖它是最有利的，大概就要去攻1000塊。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "金寶",
+     "ticker": "2312",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察是否延續，留意月線走平上揚",
+     "reasons": [
+      "盤整區突破且站上月線",
+      "今天大量紅K實體棒並拉至漲停",
+      "題材多、位階相對低"
+     ],
+     "target_price": "挑戰44.4元",
+     "confidence": "high",
+     "quote": "它今天就開始表態了，因為今天有大量紅K實體棒還漲停板，第一個盤整突破，第二個月線也站上，現在就要來攻44.4。",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "王建文",
+   "picks": [
+    {
+     "stock_name": "凱美",
+     "ticker": "2375",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回至221.5可站買方，接近268.5做價差",
+     "reasons": [
+      "國巨集團「富爸爸概念股」，大股東為陳泰銘",
+      "跨足陶瓷基板、多金屬模組封裝，並透過FAU對準耦合技術切入CPO矽光子供應鏈"
+     ],
+     "target_price": "區間221.5(6/17低點)至268.5(前波高點)",
+     "confidence": "high",
+     "quote": "我認為前波高點268.5當成區間上緣，如果有來到6月17號低點221.5的話，你應該是站在買方，這是所謂的富爸爸的股票。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "光環",
+     "ticker": "3234",
+     "market": "TW",
+     "stance": "看多",
+     "action": "順勢操作(轉機股)",
+     "reasons": [
+      "為聯亞協力廠，負責CPO後段精密切割封裝與測試",
+      "透過連續波雷射代工與客戶合作開發矽光子模組",
+      "技術形態轉強"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "光環也是轉機，主要就是聯亞的協力廠負責後段的切割封裝與測試，這檔股票形態反而還蠻強的。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "聯鈞",
+     "ticker": "3450",
+     "market": "TW",
+     "stance": "看多",
+     "action": "季線以上操作，順勢操作並自設價差出場點",
+     "reasons": [
+      "CPO概念股擴散效應延續，持續創高",
+      "上週提及後仍表現強勢，須留意是否站回季線"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "聯軍也創高了，基本上這些個股就是順勢操作了，上禮拜講聯軍嘛，還有訊星KY，這兩檔很強，鎖定季線跟季線以上操作。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯亞光電子",
+     "ticker": "3081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "順勢操作",
+     "reasons": [
+      "CPO概念股擴散，持續創高"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "聯誼光前幾天也是創高了，這些個股就是順勢操作了。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "訊芯-KY",
+     "ticker": "6451",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "待站上季線後再操作",
+     "reasons": [
+      "為前波表現強勢的CPU/CPO概念股，但目前尚未站回季線"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "講聯軍嘛，還有訊星KY，這兩檔很強啦，但是這兩檔還沒有回季線，所以我們現在的操作當然是鎖定季線跟季線以上。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "功率半導體概念股(郭台銘、陳泰銘共同持股，語音辨識名稱不確定)",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回至5/27高點附近可站買方，順勢操作",
+     "reasons": [
+      "由鴻海郭台銘與國巨陳泰銘兩大首富共同持股",
+      "股價創歷史新高，創高後整理形態未被破壞",
+      "國際大廠(英飛凌、恩智浦、德儀)陸續調高功率元件報價"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "因為這是首富的公司,兩大首富國巨、鴻海,大股東就是國巨跟鴻海嘛，如果有回撤5月27號的高點,應該站在買方順勢操作。",
+     "tw_market": null
+    },
+    {
+     "stock_name": "聯電集團投資控股股(暫譯「系統」，語音辨識名稱不確定)",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意聯電若持續上漲，具轉機想像空間",
+     "reasons": [
+      "持有聯電26萬張，聯電上漲可貢獻業外收益",
+      "董事長洪嘉聰同時擔任聯電董事長",
+      "併購ASIC及MCU/BMS公司後轉型效益顯現，首季由虧轉盈，前5月營收年增107%"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "系統持有聯電的張數是26萬張，董事長洪嘉聰，今年首季EPS轉正，前五月營收年增107%，這檔股票是轉機，聯電再上去的話這檔股票大家要留意。",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "林信富",
+   "picks": [
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低承接(不要等創新高才追)",
+     "reasons": [
+      "基本面支撐強，記憶體漲價趨勢明確",
+      "3月曾跌破月線季線後修正整理，隨後創新高，顯示逢回檔是買點",
+      "大型龍頭股，每次回測月線／季線都是低接機會"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "這種大型龍頭股,你看每一次只要回測月線、季線,其實你就是低接,基本上都會賺錢,理解基本面就是可以低接。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "力晶",
+     "ticker": "6770",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低承接，留意投信是否持續回補",
+     "reasons": [
+      "這一波尚未創高，回檔已到季線附近，反彈速度快",
+      "兼具成熟製程(如MOSFET、PMIC)漲價受惠題材",
+      "與美光合作可望助其記憶體製程進一步成長"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "利基電你看它上一波高點在94.5,跌一下到季線,反彈的速度也很快,除了記憶體之外它成熟製程這一波漲價也有受惠。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "旺宏",
+     "ticker": "2337",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱/留意",
+     "reasons": [
+      "這一波尚未過前高，抗跌，相對強勢"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "這一波沒有過高的像利基電還有昨天跌比較重的這個望虹,其實今天都沒有跌。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "群聯",
+     "ticker": "8299",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱/留意",
+     "reasons": [
+      "尚未過前高，抗跌表現相對穩健"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "包括像群聯,群聯沒過前高嘛。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "晶技",
+     "ticker": "3042",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回至前整理平台區間逢低介入",
+     "reasons": [
+      "石英(時脈)元件產業龍頭，台灣第一大廠",
+      "AI伺服器用量將成長3-4倍，高階規格單價可達消費型的數十倍至百倍",
+      "短線股價因營收獲利尚未跟上應用而拉回，但基本面趨勢明確"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "龍頭的晶技大概10%左右，我認為如果拉回的話,回到這個平台整理區間支撐會比較強，理解基本面就是可以在拉回深的地方介入。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "希華",
+     "ticker": "2484",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回布局",
+     "reasons": [
+      "全球排名前列的石英元件廠商，知名度高",
+      "今天率先領漲"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "反倒是希華今天先拉起來，希華跟其他廠商都算是全球排名比較有知名度的營運廠商。",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "ZORgvQe4qsk",
+  "title": "【理財達人秀】外資大賣 台股物極必反？IC設計.記憶體 汰弱換強？國巨.聯電集團作帳 輪誰接棒？CPO.石英元件起飛？｜李兆華、朱家泓、王建文、林信富2026.06.24【電視完整版】",
+  "date": "2026-06-24",
+  "duration": 2927,
+  "url": "https://www.youtube.com/watch?v=ZORgvQe4qsk"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

@@ -1,0 +1,414 @@
+{
+ "episode_summary": "台股7/7開高走低，加權指數一度上攻47,000點但終場重挫逾1000點，被動元件、矽晶圓等前波強勢股全面跌停，主因是三星財報雖亮眼但因南韓總統宣布巨額記憶體擴產計畫引發市場對景氣循環反轉的疑慮，並拖累韓股熔斷、進而牽動台股。三位老師蔡明翰、紀緯明、高憲容一致認為基本面並未轉壞，建議利用這波錯殺，挑選6月營收創高、獲利與籌碼仍佳的龍頭股逢低分批布局。",
+ "market_view": "大盤今天開高走低，收黑逾1000點（跌約2%），主因是被三星財報公布後暴跌、南韓宣布超級擴產計畫的鬼故事情緒所牽動，而非台股基本面轉壞；台積電相對抗跌是指數僅跌2%的關鍵。多位老師認為目前僅是高檔震盪整理，只要獲利成長動能未變，拉回就是加碼機會，蔡明翰預期7月仍偏強、9月後才易有較深修正，紀緯明則預期7月上旬高檔震盪、待台積電法說會後7月下旬有機會挑戰5萬點。",
+ "teachers": [
+  {
+   "name": "蔡明翰",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回布局，續抱",
+     "reasons": [
+      "2026年EPS預估從年初75元一路上修到100元，法說優於預期是股價上揚關鍵",
+      "外資目標價幾乎都在3000元以上，股價不算貴",
+      "法說會前一週股價通常相對強勢，7月中法說會有機會再優於預期帶動指數走高"
+     ],
+     "target_price": "外資目標價普遍3000元以上",
+     "confidence": "high",
+     "quote": "外資的目標價現在基本上幾乎沒有低於3000，大家都3000以上，所以股價的一個部分老實講也不是太貴",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "景碩",
+     "ticker": "3189",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低買進",
+     "reasons": [
+      "三個交易日從930多跌到687，跌幅過深屬於錯殺",
+      "6月營收創歷史新高，基本面沒有改變",
+      "外傳的ABF報價調降利空與其營收增幅（近三成）相比影響有限"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "景碩因為20分鐘分盤今天被直接殺到跌停板，高點930幾現在跌到687……基本面都沒有改變，甚至景碩的部分公布的6月營收還創歷史新高",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台光電",
+     "ticker": "2383",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低（買黑不買紅）加碼",
+     "reasons": [
+      "6月營收創歷史新高，且與AI需求直接相關",
+      "近兩日連兩根黑K純屬市場氛圍拉回，非基本面轉差"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "看到我們列出來台光電啊……這兩天也是兩根黑K棒，完全不客氣……誰跌的越深越該買",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "智邦",
+     "ticker": "2345",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低（買黑不買紅）加碼",
+     "reasons": [
+      "營收創歷史新高，屬AI需求直接受惠股",
+      "拉回為市場氛圍所致，非基本面轉壞"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "或者是這個所謂的智邦，這兩天也是兩根黑K棒……誰跌的越深越該買",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "紀緯明",
+   "picks": [
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "看多",
+     "action": "法說會前逢低卡位",
+     "reasons": [
+      "股價已跌破前波支撐、來到季線附近，基本面與估值已浮現價值",
+      "本益比僅20幾倍，且是CPO/光學龍頭公司",
+      "外資轉買，法說會前資金已進場卡位",
+      "專注MLA/FA領域，不隨意搶進FAU市場，具技術差異化"
+     ],
+     "target_price": "前高5300，季線約4000附近為支撐",
+     "confidence": "high",
+     "quote": "大立光跌到這個位置上面……不是因為動能或技術型態好而買，而是因為他的基本面跟他的價值已經浮現",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "上詮",
+     "ticker": "3363",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低（腰斬後）布局",
+     "reasons": [
+      "FAU量產能力目前台廠中最強，具產業卡位優勢",
+      "6月營收年減主因基期效應，非公司體質變壞，股價已跌深反映"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "上詮這個位置到底能不能佈局？腰斬喔，我認為是可以，原因是因為只要講到FAU，以目前台灣來講真正能做到量產的，上詮的良率真的是高",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "波若威",
+     "ticker": "3163",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察大戶籌碼是否連續增加，逢低布局待打底",
+     "reasons": [
+      "累計營收年增符合成長條件，第一季毛利率優於第四季顯示獲利改善",
+      "上禮拜大戶持股與量能已見增加",
+      "同為FAU供應商，上詮上漲理論上可帶動聯動"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "波若威在這兩天，一方面是他的量能有稍稍放出來了……大戶的持股在上禮拜也有增加",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "潛頂（語音辨識，正式名稱及代號待查）",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "資金分批逢低布局",
+     "reasons": [
+      "大戶持股上禮拜同樣轉為增加",
+      "從事外置雷射光源，5月已送樣，第三季進入驗證量產階段"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "以前頂來講的話，大戶的持股一樣在上禮拜終於增加了，那前頂在做的呢其實是做所謂的外置雷射光源",
+     "tw_market": null
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局，列入口袋名單",
+     "reasons": [
+      "首次跌破月線但月線仍向上，乖離率過大有向上收斂力道",
+      "大戶籌碼未見明顯出脫的長期上升結構未被破壞"
+     ],
+     "target_price": "重返千元（四位數）價位，短線約有10%空間",
+     "confidence": "high",
+     "quote": "我還是相信國巨我們應該在後面重返四字頭……重返四位數啦",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "凱美",
+     "ticker": "2375",
+     "market": "TW",
+     "stance": "看多",
+     "action": "作為國巨太貴時的替代標的逢低承接",
+     "reasons": [
+      "國巨集團子公司，承接集團A、B產能分工",
+      "相對國巨漲幅落後（國巨漲5-6倍，凱美僅漲2倍），位階較低",
+      "千張大戶持股上禮拜持續增加，股價守月線留下影線"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "凱美如果大家覺得國巨一張好貴哦……或許凱美大家可以參考一下",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聚鼎",
+     "ticker": "6224",
+     "market": "TW",
+     "stance": "看多",
+     "action": "股價回季線附近價值布局",
+     "reasons": [
+      "PPTC無熔絲開關全球市佔第二大，用於伺服器電源",
+      "同時具CLM保護元件用於BBU電池模組雙題材",
+      "上週千張大戶持股增加，橫盤整理接近尾聲"
+     ],
+     "target_price": "季線97.5元上方，約有20元價差空間",
+     "confidence": "medium",
+     "quote": "聚鼎股價回到季線這個位置上面的話，你可以用價值投資的邏輯來去思考……光是回到97.5上方就有20塊錢的價差",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "環球晶",
+     "ticker": "6488",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回測月線逢低買進",
+     "reasons": [
+      "矽晶圓龍頭，大戶連續三週未跑",
+      "股價上漲過程本不該追價，回檔到月線是好買點"
+     ],
+     "target_price": "月線為支撐買點",
+     "confidence": "high",
+     "quote": "它跌到月線的位置對我來講會是好買點……而且大戶在這邊連續三個禮拜都沒有跑掉",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "嘉晶",
+     "ticker": "3016",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局挑戰前高",
+     "reasons": [
+      "同做8吋矽晶圓/碳化矽，可望比照合晶漲勢",
+      "距季線近，下方有支撐，位階相對偏低"
+     ],
+     "target_price": "118元至153元，約20%空間",
+     "confidence": "medium",
+     "quote": "3016的嘉晶也可以看一下……118到153上方大概也還有20%左右的空間",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "合晶",
+     "ticker": "6182",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "已在相對高檔，不建議追價",
+     "reasons": [
+      "同為8吋矽晶圓廠，但股價已處於右上角高檔，作為嘉晶的比較標的"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "通常會去跟他做比較是6182的合金（合晶）……我們還是挑一些位階低的啦",
+     "tw_market": "TPEX"
+    }
+   ]
+  },
+  {
+   "name": "高憲容",
+   "picks": [
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "持盈保泰，等待站上6/24黑K高點再轉強訊號",
+     "reasons": [
+      "6月24日南韓宣布超級投資計畫當天出現黑K跌破關鍵支撐，短線結構轉弱",
+      "大戶籌碼近期呈現小幅加減碼、整體偏保守"
+     ],
+     "target_price": "需站回6月24日黑K高點才轉強",
+     "confidence": "high",
+     "quote": "目前我會建議大家記憶體製造廠的部分南亞科、華邦電這一組先持盈保泰",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "持盈保泰，同南亞科邏輯",
+     "reasons": [
+      "與南亞科同屬記憶體製造廠，短線結構同樣轉弱但基本面無虞"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "南亞科、華邦電這一組先持盈保泰，但並不是說看壞",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "威剛",
+     "ticker": "3260",
+     "market": "TW",
+     "stance": "看空",
+     "action": "下半年需留意毛利率轉差風險，操作宜小心",
+     "reasons": [
+      "模組廠獲利高峰已過，低價庫存顆粒消化完後，毛利率恐在下半年大幅下滑",
+      "營收雖創新高但股價已不再反應，頭頭低有跌破前低疑慮"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "等到你低價庫存總有用完的時候，你就會發現到毛利率到時候就會大幅度下滑，那時間點可能在下半年會看到",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "群聯",
+     "ticker": "8299",
+     "market": "TW",
+     "stance": "看空",
+     "action": "操作宜小心，留意跌破前低",
+     "reasons": [
+      "模組廠同樣面臨低價庫存去化後毛利率下滑風險",
+      "股價收斂三角形接近極限，若跌破前低恐轉弱"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "威剛創見群聯這模組廠的部分可能最近的地方就要比較去注意小心一點",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "創見",
+     "ticker": "2451",
+     "market": "TW",
+     "stance": "看空",
+     "action": "操作宜小心",
+     "reasons": [
+      "同屬模組廠，面臨相同的庫存去化後毛利率下滑風險"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "威剛創見群聯這模組廠的部分可能最近的地方就要比較去注意小心一點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線整理休息，逢回布局待大戶回補訊號出現再加碼",
+     "reasons": [
+      "除息後已完成填息，且留下影線顯示低檔有承接",
+      "外資預估明年ASIC規模上修，市佔率10-15%、營收看120億美元且仍有上修空間",
+      "股價回測多方缺口且前低小十字線未跌破，多方結構未破壞"
+     ],
+     "target_price": "多方缺口低點（小十字線）為支撐，未破則結構完好",
+     "confidence": "high",
+     "quote": "聯發科股價這一波漲上來先做休息整理，但多方結構目前來看還沒有被破壞……如果又有連續兩週開始增值，股價就會有機會發動一波攻勢上去",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "力旺",
+     "ticker": "3529",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意加碼",
+     "reasons": [
+      "IC設計IP指標股，近期出現大戶進駐跡象",
+      "低本益比、搭配高股息題材受主動式ETF青睞"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "力旺跟世芯這一組IP跟ASIC的部分也有這地方開始進駐的跡象",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "世芯-KY",
+     "ticker": "3661",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意加碼",
+     "reasons": [
+      "ASIC指標股，近期出現大戶進駐跡象",
+      "受惠IC設計低本益比＋高股息題材"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "力旺跟世芯這一組IP跟ASIC的部分也有這地方開始進駐的跡象",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "（語音辨識為「細創」，正式名稱不確定）",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意，主動式ETF尋找高股息標的的鎖定焦點",
+     "reasons": [
+      "去年EPS 14.66元，配息11.5元，殖利率3.2%",
+      "為主動式高股息ETF近期尋找標的的焦點，罕見出現漲停"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "先看到去年EPS賺了14.66，配息11塊半，殖利率有3.2%，所以看到這地方最近還蠻多主動式ETF開始尋找這種高股息題材",
+     "tw_market": null
+    },
+    {
+     "stock_name": "原相",
+     "ticker": "3227",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局，不跌破212元支撐",
+     "reasons": [
+      "週線出現長紅棒，量能開始增溫，投信加碼",
+      "去年EPS賺12.3元，配息10元，殖利率具吸引力",
+      "大戶持股連三週增持"
+     ],
+     "target_price": "支撐212元不破",
+     "confidence": "high",
+     "quote": "這個部分我們就可以觀察那一天低點212不要去跌破",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "祥碩",
+     "ticker": "5269",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意逢低布局",
+     "reasons": [
+      "去年每股配息高達45元，屬高股息ETF新增成分股",
+      "大戶持股連三週買進",
+      "股價相對抗跌"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "翔碩之前也介紹過……去年EPS賺了7個股本，配息高達45塊……大戶也有連三週買進的動作",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "kMQpMKFxXkM",
+  "title": "【理財達人秀】台股開高殺低真沒事？載板越綠越要買？被動.矽晶圓跌停能買?三星重摔記憶體支撐價？聯發科震後鎖誰?｜李兆華、蔡明翰、紀緯明、高憲容2026.07.07【電視完整版】",
+  "date": "2026-07-07",
+  "duration": 2919,
+  "url": "https://www.youtube.com/watch?v=kMQpMKFxXkM"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

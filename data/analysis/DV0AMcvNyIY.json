@@ -1,0 +1,378 @@
+{
+ "episode_summary": "因上週五美國非農就業數據優於預期引發市場對聯準會升息的疑慮，加上SpaceX即將掛牌及日本央行可能升息等資金收縮訊號，台股本週一開盤重挫，期指夜盤一度殺至跌停，被動元件與記憶體類股大量進入處置、跌停打開。三位分析師李永年、楊雲翔、林漢偉分別針對大盤修正結構、選擇權避險操作，以及台積電供應鏈、NVIDIA背板伺服器題材、記憶體類股與主動式ETF提出具體選股策略。",
+ "market_view": "三位老師普遍認為此次重挫是因升息疑慮升溫，而非基本面轉空。李永年觀察加權指數當日留下逾千點下影線但守住月線，若融資未洗淨恐仍有2至3週修正或7至8週橫盤整理，建議持股5成、空手者逢回檔1000點分批加碼；林漢偉則提醒外資期貨空單與融資減幅尚未到位，預期短線仍偏震盪盤整，須等下週三結算後觀察是否出現「端午變盤」。",
+ "teachers": [
+  {
+   "name": "李永年",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低分批買進、長期持有",
+     "reasons": [
+      "不知道買什麼股票就買台積電",
+      "今年外資雖賣超逾65.8萬張但投信同步買超24.5萬張，股價仍上漲57%，顯示有其他資金介入承接",
+      "未來外資若轉為買超，將是股價真正表態的時候"
+     ],
+     "target_price": "短撐約2170-2230，短壓約2330-2350（原文數字僅供參考）",
+     "confidence": "high",
+     "quote": "你真的不知道買什麼股票你就買台積電嘛",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "辛耘（推測，原音「星雲」）",
+     "ticker": "3583",
+     "market": "TW",
+     "stance": "看多",
+     "action": "站回月線可加碼",
+     "reasons": [
+      "籌碼面法人連三買、融資連三減，籌碼乾淨",
+      "若量能放大並重新站回月線，基本面無虞可加碼"
+     ],
+     "target_price": "短線壓力約850-878元（月均線壓力區）",
+     "confidence": "high",
+     "quote": "如果能夠站上月線的話我覺得這個多單呢就可以加碼",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "致茂（推測，原音「智貿／致貿」）",
+     "ticker": "2360",
+     "market": "TW",
+     "stance": "看多",
+     "action": "守穩月線、量價不失控可續抱待創高",
+     "reasons": [
+      "上檔套牢壓力不重，開低走高且守住月線",
+      "週線守住六週均線，呈階梯式上攻格局，基本面無虞"
+     ],
+     "target_price": "原文提及短撐、短壓區間，惟數字疑似有誤植，僅供參考",
+     "confidence": "high",
+     "quote": "這檔股票以後還有機會可以再創新高的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察明日出關能否收紅，視為被動元件族群指標",
+     "reasons": [
+      "被動元件龍頭股，今日開跌停後拉高逼近平盤",
+      "明日解除處置出關，若收紅可視為指標股，帶動同族群跟漲"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "它如果呢明天能夠呢開高不管它開高走高或者是怎麼樣只要能夠收紅的話那麼它就變成一個指標了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "大毅科技（推測，原音「大億」，國巨集團子公司）",
+     "ticker": "2478",
+     "market": "TW",
+     "stance": "看多",
+     "action": "站上150-158元續抱看高，拉回125-127元有撐可留意",
+     "reasons": [
+      "國巨集團子公司概念股，今日開跌停後收紅並創新高",
+      "量能尚未失控，走勢相對強勢"
+     ],
+     "target_price": "短壓150-154元，站上154-158元可期待更高點；拉回支撐125-127元",
+     "confidence": "high",
+     "quote": "開跌停收紅還創新高，這厲害了吧",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "楊雲翔",
+   "picks": [
+    {
+     "stock_name": "反向型ETF（原音「反一」，推測為元大台灣50反1或同類商品）",
+     "ticker": null,
+     "market": "ETF",
+     "stance": "看空",
+     "action": "作為現貨部位避險工具，已於高檔布局",
+     "reasons": [
+      "上週四已感覺到高檔風險偏大，提前買進反一避險約1000張",
+      "隔日美股重挫、台指期夜盤大跌，避險部位有效彌補現貨損失"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "雲翔哥買了很多反一，買了1000張",
+     "tw_market": null
+    },
+    {
+     "stock_name": "SpaceX衛星題材股（逐字稿股名不明確）",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回至頸線支撐位置可考慮介入",
+     "reasons": [
+      "技術面形成碗形底，突破頸線後原壓力轉為支撐",
+      "本益比偏低，長線可抱，短線可留意頸線附近進場"
+     ],
+     "target_price": "頸線支撐位置（原文未提供精確數字）",
+     "confidence": "high",
+     "quote": "如果你認為說看好，這個SpaceX衛星的題材，大概可以重新再做一個介入",
+     "tw_market": null
+    },
+    {
+     "stock_name": "光寶科",
+     "ticker": "2301",
+     "market": "TW",
+     "stance": "看多",
+     "action": "待量增站回頸線位置可介入",
+     "reasons": [
+      "同樣呈現碗形底型態，頸線突破後壓力轉支撐",
+      "近期量縮為隱憂，但若持續放量代表買盤增強，仍是好的介入點"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果量有持續放量的時候，其實它還是一個好的介入點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "力成科技（推測，原音「例程」）",
+     "ticker": null,
+     "market": "TW",
+     "stance": "觀望",
+     "action": "建議先停利，待月線站穩後再重新評估介入",
+     "reasons": [
+      "當日走勢相對弱勢，離頸線支撐位置較遠，回檔幅度大於前兩檔標的",
+      "出現放量長黑，風險值偏高，建議先停利一趟"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "放量大量的收黑來講，放大量大黑應該先停利一趟會比較好",
+     "tw_market": null
+    },
+    {
+     "stock_name": "神達（MiTAC）",
+     "ticker": "3706",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低承接，具備創高機會",
+     "reasons": [
+      "本益比僅約11倍，明顯低估",
+      "今年獲利年增50%（子公司神雲貢獻），受惠Dell MGX伺服器背板題材",
+      "打出底部長黑後拉回，本益比偏低情況下創高機會仍高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果你用一個本益比這麼低的情況下，它創高的機會我覺得還是很高",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "廣達",
+     "ticker": "2382",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱，等待本益比修正並創高",
+     "reasons": [
+      "本益比僅約7倍，需修正至15倍需搭配股價創高",
+      "為Dell代工夥伴，受惠伺服器MGX題材",
+      "今日未開跌停，顯示低接買盤穩固"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "他今天也沒開跌停喔，所以他已經相對低位接，大家就不殺他了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "緯創（推測，原音「偽創」）",
+     "ticker": "3231",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意受惠Dell伺服器代工題材",
+     "reasons": [
+      "同為Dell代工夥伴，受惠伺服器MGX背板題材"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台灣廣達偽創來講為什麼會整個看這兩支？原因就是他也幫Dell代工",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "可成科技（推測，原音「可塵／可乘」）",
+     "ticker": "2474",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回視為介入機會",
+     "reasons": [
+      "新背板題材機構件供應商，量能已放大，先前已連拉三根紅K",
+      "下半年新業務挹注，EPS估值可能上修，本益比偏低"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "可乘，我覺得機會點也很大……拉回我覺得也是一個所謂的介入機會點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "亞翔",
+     "ticker": "6139",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "建議等拉回至季線附近再介入較安全",
+     "reasons": [
+      "在手訂單近2000億元但股本僅21億元，年初以來已飆漲約三倍，漲多後拉高修正風險較大",
+      "今日鎖跌停"
+     ],
+     "target_price": "等季線位置介入較安全",
+     "confidence": "high",
+     "quote": "我覺得是等到季線左右比較安全",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "漢唐",
+     "ticker": "2404",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "建議等拉回打底後再介入",
+     "reasons": [
+      "同屬半導體資本支出工程受惠股，季線位置貼近目前價位",
+      "建議等打底完成後再重新介入"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "漢堂也是類似的，季線的位置剛好比較貼近於它下面的一個點位",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "信紘科（推測，原音「信用科」）",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "股價回測上升軌道下緣時可留意布局，目標挑戰前高",
+     "reasons": [
+      "本益比僅約12倍，估值明顯偏低",
+      "股價沿上升軌道運行，今日觸及軌道下緣後強力反彈"
+     ],
+     "target_price": "上升軌道下緣為支撐，目標挑戰前高",
+     "confidence": "high",
+     "quote": "今天剛好就打到所謂的上升軌道的下緣位置……這一根拉起來真的拉得很漂亮",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "林漢偉",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低買進",
+     "reasons": [
+      "此次事件未見明顯翻空訊號，非如對等關稅事件般嚴重",
+      "今日出現恐慌性賣壓，正是逢低承接確定性高的大型龍頭股的機會"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "我今天是選擇站在買方逢低去撿便宜……像台積電啊，像市值型的ETF啊",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "市值型ETF（如0050等）",
+     "ticker": null,
+     "market": "ETF",
+     "stance": "看多",
+     "action": "逢低買進",
+     "reasons": [
+      "確定性高、風險相對低的權值型ETF，適合在非趨勢翻空的重跌時加碼"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "撿了一些所謂確定性很高的像台積電啊，像市值型的ETF啊",
+     "tw_market": null
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察能否站回日線，若站回可視為記憶體信心回穩訊號",
+     "reasons": [
+      "股價從193元歷史高點快速回落，但月線迄今未跌破",
+      "公司獲利與營收持續創高，基本面穩健",
+      "若空方缺口回補、法人轉買加上融資減碼，站回日線可視為轉強訊號"
+     ],
+     "target_price": "月線為關鍵支撐，留意能否重回日線附近",
+     "confidence": "high",
+     "quote": "只要華邦電重新回到日線附近，那可能記憶體的一個信心就有機會回穩",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "十銓科技（推測，原音「怡鼎」）",
+     "ticker": "4967",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察能否重回日線，帶動模組廠比價效應",
+     "reasons": [
+      "首季EPS約37元，4至5月合計再賺約66元，前五月每股獲利近百元，可能是全台EPS第二名",
+      "今日跌破月線後迅速拉回"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果他明天如果能夠重新回到日線以上的話，那是有機會讓整個模組場裡面有一些比價的效應",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "力積電（推測，原音「利基電」）",
+     "ticker": "6770",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "留意反彈力道相對落後",
+     "reasons": [
+      "同業記憶體股多數今日打開跌停翻紅，但該股與群聯相對弱勢、收黑較重"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "但收盤裡面跌比較重可能就利基電跟群聯啦",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "群聯電子",
+     "ticker": "8299",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "留意反彈力道相對落後",
+     "reasons": [
+      "同業記憶體股多數今日打開跌停翻紅，但該股相對弱勢、收黑較重"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "但收盤裡面跌比較重可能就利基電跟群聯啦",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "安聯美國科技領航主動ETF",
+     "ticker": "00402A",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "可參與明日新掛牌認購，作為美股核心成長配置",
+     "reasons": [
+      "前十大持股集中約52%、前二十大約七成，高度聚焦輝達、台積電、艾斯莫爾、美光等高成長科技股",
+      "掛牌價僅10元，入手成本低，且掛牌時機恰逢台美股回檔，成本相對有利",
+      "兼具大型權值股與中小型潛力股，未來可能納入SpaceX等新掛牌題材股，提升報酬彈性"
+     ],
+     "target_price": "掛牌價10元",
+     "confidence": "high",
+     "quote": "00402A就是大家比較好的一個選擇……明天才要掛牌",
+     "tw_market": null
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "DV0AMcvNyIY",
+  "title": "【理財達人秀】台股千點下影線 融資不死還有得撿？升息在路上 台積供應鏈、被動上檔無壓？輝達背板股、記憶體 老將新秀甜蜜點？｜李兆華、李永年、楊雲翔、林漢偉2026.06.08【電視完整版】",
+  "date": "2026-06-08",
+  "duration": 2930,
+  "url": "https://www.youtube.com/watch?v=DV0AMcvNyIY"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

@@ -1,0 +1,285 @@
+{
+ "episode_summary": "台股盤中衝上47,800點再創新高，台積電站上2510元帶動聯電、世界先進雙雙漲停，資金並擴散至被動元件、載板、IC設計等族群；三位老師分別提供低價轉機股、投信作帳受惠股，以及以稀土、鈾礦、黃金為主題的關鍵資源型ETF作為資產配置建議。",
+ "market_view": "加權指數在美伊簽署MOU、資金行情帶動下持續創高並挑戰5萬點，關鍵觀察條件為原油回落至70美元附近、美元走弱以及台積電能否挑戰2800元；整體技術指標雖偏熱但籌碼尚屬穩定。",
+ "teachers": [
+  {
+   "name": "李永年",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點",
+     "reasons": [
+      "盤整兩個月後直接放量突破创高，量價健康未過熱",
+      "外資給予30倍本益比，以今年EPS 94元估算目標價2820元",
+      "若EPS上看100元，目標價可看到3000元",
+      "被視為這波漲勢中最便宜、基本面最扎實的半導體龍頭"
+     ],
+     "target_price": "2820~3000元",
+     "confidence": "high",
+     "quote": "外資如果給台積電的本益比是30倍的話那麼我們用預估今年是94塊的這個EPS 乘以30倍 等於2820塊就是今年的目標價",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "雖股價漲不動但屬價跌量縮，籌碼依然穩定",
+      "持有者不必擔心回檔，量價未失控理論上仍有高點可期"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "因為它量價還沒有失控所以我覺得這支股票理論上來講 應該還有更高點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華新科",
+     "ticker": "2492",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "上週爆大量收十字線後，今日開盤即拉出漲停並收在漲停價",
+      "技術面觀察屬第四波整理，理論上還有第五波末升段可期"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "今天不囉嗦開盤就直接給你看漲停板...這個就是越觀越大尾的典型的代表",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "品安",
+     "ticker": "8088",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回檔不破十日線可加碼",
+     "reasons": [
+      "記憶體模組族群中股價最便宜的一檔，聯電集團聯家軍成員",
+      "今日量縮價跌，顯示籌碼穩定非真跌",
+      "模組廠已與客戶約定固定毛利率，顆粒漲價可轉嫁客戶不影響獲利",
+      "若成交量放大並站上73.1元前高，上方壓力將消除"
+     ],
+     "target_price": "站上73.1元",
+     "confidence": "medium",
+     "quote": "這支股票呢 我們看一下我們再講它回檔只要不破十日線的話應該都是加碼的時候因為它的基本面應該是沒有問題的",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "台化",
+     "ticker": "1326",
+     "market": "TW",
+     "stance": "看多",
+     "action": "站穩59元加碼",
+     "reasons": [
+      "週線大底已成形，型態轉強",
+      "四週前59元附近出現大量，本週收盤若能站上59元後續有上攻機會",
+      "與南亞科、南電同屬台塑集團交叉持股體系，享題材連動"
+     ],
+     "target_price": "站上59元",
+     "confidence": "medium",
+     "quote": "這個禮拜的收盤價如果能夠占上59塊的話我覺得它還有往上供的機會",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "景碩",
+     "ticker": "3189",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "解關禁令後籌碼沈澱乾淨，今日不畏整理直接拉出漲停創新高",
+      "下半年載板報價由原估漲4-5%上修至7-8%，基本面無虞"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "你如果手上有這些持股的話那量價沒有失控之前就持股就續爆持股續爆 我覺得它應該還有更高點可以值得期待",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "欣興",
+     "ticker": "3037",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回守月線可承接",
+     "reasons": [
+      "站上月線後盤整4天，上檔壓力有限",
+      "4月自結EPS 1.85元，年增率高達4725%",
+      "長約已簽至2030年，訂單無虞",
+      "若出量有機會挑戰前高1130元"
+     ],
+     "target_price": "1130元",
+     "confidence": "high",
+     "quote": "這個拉回來呢只要有人守住月線的話那我覺得進場去承接一些應該不會有太大的問題啦",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南電",
+     "ticker": "8046",
+     "market": "TW",
+     "stance": "中性",
+     "action": null,
+     "reasons": [
+      "列為載板族群投資順位第三，但今日走勢收黑，未提供具體進場理由"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "今天呢 果然南電他是收黑的這兩個都是漲的",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "陳唯泰",
+   "picks": [
+    {
+     "stock_name": "瑞昱",
+     "ticker": "2379",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回至十日線觀察買點，不建議追高",
+     "reasons": [
+      "Wi-Fi 7晶片今年下半年將迎換機潮，滲透率提升",
+      "法人預估今年EPS上看30~35元",
+      "外資近三日由賣轉買，投信同步買超",
+      "股價已連續大漲甚至漲停鎖死，短線恐有拉回風險"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "外資在最近這三天終於看到他出現就是由賣鈔轉為買鈔...但是股票已經漲到相對的高檔...這種個股當然建議不需要去做追高",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "原相",
+     "ticker": "3227",
+     "market": "TW",
+     "stance": "看多",
+     "action": "箱型整理上緣附近留意突破",
+     "reasons": [
+      "視覺感測晶片跨足車用感測與穿戴裝置，需求擴大帶來轉機",
+      "股價處箱型整理上緣，有機會向上突破",
+      "近一個月大戶持股比例增加"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "在這個所謂的基本面有轉機再加上大戶的持股再往上做增加的情況之下不排除它的股價是有機會再往上去做個突破",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "致新",
+     "ticker": "8081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回可留意",
+     "reasons": [
+      "生產記憶體、面板、通訊相關電源管理晶片，受惠AI伺服器與DDR5放量",
+      "股價才剛起漲，底部剛成形",
+      "近一個月大戶持股比例同步走高"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "這個地方來講算是底部剛剛成形開始往上做突破這種個股有拉回基本上我覺得也是可以去特別做留意的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "全新",
+     "ticker": "2455",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意月底作帳行情",
+     "reasons": [
+      "全球前二大雷射二極體廠商",
+      "投信近期持續加碼買超，呈現多頭趨勢",
+      "可能於月底作帳時受惠"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "全球前二大的雷射廠商那最近的投信有在加碼那之前都陸續在買超那現在已經呈現這種多頭趨勢的個股很有可能在月底就有機會去做作帳",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台汽電",
+     "ticker": "8926",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意投信佈局",
+     "reasons": [
+      "原為冷門低量汽電共生股，近期受惠台灣電力需求話題",
+      "今年第一季EPS 2.1元創歷史新高",
+      "獲利大幅成長帶動投信進場佈局"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "他在這部分呢今年第一季交出EPS2.1元的歷史新高所以看在這個EPS大幅度成長的情況之下投信這邊進場去做布局",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "股魚",
+   "picks": [
+    {
+     "stock_name": "野村台灣新科技50",
+     "ticker": "00935",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "可納入核心資產佈局",
+     "reasons": [
+      "專注佈局高研發投入且具規模競爭力的公司",
+      "第二季以來淨值已上漲近8成"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "它反映在什麼地方它反映到第二季以來就漲了接近8成",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "元大全球航太ETF",
+     "ticker": null,
+     "market": "ETF",
+     "stance": "中性",
+     "action": "可作為軍工主題參考佈局",
+     "reasons": [
+      "台股市場中少數可直接連結軍工題材的ETF產品"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "如果今天要針對軍工來做投資的話雖然少 可是還是有比如說像元大的全球航太的話大概是台股市場中唯一一檔可以比較直接的去針對軍工來做投資的",
+     "tw_market": null
+    },
+    {
+     "stock_name": "關鍵資源ETF(稀土/鈾礦/貴金屬)",
+     "ticker": "009821",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "納入衛星資產，建議約10%配置",
+     "reasons": [
+      "同時涵蓋稀土、鈾礦、貴金屬三大關鍵資源各占約三成",
+      "與台灣半導體科技股重疊度低，具互補分散效果",
+      "經市值與次產業篩選，波動較低、長期報酬較佳",
+      "受惠AI基建與軍工發展對關鍵原料的長期需求"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "這一檔是009821...台灣大概是首件第一檔...把它放進去之後的話就可以讓你整體的投資可以有更廣泛更深度的一個投資的成果",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "IPt1CTeRrro",
+  "title": "【理財達人秀】台積醒了衝2800 聯電走勢更狂？資金找擴散 被動.載板.IC設計怎麼挑？投信衝作帳 哪些銅板低檔迎補漲？｜李兆華、李永年、陳唯泰、股魚2026.06.22【電視完整版】",
+  "date": "2026-06-22",
+  "duration": 2925,
+  "url": "https://www.youtube.com/watch?v=IPt1CTeRrro"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

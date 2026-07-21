@@ -1,0 +1,408 @@
+{
+ "episode_summary": "本集台股本周震盪劇烈,尾盤雖收黑但跌幅不算深,主持人與鍾國忠、雷老闆、翁世峻三位老師聚焦下週FOMC會議、聯準會新任理事首秀及端午連假效應下的操作策略。三位老師一致認為記憶體、CPU、被動元件、PCB載板與半導體設備類股因五月營收亮眼,是震盪中最具底氣的族群,並分別點名個股給出進出場條件與目標價。",
+ "market_view": "大盤本週價跌量縮(5.98兆,較前兩週明顯萎縮),鍾國忠認為短線4萬5之上有壓力不易過高,建議4萬3以下、甚至4萬2500以下分批找買點;雷老闆則長線看多,認為外資尚未回補台股,一旦回補台股有機會挑戰5萬點並成為全球第四大市值市場;翁世峻由籌碼面觀察三大法人轉買超,判斷下週上半週較有撐,下半週因FOMC、期貨結算與連假變數波動會加大。",
+ "teachers": [
+  {
+   "name": "鍾國忠",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "中性",
+     "action": "拉回不追高,留意4萬3至4萬點附近佈局",
+     "reasons": [
+      "本週跌破上升趨勢線,包含ADR也是如此",
+      "季線扣抵到位後上升會趨緩,短期難再創高",
+      "4萬6、4萬5一帶不會強攻,轉為高檔橫盤整理",
+      "4萬3到4萬點區間有支撐,可留意佈局機會"
+     ],
+     "target_price": "4萬3~4萬點附近為佈局區",
+     "confidence": "high",
+     "quote": "因為現在台積電...跌破上升趨勢線...4萬6、4萬5那邊不會強攻,會進行一個高檔橫盤整理動作",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "看多",
+     "action": "偏多操作,留意族群輪動",
+     "reasons": [
+      "去年EPS由虧轉盈(0.88元→今年Q1 2.25元)",
+      "同時具備記憶體與被動元件雙題材",
+      "6/24美光財報前,外資機構已調升目標價",
+      "上檔套牢量不多,大戶持股增加"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "我喜歡看這家公司是因為首先來講他去年EPS0.88第一季2.25已經虧轉盈了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯電",
+     "ticker": "2303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱偏多",
+     "reasons": [
+      "今日盤中一度漲停",
+      "籌碼穩定,外資加持"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "聯電也是之前講過的...股價總是很穩定,籌碼還很穩健,外資加持",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國眾(大眾集團旗下IC顧問/AI、5G相關公司,確切代號待確認)",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "高息成長股,逢低布局",
+     "reasons": [
+      "近三個月營收YoY均逾100%成長,前五月累計營收成長60%",
+      "毛利率跳升至10.3元(過去僅4~5元)",
+      "今年EPS估3元,明年估配息2.7元,兩年合計股利約5元",
+      "本益比目前約13倍,周KD及MSTD轉向上,外資開始加碼"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "這家公司是大眾集團的公司,主要是提供相關的企業的IC的顧問諮詢跟AI、5G運用的部分",
+     "tw_market": null
+    },
+    {
+     "stock_name": "高息成長軟體股(鍾國忠提及第二檔,逐字稿代號不清,疑似3029系列)",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低偏多布局,視為進可攻退可守標的",
+     "reasons": [
+      "營收年增開始出現兩位數成長,軟體股走強",
+      "黃仁勳曾提及看好軟體產業",
+      "公司執行庫藏股買回(已買1800張,均價95.62元,預計買滿2000張)",
+      "今年配息5.5元,若獲利優於去年殖利率約5.5%"
+     ],
+     "target_price": "約96.5元(庫藏股買超上限價位)",
+     "confidence": "low",
+     "quote": "這家公司...最近公布他的庫藏股已經買了1800張,均價大概95.62",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "雷老闆",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "靜待過高,續抱",
+     "reasons": [
+      "外資目標價已由2300元上修至一般中高標2800~3000元",
+      "只要台積電過高,大型權值股可望跟進過高",
+      "外資今年賣超已接近去年買超量,終將回補台股"
+     ],
+     "target_price": "2800~3000元(外資目標價)",
+     "confidence": "high",
+     "quote": "我覺得以一般中高標來講都會看到2800到3000...一塊錢大概貢獻8點多的加權點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "宜鼎國際(逐字稿唸作怡婷)",
+     "ticker": "5289",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回留意,續抱",
+     "reasons": [
+      "千張大戶持續增加,即使盤勢震盪成本也差不多",
+      "記憶體族群長線仍看好,只是時機不好抓"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "我覺得怡婷在這邊大家可以注意一下",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "群聯電子",
+     "ticker": "8299",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "暫不追,留意拉回",
+     "reasons": [
+      "形態偏弱,同族群但預期股價會再稍微下來"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "如果群聯是這樣的形態,她的群聯會再稍微下來一點",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "南亞科技/華邦電(同族群記憶體股)",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "同族群留意",
+     "reasons": [
+      "與宜鼎、群聯屬同一記憶體族群,大戶動向類似"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "那跟她很像的有誰?有群聯啊。有南亞科、華邦電。這個同一個族群的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台燿科技(逐字稿唸作台耀/台藥)",
+     "ticker": "6274",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回布局/續抱",
+     "reasons": [
+      "今年EPS估30幾元,明年估60幾元,增幅可達85~100%",
+      "若拿下TPU銅箔基板訂單,明年高階伺服器占比有機會達六成以上",
+      "本益比可望以20幾倍計算,估值仍具吸引力",
+      "銅箔基板遭玻璃基板取代傳言短期不成立,產業龍頭不會被單一世代取代",
+      "千張大戶僅微幅小調,非嚴重出貨"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "現在大家今年30幾塊的EPS,明年估到60幾塊,最高有機會估到90%到100%的增幅",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "臻鼎-KY(逐字稿唸作真頂)",
+     "ticker": "4958",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回布局,留意補漲",
+     "reasons": [
+      "ABF四雄之一,籌碼最漂亮"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "我可能會比較喜歡真頂...跟景碩",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "景碩科技",
+     "ticker": "3189",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回布局,留意補漲",
+     "reasons": [
+      "剛出關股價受壓抑,但籌碼整體不錯,補漲機會較大"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "我覺得景碩它這裡有再多補漲一段的機會",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "欣興電子(逐字稿唸作星星)",
+     "ticker": "3037",
+     "market": "TW",
+     "stance": "看多",
+     "action": "不知如何選股時的首選",
+     "reasons": [
+      "ABF載板四雄中規模最大、最穩健"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "你真的不知道要選誰?你選星星。因為最大最安全",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "光聖科技(逐字稿唸作光盛)",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回買進/續抱",
+     "reasons": [
+      "光通產業優等生,EPS獲利最佳,不受本益比偏高疑慮影響",
+      "最新月營收優於市場預期",
+      "千張大戶比例由36%以下快速拉升至38%以上,顯示大戶積極布局"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "你光通真的不要選誰的時候你就選產業的優等生...而且他最新的一個月的營收開出來,營收全部由於市場預期",
+     "tw_market": null
+    },
+    {
+     "stock_name": "華星光(逐字稿唸作華新光,確切名稱待確認)",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低承接,留意補漲",
+     "reasons": [
+      "本益比已修正約三到四成",
+      "一旦光通類股反彈,跌深標的可望跟漲補漲"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "像華新光這一些呢,我就會覺得說本益比已經修正四成了",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "翁世峻",
+   "picks": [
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "十字線以下偏多操作,不追高,逢回接",
+     "reasons": [
+      "被動元件指標性龍頭,5月營收年增47%創歷史新高",
+      "大戶持股比例高,約70%以上",
+      "近期投信雖賣超,但研判為年底記憶題材作帳前換手,非出貨"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "國巨...十字線以下偏多...這一檔你不要去追啊...大概峰迴做多我就ok",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台慶科技(逐字稿唸作台信科)",
+     "ticker": "3264",
+     "market": "TW",
+     "stance": "看多",
+     "action": "區間操作,下緣找買點,突破前高可表態",
+     "reasons": [
+      "5月營收創歷史新高,AI占比拉高至14%並跨入CPU應用",
+      "車用與AI雙引擎帶動動能",
+      "投信開始小幅買進"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "台信科AI佔比...今年可能會慢慢的拉到14%,而且他有跨入CPU",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "利敦(確切代號待確認)",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "速戰速決,短線操作",
+     "reasons": [
+      "被動元件族群,5月營收創歷史新高"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "這三檔被動:國巨、台信科、利敦都是創歷史新高",
+     "tw_market": null
+    },
+    {
+     "stock_name": "日電貿(逐字稿唸作日電貌)",
+     "ticker": "3090",
+     "market": "TW",
+     "stance": "看多",
+     "action": "月線不破可偏多來回操作",
+     "reasons": [
+      "出關後創歷史新高,近一個月漲約8成(至256元附近)",
+      "被動元件代理商受惠漲價題材"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "日電貌漲到256塊,5月15號也是大概一個月前而已就已經漲8成了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯茂電子(逐字稿唸作聯貿)",
+     "ticker": "6213",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢季線找買點,站上短均可挑戰前高",
+     "reasons": [
+      "CCL三哥,同樣有漲價題材,5月營收創新高",
+      "一口氣拉回季線並在季線獲得支撐",
+      "中信目標價340元、凱基目標價340元"
+     ],
+     "target_price": "340元",
+     "confidence": "high",
+     "quote": "法人的目標價我也給大家做參考,中信目標價是340塊,然後凱基是340元",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "臻鼎-KY(逐字稿唸作真頂)",
+     "ticker": "4958",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意補漲機會",
+     "reasons": [
+      "雖未創歷史新高,但年增率37%優於前五月累計年增率",
+      "被納入台灣50成分股",
+      "土洋(內外資)同買,籌碼最漂亮",
+      "凱基目標價上調至690元"
+     ],
+     "target_price": "690元",
+     "confidence": "high",
+     "quote": "凱基有把目標價調到690塊,所以目前來看這個ABF四雄是真頂最強,他籌碼最漂亮",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "大量科技",
+     "ticker": "3167",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回留意,關注投信持股比例是否上看10%作帳股",
+     "reasons": [
+      "受惠AI伺服器PCB升級潮,約九成營收來自PCB高階設備",
+      "統一投顧預估今年EPS27元、明年43元,目標價上調至1220元(現價約806元)",
+      "投信近期逆勢買超,持股比例逼近9%,朝10%作帳門檻邁進"
+     ],
+     "target_price": "1220元",
+     "confidence": "high",
+     "quote": "統一投顧...預估今年大概賺27塊,明年賺43塊,目標價是1220",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "亞翔工程",
+     "ticker": "6139",
+     "market": "TW",
+     "stance": "看多",
+     "action": "以昨日低點為停損,挑戰前高",
+     "reasons": [
+      "5月營收年增103%",
+      "今日突破所有均線,轉強訊號明確",
+      "在手訂單2084億元,主攻新加坡廠(含台積電、美光新廠)",
+      "法說提及下半年為入帳高峰期"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "亞翔的話,他的在手訂單2084億...如果你有進場的話,就以昨天的低點為一個停損",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "漢唐集成",
+     "ticker": "2404",
+     "market": "TW",
+     "stance": "看多",
+     "action": "同亞翔策略,以昨日低點為停損",
+     "reasons": [
+      "5月營收年增85%",
+      "今日跳空漲停,收盤價創新高(前高1345)",
+      "在手訂單1940億元,法說提及美國廠訂單能見度至2029年且無對手"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "漢唐...在手訂單有1940億...法說講的很好,是說美國廠訂單到2029年都不是問題",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "7Ssxu_DPmrE",
+  "title": "【理財達人秀】川普畫線 4萬3以下越跌就越買？下週FOMC撿誰 PCB.CPO盯大戶持股？記憶抱製造 被動.設備營收高 3招打天下？｜李兆華、鍾國忠、雷老闆、翁士峻2026.06.12【電視完整版】",
+  "date": "2026-06-12",
+  "duration": 2922,
+  "url": "https://www.youtube.com/watch?v=7Ssxu_DPmrE"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

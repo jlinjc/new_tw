@@ -1,0 +1,450 @@
+{
+ "episode_summary": "台股再創收盤新高但盤中震盪逾千點，電腦展開展帶動大型AI權值股(鴻海、廣達、緯創等)強漲，但中小型股如被動元件、機器人股遭大幅洗盤；三位老師分別聚焦大小型股健康輪動與海外AI布局(蔡明翰)、外資空單創高下大戶轉進低本益比AI供應鏈與被動/機器人個股支撐判斷(高憲榮)，以及輝達新晶片帶動軟體股與傳產塑化股轉型半導體材料的黃金右下角題材(陳唯泰)。",
+ "market_view": "大盤在AI基本面轉為實質獲利、台積電控盤與6、7月傳統旺季等因素支撐下創高震盪，外資空單雖創歷史新高但主因避險與正價差套利而非真正看空，法人普遍偏樂觀看待指數續強。",
+ "teachers": [
+  {
+   "name": "蔡明翰",
+   "picks": [
+    {
+     "stock_name": "00990A",
+     "ticker": "00990A",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "可作為長線布局，資金往AI主題集中",
+     "reasons": [
+      "主動式ETF以AI為主軸，涵蓋美國、台灣、韓國、日本配置",
+      "持股涵蓋美光、Sandisk、Lumentum等記憶體與光通訊指標股，且台股部分聚焦台達電、台積電",
+      "今年前五個月漲幅已達約95%，優於被動型與市值型ETF",
+      "不配息機制可讓資金效率最大化，複利效果更佳"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "因為看到990的部分今年前五個月漲幅就有達到95%，它比較明顯的特色是不配息，這完全讓資金滾錢更有效率",
+     "tw_market": null
+    },
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回可補上，續抱核心AI基本面族群",
+     "reasons": [
+      "屬基本面最強的AI核心族群，本益比評價偏低",
+      "前一段時間相對大盤落後，YTD才剛轉強",
+      "ADR已經轉強，是後續補漲的重要訊號"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台積電的ADR已經轉強，我覺得這個後續而言該補的都還是得補上",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線看報價操作，報價上漲續抱，報價一旦停滯或下跌應儘速退場",
+     "reasons": [
+      "記憶體現貨報價持續上揚",
+      "短線操作應緊盯報價變化，而非聽消息"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "滑邦電就是短線你要看著報價持續操作，報價現在還在漲你就可以持續操作，只要報價一停了或跌了就應該要儘快退場",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "美光",
+     "ticker": "MU",
+     "market": "US",
+     "stance": "看多",
+     "action": "長線布局(可透過00990A等ETF間接投資)",
+     "reasons": [
+      "輝達點名記憶體兩大核心之一即為HBM高階AI記憶體",
+      "美光、三星、海力士才是輝達所指真正的AI記憶體大廠，非台廠DDR4"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "三星、海力士、美光這三家才是所謂真正他講的記憶體，這種就可以做長線",
+     "tw_market": null
+    },
+    {
+     "stock_name": "三星電子",
+     "ticker": null,
+     "market": "OTHER",
+     "stance": "看多",
+     "action": "長線布局(海外標的，建議透過ETF參與)",
+     "reasons": [
+      "輝達認定的HBM高階AI記憶體真正供應商之一",
+      "屬長線題材，非短線報價操作"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "三星、海力士、美光這三家才是所謂真正他講的記憶體",
+     "tw_market": null
+    },
+    {
+     "stock_name": "SK海力士",
+     "ticker": null,
+     "market": "OTHER",
+     "stance": "看多",
+     "action": "長線布局(海外標的，建議透過ETF參與)",
+     "reasons": [
+      "輝達認定的HBM高階AI記憶體真正供應商之一",
+      "屬長線題材，非短線報價操作"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "三星、海力士、美光這三家才是所謂真正他講的記憶體",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "高憲榮",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "持續作多，留意6月營收與7月法說催化",
+     "reasons": [
+      "權值占指數逾四成，扮演控盤角色，只要台積電不轉空指數就不必過度擔心",
+      "6月4日股東會將公布5月營收",
+      "預估5、6月營收有機會突破4000至4400億元創新高",
+      "預期股價將在7月法說前開始回溫加溫"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "很有機會接下來5月6月突破4000到4400億的時候營收又要創新高，是不是等到7月法說之前股價又要開始加溫上去了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "鴻海",
+     "ticker": "2317",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低可留意，大戶資金持續進駐",
+     "reasons": [
+      "大戶資金轉進低本益比AI概念股",
+      "近期急速噴出，兩週前市場還不看好",
+      "以近四季EPS計算本益比約17-22倍，仍屬低估"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "鴻海不漲則以，一漲又是急速噴出，這些老AI股的本益比都還蠻低估",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "緯創",
+     "ticker": "3231",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回可留意，前高161.5轉為支撐",
+     "reasons": [
+      "老AI股，以近四季EPS計算本益比偏低",
+      "連續六個月營收年增率超過100%",
+      "第一季EPS 3.03元，年增65%，獲利成長強勁",
+      "全年EPS估13.3至16元，目前本益比約13至14.3倍偏低估",
+      "三年套牢壓力161.5價位剛突破，未來拉回有機會成為支撐"
+     ],
+     "target_price": "161.5元(支撐)",
+     "confidence": "high",
+     "quote": "今年EPS估計大概13塊3到16塊，本益比目前13倍，算一算還是蠻低估的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "神達",
+     "ticker": "3706",
+     "market": "TW",
+     "stance": "看多",
+     "action": "可留意",
+     "reasons": [
+      "老AI股，以近四季EPS計算本益比約17-22倍偏低估",
+      "大戶資金進駐"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "不只鴻海，偉創、神達、合勤，這些老AI股本益比都還蠻低估",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "合勤控股",
+     "ticker": "3491",
+     "market": "TW",
+     "stance": "看多",
+     "action": "可留意",
+     "reasons": [
+      "老AI股，以近四季EPS計算本益比約17-22倍偏低估",
+      "大戶資金進駐"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "不只鴻海，偉創、神達、合勤，這些老AI股本益比都還蠻低估",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "中鼎",
+     "ticker": "9933",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回不破支撐可留意",
+     "reasons": [
+      "國內最大統包工程公司，積極轉型切入電力基礎建設與半導體工程",
+      "取得美光新加坡擴廠工程訂單",
+      "通霄電廠二期大單在手",
+      "第一季EPS已賺1元，全年估4元以上",
+      "目前本益比約9倍，遠低於同類半導體廠務工程股漢唐的16倍，估值有約6成上漲空間",
+      "5月19日大量長紅突破，前一日低點為關鍵支撐"
+     ],
+     "target_price": "對比漢唐本益比16倍，估值有約6成上漲空間",
+     "confidence": "high",
+     "quote": "所以你要找低本益比的個股，到這間地方中鼎可以留意，光看漢唐本益比16倍來比，股價也有個六成的空間",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回不破支撐可分批留意，非追高",
+     "reasons": [
+      "外資調高MLCC需求預估，成長幅度達80%",
+      "外資報告大幅調高目標價看上1000至1100元",
+      "5月26日洗盤後低點約631為關鍵支撐",
+      "只要多頭格局不變，被動元件整體仍有機會"
+     ],
+     "target_price": "1000-1100元",
+     "confidence": "high",
+     "quote": "甚至這地方認為說MLCC需求量增加80%的時候，很有機會接下來國巨上看1100元、1000元",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "寶達科技",
+     "ticker": "3537",
+     "market": "TW",
+     "stance": "看多",
+     "action": "起漲初升段，拉回不破支撐可留意",
+     "reasons": [
+      "為松下(Panasonic) SP CAP電容代理商，7月產品調漲20-30%為最大受惠者",
+      "最大客戶打入AI供應鏈比重急速拉升",
+      "三根漲停後洗盤，符合大戶拉高進貨、洗掉散戶籌碼的型態"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "3537的寶達，主要代理松下SP CAP的部分，7月份要調漲20到30%，這個是最大受惠者",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "佳邦",
+     "ticker": "6284",
+     "market": "TW",
+     "stance": "看空",
+     "action": "結構轉弱，建議留意風險、避免追高",
+     "reasons": [
+      "黑K洗盤後今日盤中又跌破前波低點，結構轉弱",
+      "外資近期已轉為賣超"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "今天盤中有給他破了那一個黑K的低點，這種結構就稍微轉弱，而且外資昨天也開始有轉賣的動作",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "華興科",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "若不跌破當日低點可留意，屬新起漲個股",
+     "reasons": [
+      "今日盤中一度跌停，尾盤拉升站回五日線",
+      "今日低點形成新的關鍵支撐"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "今天的低點就會形成新的關鍵支撐了，如果說接下來股價不破今天低點都還是有機會的",
+     "tw_market": null
+    },
+    {
+     "stock_name": "大銀微系統",
+     "ticker": "4576",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回不破支撐可留意",
+     "reasons": [
+      "機器人展覽題材，大戶持續進駐加碼",
+      "黑K洗盤後隔日反彈，目前回測尚未跌破支撐"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "這邊有一個黑K洗完盤，隔天又拉高上去，目前回測還沒有破，所以這個還是有機會的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "和椿科技",
+     "ticker": "6215",
+     "market": "TW",
+     "stance": "看空",
+     "action": "已跌破支撐，建議先出場觀望",
+     "reasons": [
+      "黑K洗盤後雖一度反彈，但今日下殺已跌破前波低點支撐",
+      "跌破支撐應優先停損，等待下一個進場機會"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "河村的部分就比較弱一點，今天殺下去的時候有破了那一個低點支撐，所以像我的操作，看到破了支撐先跑再說",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "陳唯泰",
+   "picks": [
+    {
+     "stock_name": "精誠資訊",
+     "ticker": "6214",
+     "market": "TW",
+     "stance": "看多",
+     "action": "目前一字鎖不易介入，建議等降溫量縮後再布局",
+     "reasons": [
+      "簽下國防部大標案，屬長期合約訂單，性質穩定細水長流",
+      "股價先前橫盤打底一段時間，外資與大戶持股持續增加",
+      "法人預估全年EPS約8.4至9.5元，目前本益比不到20倍"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "今天漲停板是6214，簽下了國防部的大標案，法人預估全年EPS大概在8.4塊錢到9.5塊錢，目前本益比不到20倍",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "樺漢",
+     "ticker": "6414",
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線震盪後，待修正完可留意",
+     "reasons": [
+      "屬輝達認證的背板股，成交量放大",
+      "受惠企業IT機房建置剛性需求持續存在",
+      "法人預估全年EPS上看7元，目前本益比約15-16倍不算貴",
+      "股價橫盤打底逾兩個月後開始表態"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "法人預估他全年的預估EPS上看7塊錢，本益比也並不算太高，大概15、16倍左右",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "宏碁資訊",
+     "ticker": "6811",
+     "market": "TW",
+     "stance": "看多",
+     "action": "可留意，受惠邊緣AIPC崛起",
+     "reasons": [
+      "台灣第一家完整取得微軟雲端、AI、數位應用、安全性、資料應用六大領域認證的資訊服務廠商",
+      "籌碼集中，母公司持股近50%",
+      "法人預估2026年EPS約15至18元，目前本益比不高",
+      "4月起外資持續站在買方"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "他是台灣第一家完整取得微軟雲端AI數位應用安全性數據應用六大領域認證的資訊服務廠商，從4月份開始外資就積極站在買方",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "台化",
+     "ticker": "1326",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回可布局",
+     "reasons": [
+      "今年首度參加Computex，切入半導體材料題材",
+      "推出電子級低碳氫氣與特用氣體",
+      "第一季轉虧為盈，EPS 1.07元",
+      "股東會後股價轉強，先前拉回至季線獲得支撐",
+      "股價淨值比仍小於1，評價偏低"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台化這一次真的是從股東會召開完之後股價就非常強勢，供入半導體材料，第一季轉虧為盈EPS 1.07元",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "新纖",
+     "ticker": "1409",
+     "market": "TW",
+     "stance": "看多",
+     "action": "連續一字鎖不易介入，建議等待拉回機會",
+     "reasons": [
+      "攜手比利時化學大廠合資子公司生產高純度電子級雙氧水，通過台積電驗證",
+      "積極轉型切入電子級特用化學材料",
+      "股價淨值比小於1，評價偏低"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "新纖的部分他是跟比利時的化學大廠合資子公司生產高純度的電子級雙氧水，通過台積電驗證，連續噴漲停",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國喬",
+     "ticker": "1312",
+     "market": "TW",
+     "stance": "看多",
+     "action": "可留意轉型契機",
+     "reasons": [
+      "二線塑化股積極轉型，切入電子級高純度氫氣生產"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "連國喬，以前我們說的二線塑化股的部分，國喬也有，他也要做電子級的高純度氫氣",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "東聯",
+     "ticker": "1710",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回可留意",
+     "reasons": [
+      "近期外資出現回補買超",
+      "主攻電子級dB(高階光刻膠/光阻劑用吸收劑)",
+      "亦生產EA顯影液與玻璃清洗液等特殊清洗劑",
+      "受惠晶圓代工廠持續擴產，需求同步成長"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "近期的外資有在這邊開始出現回補的買超，它主要是在做電子級的dB，這也是跟著晶圓代工廠持續往上做成長的一個族群",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華新",
+     "ticker": "1605",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回可留意",
+     "reasons": [
+      "電線電纜廠切入超大型AI資料中心與強韌電網建設",
+      "訂單能見度已看到2033年，未來7年訂單滿載",
+      "股價剛從橫盤打底突破",
+      "外資近期出現買超"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "目前消息指出他的訂單排程已經看到2033年，目前股價才剛剛往上去做突破，外資最近也是出現買超",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "Vl8dEH3VuWo",
+  "title": "【理財達人秀】台股狂洗千點 大行情還有機會？鴻海.緯創.記憶體 大戶轉買輝鏈？被動.機器人洗完誰上？傳產翻身 下檔台化?｜李兆華、蔡明翰、高憲容、陳唯泰2026.06.02【電視完整版】",
+  "date": "2026-06-02",
+  "duration": 2926,
+  "url": "https://www.youtube.com/watch?v=Vl8dEH3VuWo"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

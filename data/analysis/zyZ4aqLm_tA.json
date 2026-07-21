@@ -1,0 +1,389 @@
+{
+ "episode_summary": "台股本週五盤中重挫逾1100點,主因博通財報後大跌拖累美股夜盤,以及市場傳出輝達新平台可能調降記憶體用量,導致記憶體、電力、散熱等前一日強勢股全面翻黑;但台積電撐盤、鴻海廣達等權值股僅小跌,三位老師皆認為這是短線震盪而非轉空,並分別點出電腦展後工業電腦、機器人、CPU/ASIC、電源與散熱等下一波輪動主軸。",
+ "market_view": "大盤短線在利空發酵下劇烈震盪修正,但鍾國忠認為43815(5/29起漲低點)是重要支撐,46552短期難過關;黃豐凱以反向ETF 00632R的技術大量低10.33、大量高10.84判斷,只要10.33不破多頭格局仍在,目前僅為短線休息;黎志健則強調AI長線趨勢未變,記憶體、先進封裝、電力是產業瓶頸而非泡沫,近期回檔反而是布局機會。",
+ "teachers": [
+  {
+   "name": "鍾國忠",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "中性",
+     "action": "續抱",
+     "reasons": [
+      "公司喊話買回股票展現信心,是撐住大盤不跌破的關鍵",
+      "法說結算日大量出現在2330元附近,判斷是超級大戶進場,顯示此價位有強力支撐"
+     ],
+     "target_price": "支撐約2330元",
+     "confidence": "high",
+     "quote": "今天沒有台積電,大盤指數搞不好1500、2000點都會有可能,他也沒有跌破2330塊。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "廣達",
+     "ticker": "2382",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點/短線搶短",
+     "reasons": [
+      "訂單能見度看到2028年",
+      "去年EPS19.45元,估年增近9%,本益比不到18倍,殖利率約4%",
+      "長紅棒的大量支撐及頸線位置顯示大戶承接"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果是上次廣達沒買的,或想搶短的,下禮拜一二拉回,我認為廣達應該可以做短線搶短。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "鴻海",
+     "ticker": "2317",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點/短線搶短",
+     "reasons": [
+      "與廣達同一群大戶進場,下影線型態相同",
+      "5月營收8594億元,月增3.28%,年增近39.57%,在傳統淡季逆勢創高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "廣達跟鴻海基本是同一群人在買的,月增率將近39.57%,目前還是成長均值之上。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "研華",
+     "ticker": "2395",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意布局",
+     "reasons": [
+      "全球最大工業電腦廠,市占率逾40%",
+      "5月營收年增32%,3、4月營收已近兩成成長",
+      "與輝達合作推出AI原生工廠架構,並延攬前輝達台灣區總經理任獨立董事",
+      "投信近期買進且成本與現價接近,殖利率近4%(股息91%高配發)"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "工業用電腦還沒有漲,他們的年限管理率是小的,股息其實是高的,應用其實是廣的,這波會是最好的選擇。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "樺漢",
+     "ticker": "6414",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意布局",
+     "reasons": [
+      "鴻海集團IPC與雲端整合要角,子公司超恩與輝達Nemotron邊緣AI系統合作於電腦展亮相",
+      "本益比相對其他電子指標股偏低(去年賺23元,今年更高,股價不到400元)",
+      "外資自去年來持續買進未調節,5月營收創新高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "外資從去年以來一路買到現在,今年賺得更高,現在不到400塊,本益比算超低。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "被動元件族群",
+     "ticker": null,
+     "market": "OTHER",
+     "stance": "中性",
+     "action": "觀望",
+     "reasons": [
+      "族群內有活潑股與穩健股搭配,籌碼相對穩定",
+      "但乖離率偏高,部分個股仍處於處置期,需等待陸續解除才能發揮集體力道"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "被動元件的乖離率是非常的高,有人被關,這到底要不要衝就很尷尬。",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "黃豐凱",
+   "picks": [
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "博通CPU/網通訂單流失,轉單落到聯發科身上,對台廠是利多",
+      "族群中龍頭股仍在上漲,顯示資金並未真正離開"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "伯通的掉單其實是掉到聯發科的身上,對台廠其實是撿到雞,是非常的好。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "先前推薦至今已上漲逾100%",
+      "外資雖有調節,但投信持續買進,為下週除權息(出關)提前布局"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "國巨漲那麼多了,可是今天投信還是告訴你他為下一週的出關做準備,他繼續買。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "訊芯-KY",
+     "ticker": "6451",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "5月漲幅最大且外資持續買超(買超29000張、賣僅6700張)",
+      "為鴻海CPU機台展示的合作子公司,承接三菱代工訂單品質優良",
+      "技術面呈節節上升格局,守穩大量低點"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "訊芯-KY其實5月漲最多,外資其實一直還在買,守住這根大量的低點,他也是在給你機會上車。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "上銀",
+     "ticker": "2049",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回至360附近可布局",
+     "reasons": [
+      "電腦展展示機器人關節零組件,屬產業型機器人核心供應商",
+      "成交量遞減顯示為攻擊型態,週線在低點附近收下影線"
+     ],
+     "target_price": "約360元",
+     "confidence": "high",
+     "quote": "他只要再站回大概360附近應該就是一個可以接入的機會,因為他的量是遞減的,是一個攻擊的族群。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "達明",
+     "ticker": "4585",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局",
+     "reasons": [
+      "週K整理已久且低點未破,近期出現約3000張大量疑似進貨",
+      "技術型態接近成形,為可佈局的位置"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "他其實也慢慢的爬上來了,這裡有出一根大量,通常這大量就是要回來吃貨的。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "索羅門",
+     "ticker": "2359",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望",
+     "reasons": [
+      "電腦展展示表現不錯,但股價衝出去又壓回,型態不如上銀、達明漂亮",
+      "技術面相對沒那麼理想,建議再觀察"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果就形態上來講,可能像上銀或者達明可能可以先買,索羅門可能要再看一看。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "亞光",
+     "ticker": "3019",
+     "market": "TW",
+     "stance": "中性",
+     "action": "站上中值可布局",
+     "reasons": [
+      "機器人視覺應用族群,日K走勢不錯",
+      "已有特定買盤介入,但仍需一段時間醞釀"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "亞光日K是還蠻漂亮的,他如果有站上中值,倒是可以做一點布局。",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "黎志健",
+   "picks": [
+    {
+     "stock_name": "旺宏",
+     "ticker": "2337",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局",
+     "reasons": [
+      "產品線為ROM、NOR Flash、EMMC等利基型記憶體,較不受MLC漲價衝擊,凱俠等廠退出MLC產線反而受惠",
+      "法人預估獲利上看20-30%成長,本益比仍有空間",
+      "股價沿上升趨勢線與區間操作,型態相對安全"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "旺宏他幾乎有點龍頭的味道,法人也預估它獲利可以上看20到30之間,本益比來講還是有空間的。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "信驊",
+     "ticker": "5274",
+     "market": "TW",
+     "stance": "看多",
+     "action": "短期整理、逢低留意",
+     "reasons": [
+      "單月EPS一度達32元,全年預估獲利上看200多元",
+      "產品逐漸轉向IPC/AIPC及機器人等特殊應用,較不受消費性記憶體循環影響",
+      "股價雖已從700多元漲到2000元(近三倍),短線整理正常,長線仍有機會"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "他一年要預估賺200多塊,短期在這邊做修正也是不可能一次到位,未來還是有機會。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "台達電",
+     "ticker": "2308",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意",
+     "reasons": [
+      "電腦展展出HPDC高壓(800V)供電機櫃相關產品",
+      "受惠資料中心供電規格升級趨勢"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "可以持續留意剛才看到的HPDC的台達電、光寶科、康舒,因為他們都有做出這個東西。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "光寶科",
+     "ticker": "2301",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意",
+     "reasons": [
+      "同為電腦展展出HPDC相關產品的供應商之一"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "可以持續留意剛才看到的HPDC的台達電、光寶科、康舒。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "康舒",
+     "ticker": "6282",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意布局",
+     "reasons": [
+      "股性類似先前介紹的國巨(曾漲停隔日跌停),但昨日創高收高,外資買進、大戶持股增加",
+      "電源事業佔比由去年20%提升至今年30%,開發HVDC 100kW Power Shelf加BVU Shelf供資料中心",
+      "為美商Bloom Energy燃料電池代工概念股",
+      "2026年資本支出估翻倍至22億元以上,主要投入HBDC"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "康叔我覺得有一個特色,昨天漲停創高收高,外資有在買,大戶持股又在增加,可以值得留意一下。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "AES-KY",
+     "ticker": "6781",
+     "market": "TW",
+     "stance": "看多",
+     "action": "持續留意",
+     "reasons": [
+      "為BBU(不斷電備援電池)龍頭股,率先站上千元",
+      "與台達電合作後訂單創新高,累計營收成長57%"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "AES-KY是第一個上1000的BBU龍頭股,跟台達電合作之後訂單創新高,累收成長57%,可以持續留意好一陣子。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "JPP-KY",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意",
+     "reasons": [
+      "生產機殼、機箱、電力系統及伺服器零組件,受惠GB300/HBDC帶動的BVU需求",
+      "綁定台達電泰國供應鏈(Just In Time),出貨連動成長",
+      "亦與泰國通訊機櫃廠商合作,該部分成長逾40%"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "他綁定這個大客戶就是綁定台達電,台達電出貨越多他當然就是受惠,再來是高成長才剛開始。",
+     "tw_market": null
+    },
+    {
+     "stock_name": "奇鋐",
+     "ticker": "3017",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局",
+     "reasons": [
+      "打敗訊凱(Cooler Master)躍居散熱龍頭,散熱產品營收占比達65%",
+      "今年營收估年增三倍,今明兩年資本支出將由150億擴增到170億",
+      "受惠NVIDIA及ASIC雙引擎商機,ASIC用量估2027年超越GPU",
+      "Q1營收/EPS20元創新高,毛利率由24-25%升至近30%"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "奇鋐過去打敗迅凱變成第一名,散熱產品的營收越來越高達到65%左右,未來還有ASIC雙引擎,你有沒有一個想像的空間?",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "雙鴻",
+     "ticker": "3324",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意",
+     "reasons": [
+      "相對委屈但營收表現同屬水冷散熱前段班",
+      "電腦展展出完整的水冷板、接頭、分歧管、CDU產品線",
+      "水冷零組件廠商大手筆投資顯示長期看好"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "雙鴻相對是委屈概念,其實他做的也不錯,這次展出的產品線也都非常完整。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "建準",
+     "ticker": "2421",
+     "market": "TW",
+     "stance": "中性",
+     "action": "短期觀望、長期看好",
+     "reasons": [
+      "散熱風扇技術具備定價權,長期仍看好",
+      "受輝達Rubin平台若真降規影響,短期屬逆風"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "這個技術有定價權,對他來講長期還是看好,不過短期逆風,因為真的受到降規的影響。",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "zyZ4aqLm_tA",
+  "title": "【理財達人秀】台股盤中跌1400點 撿誰不慌？魏哲家點火CPO洗洗上？機器人要衝？接棒電腦展 電源、散熱有「錢」力！記憶體錯殺？｜李兆華、鍾國忠、黃豐凱、黎志建2026.06.05【電視完整版】",
+  "date": "2026-06-05",
+  "duration": 2931,
+  "url": "https://www.youtube.com/watch?v=zyZ4aqLm_tA"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

@@ -1,0 +1,422 @@
+{
+ "episode_summary": "台股單日大漲逾1200點收復45000點，市場解讀為美伊簽署和平協議降低油價、聯準會主席華許鴿派表態機率上升所致；三位來賓分別針對端午變盤後的操作策略提出選股建議，聚焦廠務工程、被動元件、記憶體、矽晶圓、星鏈衛星、CPO與電力概念等主題。永年老師主打廠務工程與被動元件龍頭股逢回布局；林漢偉聚焦漲價升級題材（記憶體、矽晶圓）與星鏈衛星概念的強弱分化；王建文則點名電力概念與CPO/舊CPU相對低位階的補漲機會。",
+ "market_view": "台股在美伊和平協議傳聞及油價下跌帶動聯準會鴿派預期下大漲逾1200點收復45000點，永年老師認為只要守住45000點整數關卡，下週有機會挑戰甚至突破46552創高，端午變盤向上機率高，但週四聯準會與週三日央可能升息仍是短線變數，需留意類崩盤式技術性回檔的可能性（機率不高）。",
+ "teachers": [
+  {
+   "name": "李永年",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "站上高點可續抱，拉回至支撐可找買點",
+     "reasons": [
+      "今日收在2375，站上最大量套牢區已無明顯壓力，呈現強勢盤",
+      "短線壓力2440，突破後上看2500-2580，再站上則挑戰2800-2850"
+     ],
+     "target_price": "支撐2260-2310；壓力2440，突破後2500-2580，再上2800-2850",
+     "confidence": "high",
+     "quote": "今天的收盤價是收在2375，只要能夠站上2375的話，上檔其實並沒有什麼套牢壓力了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯電",
+     "ticker": "2303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "量價不失控可續抱，留意短線壓力區",
+     "reasons": [
+      "股價僅141元半，站上所有均線呈強勢下型股",
+      "上週五開高走低出量屬洗盤，本週量縮收紅顯示轉強",
+      "RSI型態呈三尊底，只要量價不失控應有更高點可期"
+     ],
+     "target_price": "短線壓力155-158，站穩後挑戰181",
+     "confidence": "high",
+     "quote": "它只要量價不失控的話，它是有機會繼續漲的…只要能佔上158的話，佔穩後挑戰181塊我覺得是有機會的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "帆宣",
+     "ticker": "6196",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回月線找買點，跌破月線則先退出觀望",
+     "reasons": [
+      "工程設備股訂單在手多且透明，是最穩定的族群之一",
+      "投信連10買、融資減少，籌碼結構佳",
+      "今日再創歷史新高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "帆宣今天創歷史新高…如果有回月線應該都會是不錯的機會，它是很穩的一檔股票",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "中砂",
+     "ticker": "1560",
+     "market": "TW",
+     "stance": "看多",
+     "action": "月線支撐守住可續抱，突破750可挑戰目標",
+     "reasons": [
+      "上週跌到季線附近，但研判無套牢壓力，最大量區已轉為支撐",
+      "投信連2買"
+     ],
+     "target_price": "支撐約685（月線）；壓力突破750後上看780-800",
+     "confidence": "high",
+     "quote": "這支股票還有繼續向上走高的空間，短線的支撐我們先看月線…壓力它只要能夠突破750塊的話就挑戰了780到800塊",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回支撐區再買，不建議追漲停",
+     "reasons": [
+      "被動元件龍頭，股價尚在千元之下，具補漲空間",
+      "近三根黑K為洗盤，成交量放大後今日直接突破再創新高"
+     ],
+     "target_price": "支撐919-921，次支撐約961",
+     "confidence": "high",
+     "quote": "我覺得說國巨它是被動元件的龍頭…還是比較建議就是回支撐再買，如果明天噴漲停要追嗎？我就不是很建議了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華新科",
+     "ticker": "2492",
+     "market": "TW",
+     "stance": "看多",
+     "action": "可留意布局，關注6/18解除分盤管制後表現",
+     "reasons": [
+      "過去12個交易日區間震盪為籌碼沉澱（分盤管制期間）",
+      "6/18解除管制前後可能有所表現",
+      "RSI呈複合型WD型態，值得期待"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "它什麼時候放出來？18號放出來…我覺得這支股票是可以值得期待的",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "林漢偉",
+   "picks": [
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回測5日線再進場",
+     "reasons": [
+      "股價189元創歷史新高，逼近193元",
+      "法人目標價調升速度快（170→220→250）",
+      "具記憶體加矽電容雙題材，排選相對強勢"
+     ],
+     "target_price": "歷史新高193附近",
+     "confidence": "high",
+     "quote": "華邦電今天189塊歷史新高…因為它除了記憶體外它有一個矽電容題材，所以它變成說具備了記憶體加被動元件雙題材",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回到前一根黑K棒中值以上再進場，追價前留意美光財報",
+     "reasons": [
+      "籌碼面相對華邦電弱，曾跌破月線，與大股東賣股有關",
+      "與美光走勢連動，美光股價創高可望帶動比價效應"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "南亞科其實離歷史新高也沒有特別的遠…南亞科最少回到這個黑K棒中值以上的話，可能對它後續再創高有一定的幫助",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "利基電（語音辨識不確定正式名稱，矽電容題材股）",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "明日解除分盤管制，可一併留意",
+     "reasons": [
+      "同屬矽電容題材，今日股價亦有表現"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "明天要出關的是利基電，今天股價也差一點漲停，明天利基電也可以一併來看待",
+     "tw_market": null
+    },
+    {
+     "stock_name": "環球晶",
+     "ticker": "6488",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察站穩千元關卡表現",
+     "reasons": [
+      "今日解除分盤管制即鎖漲停創歷史新高1040元",
+      "均線呈多方排列，法人重新站買方"
+     ],
+     "target_price": "觀察整數關卡1000元能否站穩",
+     "confidence": "high",
+     "quote": "環球晶一出關之後就亮燈鎖漲停板，1040是環球晶的歷史新高…觀察1000元的心理關卡能不能有效站穩",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "台勝科",
+     "ticker": "3532",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱，留意矽晶圓報價",
+     "reasons": [
+      "台塑集團矽晶圓代表股，今日解除分盤管制後表態走高，來到波段高點",
+      "矽晶圓現貨報價（含陸股期貨參考指標）持續上漲，反映缺貨情況"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "這是台塑集團的代表，台塑集團的矽晶圓股票，今天來到波段的一個高點，同樣他出關之後就表態往上了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "中美晶",
+     "ticker": "5483",
+     "market": "TW",
+     "stance": "看多",
+     "action": "可留意布局，外資已買進，投信有意進場",
+     "reasons": [
+      "太陽能矽晶圓需求回升，集團旗下環球晶已創新高帶動比價",
+      "線型呈WD型態，一旦突破可望比照環球晶創高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "中美晶跟碩禾都可以看好，中美晶還是有回到矽晶圓上面…它的矽晶圓主要是以太陽能為主",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "碩禾",
+     "ticker": "3691",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意布局",
+     "reasons": [
+      "太陽能需求回升，中美晶集團表現佳有補漲空間"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "對中美晶來講也有補漲的空間，那目前來看外資是同步站在買方",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "同泰電子（語音辨識為同心電，推測）",
+     "ticker": "8039",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察前高突破",
+     "reasons": [
+      "低軌衛星概念股，離前高接近，5月才開始上漲，籌碼面相對健康"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "同心電其實離前高非常的接近啦…籌碼面看起來同心電比較好",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華通",
+     "ticker": "2313",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察借券張數，整理後可望轉強",
+     "reasons": [
+      "低軌衛星滲透率高，未來業績可望同步走高",
+      "但籌碼面偏弱，大戶高檔一直賣，且上週五公布現增206元造成套利賣壓"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果未來SpaceX是真的業績上去、發射會變多的話，華通業績會跟著同步往上走，那我覺得現在是修正本業比跟籌碼的問題",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "高力",
+     "ticker": "8996",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "散熱股中位階相對已高（股價逾1200元），已提前反映表現"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "散熱當中還有高力，其實已經到1200多塊，就變成是高力在表現",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "雙鴻",
+     "ticker": "3324",
+     "market": "TW",
+     "stance": "看多",
+     "action": "位階相對低，可介入",
+     "reasons": [
+      "太空艙心中心散熱板材已切入，若明年太空艙心中心開始建置，業績貢獻想像空間大",
+      "散熱本益比因故被拉低，目前整理應是介入時機"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "對雙鴻來講的話，本身…太空艙心中心的散熱板材它是有切入的，那個業績的貢獻我覺得就有非常大的想像空間",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "奇鋐",
+     "ticker": "3017",
+     "market": "TW",
+     "stance": "看多",
+     "action": "位階相對低，可介入",
+     "reasons": [
+      "同屬AI散熱受惠股，位階不算高，具補漲空間"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "對雙鴻、奇鋐…這些有被點名到，目前股價在相對低位階，所以你這邊去賭它未來的夢想其實成本也不會太高",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "王建文",
+   "picks": [
+    {
+     "stock_name": "康舒",
+     "ticker": "6282",
+     "market": "TW",
+     "stance": "看多",
+     "action": "區間操作，接近區間低點可買，接近高點可先獲利了結",
+     "reasons": [
+      "高壓直流(HVDC)相關受惠股，屬金仁寶集團",
+      "相對舊CPU族群走勢已算強勢，站上月線"
+     ],
+     "target_price": "以6月11日低點至近期高點為操作區間",
+     "confidence": "high",
+     "quote": "如果未來就是要用（HVDC），其實這個股票其實在這邊沒有特別弱…我們就先抓區間，一個高點的區間，一個是6月11號低點的區間",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "金寶",
+     "ticker": "2312",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意集團題材發酵",
+     "reasons": [
+      "併購ABB電源轉換部門效益逐漸顯現",
+      "具量子電腦與低軌衛星相關題材"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "金寶跟人寶最近好像又活起來了…因為他併購ABB的那個電源轉換部門的效益是逐漸的顯現",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "仁寶",
+     "ticker": "2324",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意集團題材發酵",
+     "reasons": [
+      "同屬金仁寶集團，具電源轉換、量子電腦、低軌衛星題材"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "金寶跟人寶如果活起來難道不要用電嗎？…金仁寶集團今年是有機會的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "漢磊",
+     "ticker": "3707",
+     "market": "TW",
+     "stance": "看多",
+     "action": "區間操作，接近低點買、接近高點先獲利了結",
+     "reasons": [
+      "世界先進入股成為最大法人股東",
+      "800V HVDC需求加速推升氮化鎵、碳化矽產品需求，訂單增加",
+      "本次回檔相對強勢"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "因為那個800V HVDC的關係會加速推升所謂氮化鎵跟碳化矽的需求…世界先進入股，變成最大的法人股東",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "玉晶光（語音辨識為預金關，推測，光學鏡頭二哥股）",
+     "ticker": "3406",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意跟隨大立光走勢表態",
+     "reasons": [
+      "上週三提及後已上漲7.5%",
+      "若大立光重返高點，同族群二哥股可望跟進表態",
+      "為全球主要Pancake透鏡供應商之一"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "上禮拜才來講嘛，現在已經漲了7.5%…如果大立光再上去，大哥上去了，二哥不表態也說不過去嘛",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯鈞光電（語音辨識為聯軍，推測）",
+     "ticker": "3576",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意季線之上整理後表態",
+     "reasons": [
+      "主要客戶為Coherent(科希倫)，具星鏈/雷射/光路互聯新題材",
+      "全球前三大雷射二極體封裝測試廠",
+      "5月營收年增、月增雙增"
+     ],
+     "target_price": "挑戰602元",
+     "confidence": "medium",
+     "quote": "這檔股票要去挑戰602應該難度不高…全球前三大雷射二極體的封裝測試場，那當然這個就是他的優勢",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "波若威",
+     "ticker": "3163",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "回測季線可留意是否成為老CPU族群發動火種",
+     "reasons": [
+      "與聯亞、光盛同屬CPO/舊CPU相關股，目前接近季線"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "剛剛講到聯亞、波若威、光盛，如果他們回季線，這個時候就要把它注意了",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "訊芯-KY（語音辨識為訊星，推測）",
+     "ticker": "6451",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意能否成為老CPU族群發動火種",
+     "reasons": [
+      "4月EPS由虧轉盈0.04元",
+      "光收發模組一條龍布局，並加速開發ASIC產品"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "4月EPS0.04是轉虧為盈…他是光收發模組一條龍什麼都能做，加速開發ASIC的產品",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "UtbbWH8Fpes",
+  "title": "【理財達人秀】終戰有譜 端午變盤向上？華許風暴不怕 被動.記憶體.矽晶圓買誰？CPO.光學跟SpaceX升空？台積廠務籌碼穩？｜李兆華、李永年、林漢偉、王建文2026.06.15【電視完整版】",
+  "date": "2026-06-15",
+  "duration": 2924,
+  "url": "https://www.youtube.com/watch?v=UtbbWH8Fpes"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}
