@@ -167,13 +167,25 @@ a { color: var(--accent); }
 .fchip .tk { color: var(--muted); font-weight: 400; font-size: 13px; }
 .fchip .m { font-size: 12px; color: var(--ink2); margin-top: 3px; }
 .fchip .star { color: var(--accent); font-weight: 650; }
+.fchip.sm { min-width: 0; padding: 6px 10px; }
+.fchip.sm .s { font-size: 13.5px; }
+.fchip.sm .m { font-size: 11px; }
+.verdict { background: var(--surface); border: 1px solid var(--border);
+  border-left: 4px solid var(--accent); border-radius: 10px;
+  padding: 12px 16px; margin-bottom: 12px; }
+.verdict .vh { font-size: 12px; color: var(--muted); margin-bottom: 3px;
+  text-transform: none; letter-spacing: .02em; }
+.verdict .vb { font-size: 15px; line-height: 1.75; }
+.verdict b { font-weight: 700; }
+.subhd { font-size: 12px; font-weight: 600; color: var(--ink2);
+  margin: 12px 0 6px; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <button class="theme-toggle" onclick="toggleTheme()">深/淺色</button>
   <h1>理財達人秀 老師推薦追蹤</h1>
-  <div class="sub">資料更新：2026-07-22 21:31 ｜ 進場點＝播出日後首個交易日收盤 ｜ 命中＝依多空方向調整後報酬 &gt; 0 ｜ 超額＝相對加權指數</div>
+  <div class="sub">資料更新：2026-07-22 21:44 ｜ 進場點＝播出日後首個交易日收盤 ｜ 命中＝依多空方向調整後報酬 &gt; 0 ｜ 超額＝相對加權指數</div>
   <div class="tiles" id="tiles"></div>
   <div class="tabs">
     <button class="tab active" data-view="overview" onclick="switchTab(this)">總覽</button>
@@ -248,34 +260,55 @@ function teacherM1(name) {
 
 function mdDate(iso) { const p = (iso||"").split("-"); return p.length===3 ? `${+p[1]}/${+p[2]}` : iso; }
 
+function verdictBanner() {
+  const c = DATA.backtest.cohorts;
+  const all = c.all.h.m1, top = c.top.h.m1, tc = c.top_consensus.h.m1;
+  if (!all.n) return "";
+  const p0 = x => x===null||x===undefined ? "–" : (x*100).toFixed(0)+"%";
+  let s = `照單全收 <b>${all.n}</b> 個部位只有 <b class="neg">${p0(all.beat)}</b> 贏大盤（平均超額 <b class="${cls(all.avg_ex)}">${pct(all.avg_ex)}</b>）`;
+  if (top.n >= 10)
+    s += `；改跟<b>前段班老師</b>升到 <b class="${top.beat>0.5?'pos':''}">${p0(top.beat)}</b>（超額 <b class="${cls(top.avg_ex)}">${pct(top.avg_ex)}</b>）`;
+  if (tc.n >= 5)
+    s += `，再要求<b>多位老師共識</b>可達 <b class="pos">${p0(tc.beat)}</b>（超額 <b class="${cls(tc.avg_ex)}">${pct(tc.avg_ex)}</b>）`;
+  s += `。<b>結論：別照單全收，用老師戰績＋共識篩訊號。</b>`;
+  return `<div class="verdict"><div class="vh">💡 一句話結論（滿一個月、贏大盤＝超額&gt;0）</div><div class="vb">${s}</div></div>`;
+}
+
 function focusCard() {
   const f = DATA.weeklyFocus;
   if (!f || (!f.longs.length && !f.shorts.length))
     return `<div class="focus"><h2>📌 本週焦點</h2><div class="note" style="margin:0">最近一週沒有多位老師共識、也沒有前段班老師點名的標的。</div></div>`;
-  const chip = (i) => {
+  const chip = (i, sm) => {
     const parts = [];
-    if (i.n_teachers >= 2) parts.push(`<b>${i.n_teachers} 位老師</b>`);
+    if (i.n_teachers >= 2) parts.push(`<b>${i.n_teachers} 位</b>`);
     else parts.push(esc(i.teachers[0]));
-    if (i.top_teachers.length) parts.push(`<span class="star">★${i.top_teachers.length} 前段班</span>`);
-    return `<div class="fchip ${i.stance==='看多'?'bull':'bear'}">
+    if (i.top_teachers.length) parts.push(`<span class="star">★${i.top_teachers.length}</span>`);
+    return `<div class="fchip ${sm?'sm ':''}${i.stance==='看多'?'bull':'bear'}">
       <div class="s">${esc(i.stock_name)} ${i.ticker?`<span class="tk">${esc(i.ticker)}</span>`:""}</div>
       <div class="m">${parts.join(" ・ ")}</div></div>`;
   };
+  const strong = f.longs.filter(i => i.n_teachers >= 3);
+  const normal = f.longs.filter(i => i.n_teachers < 3);
   let html = `<div class="focus"><h2>📌 本週焦點</h2>
-    <div class="win">${mdDate(f.start)}–${mdDate(f.end)} 共 ${f.n_episodes} 集 ｜ 多位老師同看或前段班老師（★）點名的標的</div>`;
-  if (f.longs.length)
-    html += `<div class="grp" style="color:var(--up)">看多／可留意買點</div><div class="fgrid">${f.longs.map(chip).join("")}</div>`;
+    <div class="win">${mdDate(f.start)}–${mdDate(f.end)} 共 ${f.n_episodes} 集 ｜ ★＝歷史超額為正的前段班老師</div>`;
+  if (strong.length) {
+    html += `<div class="subhd" style="color:var(--up)">🔥 強共識看多（3 位以上同看）</div><div class="fgrid">${strong.map(i => chip(i, false)).join("")}</div>`;
+  }
+  if (normal.length) {
+    html += `<div class="subhd">看多（2 位同看）</div><div class="fgrid">${normal.map(i => chip(i, true)).join("")}</div>`;
+  }
   if (f.shorts.length)
-    html += `<div class="grp" style="color:var(--down)">看空／建議避開</div><div class="fgrid">${f.shorts.map(chip).join("")}</div>`;
-  html += `<div class="note" style="margin:10px 0 0">★＝歷史平均超額為正的前段班老師。想看共識標的歷史命中率，點上方「共識標的」。</div></div>`;
+    html += `<div class="subhd" style="color:var(--down)">看空／建議避開</div><div class="fgrid">${f.shorts.map(i => chip(i, i.n_teachers < 3)).join("")}</div>`;
+  html += `<div class="note" style="margin:10px 0 0">想看共識標的的歷史命中率驗證，點上方「共識標的」分頁。</div></div>`;
   return html;
 }
 
 function overviewView() {
   const bt = DATA.backtest;
   const all = bt.cohorts.all.h.m1;
-  // 最極簡的決策入口放最前面
-  let html = focusCard();
+  // 決策層放最前面：一句話結論 → 本週焦點
+  let html = verdictBanner();
+  html += focusCard();
   // 結論句：整體是否贏過大盤
   html += `<div class="card">
     <div class="chart-title" style="margin-bottom:6px">這節目的推薦，到底能不能贏大盤？</div>
