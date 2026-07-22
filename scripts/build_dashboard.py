@@ -239,49 +239,51 @@ def compute_stock_stats(episodes):
     return out
 
 
-def _scored_picks(episodes):
-    """展平所有可計分推薦（看多/看空且有股價），附上共識人數與信心標記。"""
+def _episode_positions(episodes, good):
+    """把同一集、同標的、同方向的多位老師併成一個「部位」。
+
+    跟單者對同一檔訊號實際只會進場一次，因此策略回測以部位（而非每位
+    老師一筆）為單位，避免多人看的股票被重複計數、灌大樣本、縮窄信賴區間。
+    報酬/超額對同一部位皆相同（同標的同進場日），任取一份即可。
+    """
     out = []
     for ep in episodes:
-        # 同一集內，同一標的同一方向有幾位「不同老師」表態＝共識強度
-        agree = {}
-        for t in ep["teachers"]:
-            for p in t["picks"]:
-                if p["stance"] not in ("看多", "看空"):
-                    continue
-                key = (p.get("ticker") or p["stock_name"], p["stance"])
-                agree.setdefault(key, set()).add(t["name"])
+        pos = {}
         for t in ep["teachers"]:
             for p in t["picks"]:
                 if p["stance"] not in ("看多", "看空") or not p.get("perf"):
                     continue
                 key = (p.get("ticker") or p["stock_name"], p["stance"])
-                out.append({
-                    "date": ep["date"], "teacher": t["name"],
+                d = pos.setdefault(key, {
                     "stance": p["stance"], "sign": -1 if p["stance"] == "看空" else 1,
-                    "confidence": p.get("confidence"),
-                    "consensus_n": len(agree.get(key, ())),
-                    "ret": p["perf"]["ret"], "excess": p.get("excess") or {},
-                })
+                    "teachers": set(), "high": False,
+                    "ret": p["perf"]["ret"], "excess": p.get("excess") or {}})
+                d["teachers"].add(t["name"])
+                if p.get("confidence") == "high":
+                    d["high"] = True
+        for d in pos.values():
+            d["n_teachers"] = len(d["teachers"])
+            d["top"] = any(n in good for n in d["teachers"])
+            out.append(d)
     return out
 
 
 def compute_backtest(episodes, teacher_stats):
     """篩選策略比較：不同過濾條件下的勝率與超額，回答「篩選能否提高勝率」。
 
-    以「贏大盤」（多空調整後超額 > 0）為主要勝率定義，因為那才是相對
-    於「無腦買指數」真正多出來的邊際價值；同時附「賺錢率」（報酬 > 0）。
+    以「部位」為單位（同集同標的同方向併一筆），以「贏大盤」（多空調整後
+    超額 > 0）為主要勝率定義；同時附「賺錢率」（報酬 > 0）。
     """
-    picks = _scored_picks(episodes)
     good = {r["name"] for r in teacher_stats
             if r["h"]["m1"]["n"] >= 10 and (r["h"]["m1"]["avg_excess"] or 0) > 0}
+    picks = _episode_positions(episodes, good)
     cohorts = [
         ("all", "全部推薦", lambda p: True),
-        ("high", "高信心", lambda p: p["confidence"] == "high"),
-        ("consensus", "共識（≥2 位老師同看）", lambda p: p["consensus_n"] >= 2),
-        ("strong", "強共識（≥3 位）", lambda p: p["consensus_n"] >= 3),
-        ("top", "前段班老師", lambda p: p["teacher"] in good),
-        ("top_consensus", "前段班＋共識", lambda p: p["teacher"] in good and p["consensus_n"] >= 2),
+        ("high", "高信心", lambda p: p["high"]),
+        ("consensus", "共識（≥2 位老師同看）", lambda p: p["n_teachers"] >= 2),
+        ("strong", "強共識（≥3 位）", lambda p: p["n_teachers"] >= 3),
+        ("top", "前段班老師", lambda p: p["top"]),
+        ("top_consensus", "前段班＋共識", lambda p: p["top"] and p["n_teachers"] >= 2),
     ]
     result = {}
     for key, label, pred in cohorts:
@@ -674,7 +676,7 @@ function overviewView() {
   // 結論句：整體是否贏過大盤
   html += `<div class="card">
     <div class="chart-title" style="margin-bottom:6px">這節目的推薦，到底能不能贏大盤？</div>
-    <div class="note" style="margin:0 0 10px">以「播出後隔日進場、滿一個月」且有明確多空方向的 ${all.n} 筆推薦計算。勝率＝贏過加權指數的比例（50% 代表跟指數一樣、沒有加值）。</div>
+    <div class="note" style="margin:0 0 10px">以「播出後隔日進場、滿一個月」且有明確多空方向的 ${all.n} 個部位計算（同集多位老師推同一檔＝1 個部位，跟單只會進場一次，不重複計數）。勝率＝贏過加權指數的比例（50% 代表跟指數一樣、沒有加值）。</div>
     <div class="tiles" style="margin:0">
       ${bigStat("整體贏大盤率", all.beat, "pct", all.beat_ci)}
       ${bigStat("整體賺錢率", all.profit, "pct")}
@@ -685,9 +687,9 @@ function overviewView() {
   // 篩選策略比較：核心「數字說話」
   html += `<div class="card">
     <div class="chart-title" style="margin-bottom:4px">篩選策略比較：哪種過濾條件勝率最高？</div>
-    <div class="note" style="margin:0 0 8px">同樣是滿一個月的推薦，套用不同篩選後的「贏大盤率」與「平均超額」。<b>粗體</b>＝Wilson 95% 信賴區間下緣仍 &gt; 50%（統計上真的贏，不是運氣）。前段班老師＝樣本≥10 且歷史平均超額為正者。</div>
+    <div class="note" style="margin:0 0 8px">以滿一個月的「部位」為單位（多位老師同看＝1 個部位，不重複計數），套用不同篩選後的「贏大盤率」與「平均超額」。<b>粗體</b>＝Wilson 95% 信賴區間下緣仍 &gt; 50%（統計上真的贏，不是運氣）。前段班老師＝樣本≥10 且歷史平均超額為正者。</div>
     <div style="overflow-x:auto"><table><thead><tr>
-      <th>篩選條件</th><th class="num">樣本數</th><th class="num">贏大盤率</th>
+      <th>篩選條件</th><th class="num">部位數</th><th class="num">贏大盤率</th>
       <th class="num">賺錢率</th><th class="num">平均超額</th><th class="num">平均報酬</th>
     </tr></thead><tbody>`;
   bt.order.forEach(k => {
