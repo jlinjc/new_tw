@@ -110,9 +110,33 @@ def compute_teacher_stats(episodes):
                 "avg_excess": (round(hh["sum_ex"] / hh["n_ex"], 5)
                                if hh["n_ex"] else None),
             }
+        row["style"] = _teacher_style(row["h"])
         out.append(row)
     out.sort(key=lambda r: -(r["h"]["m1"]["avg_excess"] or -9e9))
     return out
+
+
+def _teacher_style(h) -> str:
+    """依各持有期的平均超額判斷老師型態，避免用單一框架冤枉短線型老師。
+
+    回傳：全期正 / 短線型 / 波段型 / 全期弱 / 混合 / —（樣本不足）。
+    """
+    if (h["m1"]["n"] or 0) < 8:
+        return "—"
+    ex = {k: h[k]["avg_excess"] for k in HORIZONS}
+    sv = [ex[k] for k in ("d3", "w1") if ex[k] is not None]
+    short = sum(sv) / len(sv) if sv else None
+    lng = ex["m1"]
+    vals = [ex[k] for k in HORIZONS if ex[k] is not None]
+    if vals and all(v > 0 for v in vals):
+        return "全期正"
+    if vals and all(v <= 0 for v in vals):
+        return "全期弱"
+    if short is not None and short > 0.005 and (lng is None or lng < short - 0.01):
+        return "短線型"
+    if lng is not None and lng > 0.005 and (short is None or lng >= short):
+        return "波段型"
+    return "混合"
 
 
 def compute_teacher_curves(episodes, top_n: int = 6):
@@ -576,6 +600,10 @@ a { color: var(--accent); }
 .verdict b { font-weight: 700; }
 .subhd { font-size: 12px; font-weight: 600; color: var(--ink2);
   margin: 12px 0 6px; }
+.exrow { display: inline-flex; gap: 3px; }
+.exq { text-align: center; min-width: 46px; }
+.exq .exh { font-size: 10px; color: var(--muted); }
+.exq .exv { font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums; }
 </style>
 </head>
 <body>
@@ -1031,18 +1059,30 @@ function wireCurveHover() {
   });
 }
 
+const STYLE_CLR = {"全期正":"var(--up)","短線型":"var(--accent)","波段型":"var(--accent2)","全期弱":"var(--down)","混合":"var(--muted)","—":"var(--muted)"};
+function styleTag(s) {
+  if (!s || s === "—") return "";
+  return `<span class="issue" style="border-color:${STYLE_CLR[s]};color:${STYLE_CLR[s]}">${esc(s)}</span>`;
+}
+function exCells(r) {
+  // 各持有期平均超額，一眼看出「短線賺、長線賠」之類的衰減型態
+  return HORIZONS.map(h => {
+    const v = r.h[h].avg_excess;
+    return `<div class="exq"><div class="exh">${HL[h]}</div><div class="exv ${cls(v)}">${v===null?"–":pct(v)}</div></div>`;
+  }).join("");
+}
 function teacherTable() {
   const rows = DATA.teacherStats;
   if (!rows.length) return `<div class="note">尚無資料。</div>`;
-  const maxAbs = Math.max(0.02, ...rows.map(r => Math.abs(r.h.m1.avg_excess || 0)));
-  let html = `<div class="note">只有「看多/看空」的推薦計分（中性/觀望不計）。命中率＝依多空方向調整後報酬 &gt; 0 的比例，下方小字為 Wilson 95% 信賴區間；<b>粗體</b>＝區間下緣高於 50%，統計上優於擲硬幣。平均超額＝相對加權指數同期。</div>`;
+  let html = `<div class="note">只有「看多/看空」計分。命中率下方為 Wilson 95% 信賴區間，<b>粗體</b>＝下緣 &gt; 50%（統計上真的贏）。<b>型態</b>依各持有期超額判斷：<span style="color:var(--up)">全期正</span>＝各期都贏、<span style="color:var(--accent)">短線型</span>＝短天期賺但放久變差、<span style="color:var(--accent2)">波段型</span>＝要放久才好、<span style="color:var(--down)">全期弱</span>＝各期都輸。看短線老師別用「+1月」評斷他。</div>`;
   html += `<div class="card" style="overflow-x:auto"><table><thead><tr>
-    <th>老師</th><th class="num">推薦/計分</th><th class="num">集數</th>`
-    + HORIZONS.map(h => `<th class="num">${HL[h]}命中率</th>`).join("")
-    + `<th class="num">+1月平均報酬</th><th>+1月平均超額（vs 大盤）</th></tr></thead><tbody>`;
+    <th>老師</th><th>型態</th><th class="num">計分</th>`
+    + HORIZONS.map(h => `<th class="num">${HL[h]}命中</th>`).join("")
+    + `<th>各期平均超額（vs 大盤）</th></tr></thead><tbody>`;
   rows.forEach(r => {
     html += `<tr><td><span class="teacher-name">${esc(r.name)}</span></td>
-      <td class="num">${r.n_picks} / ${r.n_scored}</td><td class="num">${r.n_episodes}</td>`
+      <td>${styleTag(r.style)}</td>
+      <td class="num">${r.n_scored}</td>`
       + HORIZONS.map(h => {
           const s = r.h[h], hr = s.hit_rate, ci = s.hit_ci;
           if (hr === null) return `<td class="num">–</td>`;
@@ -1050,8 +1090,7 @@ function teacherTable() {
           const ciTxt = ci ? `${(ci[0]*100).toFixed(0)}–${(ci[1]*100).toFixed(0)}%` : "";
           return `<td class="num"><span class="${sig ? 'sig' : ''}">${(hr*100).toFixed(0)}%</span> <span style="color:var(--muted);font-size:11px">(${s.n})</span><div class="ci">${ciTxt}</div></td>`;
         }).join("")
-      + `<td class="num ${cls(r.h.m1.avg_ret)}">${pct(r.h.m1.avg_ret)}</td>
-      <td>${bar(r.h.m1.avg_excess, maxAbs)}</td></tr>`;
+      + `<td><div class="exrow">${exCells(r)}</div></td></tr>`;
   });
   return html + `</tbody></table></div>`;
 }
