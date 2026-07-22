@@ -272,6 +272,10 @@ def _episode_positions(episodes, good):
     """
     out = []
     for ep in episodes:
+        # 每位老師該集的計分推薦數＝精選度（話越少越可信）
+        tcount = {t["name"]: sum(1 for p in t["picks"]
+                                 if p["stance"] in ("看多", "看空"))
+                  for t in ep["teachers"]}
         pos = {}
         for t in ep["teachers"]:
             for p in t["picks"]:
@@ -280,14 +284,16 @@ def _episode_positions(episodes, good):
                 key = (p.get("ticker") or p["stock_name"], p["stance"])
                 d = pos.setdefault(key, {
                     "stance": p["stance"], "sign": -1 if p["stance"] == "看空" else 1,
-                    "teachers": set(), "high": False,
+                    "teachers": set(), "high": False, "counts": [],
                     "ret": p["perf"]["ret"], "excess": p.get("excess") or {}})
                 d["teachers"].add(t["name"])
+                d["counts"].append(tcount[t["name"]])
                 if p.get("confidence") == "high":
                     d["high"] = True
         for d in pos.values():
             d["n_teachers"] = len(d["teachers"])
             d["top"] = any(n in good for n in d["teachers"])
+            d["min_picks"] = min(d["counts"]) if d["counts"] else 99
             out.append(d)
     return out
 
@@ -303,6 +309,7 @@ def compute_backtest(episodes, teacher_stats):
     picks = _episode_positions(episodes, good)
     cohorts = [
         ("all", "全部推薦", lambda p: True),
+        ("selective", "精選日（該集老師≤5 檔）", lambda p: p["min_picks"] <= 5),
         ("high", "高信心", lambda p: p["high"]),
         ("consensus", "共識（≥2 位老師同看）", lambda p: p["n_teachers"] >= 2),
         ("strong", "強共識（≥3 位）", lambda p: p["n_teachers"] >= 3),
@@ -313,7 +320,7 @@ def compute_backtest(episodes, teacher_stats):
     for key, label, pred in cohorts:
         hrow = {}
         for h in HORIZONS:
-            exs, rets = [], []
+            exs, rets, benches = [], [], []
             for p in picks:
                 if not pred(p):
                     continue
@@ -322,6 +329,7 @@ def compute_backtest(episodes, teacher_stats):
                     continue
                 exs.append(p["sign"] * ex)
                 rets.append(p["sign"] * r)
+                benches.append(round(r - ex, 5))   # 大盤同期報酬（原始，不分多空）
             n = len(exs)
             if n:
                 beat = sum(1 for e in exs if e > 0)
@@ -330,14 +338,40 @@ def compute_backtest(episodes, teacher_stats):
                            "beat_ci": wilson_ci(beat, n),
                            "profit": round(profit / n, 4),
                            "avg_ex": round(sum(exs) / n, 5),
-                           "avg_ret": round(sum(rets) / n, 5)}
+                           "avg_ret": round(sum(rets) / n, 5),
+                           "avg_bench": round(sum(benches) / n, 5)}
             else:
                 hrow[h] = {"n": 0, "beat": None, "beat_ci": None,
-                           "profit": None, "avg_ex": None, "avg_ret": None}
+                           "profit": None, "avg_ex": None, "avg_ret": None,
+                           "avg_bench": None}
         result[key] = {"label": label, "h": hrow}
     return {"cohorts": result,
             "order": [c[0] for c in cohorts],
             "good_teachers": sorted(good)}
+
+
+def compute_confidence(episodes):
+    """信心校準：LLM 標的 high/medium/low 是否真的對應績效（滿一個月）。"""
+    out = {c: {"n": 0, "beat": 0, "sum_ex": 0.0}
+           for c in ("high", "medium", "low")}
+    for ep in episodes:
+        for t in ep["teachers"]:
+            for p in t["picks"]:
+                if p["stance"] not in ("看多", "看空") or not p.get("perf"):
+                    continue
+                ex = (p.get("excess") or {}).get("m1")
+                c = p.get("confidence")
+                if ex is None or c not in out:
+                    continue
+                sx = (-1 if p["stance"] == "看空" else 1) * ex
+                out[c]["n"] += 1
+                if sx > 0:
+                    out[c]["beat"] += 1
+                out[c]["sum_ex"] += sx
+    return {c: {"n": d["n"],
+                "beat": round(d["beat"] / d["n"], 4) if d["n"] else None,
+                "avg_ex": round(d["sum_ex"] / d["n"], 5) if d["n"] else None}
+            for c, d in out.items()}
 
 
 def compute_consensus(episodes):
@@ -737,13 +771,14 @@ function overviewView() {
   // 結論句：整體是否贏過大盤
   html += `<div class="card">
     <div class="chart-title" style="margin-bottom:6px">這節目的推薦，到底能不能贏大盤？</div>
-    <div class="note" style="margin:0 0 10px">以「播出後隔日進場、滿一個月」且有明確多空方向的 ${all.n} 個部位計算（同集多位老師推同一檔＝1 個部位，跟單只會進場一次，不重複計數）。勝率＝贏過加權指數的比例（50% 代表跟指數一樣、沒有加值）。</div>
-    <div class="tiles" style="margin:0">
-      ${bigStat("整體贏大盤率", all.beat, "pct", all.beat_ci)}
+    <div class="note" style="margin:0 0 10px">以「播出後隔日進場、滿一個月」且有明確多空方向的 ${all.n} 個部位計算（同集多位老師推同一檔＝1 個部位，不重複計數）。勝率＝贏過加權指數的比例（50% 代表跟指數一樣、沒有加值）。</div>
+    <div class="tiles" style="margin:0 0 10px">
       ${bigStat("整體賺錢率", all.profit, "pct")}
-      ${bigStat("平均超額報酬", all.avg_ex, "signed")}
       ${bigStat("平均報酬", all.avg_ret, "signed")}
-    </div></div>`;
+      ${bigStat("同期大盤平均", all.avg_bench, "signed")}
+      ${bigStat("整體贏大盤率", all.beat, "pct", all.beat_ci)}
+    </div>
+    <div class="note" style="margin:0;padding:8px 10px;background:var(--page);border-radius:8px">⚠️ <b>怎麼讀</b>：「同期大盤平均 ${pct(all.avg_bench)}」是<b>相同 1 個月持有窗口</b>下加權指數的平均報酬（不是整段大盤漲幅），這才是公平基準。照單全收平均報酬 <b class="${cls(all.avg_ret)}">${pct(all.avg_ret)}</b>、落後大盤 <b class="${cls(all.avg_ex)}">${pct(all.avg_ex)}</b>——代表<b>1 個月持有下，多數推薦其實跑輸指數（甚至小賠）</b>。價值全在下面的「篩選」，不在照單全收。</div></div>`;
 
   // 篩選策略比較：核心「數字說話」
   html += `<div class="card">
@@ -763,7 +798,25 @@ function overviewView() {
       <td class="num ${cls(m.avg_ex)}">${pct(m.avg_ex)}</td>
       <td class="num ${cls(m.avg_ret)}">${pct(m.avg_ret)}</td></tr>`;
   });
-  html += `</tbody></table></div></div>`;
+  html += `</tbody></table></div>
+    <div class="note" style="margin:8px 0 0">「精選日」＝該集這位老師只點名 ≤5 檔時的推薦——實測老師話越少、那幾檔越可信（一次噴 10+ 檔的明顯較差）。</div></div>`;
+
+  // 信心分層：LLM 標的信心是否對應績效
+  const cf = DATA.confidence;
+  if (cf && cf.high.n) {
+    html += `<div class="card">
+      <div class="chart-title" style="margin-bottom:4px">信心分層：老師講得越篤定，越準嗎？</div>
+      <div class="note" style="margin:0 0 8px">分析標記的 high/medium/low 信心，對應滿一個月的實際表現。若由高到低遞減，代表「信心」是有效訊號、低信心的可略過。</div>
+      <div style="overflow-x:auto"><table><thead><tr>
+        <th>信心</th><th class="num">推薦筆數</th><th class="num">贏大盤率</th><th class="num">平均超額</th></tr></thead><tbody>`;
+    [["high","高信心"],["medium","中信心"],["low","低信心"]].forEach(([k,lab]) => {
+      const d = cf[k];
+      html += `<tr><td>${lab}</td><td class="num">${d.n}</td>
+        <td class="num">${d.beat===null?"–":(d.beat*100).toFixed(0)+"%"}</td>
+        <td class="num ${cls(d.avg_ex)}">${pct(d.avg_ex)}</td></tr>`;
+    });
+    html += `</tbody></table></div></div>`;
+  }
 
   // 最新一集可跟單清單：把老師的歷史命中率貼上去，直接篩
   const latest = DATA.episodes[0];
@@ -899,7 +952,12 @@ function epDetail(e) {
     <a href="${e.url}" target="_blank">在 YouTube 開啟 ↗</a></div>`;
   e.teachers.forEach(t => {
     if (!t.picks.length) return;
-    html += `<div class="card"><h3 style="margin:0 0 8px"><span class="teacher-name">${esc(t.name)}</span> 老師</h3>`;
+    const nDir = t.picks.filter(p => p.stance === "看多" || p.stance === "看空").length;
+    const selTag = nDir > 0 && nDir <= 5
+      ? `<span class="issue" style="border-color:var(--up);color:var(--up)">精選 ${nDir} 檔</span>`
+      : nDir >= 10 ? `<span class="issue" style="border-color:var(--muted);color:var(--muted)">亂槍 ${nDir} 檔</span>`
+      : `<span class="issue">${nDir} 檔</span>`;
+    html += `<div class="card"><h3 style="margin:0 0 8px"><span class="teacher-name">${esc(t.name)}</span> 老師 ${selTag}</h3>`;
     t.picks.forEach(p => {
       const entry = p.perf ? `進場 ${p.perf.entry_date} @ ${p.perf.entry_price}` : "";
       html += `<div class="pick">
@@ -1209,6 +1267,7 @@ def main():
         "consensus": compute_consensus(episodes),
     }
     data["backtest"] = compute_backtest(episodes, teacher_stats)
+    data["confidence"] = compute_confidence(episodes)
     data["weeklyFocus"] = compute_weekly_focus(
         episodes, data["backtest"]["good_teachers"])
     html = (HTML_TEMPLATE
