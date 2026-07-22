@@ -73,23 +73,52 @@ def fetch_prices(symbols: list[str], start: str) -> dict[str, pd.Series]:
     return out
 
 
-def compute_windows(close: pd.Series, air_date: str) -> dict | None:
-    """回傳 {entry_date, entry_price, ret: {h: float|None}}"""
+def _clean(close: pd.Series) -> pd.Series:
     idx = close.index.tz_localize(None) if close.index.tz else close.index
-    close = pd.Series(close.values, index=idx)
+    return pd.Series(close.values, index=idx)
+
+
+def compute_windows(close: pd.Series, air_date: str) -> dict | None:
+    """回傳 {entry_date, entry_price, ret, entry_ts, exit_ts}。
+
+    exit_ts 記錄每個視窗的實際出場日，供大盤以「同一區間」對齊計算超額，
+    避免大盤資料缺某交易日時，兩邊比到不同期間。
+    """
+    close = _clean(close)
     after = close[close.index > pd.Timestamp(air_date)]
     if after.empty:
         return None
     entry_price = float(after.iloc[0])
-    entry_date = after.index[0].date().isoformat()
-    ret = {}
+    entry_ts = after.index[0]
+    ret, exit_ts = {}, {}
     for key, n in HORIZONS.items():
         if len(after) > n:
             ret[key] = round(float(after.iloc[n]) / entry_price - 1, 5)
+            exit_ts[key] = after.index[n]
         else:
-            ret[key] = None  # 尚未到期
-    return {"entry_date": entry_date, "entry_price": round(entry_price, 2),
-            "ret": ret}
+            ret[key] = None       # 尚未到期
+            exit_ts[key] = None
+    return {"entry_date": entry_ts.date().isoformat(),
+            "entry_price": round(entry_price, 2), "ret": ret,
+            "entry_ts": entry_ts, "exit_ts": exit_ts}
+
+
+def bench_windows_aligned(bench: pd.Series, entry_ts, exit_ts: dict) -> dict:
+    """用個股的進場日/各視窗出場日，對齊計算大盤同區間報酬。
+
+    大盤若缺該日資料，取當日(含)之前最近一筆(asof)，確保比對同一期間。
+    """
+    b = _clean(bench).sort_index()
+    be = b.asof(entry_ts)
+    ret = {}
+    for key in HORIZONS:
+        xt = exit_ts.get(key)
+        if xt is None or pd.isna(be):
+            ret[key] = None
+            continue
+        bx = b.asof(xt)
+        ret[key] = round(float(bx) / float(be) - 1, 5) if not pd.isna(bx) else None
+    return {"ret": ret}
 
 
 def main():
@@ -117,16 +146,19 @@ def main():
         sym = p["symbol"]
         if sym and sym in prices:
             perf = compute_windows(prices[sym], p["date"])
-            rec["perf"] = perf
             if perf and bench is not None:
-                b = compute_windows(bench, p["date"])
+                b = bench_windows_aligned(bench, perf["entry_ts"], perf["exit_ts"])
                 rec["bench"] = b
-                if b:
-                    rec["excess"] = {
-                        k: (round(perf["ret"][k] - b["ret"][k], 5)
-                            if perf["ret"][k] is not None and b["ret"][k] is not None
-                            else None)
-                        for k in HORIZONS}
+                rec["excess"] = {
+                    k: (round(perf["ret"][k] - b["ret"][k], 5)
+                        if perf["ret"][k] is not None and b["ret"][k] is not None
+                        else None)
+                    for k in HORIZONS}
+            # 內部時間戳不寫入 JSON
+            if perf:
+                perf = {kk: vv for kk, vv in perf.items()
+                        if kk not in ("entry_ts", "exit_ts")}
+            rec["perf"] = perf
             # 只有明確多空方向的推薦才計分；中性/觀望僅展示不評分
             if perf and p["stance"] in ("看多", "看空"):
                 sign = -1 if p["stance"] == "看空" else 1
