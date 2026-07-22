@@ -8,18 +8,36 @@
 用法：python analyze_free.py [video_id ...]
 """
 import json
+import os
 import re
+import shutil
 import subprocess
 import sys
 import time
+from pathlib import Path
 
 from analyze import SCHEMA, SYSTEM_PROMPT, build_user_prompt, normalize_tickers
 from config import ANALYSIS_DIR, SUBTITLE_DIR, TICKERS_JSON, VIDEOS_JSON
 from sanitize import sanitize_result
 
-CLAUDE_EXE = (r"C:\Users\Jason\.vscode\extensions"
-              r"\anthropic.claude-code-2.1.212-win32-x64"
-              r"\resources\native-binary\claude.exe")
+
+def _find_claude() -> str:
+    """自動找 Claude Code CLI；VS Code 擴充會更新版本號，寫死路徑會失效。"""
+    onpath = shutil.which("claude")
+    if onpath:
+        return onpath
+    ext = Path(os.environ["USERPROFILE"]) / ".vscode" / "extensions"
+    cands = sorted(ext.glob("anthropic.claude-code-*/resources/native-binary/claude.exe"))
+    if not cands:
+        raise FileNotFoundError("找不到 claude.exe，請確認已安裝 Claude Code 擴充")
+    # 依版本號排序取最新（glob 字串排序對 2.1.9 vs 2.1.10 會錯，改用數字鍵）
+    def ver(p):
+        m = re.search(r"claude-code-(\d+)\.(\d+)\.(\d+)", str(p))
+        return tuple(int(x) for x in m.groups()) if m else (0, 0, 0)
+    return str(max(cands, key=ver))
+
+
+CLAUDE_EXE = _find_claude()
 MODEL = "sonnet"
 REQUIRED_KEYS = {"episode_summary", "market_view", "teachers"}
 # claude.exe 有時把連線錯誤印到 stdout（非 stderr）且 returncode=1
