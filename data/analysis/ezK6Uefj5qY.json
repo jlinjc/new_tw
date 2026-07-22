@@ -22,7 +22,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "南亞電路板",
+     "stock_name": "南電",
      "ticker": "8046",
      "market": "TW",
      "stance": "看多",
@@ -34,7 +34,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "之前講的股票現在表現很好，例如說南電，這個六月底講的，今天一個漲停板",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "南亞電路板"
     },
     {
      "stock_name": "南亞",

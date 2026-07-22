@@ -142,7 +142,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "南亞科技/華邦電",
+     "stock_name": "南亞科",
      "ticker": "2408",
      "market": "TW",
      "stance": "看多",
@@ -154,7 +154,8 @@
      "confidence": "low",
      "quote": "那跟她很像的有誰?有群聯啊。有南亞科、華邦電。這個同一個族群的",
      "tw_market": "TWSE",
-     "name_note": "同族群記憶體股"
+     "name_note": "同族群記憶體股",
+     "spoken_name": "南亞科技/華邦電"
     },
     {
      "stock_name": "台燿科技",
@@ -221,7 +222,7 @@
     },
     {
      "stock_name": "光聖科技",
-     "ticker": null,
+     "ticker": "6442",
      "market": "TW",
      "stance": "看多",
      "action": "逢回買進/續抱",
@@ -233,7 +234,7 @@
      "target_price": null,
      "confidence": "low",
      "quote": "你光通真的不要選誰的時候你就選產業的優等生...而且他最新的一個月的營收開出來,營收全部由於市場預期",
-     "tw_market": null,
+     "tw_market": "TWSE",
      "name_note": "逐字稿唸作光盛"
     },
     {
@@ -275,7 +276,7 @@
     },
     {
      "stock_name": "台慶科技",
-     "ticker": "3264",
+     "ticker": null,
      "market": "TW",
      "stance": "看多",
      "action": "區間操作,下緣找買點,突破前高可表態",
@@ -287,8 +288,9 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "台信科AI佔比...今年可能會慢慢的拉到14%,而且他有跨入CPU",
-     "tw_market": "TPEX",
-     "name_note": "逐字稿唸作台信科"
+     "tw_market": null,
+     "name_note": "逐字稿唸作台信科",
+     "ticker_unverified": "3264"
     },
     {
      "stock_name": "利敦",
@@ -373,7 +375,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "亞翔工程",
+     "stock_name": "亞翔",
      "ticker": "6139",
      "market": "TW",
      "stance": "看多",
@@ -387,10 +389,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "亞翔的話,他的在手訂單2084億...如果你有進場的話,就以昨天的低點為一個停損",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "亞翔工程"
     },
     {
-     "stock_name": "漢唐集成",
+     "stock_name": "漢唐",
      "ticker": "2404",
      "market": "TW",
      "stance": "看多",
@@ -403,7 +406,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "漢唐...在手訂單有1940億...法說講的很好,是說美國廠訂單到2029年都不是問題",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "漢唐集成"
     }
    ]
   }

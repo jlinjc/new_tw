@@ -23,7 +23,7 @@
     },
     {
      "stock_name": "智勝科技",
-     "ticker": "2467",
+     "ticker": null,
      "market": "TW",
      "stance": "看多",
      "action": "逢低/拉回買進",
@@ -37,7 +37,8 @@
      "target_price": "今年EPS上看15元",
      "confidence": "high",
      "quote": "5月份的營收已經突破10億了而且他的YY 74.6連增76%都算是目前很強",
-     "tw_market": "TWSE"
+     "tw_market": null,
+     "ticker_unverified": "2467"
     },
     {
      "stock_name": "弘塑科技",
@@ -58,7 +59,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "亞翔工程",
+     "stock_name": "亞翔",
      "ticker": "6139",
      "market": "TW",
      "stance": "看多",
@@ -70,7 +71,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "翔明跟亞翔都是雙翔雙翔都是設備股5月15號同一天講的也都在創高",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "亞翔工程"
     },
     {
      "stock_name": "半導體設備股",
@@ -128,7 +130,7 @@
     },
     {
      "stock_name": "龍亭",
-     "ticker": "4989",
+     "ticker": null,
      "market": "TW",
      "stance": "看多",
      "action": "留意",
@@ -138,11 +140,12 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "還有4989的龍科也會好",
-     "tw_market": "TWSE",
-     "name_note": "4989"
+     "tw_market": null,
+     "name_note": "4989",
+     "ticker_unverified": "4989"
     },
     {
-     "stock_name": "南亞電路板",
+     "stock_name": "南電",
      "ticker": "8046",
      "market": "TW",
      "stance": "看多",
@@ -155,7 +158,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "南電今天是逆勢走強的...基本上今天都算很強",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "南亞電路板"
     },
     {
      "stock_name": "景碩科技",
@@ -322,7 +326,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "日月光",
+     "stock_name": "日月光投控",
      "ticker": "3711",
      "market": "TW",
      "stance": "看多",
@@ -336,7 +340,8 @@
      "target_price": "守住6/29十字線低點",
      "confidence": "high",
      "quote": "回測完這個缺口這地方守住低點這機會就來了",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "日月光"
     },
     {
      "stock_name": "京元電子",
@@ -403,7 +408,7 @@
     },
     {
      "stock_name": "高僑自動化",
-     "ticker": "5439",
+     "ticker": null,
      "market": "TW",
      "stance": "看多",
      "action": "逢低布局",
@@ -416,7 +421,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "三重題材在做加溫大戶也是連兩週在做一個增持那股價也算是整理了一段時間才不到50塊錢",
-     "tw_market": "TPEX"
+     "tw_market": null,
+     "ticker_unverified": "5439"
     },
     {
      "stock_name": "訊芯-KY",

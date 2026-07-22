@@ -6,7 +6,7 @@
    "name": "容逸燊",
    "picks": [
     {
-     "stock_name": "士林電機",
+     "stock_name": "士電",
      "ticker": "1503",
      "market": "TW",
      "stance": "看多",
@@ -19,7 +19,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "市電呢它在這一波重電當中它變成指標，因為輝達總部就在這邊，所以短線急漲最好等稍微拉回一下下再去做一個佈局",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "士林電機"
     },
     {
      "stock_name": "亞力",
@@ -399,7 +400,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "大華優利高息30",
+     "stock_name": "大華優利高填息30",
      "ticker": "00918",
      "market": "ETF",
      "stance": "看多",
@@ -414,7 +415,8 @@
      "confidence": "high",
      "quote": "它的單季年化配息率有高達17%，掛牌以來總共有12次填息，9次完成填息，其實已經很高，75%",
      "tw_market": "TWSE",
-     "name_note": "00918"
+     "name_note": "00918",
+     "spoken_name": "大華優利高息30"
     }
    ]
   }

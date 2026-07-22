@@ -455,7 +455,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "亞力電機",
+     "stock_name": "亞力",
      "ticker": "1514",
      "market": "TW",
      "stance": "看多",
@@ -470,7 +470,8 @@
      "confidence": "medium",
      "quote": "以亞歷來講基本上收益今年EPS大概4塊多...目前來講總共有120億的在手訂單這裡面來講台積電是最大的潛在",
      "tw_market": "TWSE",
-     "name_note": "語音辨識為「亞歷」"
+     "name_note": "語音辨識為「亞歷」",
+     "spoken_name": "亞力電機"
     },
     {
      "stock_name": "台達電",

@@ -232,7 +232,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "世界先進",
+     "stock_name": "世界",
      "ticker": "5347",
      "market": "TW",
      "stance": "看多",
@@ -245,7 +245,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "投信在買,投信在買就是穩定的買盤。",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "spoken_name": "世界先進"
     },
     {
      "stock_name": "聯電",
@@ -348,7 +349,7 @@
      "name_note": "語音辨識不確定"
     },
     {
-     "stock_name": "華星光通",
+     "stock_name": "華星光",
      "ticker": "4979",
      "market": "TW",
      "stance": "中性",
@@ -361,7 +362,8 @@
      "target_price": "約10%空間",
      "confidence": "medium",
      "quote": "上升的月線跌破反而是個買點,因為他是上升的月線。",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "spoken_name": "華星光通"
     },
     {
      "stock_name": "健策",

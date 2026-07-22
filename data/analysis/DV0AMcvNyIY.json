@@ -138,7 +138,7 @@
     },
     {
      "stock_name": "力成科技",
-     "ticker": null,
+     "ticker": "6239",
      "market": "TW",
      "stance": "觀望",
      "action": "建議先停利，待月線站穩後再重新評估介入",
@@ -149,7 +149,7 @@
      "target_price": null,
      "confidence": "high",
      "quote": "放量大量的收黑來講，放大量大黑應該先停利一趟會比較好",
-     "tw_market": null,
+     "tw_market": "TWSE",
      "name_note": "推測，原音「例程」"
     },
     {

@@ -70,7 +70,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "日月光",
+     "stock_name": "日月光投控",
      "ticker": "3711",
      "market": "TW",
      "stance": "看多",
@@ -83,11 +83,12 @@
      "target_price": null,
      "confidence": "high",
      "quote": "日月光今天創歷史高點，它的買點是昨天。",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "日月光"
     },
     {
      "stock_name": "新唐科技",
-     "ticker": "3264",
+     "ticker": "4919",
      "market": "TW",
      "stance": "觀望",
      "action": "暫不追價，等盤整區間向上突破再進場，跌破則避開",
@@ -99,7 +100,7 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "短線上暫時先不要去做它，等它盤整突破；跌破我們就不要去做它就好。",
-     "tw_market": "TPEX"
+     "tw_market": "TWSE"
     }
    ]
   },
@@ -318,7 +319,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "群益半導體收益ETF",
+     "stock_name": "群益半導體收益",
      "ticker": "00927",
      "market": "ETF",
      "stance": "看多",
@@ -333,7 +334,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "7月16號就是除息日，7月15號將會是這一次你要參與除息的最後買進日；這一次的配息率竟然有18.1%。",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "群益半導體收益ETF"
     }
    ]
   }

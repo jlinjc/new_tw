@@ -219,7 +219,7 @@
     },
     {
      "stock_name": "晶元電",
-     "ticker": "3363",
+     "ticker": null,
      "market": "TW",
      "stance": "看多",
      "action": "留意法人籌碼,逢拉回布局",
@@ -231,7 +231,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "投信會偏好順勢交易,真的發動的時候可能投信又回頭來做佈局了",
-     "tw_market": "TPEX"
+     "tw_market": null,
+     "ticker_unverified": "3363"
     },
     {
      "stock_name": "頎邦",

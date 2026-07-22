@@ -244,7 +244,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "雅航",
+     "stock_name": "亞航",
      "ticker": "2630",
      "market": "TW",
      "stance": "看多",
@@ -257,7 +257,8 @@
      "target_price": "上方約20%價差空間(相對雷虎前高)",
      "confidence": "high",
      "quote": "如果後面他要去追上雷虎平前高的話,上方大概都還有20%左右的空間",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "雅航"
     },
     {
      "stock_name": "中光電",
@@ -318,7 +319,7 @@
     },
     {
      "stock_name": "達新材",
-     "ticker": "5432",
+     "ticker": null,
      "market": "TW",
      "stance": "看多",
      "action": "留意股價接近年線及財報估值區間時進場",
@@ -330,7 +331,8 @@
      "target_price": "約330元(財報估值)",
      "confidence": "medium",
      "quote": "以達新材料來講的話呢,它的一個整體產業的本益比大概落在33倍左右,我們預估它到年底大概可以賺到接近10塊錢...大概它的一個財報估值的話呢會落在330的這個上下",
-     "tw_market": "TPEX"
+     "tw_market": null,
+     "ticker_unverified": "5432"
     },
     {
      "stock_name": "復華未來50",

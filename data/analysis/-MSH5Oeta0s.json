@@ -229,7 +229,7 @@
     },
     {
      "stock_name": "艾美特",
-     "ticker": null,
+     "ticker": "1626",
      "market": "TW",
      "stance": "看多",
      "action": "留意缺貨題材延續",
@@ -239,7 +239,7 @@
      "target_price": null,
      "confidence": "low",
      "quote": "艾美特大家去搭賣場一定有買過他的一些空調啊相關的產品，所以你看今天都是亮燈漲停",
-     "tw_market": null
+     "tw_market": "TWSE"
     },
     {
      "stock_name": "光寶科",
@@ -340,7 +340,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "義隆電",
+     "stock_name": "義隆",
      "ticker": "2458",
      "market": "TW",
      "stance": "看多",
@@ -353,10 +353,11 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "義隆電從115的話呢慢慢漲到了188塊的一個水準，它整體的毛利率的部分就一直維持在接近50%的一個高檔",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "義隆電"
     },
     {
-     "stock_name": "台新台灣IC設計ETF",
+     "stock_name": "台新臺灣IC設計",
      "ticker": "00947",
      "market": "ETF",
      "stance": "看多",
@@ -371,7 +372,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "00947這一檔可以發現它就聚焦在台灣最聰明的腦袋上面，只買IC設計相關的一個公司，它整體的漲幅甚至有時候會比正二來得更高更好",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "台新台灣IC設計ETF"
     }
    ]
   }

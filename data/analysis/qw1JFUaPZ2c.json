@@ -106,7 +106,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "折米",
+     "stock_name": "澤米",
      "ticker": "6742",
      "market": "TW",
      "stance": "看多",
@@ -119,7 +119,8 @@
      "confidence": "high",
      "quote": "6742這檔，特別是今天一根長紅K又重新站上了所有的均線，所以在這個位置上動能轉強，我覺得這種股票也是可以先續抱。",
      "tw_market": "TWSE",
-     "name_note": "股票代號6742，正式名稱因語音辨識不清無法確認"
+     "name_note": "股票代號6742，正式名稱因語音辨識不清無法確認",
+     "spoken_name": "折米"
     },
     {
      "stock_name": "台達電",

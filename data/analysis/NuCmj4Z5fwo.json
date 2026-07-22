@@ -39,7 +39,7 @@
     },
     {
      "stock_name": "台慶科",
-     "ticker": "3557",
+     "ticker": "3357",
      "market": "TW",
      "stance": "看多",
      "action": "多頭續抱,回後買上漲",
@@ -50,7 +50,7 @@
      "target_price": null,
      "confidence": "high",
      "quote": "台慶科...一路漲,已經漲了快三成",
-     "tw_market": "TWSE"
+     "tw_market": "TPEX"
     },
     {
      "stock_name": "新唐",
@@ -69,7 +69,7 @@
     },
     {
      "stock_name": "林洋",
-     "ticker": "6919",
+     "ticker": null,
      "market": "TW",
      "stance": "看多",
      "action": "回後買上漲",
@@ -80,7 +80,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "新唐、林洋都是屬於IC設計比較低價的",
-     "tw_market": "TWSE"
+     "tw_market": null,
+     "ticker_unverified": "6919"
     },
     {
      "stock_name": "台達電",
@@ -414,7 +415,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "和勝-KY",
+     "stock_name": "倉和",
      "ticker": "6538",
      "market": "TW",
      "stance": "看多",
@@ -426,7 +427,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "他這邊有浪子回頭,然後出關之後呢,又開始往上漲了",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "spoken_name": "和勝-KY"
     },
     {
      "stock_name": "華新科",

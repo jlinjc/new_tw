@@ -166,7 +166,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "聯亞光電子",
+     "stock_name": "聯亞",
      "ticker": "3081",
      "market": "TW",
      "stance": "看多",
@@ -177,7 +177,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "聯誼光前幾天也是創高了，這些個股就是順勢操作了。",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "spoken_name": "聯亞光電子"
     },
     {
      "stock_name": "訊芯-KY",
@@ -250,7 +251,7 @@
     },
     {
      "stock_name": "力晶",
-     "ticker": "6770",
+     "ticker": null,
      "market": "TW",
      "stance": "看多",
      "action": "逢低承接，留意投信是否持續回補",
@@ -262,7 +263,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "利基電你看它上一波高點在94.5,跌一下到季線,反彈的速度也很快,除了記憶體之外它成熟製程這一波漲價也有受惠。",
-     "tw_market": "TWSE"
+     "tw_market": null,
+     "ticker_unverified": "6770"
     },
     {
      "stock_name": "旺宏",

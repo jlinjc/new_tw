@@ -355,7 +355,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "士林電機",
+     "stock_name": "士電",
      "ticker": "1503",
      "market": "TW",
      "stance": "看多",
@@ -367,7 +367,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "越早攻漲停的反而是越好的……我覺得應該還不錯，至少明天開高的機會是有的。",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "士林電機"
     },
     {
      "stock_name": "華新",

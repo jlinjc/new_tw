@@ -88,7 +88,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "上海商業儲蓄銀行",
+     "stock_name": "上海商銀",
      "ticker": "5876",
      "market": "TW",
      "stance": "看多",
@@ -99,7 +99,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "上海商銀到現在來講買了7萬多張。",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "上海商業儲蓄銀行"
     },
     {
      "stock_name": "丹雅",
@@ -189,7 +190,7 @@
     },
     {
      "stock_name": "立敦電子",
-     "ticker": "6259",
+     "ticker": "6175",
      "market": "TW",
      "stance": "看多",
      "action": "優先搶反彈",

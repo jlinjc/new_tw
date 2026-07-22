@@ -54,7 +54,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "世界先進",
+     "stock_name": "世界",
      "ticker": "5347",
      "market": "TW",
      "stance": "觀望",
@@ -67,7 +67,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "均線要多排要三線或四線多排，如果季線、月線都還在向下，這個股票也是叫你忍耐一下",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "spoken_name": "世界先進"
     },
     {
      "stock_name": "華通",
@@ -135,7 +136,7 @@
     },
     {
      "stock_name": "陽程科技",
-     "ticker": "3563",
+     "ticker": "3498",
      "market": "TW",
      "stance": "看多",
      "action": "回後買上漲",
@@ -147,7 +148,7 @@
      "target_price": null,
      "confidence": "high",
      "quote": "這個就是多頭嘛，過前高回檔，所以今天剛好就是回後買上漲，沒破前面低點又站到月線上",
-     "tw_market": "TWSE"
+     "tw_market": "TPEX"
     },
     {
      "stock_name": "福懋科",

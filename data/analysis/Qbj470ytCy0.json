@@ -228,7 +228,7 @@
     },
     {
      "stock_name": "愛普",
-     "ticker": null,
+     "ticker": "6531",
      "market": "TW",
      "stance": "看多",
      "action": "留意細電容新題材",
@@ -239,7 +239,7 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "現在細電容另外一檔股票是愛普股價又漲停板了",
-     "tw_market": null
+     "tw_market": "TWSE"
     },
     {
      "stock_name": "群聯",

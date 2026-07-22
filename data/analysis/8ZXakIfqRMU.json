@@ -122,7 +122,7 @@
    "name": "陳唯泰",
    "picks": [
     {
-     "stock_name": "日月光",
+     "stock_name": "日月光投控",
      "ticker": "3711",
      "market": "TW",
      "stance": "看多",
@@ -136,7 +136,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "今年到明年的業績好到不行…今年預估的EPS是16塊到17塊錢",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "日月光"
     },
     {
      "stock_name": "京元電子",

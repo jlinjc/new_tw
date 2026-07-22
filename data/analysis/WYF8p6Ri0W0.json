@@ -182,7 +182,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "聯保",
+     "stock_name": "聯寶",
      "ticker": "6821",
      "market": "TW",
      "stance": "看多",
@@ -195,7 +195,8 @@
      "target_price": "前高約74.2元",
      "confidence": "high",
      "quote": "五日均線壓著月均線壓著季均線壓年線，四線多排已經做好了",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "spoken_name": "聯保"
     },
     {
      "stock_name": "上銀",
@@ -378,7 +379,7 @@
      "name_note": "語音為「奇邦」"
     },
     {
-     "stock_name": "日月光",
+     "stock_name": "日月光投控",
      "ticker": "3711",
      "market": "TW",
      "stance": "看多",
@@ -389,10 +390,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "日月光也是屬歷史高檔，昨天漲停板",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "日月光"
     },
     {
-     "stock_name": "京元電",
+     "stock_name": "京元電子",
      "ticker": "2449",
      "market": "TW",
      "stance": "中性",
@@ -404,7 +406,8 @@
      "confidence": "medium",
      "quote": "投信持有晶圓店它的一個持股比重太高，是超過15%，所以其實能夠加碼的空間比較少",
      "tw_market": "TWSE",
-     "name_note": "語音為「晶圓店」"
+     "name_note": "語音為「晶圓店」",
+     "spoken_name": "京元電"
     },
     {
      "stock_name": "南茂",

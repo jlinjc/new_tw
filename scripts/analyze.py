@@ -89,26 +89,90 @@ def build_user_prompt(video: dict, transcript: str) -> str:
             f"以下是逐字稿：\n<transcript>\n{transcript}\n</transcript>")
 
 
+_TW_SUFFIX = re.compile(
+    r"(股份有限公司|控股|-?KY|\*|電子|科技|半導體|材料|光電|國際|工業|"
+    r"實業|生技|建設|開發|投資|金control|金)$")
+
+
+def _norm_name(s: str) -> str:
+    """正規化股名以利比對：臺→台、去括號註記與常見後綴。"""
+    s = (s or "").strip().replace("臺", "台")
+    s = re.sub(r"[（(].*?[）)]", "", s).strip()
+    prev = None
+    while s and s != prev:  # 反覆去尾綴（如「力智電子」→「力智」）
+        prev = s
+        s = _TW_SUFFIX.sub("", s).strip()
+    return s
+
+
+def _build_lookup(tickers: dict):
+    code2 = {}          # code -> (official_name, market)
+    norm2 = {}          # normalized official name -> (code, market, official)
+    for name, v in tickers.items():
+        code2.setdefault(v["code"], (name, v["market"]))
+        nn = _norm_name(name)
+        if nn:  # 避免「材料-KY」等整段被當後綴 → 空字串誤配
+            norm2.setdefault(nn, (v["code"], v["market"], name))
+    return code2, norm2
+
+
+def _same_company(spoken: str, official: str) -> bool:
+    """股名與代號官方名是否可信為同一家：容忍簡稱與單字同音錯字。"""
+    a, b = _norm_name(spoken), _norm_name(official)
+    if not a or not b:
+        return False
+    short, long = sorted([a, b], key=len)
+    if all(c in long for c in short):        # 簡稱：短名字元全在長名內
+        return True
+    common = len(set(a) & set(b))
+    if common >= 2:                          # 共用 ≥2 字
+        return True
+    if len(a) == len(b) and common >= len(a) - 1:  # 同長度僅差 1 字（同音錯字）
+        return True
+    return False
+
+
 def normalize_tickers(result: dict, tickers: dict) -> dict:
-    """用證交所對照表驗證/補上代號。"""
+    """用證交所對照表驗證代號。以「股名」為權威來源：
+
+    1) 股名（原文或正規化後）查得到 → 用表上的代號，覆蓋模型。
+    2) 股名查不到、但模型給了代號：交叉檢查該代號的官方名是否與股名首二字
+       相符；相符才採信，否則棄用代號（寧可無績效，也不算到錯的公司）。
+    棄用的代號保留在 ticker_unverified 供人工查核。
+    """
+    code2, norm2 = _build_lookup(tickers)
     for teacher in result.get("teachers", []):
         for pick in teacher.get("picks", []):
-            name = pick.get("stock_name", "").strip()
-            entry = tickers.get(name)
+            raw = pick.get("stock_name", "").strip()
+            entry = tickers.get(raw)
+            if not entry and _norm_name(raw):
+                hit = norm2.get(_norm_name(raw))
+                if hit:
+                    entry = {"code": hit[0], "market": hit[1]}
             if entry:
-                if pick.get("ticker") != entry["code"]:
-                    pick["ticker"] = entry["code"]
-                pick["tw_market"] = entry["market"]  # TWSE / TPEX
-            elif pick.get("ticker"):
-                # 模型給了代號但名稱不在表中：反查代號是否存在
-                code = pick["ticker"]
-                rev = {v["code"]: (k, v["market"]) for k, v in tickers.items()}
-                if code in rev:
-                    pick["tw_market"] = rev[code][1]
+                pick["ticker"] = entry["code"]
+                pick["tw_market"] = entry["market"]
+                pick.pop("ticker_unverified", None)
+                continue
+            # 股名無法對照
+            code = pick.get("ticker")
+            if code and code in code2:
+                if _same_company(raw, code2[code][0]):
+                    pick["tw_market"] = code2[code][1]  # 兜得上，採信
+                    pick.pop("ticker_unverified", None)
                 else:
+                    # 代號指向不同公司 → 棄用，避免算到錯股票
+                    pick["ticker_unverified"] = code
+                    pick["ticker"] = None
                     pick["tw_market"] = None
             else:
                 pick["tw_market"] = None
+            # 代號確認無誤時，股名一律用證交所官方名（修 ASR 錯字如禾仲堂→禾伸堂）；
+            # 原始辨識名保留在 spoken_name，引句仍是逐字稿原文。
+            final = pick.get("ticker")
+            if final and final in code2 and pick.get("stock_name") != code2[final][0]:
+                pick.setdefault("spoken_name", pick.get("stock_name", ""))
+                pick["stock_name"] = code2[final][0]
     return result
 
 

@@ -379,7 +379,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "世界先進",
+     "stock_name": "世界",
      "ticker": "5347",
      "market": "TW",
      "stance": "看多",
@@ -391,7 +391,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "其實世界先進我覺得都還是有機會的，其實大家還是回到自己的發展上面，不要太擔心這個事情",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "spoken_name": "世界先進"
     },
     {
      "stock_name": "鴻海",

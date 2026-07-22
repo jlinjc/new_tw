@@ -6,7 +6,7 @@
    "name": "鍾國忠",
    "picks": [
     {
-     "stock_name": "世界先進",
+     "stock_name": "世界",
      "ticker": "5347",
      "market": "TW",
      "stance": "觀望",
@@ -19,7 +19,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "剛被他的媽媽賣掉8.1%的股權...難得看到外資跟投信同時都做買進動作,世界先進的股東會一定要講清楚",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "spoken_name": "世界先進"
     },
     {
      "stock_name": "南亞科",
@@ -90,7 +91,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "日月光",
+     "stock_name": "日月光投控",
      "ticker": "3711",
      "market": "TW",
      "stance": "看多",
@@ -102,7 +103,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "日月光一個所謂的半導體封測相關龍頭在今天的股價也是呈現漲停板的一個表現",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "日月光"
     },
     {
      "stock_name": "台燿",
@@ -253,7 +255,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "真鼎-KY",
+     "stock_name": "臻鼎-KY",
      "ticker": "4958",
      "market": "TW",
      "stance": "看多",
@@ -265,7 +267,8 @@
      "target_price": "570元(高盛)",
      "confidence": "high",
      "quote": "真鼎KY他是ABF的黑馬...這個IC載板可能三年要成長三倍",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "真鼎-KY"
     },
     {
      "stock_name": "台表科",
@@ -301,7 +304,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "今國光學",
+     "stock_name": "今國光",
      "ticker": "6209",
      "market": "TW",
      "stance": "看多",
@@ -315,7 +318,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "經國光...第一季是賺0.81,去年第一季才賺0.01,所以成長是8000%",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "今國光學"
     },
     {
      "stock_name": "昇貿",

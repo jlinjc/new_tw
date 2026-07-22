@@ -273,7 +273,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "日月光",
+     "stock_name": "日月光投控",
      "ticker": "3711",
      "market": "TW",
      "stance": "看多",
@@ -284,7 +284,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "日月光我也是持續看好",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "日月光"
     },
     {
      "stock_name": "鴻海",

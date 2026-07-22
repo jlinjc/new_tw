@@ -40,7 +40,7 @@
     },
     {
      "stock_name": "聖暉",
-     "ticker": "5364",
+     "ticker": "5536",
      "market": "TW",
      "stance": "看多",
      "action": "拉回逢低介入,建議買強勢股",
@@ -222,7 +222,7 @@
     },
     {
      "stock_name": "勵志",
-     "ticker": "6719",
+     "ticker": null,
      "market": "TW",
      "stance": "看多",
      "action": "股價重新站回五日均線為買點",
@@ -234,7 +234,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "所以現在這個位階後面一根紅K只要重新站回五日均線那個位置上面應該就會是一個很不錯的買點",
-     "tw_market": "TWSE"
+     "tw_market": null,
+     "ticker_unverified": "6719"
     },
     {
      "stock_name": "盛群",
@@ -313,7 +314,7 @@
     },
     {
      "stock_name": "台慶科",
-     "ticker": "6540",
+     "ticker": "3357",
      "market": "TW",
      "stance": "看多",
      "action": "留意布局",
@@ -324,7 +325,7 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "同時具備三個條件的有一個是台慶科",
-     "tw_market": null
+     "tw_market": "TPEX"
     },
     {
      "stock_name": "松川精密",
@@ -422,7 +423,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "世界先進",
+     "stock_name": "世界",
      "ticker": "5347",
      "market": "TW",
      "stance": "看多",
@@ -434,7 +435,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "世界先進它跟聯電的走勢有點像,就是成熟製程,那這它的高檔黃金交叉",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "spoken_name": "世界先進"
     },
     {
      "stock_name": "英業達",

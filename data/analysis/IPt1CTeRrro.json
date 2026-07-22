@@ -252,7 +252,7 @@
      "tw_market": null
     },
     {
-     "stock_name": "關鍵資源ETF",
+     "stock_name": "野村稀土關鍵資源",
      "ticker": "009821",
      "market": "ETF",
      "stance": "看多",
@@ -267,7 +267,8 @@
      "confidence": "high",
      "quote": "這一檔是009821...台灣大概是首件第一檔...把它放進去之後的話就可以讓你整體的投資可以有更廣泛更深度的一個投資的成果",
      "tw_market": "TWSE",
-     "name_note": "稀土/鈾礦/貴金屬"
+     "name_note": "稀土/鈾礦/貴金屬",
+     "spoken_name": "關鍵資源ETF"
     }
    ]
   }

@@ -70,7 +70,7 @@
     },
     {
      "stock_name": "三星電子",
-     "ticker": null,
+     "ticker": "5007",
      "market": "OTHER",
      "stance": "看多",
      "action": "長線布局(海外標的，建議透過ETF參與)",
@@ -81,7 +81,7 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "三星、海力士、美光這三家才是所謂真正他講的記憶體",
-     "tw_market": null
+     "tw_market": "TWSE"
     },
     {
      "stock_name": "SK海力士",
@@ -171,7 +171,7 @@
     },
     {
      "stock_name": "合勤控股",
-     "ticker": "3491",
+     "ticker": null,
      "market": "TW",
      "stance": "看多",
      "action": "可留意",
@@ -182,7 +182,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "不只鴻海，偉創、神達、合勤，這些老AI股本益比都還蠻低估",
-     "tw_market": "TPEX"
+     "tw_market": null,
+     "ticker_unverified": "3491"
     },
     {
      "stock_name": "中鼎",
@@ -221,7 +222,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "寶達科技",
+     "stock_name": "堡達",
      "ticker": "3537",
      "market": "TW",
      "stance": "看多",
@@ -234,7 +235,8 @@
      "target_price": null,
      "confidence": "low",
      "quote": "3537的寶達，主要代理松下SP CAP的部分，7月份要調漲20到30%，這個是最大受惠者",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "spoken_name": "寶達科技"
     },
     {
      "stock_name": "佳邦",
@@ -302,7 +304,7 @@
    "name": "陳唯泰",
    "picks": [
     {
-     "stock_name": "精誠資訊",
+     "stock_name": "精誠",
      "ticker": "6214",
      "market": "TW",
      "stance": "看多",
@@ -315,7 +317,8 @@
      "target_price": null,
      "confidence": "medium",
      "quote": "今天漲停板是6214，簽下了國防部的大標案，法人預估全年EPS大概在8.4塊錢到9.5塊錢，目前本益比不到20倍",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "精誠資訊"
     },
     {
      "stock_name": "樺漢",

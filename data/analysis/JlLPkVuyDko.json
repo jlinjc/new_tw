@@ -39,7 +39,7 @@
     },
     {
      "stock_name": "台慶科",
-     "ticker": null,
+     "ticker": "3357",
      "market": "TW",
      "stance": "看多",
      "action": "逢拉回可布局",
@@ -51,7 +51,7 @@
      "target_price": "老師估算距前波高點仍有約40%上漲空間",
      "confidence": "low",
      "quote": "半三腰的還要有40%哦...台信科是這邊主力轉買大戶增持",
-     "tw_market": null,
+     "tw_market": "TPEX",
      "name_note": "語音辨識為台信科,名稱不確定"
     },
     {
@@ -159,7 +159,7 @@
      "name_note": "語音辨識為光盛,名稱不確定,CPO舊主流股"
     },
     {
-     "stock_name": "達運精密",
+     "stock_name": "達運",
      "ticker": "6120",
      "market": "TW",
      "stance": "看多",
@@ -174,10 +174,11 @@
      "confidence": "low",
      "quote": "他有零化音就是那個AXT...去開發高速微型光偵測器PD產品,就是說針對AI的資料中心",
      "tw_market": "TWSE",
-     "name_note": "友達集團光感測股,名稱不確定"
+     "name_note": "友達集團光感測股,名稱不確定",
+     "spoken_name": "達運精密"
     },
     {
-     "stock_name": "上詮光纖",
+     "stock_name": "上詮",
      "ticker": "3363",
      "market": "TW",
      "stance": "看多",
@@ -191,7 +192,8 @@
      "confidence": "low",
      "quote": "它有開發光纖陣列對準偶合模組...另外就是他也有佈局2.5D、3D的先進封裝架構",
      "tw_market": "TPEX",
-     "name_note": "名稱不確定"
+     "name_note": "名稱不確定",
+     "spoken_name": "上詮光纖"
     },
     {
      "stock_name": "美光",
@@ -387,7 +389,7 @@
      "name_note": "名稱不確定,疑為被動元件相關股"
     },
     {
-     "stock_name": "亞翔工程",
+     "stock_name": "亞翔",
      "ticker": "6139",
      "market": "TW",
      "stance": "中性",
@@ -399,10 +401,11 @@
      "target_price": null,
      "confidence": "high",
      "quote": "亞翔在手訂單我記得有大概1700億到2000億左右...亞翔這個創高再創高,一路創高上來到800多",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "亞翔工程"
     },
     {
-     "stock_name": "帆宣系統科技",
+     "stock_name": "帆宣",
      "ticker": "6196",
      "market": "TW",
      "stance": "中性",
@@ -414,7 +417,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "帆宣來講,這有講大概在300以下,基本上也是翻倍",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "帆宣系統科技"
     },
     {
      "stock_name": "信紘科",

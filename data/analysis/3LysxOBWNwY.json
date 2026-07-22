@@ -155,7 +155,7 @@
      "tw_market": "TPEX"
     },
     {
-     "stock_name": "哲米",
+     "stock_name": "澤米",
      "ticker": "6742",
      "market": "TW",
      "stance": "看多",
@@ -169,7 +169,8 @@
      "target_price": "突破63.9元前高",
      "confidence": "high",
      "quote": "一旦過去了以後，我們就說它會走一個所謂的閃電型的上漲",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "哲米"
     },
     {
      "stock_name": "光寶科",

@@ -38,7 +38,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "亞翔工程",
+     "stock_name": "亞翔",
      "ticker": "6139",
      "market": "TW",
      "stance": "看多",
@@ -51,7 +51,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "陽基工程他這一次回檔的幅度是比帆宣要來的深一些可是你可以看他守這個季線已經守了...在這過去8天它守住了這個季線",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "亞翔工程"
     },
     {
      "stock_name": "台化",
@@ -140,7 +141,7 @@
     },
     {
      "stock_name": "台慶科",
-     "ticker": "8155",
+     "ticker": "3357",
      "market": "TW",
      "stance": "看多",
      "action": "可列入搶反彈首選",

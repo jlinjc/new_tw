@@ -181,7 +181,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "索羅門",
+     "stock_name": "所羅門",
      "ticker": "2359",
      "market": "TW",
      "stance": "中性",
@@ -193,7 +193,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "如果就形態上來講,可能像上銀或者達明可能可以先買,索羅門可能要再看一看。",
-     "tw_market": "TWSE"
+     "tw_market": "TWSE",
+     "spoken_name": "索羅門"
     },
     {
      "stock_name": "亞光",

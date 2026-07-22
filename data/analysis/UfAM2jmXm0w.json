@@ -6,7 +6,7 @@
    "name": "鍾國忠",
    "picks": [
     {
-     "stock_name": "南亞電路板",
+     "stock_name": "南電",
      "ticker": "8046",
      "market": "TW",
      "stance": "看多",
@@ -20,10 +20,11 @@
      "confidence": "medium",
      "quote": "因為他剛被納入台灣50成分股股價創新高後來壓下來後來創新高…如果藍電沒辦法走強的話整個台股的多頭氣息就會完全被打下來",
      "tw_market": "TWSE",
-     "name_note": "南電"
+     "name_note": "南電",
+     "spoken_name": "南亞電路板"
     },
     {
-     "stock_name": "台塑勝高",
+     "stock_name": "台勝科",
      "ticker": "3532",
      "market": "TW",
      "stance": "看多",
@@ -37,7 +38,8 @@
      "confidence": "medium",
      "quote": "重點是藍雅科是他的重要股東也是最大的客戶，貢獻他將近50%的訂單…我認為他今年有機會挑戰…5塊錢的實力非常高",
      "tw_market": "TWSE",
-     "name_note": "台勝科"
+     "name_note": "台勝科",
+     "spoken_name": "台塑勝高"
     }
    ]
   },
@@ -93,7 +95,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "南亞電路板",
+     "stock_name": "南電",
      "ticker": "8046",
      "market": "TW",
      "stance": "看多",
@@ -106,7 +108,8 @@
      "confidence": "medium",
      "quote": "包括景碩、南電都在跟客戶講說我要漲價…南電我之前講過南電就是被Apple包產能",
      "tw_market": "TWSE",
-     "name_note": "南電"
+     "name_note": "南電",
+     "spoken_name": "南亞電路板"
     },
     {
      "stock_name": "台達電",
@@ -126,7 +129,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "世界先進",
+     "stock_name": "世界",
      "ticker": "5347",
      "market": "TW",
      "stance": "看多",
@@ -139,7 +142,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "世界先進其實也有默默的在做先進製程…所以世界先進可能還會再往上",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "spoken_name": "世界先進"
     },
     {
      "stock_name": "聯電",
@@ -240,7 +244,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "南亞電路板",
+     "stock_name": "南電",
      "ticker": "8046",
      "market": "TW",
      "stance": "看多",
@@ -253,7 +257,8 @@
      "confidence": "high",
      "quote": "外資連三買投信也連三買，所以他的籌碼變得很漂亮",
      "tw_market": "TWSE",
-     "name_note": "南電"
+     "name_note": "南電",
+     "spoken_name": "南亞電路板"
     },
     {
      "stock_name": "聯茂",
@@ -347,7 +352,7 @@
      "tw_market": "TWSE"
     },
     {
-     "stock_name": "台塑勝高",
+     "stock_name": "台勝科",
      "ticker": "3532",
      "market": "TW",
      "stance": "看多",
@@ -360,10 +365,11 @@
      "confidence": "medium",
      "quote": "台勝科0-2也不錯…這些後面是有機會的",
      "tw_market": "TWSE",
-     "name_note": "台勝科"
+     "name_note": "台勝科",
+     "spoken_name": "台塑勝高"
     },
     {
-     "stock_name": "環球晶圓",
+     "stock_name": "環球晶",
      "ticker": "6488",
      "market": "TW",
      "stance": "看多",
@@ -375,7 +381,8 @@
      "target_price": null,
      "confidence": "high",
      "quote": "環球金呢我們在上禮拜就說了這禮拜呢他是有機會浪子回頭了…主力照線也是沒有掉下去",
-     "tw_market": "TPEX"
+     "tw_market": "TPEX",
+     "spoken_name": "環球晶圓"
     },
     {
      "stock_name": "禾伸堂",
