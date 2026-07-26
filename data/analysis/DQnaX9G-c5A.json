@@ -1,0 +1,419 @@
+{
+ "episode_summary": "本集聚焦川習會後黃仁勳搭上空軍一號赴陸、市場解讀晶片禁令可能鬆綁,激勵台股在單日重挫800點後迅速收復失土,站回4萬2之上;資金持續在被動元件、記憶體、功率元件與IC設計等族群間輪動。三位分析師分別看好國巨、華新科等被動元件龍頭,群聯、南亞科、華邦電等記憶體股,以及文曄、祥碩等第一季獲利大幅成長且4月營收動能延續的個股。",
+ "market_view": "加權指數站上4萬2附近,昨日重挫今日即大幅回補,顯示多頭格局未變;投信資金源源不絕是撐盤主力,外資影響力相對減弱,預期520後指數可望持穩在4萬點之上,拉回仍是找買點的機會,但個股輪動快速,選股比單押指數更重要。",
+ "teachers": [
+  {
+   "name": "Eason",
+   "picks": [
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "已鎖漲停,未來拉回至5日線到10日線之間可分批進場",
+     "reasons": [
+      "AI高階應用推升被動元件(高壓電容等)漲價",
+      "標準型/通用型MLC出現排擠效應,恐複製記憶體排擠戲碼",
+      "產能利用率回升,今年獲利估成長近5成,明年再增3成",
+      "投信單週買超創近期新高,主力買盤非常整齊",
+      "與華新科同為被動元件龍頭,雙雙開盤不久即鎖漲停"
+     ],
+     "target_price": "今年EPS估15.7~16.1元,外資目標價看近50元",
+     "confidence": "high",
+     "quote": "國巨現在在被動元件產業也是算數一數二的龍頭...今天國巨跟華新科竟然可以一開盤沒多久通通鎖漲停板",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華新科",
+     "ticker": "2492",
+     "market": "TW",
+     "stance": "看多",
+     "action": "與國巨同族群聯動,拉回可留意",
+     "reasons": [
+      "被動元件漲價題材,與國巨同步開盤鎖漲停",
+      "法人資金塞入被動元件族群,連帶中小型股跟漲",
+      "今日與禾伸堂等同族群個股齊漲停或大漲"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "今天國巨、華新科、禾伸堂都漲停",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "禾伸堂",
+     "ticker": "3026",
+     "market": "TW",
+     "stance": "看多",
+     "action": "漲多短線拉回消化,族群效應仍在,可觀察低接",
+     "reasons": [
+      "這波被動元件行情原先的領軍者,漲幅已達5、6成",
+      "投信買不到高價股,轉買相對低本益比標的",
+      "族群連動效應仍在,回調視為健康整理而非轉弱"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "這一波領軍的其實是禾伸堂,超級猛,不過現在大哥(國巨)來了,讓出位子給大哥",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "CPU/ASIC概念股",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "族群買盤轉整齊時可留意,不建議追價",
+     "reasons": [
+      "低本益比CPU/ASIC相關個股主力買盤轉趨一致",
+      "先前遭市場冷落,近期投信重新回補",
+      "本益比及基期偏低,估值相對便宜"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "本益比低的CPU就叫做大力光...現在投信又把它買回來了",
+     "name_note": "原音聽似「潛頂」「迅新」「大力光」等,語音辨識不確定,無法可靠對應正式股票名稱",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "幸福哥",
+   "picks": [
+    {
+     "stock_name": "群聯",
+     "ticker": "8299",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱,不追高,拉回可逢低承接",
+     "reasons": [
+      "Q1 EPS高達103元,由虧轉盈幅度驚人",
+      "存貨/股本比高達33倍居同業之冠,顯示提前大量囤貨",
+      "企業級客戶占比高、零售占比不到一成,受消費性淡季影響小",
+      "董事長潘健成自行加碼買股,喊記憶體缺貨看10年",
+      "記憶體超級循環尚未結束,新產能要到2028年才會開出"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "群聯真的很厲害,EPS不是假的,真的是存貨囤出來的",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "224元私募價已站穩並過前高,可續抱或拉回布局",
+     "reasons": [
+      "224元私募價為關鍵支撐,已站穩且今日過前高",
+      "投信與大戶同步買進",
+      "DDR4現貨價單週漲近兩成,DDR5月漲幅逾11%",
+      "三星若罷工恐加劇全球記憶體短缺"
+     ],
+     "target_price": "224元私募價為支撐,今日已過前高",
+     "confidence": "high",
+     "quote": "南亞科今天過新高了,之前我說224站穩了之後其實就準備上去了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "看多",
+     "action": "尚未過前高,補漲空間仍在,可留意",
+     "reasons": [
+      "同業已過前高,華邦電因落後補漲今日表現最強",
+      "投信、大戶同步買超"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "華邦電是因為離前高還有一點點距離,所以他今天反而最強",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "旺宏",
+     "ticker": "2337",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "避免追高,留意當沖及短線震盪風險",
+     "reasons": [
+      "昨日漲停,今日開高後一度殺至平盤下,震盪加大",
+      "短線及當沖追高風險相對較高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果你追到旺宏想說昨天漲停最強,那今天可能震盪,你做短線特別是當沖的可能今天會賠錢",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯電",
+     "ticker": "2303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "成熟製程漲價題材延續,可留意",
+     "reasons": [
+      "成熟製程漲價題材發酵,今日股價漲停",
+      "車用及AI需求回溫帶動漲價潮",
+      "地緣政治風險帶來去中化轉單效應"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "聯電今天漲停,成熟製程也漲價",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "強茂",
+     "ticker": "2481",
+     "market": "TW",
+     "stance": "看多",
+     "action": "雖出現帶量大黑K,但籌碼未離場,拉回可視為健康整理",
+     "reasons": [
+      "投信買超排行居前,外資、投信同步買進",
+      "地緣政治去中化效應,轉單效應可期",
+      "盤後籌碼顯示今日雖大黑K,外資與投信仍是買方"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "今天大黑K,可是很妙的是我剛看了一下盤後的籌碼...其實今天大黑K,外資跟投信居然還是買的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "矽力*-KY",
+     "ticker": "6415",
+     "market": "TW",
+     "stance": "看多",
+     "action": "股價突破整理區,可留意",
+     "reasons": [
+      "投信買超積極,持續加碼",
+      "電源管理相關功率元件,受惠漲價題材",
+      "股價拉一段後橫盤整理,今日再度突破",
+      "多頭型態仍在,投信、大戶持股穩定增加"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "矽力-KY最近也很強,他也是跟這個電源相關的功率元件有相關...今天又做了一個突破",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "茂達電子",
+     "ticker": "6138",
+     "market": "TW",
+     "stance": "看多",
+     "action": "投信買盤帶動,可留意",
+     "reasons": [
+      "投信買超,股價表現相對抗跌"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "帽達,你可以發現投信有買的好像股價都比較強",
+     "name_note": "原音聽似「帽達」,正式名稱不確定",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "德偉",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "過高拉回,可觀察",
+     "reasons": [
+      "車用比重高,受惠去中化轉單效應",
+      "今日過前高後拉回,籌碼(大戶)持續增加"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "德偉的車用比重蠻高,但一樣今天過高之後拉回,大戶的籌碼也是一步一步在增加",
+     "name_note": "原音,正式名稱不確定,車用功率元件相關股",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "高憲容",
+   "picks": [
+    {
+     "stock_name": "輝達",
+     "ticker": null,
+     "market": "US",
+     "stance": "看多",
+     "action": "5/20法說前可留意,通常法說前拉回布局、法說後易獲利了結",
+     "reasons": [
+      "黃仁勳登上空軍一號赴陸,市場預期H200晶片有望重啟對陸銷售",
+      "Q1 EPS預估由0.96成長至1.76元,年增達80%",
+      "近期股價五連黑,市場擔憂訂單被ASIC瓜分,但評估無需過度擔心"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "去年第四季是0.96,今年估計要成長到1.76,年增率高達80%...輝達還是會更好",
+     "tw_market": null
+    },
+    {
+     "stock_name": "文曄",
+     "ticker": "3036",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回測10日線,拉回至長紅低點下約10%(約248元)可布局",
+     "reasons": [
+      "Q1 EPS 5.3元,年增159%",
+      "4月營收2110億元,年增79%,續創歷史新高",
+      "併購加拿大通路商Future Electronics,強化全球最大半導體通路地位",
+      "代理逾400家供應商,客戶逾2.5萬家",
+      "卡位16T高速光模組技術",
+      "投信連3日買超,含知名主動式ETF參與"
+     ],
+     "target_price": "支撐約248元(距長紅低點約10%風險範圍)",
+     "confidence": "high",
+     "quote": "他手上代理的超過400家的供應商,客戶高達25000名...這也是對未來股價加溫",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "宏捷科",
+     "ticker": "8086",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意族群獲利噴發動能",
+     "reasons": [
+      "Q1營收年增率達62%",
+      "外資喊上看目標價(原文「1萬2」,疑為120元,語音辨識可能有誤)"
+     ],
+     "target_price": "外資喊上看(原文「1萬2」,疑為120元)",
+     "confidence": "low",
+     "quote": "宏晉最近外資喊到1萬2的目標,這個年增率第一季高達62%",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "致茂",
+     "ticker": "2360",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意族群獲利噴發動能",
+     "reasons": [
+      "Q1營收年增率達81%"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "致貿年增率有81%",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "旺矽",
+     "ticker": "6223",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意族群獲利噴發動能",
+     "reasons": [
+      "Q1營收年增率達63%"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "旺席63%",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "大銀微",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意族群獲利噴發動能",
+     "reasons": [
+      "Q1營收年增率達118%"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "大銀維這個也跟大家講過這個118%的年增率",
+     "name_note": "原音,正式名稱不確定",
+     "tw_market": null
+    },
+    {
+     "stock_name": "新權",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "回測支撐(5月4日帶量長紅低點,約10%風險範圍)可留意",
+     "reasons": [
+      "打入ASIC IC龍頭測試供應鏈,客戶含Google與亞馬遜",
+      "股價向來急漲一段後拉回整理,屬慣性走勢",
+      "5月4日帶量長紅為關鍵支撐"
+     ],
+     "target_price": "支撐約長紅低點下10%範圍",
+     "confidence": "low",
+     "quote": "它打入的是ASIC IC龍頭測試的供應鏈,就是Google跟亞馬遜兩家公司都說這地方要找這個新權來幫他做測試",
+     "name_note": "原音,正式名稱不確定,疑為ASIC測試供應鏈相關股",
+     "tw_market": null
+    },
+    {
+     "stock_name": "祥碩",
+     "ticker": "5269",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回測支撐(爆量十字線隔日長紅低點,約10%風險範圍)可留意",
+     "reasons": [
+      "主攻資料中心/晶片組高速傳輸把關",
+      "AMD主要晶片組供應商,受惠AMD業績大幅成長",
+      "200張以上大戶及投信近期同步加碼",
+      "去年EPS 72元,今年法人估90元,本益比不到20倍,相對低估",
+      "下半年AI伺服器高速傳輸設備可望量產貢獻新動能"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "翔碩他是做高速傳輸...去年EPS是賺了72塊,那今年有法人估90塊",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "驚洪",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "回測5月8日洗盤黑K支撐,可留意低接",
+     "reasons": [
+      "去年EPS僅0.54元,今年Q1大幅成長至0.84元,年增140%",
+      "受惠電子紙需求及AI眼鏡供應鏈題材",
+      "股價僅60餘元,相對親民"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "驚洪的部分驅動IC小標股...第一季就賺了0.84,年增率是140%",
+     "name_note": "原音,正式名稱不確定,電子紙驅動IC小型股",
+     "tw_market": null
+    },
+    {
+     "stock_name": "元太科技",
+     "ticker": "8069",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意法說會後動能延續",
+     "reasons": [
+      "法說會後連續漲停",
+      "電子紙需求持續成長"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "元太開完法說會後連續漲停,電子紙也有在成長",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "聯詠",
+     "ticker": "3034",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱,高股息加成長雙題材可持有",
+     "reasons": [
+      "三月底即以高股息題材推薦,進可攻退可守",
+      "近期股價默默漲到近500元價位"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "還記得像連勇這三月底那時候跟他講高股息的題材,進可攻退可守,最近也默默的漲到快500塊的價位",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "DQnaX9G-c5A",
+  "title": "【理財達人秀】台股一日回檔結束？投信搶漲價股！川習會解黃仁勳晶片禁令？記憶體.被動.IC設計大戶撿便宜？Q1季報大禮包？｜李兆華、容逸燊、林信富、高憲容2026.05.14【電視完整版】",
+  "date": "2026-05-14",
+  "duration": 2928,
+  "url": "https://www.youtube.com/watch?v=DQnaX9G-c5A"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

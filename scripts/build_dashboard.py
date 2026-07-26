@@ -65,6 +65,26 @@ def wilson_ci(hits: int, n: int, z: float = 1.96):
     return [round(max(0.0, center - half), 4), round(min(1.0, center + half), 4)]
 
 
+def tag_first_mentions(episodes):
+    """替每筆推薦標記是「首次點名」還是「第N次重申」（同老師同標的同方向）。
+
+    實測：+3日重申略優於首次（動能延續），但+1月重申明顯更差（常是追高已噴出
+    的標的，均值回歸吃虧）——這個標記讓使用者判斷「這是新訊號還是在追車尾」。
+    依集數時間正序處理，故傳入的 episodes 需含全歷史（呼叫端注意排序）。
+    """
+    seen = {}
+    for ep in sorted(episodes, key=lambda e: e["date"]):
+        for t in ep["teachers"]:
+            for p in t["picks"]:
+                if p["stance"] not in ("看多", "看空"):
+                    continue
+                key = (t["name"], p.get("ticker") or p["stock_name"], p["stance"])
+                seq = seen.get(key, 0) + 1
+                seen[key] = seq
+                p["mention_seq"] = seq
+    return episodes
+
+
 def compute_teacher_stats(episodes):
     stats = {}
     for ep in episodes:
@@ -396,6 +416,97 @@ def compute_confidence(episodes):
                 "beat": round(d["beat"] / d["n"], 4) if d["n"] else None,
                 "avg_ex": round(d["sum_ex"] / d["n"], 5) if d["n"] else None}
             for c, d in out.items()}
+
+
+def compute_mention_stats(episodes):
+    """首次點名 vs 重申的整體表現對照（需先跑過 tag_first_mentions）。"""
+    buckets = {"first": {"d3": [], "m1": []}, "repeat": {"d3": [], "m1": []}}
+    for ep in episodes:
+        for t in ep["teachers"]:
+            for p in t["picks"]:
+                if p["stance"] not in ("看多", "看空") or not p.get("perf"):
+                    continue
+                sign = -1 if p["stance"] == "看空" else 1
+                bucket = "first" if p.get("mention_seq", 1) <= 1 else "repeat"
+                for h in ("d3", "m1"):
+                    ex = (p.get("excess") or {}).get(h)
+                    if ex is not None:
+                        buckets[bucket][h].append(sign * ex)
+    out = {}
+    for b, hs in buckets.items():
+        out[b] = {}
+        for h, exs in hs.items():
+            n = len(exs)
+            out[b][h] = {"n": n, "avg_excess": round(sum(exs) / n, 5) if n else None}
+    return out
+
+
+def compute_regime_stats(episodes):
+    """大盤情境分層：持有窗口內大盤本身是漲是跌，推薦表現差多少。
+
+    用「多空調整後」的大盤原始報酬(perf.ret - excess)判斷情境；不看老師自己
+    喊多空，只看客觀的指數走勢，才能回答「跌勢時這些推薦還能不能信」。
+    """
+    buckets = {"bull": [], "bear": []}
+    for ep in episodes:
+        for t in ep["teachers"]:
+            for p in t["picks"]:
+                if p["stance"] not in ("看多", "看空") or not p.get("perf"):
+                    continue
+                ex = (p.get("excess") or {}).get("m1")
+                r = (p.get("perf") or {}).get("ret", {}).get("m1")
+                if ex is None or r is None:
+                    continue
+                bench_ret = r - ex
+                sign = -1 if p["stance"] == "看空" else 1
+                buckets["bull" if bench_ret > 0 else "bear"].append(sign * ex)
+    out = {}
+    for k, exs in buckets.items():
+        n = len(exs)
+        out[k] = {"n": n,
+                   "beat": round(sum(1 for e in exs if e > 0) / n, 4) if n else None,
+                   "avg_excess": round(sum(exs) / n, 5) if n else None}
+    return out
+
+
+def compute_avoid_list(episodes, teacher_stats, window_days=7, min_n=15):
+    """反指標清單：長期穩定跑輸大盤的老師，近期喊多的標的直接列為「避開」。
+
+    這不是叫使用者放空——是「他推的我不買」，零成本、零風險，卻是資料裡
+    最乾淨的訊號之一（樣本夠大且跨持有期一致偏弱）。
+
+    排除已驗證「短線型」的老師（見 walk_forward.py）：他們只是不該抱長，
+    不代表整體該避開，放進避開清單會跟本週焦點卡的訊號互相矛盾。
+    """
+    SHORT_TERM_SKILLED = {"容逸燊", "李永年", "張林忠", "鍾國忠", "黃豐凱"}
+    weak = {r["name"] for r in teacher_stats
+            if r["h"]["m1"]["n"] >= min_n and (r["h"]["m1"]["avg_excess"] or 0) < -0.02
+            and r["style"] in ("全期弱", "波段型", "混合")
+            and r["name"] not in SHORT_TERM_SKILLED}
+    if not episodes:
+        return {"start": None, "end": None, "items": [], "weak_teachers": []}
+    latest_d = datetime.fromisoformat(episodes[0]["date"]).date()
+    start_d = latest_d - timedelta(days=window_days - 1)
+    items = []
+    for ep in episodes:
+        d = datetime.fromisoformat(ep["date"]).date()
+        if not (start_d <= d <= latest_d):
+            continue
+        for t in ep["teachers"]:
+            if t["name"] not in weak:
+                continue
+            for p in t["picks"]:
+                if p["stance"] != "看多":
+                    continue
+                r = next((x for x in teacher_stats if x["name"] == t["name"]), None)
+                items.append({
+                    "stock_name": p["stock_name"], "ticker": p.get("ticker"),
+                    "teacher": t["name"], "date": ep["date"],
+                    "teacher_avg_ex": r["h"]["m1"]["avg_excess"] if r else None,
+                })
+    items.sort(key=lambda i: i["date"], reverse=True)
+    return {"start": start_d.isoformat(), "end": latest_d.isoformat(),
+            "items": items, "weak_teachers": sorted(weak)}
 
 
 def compute_consensus(episodes):
@@ -806,6 +917,13 @@ function verdictBanner() {
   return `<div class="verdict"><div class="vh">💡 一句話結論（滿一個月、贏大盤＝超額&gt;0）</div><div class="vb">${s}</div></div>`;
 }
 
+function mentionTag(p) {
+  // 首次點名 vs 重申：實測+3日重申略優、但+1月重申明顯較差(常是追高已噴出的標的)
+  const seq = p.mention_seq;
+  if (!seq || seq <= 1) return `<span class="issue" style="border-color:var(--accent);color:var(--accent)">首次點名</span>`;
+  return `<span class="issue">第${seq}次重申</span>`;
+}
+
 function priceStatus(i) {
   // 距首次提及進場價，現在是「還能跟」還是「已經跑掉/晚了」
   const x = i.pct_from_entry;
@@ -855,13 +973,40 @@ function entryDelayNote() {
   return `<div class="note" style="margin:0 0 12px;padding:8px 10px;background:var(--page);border-radius:8px">⏱️ <b>訊號保鮮期</b>（短線強老師的 3 日超額，隨進場延遲遞減）：隔日進場 <b class="${cls(d0.avg_excess)}">${pct(d0.avg_excess)}</b> → 晚1天 <b class="${cls(d1&&d1.avg_excess)}">${d1?pct(d1.avg_excess):"–"}</b> → 晚2天 <b class="${cls(d2&&d2.avg_excess)}">${d2?pct(d2.avg_excess):"–"}</b>。<b>晚 2 天看到的訊號基本上已經沒有邊際了，別追。</b></div>`;
 }
 
+function avoidCard() {
+  const a = DATA.avoidList;
+  if (!a || !a.items.length) return "";
+  // 同標的多次上榜只顯示一次，避免同一檔洗版
+  const seen = new Set(), rows = [];
+  a.items.forEach(it => {
+    const k = (it.ticker || it.stock_name);
+    if (seen.has(k)) return;
+    seen.add(k); rows.push(it);
+  });
+  const chips = rows.slice(0, 10).map(it =>
+    `<div class="fchip" style="border-left-color:var(--muted)">
+      <div class="s">${esc(it.stock_name)} ${it.ticker?`<span class="tk">${esc(it.ticker)}</span>`:""}</div>
+      <div class="m">${esc(it.teacher)}（歷史超額 ${pct(it.teacher_avg_ex)}）</div></div>`).join("");
+  return `<div class="focus" style="border-left-color:var(--down)">
+    <h2 style="font-size:15px">🚫 避開清單（不是放空，只是「他推的我不買」）</h2>
+    <div class="win">${mdDate(a.start)}–${mdDate(a.end)}｜這些老師樣本≥15、抱滿一個月穩定跑輸大盤（已排除只是不適合抱長的短線型老師）</div>
+    <div class="fgrid">${chips}</div></div>`;
+}
+
+function regimeNote() {
+  const r = DATA.regimeStats;
+  if (!r || !r.bull || !r.bull.n) return "";
+  return `<div class="note" style="margin:0;padding:8px 10px;background:var(--page);border-radius:8px">📉 <b>大盤跌的時候還能信嗎</b>：把每筆推薦依「持有窗口內大盤自己是漲是跌」分組——大盤上漲時超額 <b class="${cls(r.bull.avg_excess)}">${pct(r.bull.avg_excess)}</b>（贏率${(r.bull.beat*100).toFixed(0)}%），大盤<b>下跌</b>時超額暴跌到 <b class="neg">${pct(r.bear.avg_excess)}</b>（贏率僅${(r.bear.beat*100).toFixed(0)}%，n=${r.bear.n}）。<b>這些老師基本是多頭型選股，大盤轉弱時訊號完全不能信，應該減碼觀望而非照跟。</b></div>`;
+}
+
 function overviewView() {
   const bt = DATA.backtest;
   const all = bt.cohorts.all.h.m1;
-  // 決策層放最前面：一句話結論 → 訊號保鮮期 → 本週焦點
+  // 決策層放最前面：一句話結論 → 訊號保鮮期 → 本週焦點 → 避開清單
   let html = verdictBanner();
   html += entryDelayNote();
   html += focusCard();
+  html += avoidCard();
   // 結論句：整體是否贏過大盤
   html += `<div class="card">
     <div class="chart-title" style="margin-bottom:6px">這節目的推薦，到底能不能贏大盤？</div>
@@ -873,7 +1018,8 @@ function overviewView() {
       ${bigStat("整體贏大盤率", all.beat, "pct", all.beat_ci)}
     </div>
     <div class="note" style="margin:0 0 8px;padding:8px 10px;background:var(--page);border-radius:8px">⚠️ <b>怎麼讀</b>：「同期大盤平均 ${pct(all.avg_bench)}」是<b>相同 1 個月持有窗口</b>下加權指數的平均報酬（不是整段大盤漲幅），這才是公平基準。照單全收平均報酬 <b class="${cls(all.avg_ret)}">${pct(all.avg_ret)}</b>、落後大盤 <b class="${cls(all.avg_ex)}">${pct(all.avg_ex)}</b>——代表<b>1 個月持有下，多數推薦其實跑輸指數（甚至小賠）</b>。價值全在下面的「篩選」，不在照單全收。</div>
-    <div class="note" style="margin:0;padding:8px 10px;background:var(--page);border-radius:8px">💸 <b>扣掉交易成本呢</b>：買賣來回約抓 ${pct(DATA.roundtripCost)} 成本（手續費＋證交稅），扣完全部推薦的淨超額只剩 <b class="${cls(all.avg_ex_net)}">${pct(all.avg_ex_net)}</b>。這也是為什麼「照單全收」在下表全部是負值——短線頻繁進出的成本會吃光原本就薄的邊際，篩選後的策略才扛得住。</div></div>`;
+    <div class="note" style="margin:0 0 8px;padding:8px 10px;background:var(--page);border-radius:8px">💸 <b>扣掉交易成本呢</b>：買賣來回約抓 ${pct(DATA.roundtripCost)} 成本（手續費＋證交稅），扣完全部推薦的淨超額只剩 <b class="${cls(all.avg_ex_net)}">${pct(all.avg_ex_net)}</b>。這也是為什麼「照單全收」在下表全部是負值——短線頻繁進出的成本會吃光原本就薄的邊際，篩選後的策略才扛得住。</div>
+    ${regimeNote()}</div>`;
 
   // 篩選策略比較：核心「數字說話」
   html += `<div class="card">
@@ -913,7 +1059,12 @@ function overviewView() {
       <td class="num">${m.win_loss_ratio===null?"–":m.win_loss_ratio.toFixed(2)}</td>
       <td class="num neg">${pct(m.max_loss)}</td></tr>`;
   });
-  html += `</tbody></table></div></div>`;
+  html += `</tbody></table></div>`;
+  const ms = DATA.mentionStats;
+  if (ms && ms.first.d3.n) {
+    html += `<div class="note" style="margin:8px 0 0">🔁 <b>首次點名 vs 重申</b>：+3日超額 首次 ${pct(ms.first.d3.avg_excess)} vs 重申 ${pct(ms.repeat.d3.avg_excess)}（短線重申略優，可能是動能延續）；但+1月超額 首次 ${pct(ms.first.m1.avg_excess)} vs 重申 <b class="neg">${pct(ms.repeat.m1.avg_excess)}</b>——重申常是已經噴出的標的，放久容易均值回歸。<b>看到「第N次重申」標籤的，別當長線抱，最多做短打。</b></div>`;
+  }
+  html += `</div>`;
 
   // 信心分層：LLM 標的信心是否對應績效
   const cf = DATA.confidence;
@@ -1135,7 +1286,7 @@ function epDetail(e) {
       html += `<div class="pick" style="padding:8px 0">
         <h4 style="margin:0 0 2px">${i+1}. ${esc(p.stock_name)} ${p.ticker?`(${p.ticker})`:""} ${stanceChip(p.stance)}
           <span style="font-weight:400;font-size:12.5px;color:var(--ink2)">← ${esc(r.teacher)}${r.nAgree>=2?` 等 ${r.nAgree} 位`:""}</span>
-          ${r.why.map(w=>`<span class="issue" style="border-color:var(--accent);color:var(--accent)">${w}</span>`).join("")}</h4>
+          ${r.why.map(w=>`<span class="issue" style="border-color:var(--accent);color:var(--accent)">${w}</span>`).join("")} ${mentionTag(p)}</h4>
         ${(p.reasons||[]).slice(0,2).map(x=>`<div class="meta">• ${esc(x)}</div>`).join("")}
         ${p.target_price?`<div class="meta">• 目標/關卡：${esc(p.target_price)}</div>`:""}
       </div>`;
@@ -1153,7 +1304,7 @@ function epDetail(e) {
     t.picks.forEach(p => {
       const entry = p.perf ? `進場 ${p.perf.entry_date} @ ${p.perf.entry_price}` : "";
       html += `<div class="pick">
-        <h4>${esc(p.stock_name)} ${p.ticker ? `(${p.ticker})` : ""} ${stanceChip(p.stance)}</h4>
+        <h4>${esc(p.stock_name)} ${p.ticker ? `(${p.ticker})` : ""} ${stanceChip(p.stance)} ${mentionTag(p)}</h4>
         <div class="meta">${p.action ? "建議：" + esc(p.action) : ""} ${p.target_price ? "｜目標/關卡：" + esc(p.target_price) : ""} ${entry ? "｜" + entry : ""}</div>
         <ul class="reasons">${p.reasons.map(r => `<li>${esc(r)}</li>`).join("")}</ul>
         ${p.quote ? `<div class="quote">「${esc(p.quote)}」</div>` : ""}
@@ -1456,6 +1607,7 @@ render();
 
 def main():
     episodes = load_data()
+    tag_first_mentions(episodes)   # 就地標記 mention_seq，供「首次/重申」判斷
     teacher_stats = compute_teacher_stats(episodes)
     data = {
         "episodes": episodes,
@@ -1469,9 +1621,12 @@ def main():
                        if ENTRY_DELAY_JSON.exists() else None),
     }
     data["backtest"] = compute_backtest(episodes, teacher_stats)
+    data["mentionStats"] = compute_mention_stats(episodes)
     data["confidence"] = compute_confidence(episodes)
     data["weeklyFocus"] = compute_weekly_focus(
         episodes, data["backtest"]["good_teachers"])
+    data["avoidList"] = compute_avoid_list(episodes, teacher_stats)
+    data["regimeStats"] = compute_regime_stats(episodes)
     html = (HTML_TEMPLATE
             .replace("__GENERATED__", datetime.now().strftime("%Y-%m-%d %H:%M"))
             .replace("__DATA__", json.dumps(data, ensure_ascii=False)))
