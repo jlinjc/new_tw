@@ -1,0 +1,477 @@
+{
+ "episode_summary": "節目聚焦輝達財報優於預期帶動台股史上第三大盤中漲點（一度大漲逾1500點），三位老師分別解析受惠AI但落後補漲的權值股（台積電、廣達、川湖、台達電）、被動元件與CPO/CPU族群（國巨、華新科、大立光等）、以及PCB載板、記憶體與處置股題材（台燿、金居、景碩、群聯、南亞科等），並提醒短線追高風險，建議拉回分批布局。",
+ "market_view": "在輝達財報全面優於預期、美股反彈、美伊和談露曙光及油價回落等多重利多帶動下，台股盤中大漲逾1500點、收漲逾1300點創史上第三大漲點，但當日成交量仍嫌不足，短線恐因美股對財報反應保守而略有壓力；不過聯準會不升不降息機率高，通膨壓力可控，多頭格局未變，拉回視為找買點機會。",
+ "teachers": [
+  {
+   "name": "蔡明翰",
+   "picks": [
+    {
+     "stock_name": "輝達",
+     "ticker": null,
+     "market": "US",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "第一季財報全面優於市場預期，包含現金股利與股票回購數字也優於預期",
+      "中國市場營收已完全歸零，未來若開放反而是額外利多",
+      "四大雲端業者僅佔營收約5成，其餘中小型雲端服務商與主權基金投資帶來源源不絕的新資金"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "揮達財報令人驚豔，結論來講應該說所有數字都是高於預期。",
+     "name_note": "NVIDIA",
+     "tw_market": null
+    },
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低買進，落後補漲可期",
+     "reasons": [
+      "輝達財報對台積電是直接貢獻，股價有機會持續往上",
+      "今日相對台股大盤走勢明顯落後，仍收黑K棒，補漲空間大",
+      "歷史經驗顯示輝達財報公布約一週後，台積電與大盤會跟隨走高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "今天對比而言台積電是相對很明顯的落後，而且還壓尾盤200點壓在他身上，但趨勢很明顯，所以股價我還是覺得後續會有機會。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "廣達",
+     "ticker": "2382",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低佈局，等待財報谷底反轉",
+     "reasons": [
+      "財報偏弱但走勢類似去年偉創力第二季，財報最弱點通常就是股價最低點",
+      "下一季毛利率可望明顯回升，股價可望隨之好轉"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "現在財報最弱的時間點，它會出現兩個現象，就是股價最低點跟毛利率最低點，所以下一季的毛利率就會明顯的回升，股價的部分也慢慢好轉。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "鴻海",
+     "ticker": "2317",
+     "market": "TW",
+     "stance": "看多",
+     "action": "可列入長線佈局",
+     "reasons": [
+      "業務組合（伺服器等）利基點相對較好，不需像廣達一樣等待較久"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "對比而言，鴻海是三綠三生，所以相對來講它的利基點相對會比較好。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台達電",
+     "ticker": "2308",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點（買黑不買紅，不追高）",
+     "reasons": [
+      "屬於漲了兩年的純AI長線族群，基本面（獲利、營收）沒有明顯變化",
+      "近期下跌純粹是漲多的技術面修正，趨勢不會反轉",
+      "投信賣壓來自主動式ETF換股，非基本面問題，不用過度擔心"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "在下跌的過程當中其實他的所謂跌勢也很重，可是其實基本面跟2370隔開有沒有明顯的變化？當然沒有啊，純粹是漲多的技術面修正。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "川湖",
+     "ticker": "2059",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點（買黑不買紅，不追高）",
+     "reasons": [
+      "同屬兩年漲勢的純AI長線族群，基本面無虞",
+      "近期投信賣壓來自主動式ETF換股，籌碼較集中但非長期利空"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "誰跌的多你就買誰，川湖、台達電…可是其實基本面跟2370隔開有沒有明顯的變化？當然沒有。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "群創",
+     "ticker": "3481",
+     "market": "TW",
+     "stance": "看多",
+     "action": "追強勢，不要等拉回",
+     "reasons": [
+      "屬今年第一季後才被歸類為AI的短線題材股，若拉回可能整理較久",
+      "今日率先突破整理區間，短線仍有機會再衝高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果要立即進場的人就追強，你要追強，當大盤漲的時候你就必須要追強，直接買群創、聯發科。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "追強勢，不要等拉回",
+     "reasons": [
+      "同屬短線AI受惠題材，大盤上漲時應優先追強勢股"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "你要追強，當大盤漲的時候你就必須要追強，直接買群創、聯發科。",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "容逸燊",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察是否站上前高2330~2332",
+     "reasons": [
+      "為重點觀察指標，站上前高後可望帶動信心，惟未站上也無妨"
+     ],
+     "target_price": "2330~2332前高",
+     "confidence": "high",
+     "quote": "台積電當然是重點，要站上2330、2332、33的前高的位置，但是沒站上也沒有關係。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回勇敢進場",
+     "reasons": [
+      "AI受惠程度最高的被動元件龍頭，董事長成為台灣新首富",
+      "本益比目前位階仍屬不錯，往下風險小、往上空間大",
+      "被動元件下半年漲價相關漲幅平均可達2~3成，且已開始有廠簽長約"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "本益比非常不錯的位置，往下風險一點點，往上有機會這樣一段空間。大的其實有拉回勇敢的進場不用怕。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華新科",
+     "ticker": "2492",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回勇敢進場",
+     "reasons": [
+      "與國巨同為被動元件大型指標股，籌碼相對安全"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "大的華新科、國巨當作指標，大的其實有拉回勇敢的進場不用怕。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "看多",
+     "action": "月線支撐附近（三字頭以下）中長線佈局",
+     "reasons": [
+      "本益比相對偏低且有實際營收貢獻，非純題材炒作",
+      "蘋果摺疊機、新機下半年將貢獻營收，公司預期7月後營收爆發",
+      "同時具備蘋果概念股＋AI＋CPU三重題材"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "大家如果要買本益比真的比較低一點點，而且實際有營收貢獻的，那只要越靠近這個位階的話，都可以去做一個中長線佈局。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "波若威",
+     "ticker": "3163",
+     "market": "TW",
+     "stance": "看多",
+     "action": "低檔分批進場，反彈至前高附近可先調節",
+     "reasons": [
+      "CPO第一批受惠股，股價已從高檔回落2~4成，跌深具反彈機會",
+      "主力賣超已趨緩，投信轉為買超",
+      "與台積電合作CPO技術，下半年可望進入量產"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "像上全、Proway這種都是跌很深下來之後的第一次反彈。高檔反彈到一個位置，也許到前高，以上全來說，前高位置的話，可以稍微去做調節一些些。",
+     "name_note": "Proway",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "聯亞光電",
+     "ticker": "3081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "低檔分批進場",
+     "reasons": [
+      "同屬第一批CPO受惠股，跌深打底中"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "明牌CPU，因為我之前說他們是第一批CPU，明牌的Proway、上全、聯亞，他們都是跌深下來之後的第一次反彈。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "上詮",
+     "ticker": "3363",
+     "market": "TW",
+     "stance": "看多",
+     "action": "低檔分批進場，反彈至前高附近可先調節",
+     "reasons": [
+      "CPO第一批受惠股，跌深2~4成後主力賣壓趨緩"
+     ],
+     "target_price": "前高附近",
+     "confidence": "low",
+     "quote": "以上全來說，前高位置的話，可以稍微去做調節一些些，上全也有在投信部分開始做一個轉買。",
+     "name_note": "不確定",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "台慶科",
+     "ticker": "3357",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點（波動大）",
+     "reasons": [
+      "股性震盪大，過去拉回0.5~0.618後常是好買點",
+      "大戶持續增持，今年EPS估12.6~13.4元"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "如果要波動性大的話可以注意一下比較小字的台興科，這樣突然拉回之後呢，其實就是不錯的進場機會。",
+     "name_note": "不確定，原文「台興科」",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "立隆電",
+     "ticker": "2472",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回至月線附近買進",
+     "reasons": [
+      "走勢緩漲、拉回不深，較容易抱得住",
+      "今年EPS估10.5~11.5元，切入新架構與車用T1客戶，舊產品毛利轉正"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "利隆電我覺得大家可以比較容易抱得住，因為拉回不會太深。看到每次拉回靠近月線，盤整2、3天，就是一個不錯的切入位置。",
+     "name_note": "不確定，原文「利隆電」",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "權證小哥",
+   "picks": [
+    {
+     "stock_name": "台燿",
+     "ticker": "6274",
+     "market": "TW",
+     "stance": "看多",
+     "action": "已於上升月線附近噴出，屬浪子回頭型態",
+     "reasons": [
+      "修正到上升月線且主力未大賣，屬於好買點",
+      "外資（大摩）報告喊出目標價1888元",
+      "AI驅動ABF載板及CCL漲價題材受惠"
+     ],
+     "target_price": "1888元",
+     "confidence": "high",
+     "quote": "台耀你看有修正到你喜歡的位置了，非常漂亮。碰到上升月線，主力沒大賣，都是一個很好的買點，今天就噴出來，今天是最強的跳空一直線。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "南電",
+     "ticker": "8046",
+     "market": "TW",
+     "stance": "看空",
+     "action": "反彈找賣點",
+     "reasons": [
+      "出現M頭疑慮，創高後未再創高，月線走平轉下彎",
+      "主力籌碼長期而言偏向賣出"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "這個沒有鎖，它是弱的，有一個M頭的疑慮，月線就會下彎，主力長期而言也是往下，所以這種股票反而你要反彈反出賣點。",
+     "name_note": "不確定，原文「這連帽」",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "景碩",
+     "ticker": "3189",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意是否突破前高（554元）",
+     "reasons": [
+      "籌碼非長期主力賣出，屬一買一賣",
+      "同族群中漲幅相對落後，較有補漲空間",
+      "距前高556元僅一步之遙，明日若再收紅K有機會創新高"
+     ],
+     "target_price": "前高554~556元",
+     "confidence": "high",
+     "quote": "景碩這邊呢，這個只要明天再一根紅K，那麼他就再創新高了，因為他之前高點556嘛，所以景碩比新興南電漂亮。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "臻鼎",
+     "ticker": "4958",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察是否站上前高",
+     "reasons": [
+      "近期橫盤整理，籌碼紅黑交錯偏亂，但近兩日轉佳",
+      "若突破前高整體看法會轉正向"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "這兩天有要往上攻擊的樣子，他要再創高，只要再創高，過了前高之後整個看法會不一樣。",
+     "name_note": "不確定，原文「真頂」",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "金居",
+     "ticker": "8358",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢處置回檔找買點",
+     "reasons": [
+      "高盛報告點名為AI高階材料超級週期受惠股，全球唯二高階銅箔供應商",
+      "股價常受處置制度壓抑，回檔反而是買點"
+     ],
+     "target_price": "900元（高盛目標價）",
+     "confidence": "high",
+     "quote": "高盛他縱磅報告說AI高階材料超級週期，金居目標價900元。金居的買點很好玩，只要儲值錢或一儲值有幾差，都是好買點。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "中探針",
+     "ticker": "6217",
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線搶反彈",
+     "reasons": [
+      "因處置急跌後打底，今日開盤未鎖跌停即為好買點",
+      "訂單掉單疑慮尚未證實，市場先行搶反彈"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "中探針這個位置呢，我覺得還不錯，但籌碼就籌了一點，但是是用搶反彈的角度。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "健策",
+     "ticker": "3653",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低找反彈買點",
+     "reasons": [
+      "因處置從高點5685腰斬至約2800，跌幅最深",
+      "基本面未變，短線超跌後具備反彈需求"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "建設從高檔下來是打五折，我覺得這個打五折真的是太便宜了，因為短線跌那麼多，而且他又是處置造成的，我覺得他就很容易反彈。",
+     "name_note": "不確定，原文「建設」",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "宏騰",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低找反彈買點",
+     "reasons": [
+      "同樣因處置腰斬，短線超跌具反彈機會"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "紅騰其實紅騰跟建設比起來紅騰也是腰斬，這種因為處置而腰斬我覺得短線都有機會反彈。",
+     "name_note": "不確定",
+     "tw_market": null
+    },
+    {
+     "stock_name": "月城",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "回檔上升月線留意買點",
+     "reasons": [
+      "籌碼表現不錯，目前回檔至上升月線"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "月城我是覺得，籌碼還不錯，然後呢回檔到上升月線，光電玻璃這個各位可以就留意一下看。",
+     "name_note": "不確定",
+     "tw_market": null
+    },
+    {
+     "stock_name": "群聯",
+     "ticker": "8299",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回檔上升月線找買點",
+     "reasons": [
+      "全鎮大戶（籌碼追蹤）近期資金轉向此檔",
+      "股價已回檔至上升月線，具買點機會"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "現在跑到群聯了，這個群聯呢，也回檔到上升月線，我覺得買點負線機會來了。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意大戶動向，逢低關注",
+     "reasons": [
+      "全鎮大戶持續加碼記憶體概念股，雖近期已處於套牢狀態",
+      "反映大戶對記憶體後市仍具信心"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "他們也一樣買在這起漲點，本來賺了，高檔回檔之後，在昨天大幅加碼，是不是大戶其實在記憶體有時候也是覺得挺痛苦的。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "保瑞",
+     "ticker": "6472",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "觀察大戶動向，暫不明確表態",
+     "reasons": [
+      "第一季獲利表現不佳，但仍有三大戶分點逢低買進約4000萬（目前套牢）",
+      "大戶進場可能反映對第二季轉機的預期"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "第一季太醜了，不過如果第一季爛大戶卻買，可能預期是第二季的狀況對不對。",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "UQbTrMgD428",
+  "title": "【理財達人秀】輝達財報好不漲 最佳進場點!台股轉局勢 被動買誰？PCB籌碼換手 CPO挑已整理？跌深處置.記憶體 便宜名單大公開！｜李兆華、蔡明翰、容逸燊、權證小哥2026.05.21【電視完整版】",
+  "date": "2026-05-21",
+  "duration": 2926,
+  "url": "https://www.youtube.com/watch?v=UQbTrMgD428"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

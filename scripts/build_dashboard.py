@@ -913,14 +913,64 @@ function consensusView() {
   return html + `</tbody></table></div>`;
 }
 
+// ---- 每集重點與「當日焦點標的」（由既有結構化資料計分組成，不需重新分析）----
+let _tstat = null;
+function tstat(name) {
+  if (!_tstat) {
+    _tstat = {};
+    (DATA.teacherStats || []).forEach(r => { _tstat[r.name] = r; });
+  }
+  return _tstat[name];
+}
+
+function epHighlights(e) {
+  // 同集同標的同方向的共識人數
+  const agree = {};
+  e.teachers.forEach(t => t.picks.forEach(p => {
+    if (p.stance !== "看多" && p.stance !== "看空") return;
+    const k = (p.ticker || p.stock_name) + "|" + p.stance;
+    (agree[k] = agree[k] || new Set()).add(t.name);
+  }));
+  const rows = [];
+  e.teachers.forEach(t => t.picks.forEach(p => {
+    if (p.stance !== "看多" && p.stance !== "看空") return;
+    const k = (p.ticker || p.stock_name) + "|" + p.stance;
+    const nAgree = (agree[k] || new Set()).size;
+    const ts = tstat(t.name);
+    const d3 = ts && ts.h.d3, m1 = ts && ts.h.m1;
+    const skilled = d3 && d3.n >= 10 && (d3.avg_excess || 0) > 0.005; // 短線有戰績
+    const top = m1 && m1.n >= 10 && (m1.avg_excess || 0) > 0;        // 波段前段班
+    let score = 0; const why = [];
+    if (p.confidence === "high") { score += 2; why.push("高信心"); }
+    if (nAgree >= 2) { score += nAgree; why.push(`${nAgree} 位同看`); }
+    if (skilled) { score += 2; why.push("老師短線強"); }
+    if (top) { score += 1; why.push("老師前段班"); }
+    if (p.target_price) score += 0.5;
+    rows.push({p, teacher: t.name, nAgree, score, why, style: ts ? ts.style : "—"});
+  }));
+  rows.sort((a, b) => b.score - a.score);
+  // 同一標的只留最高分那筆（避免共識標的重複佔版面）
+  const seen = new Set(), out = [];
+  rows.forEach(r => {
+    const k = (r.p.ticker || r.p.stock_name) + "|" + r.p.stance;
+    if (seen.has(k)) return;
+    seen.add(k); out.push(r);
+  });
+  return out;
+}
+
 function epList() {
   return DATA.episodes.map(e => {
     const badges = e.teachers.filter(t=>t.picks.length).map(t =>
       `<span class="badge">${esc(t.name)} ×${t.picks.length}</span>`).join("");
+    const hi = epHighlights(e).slice(0, 2);
+    const focus = hi.length ? `<div class="badges" style="margin-top:4px">${hi.map(r =>
+      `<span class="badge" style="border-color:var(--accent);color:var(--accent)">焦點 ${esc(r.p.stock_name)} ${r.p.stance}（${esc(r.teacher)}）</span>`).join("")}</div>` : "";
+    const mv = e.market_view ? `<div class="note" style="margin:4px 0 0">${esc(e.market_view.length > 64 ? e.market_view.slice(0, 64) + "…" : e.market_view)}</div>` : "";
     return `<div class="card ep-row" onclick="openEp('${e.id}')">
       <div class="ep-date">${e.date}</div>
       <div class="ep-title">${esc(e.title)}</div>
-      <div class="badges">${badges}</div>
+      <div class="badges">${badges}</div>${focus}${mv}
     </div>`;
   }).join("") || `<div class="note">尚無分析資料。</div>`;
 }
@@ -948,8 +998,36 @@ function epDetail(e) {
   html += `<div class="card"><div class="ep-date">${e.date}</div>
     <div class="ep-title">${esc(e.title)}</div>
     <div>${esc(e.summary)}</div>
-    <div class="note">大盤看法：${esc(e.market_view)}</div>
     <a href="${e.url}" target="_blank">在 YouTube 開啟 ↗</a></div>`;
+
+  // 本集重點：不用看影片，就看這張卡
+  const hi = epHighlights(e);
+  const nDir = hi.length;
+  html += `<div class="focus"><h2 style="font-size:15px">📋 本集重點</h2><ul class="reasons" style="margin:6px 0">`;
+  if (e.market_view) html += `<li><b>大盤</b>：${esc(e.market_view)}</li>`;
+  e.teachers.forEach(t => {
+    if (!t.picks.length) return;
+    const n = t.picks.filter(p => p.stance === "看多" || p.stance === "看空").length;
+    const ts = tstat(t.name);
+    const st = ts && ts.style && ts.style !== "—" ? `（${ts.style}）` : "";
+    const best = hi.find(r => r.teacher === t.name);
+    html += `<li><b>${esc(t.name)}</b>${st}：點名 ${n} 檔${n<=5&&n>0?"（精選）":n>=10?"（亂槍，可信度打折）":""}${best ? "，代表作 " + esc(best.p.stock_name) + " " + best.p.stance : ""}</li>`;
+  });
+  html += `</ul>`;
+  if (nDir) {
+    html += `<div class="subhd">🎯 當日焦點標的（依 信心＋當集共識＋老師戰績 計分）</div>`;
+    hi.slice(0, 3).forEach((r, i) => {
+      const p = r.p;
+      html += `<div class="pick" style="padding:8px 0">
+        <h4 style="margin:0 0 2px">${i+1}. ${esc(p.stock_name)} ${p.ticker?`(${p.ticker})`:""} ${stanceChip(p.stance)}
+          <span style="font-weight:400;font-size:12.5px;color:var(--ink2)">← ${esc(r.teacher)}${r.nAgree>=2?` 等 ${r.nAgree} 位`:""}</span>
+          ${r.why.map(w=>`<span class="issue" style="border-color:var(--accent);color:var(--accent)">${w}</span>`).join("")}</h4>
+        ${(p.reasons||[]).slice(0,2).map(x=>`<div class="meta">• ${esc(x)}</div>`).join("")}
+        ${p.target_price?`<div class="meta">• 目標/關卡：${esc(p.target_price)}</div>`:""}
+      </div>`;
+    });
+  }
+  html += `</div>`;
   e.teachers.forEach(t => {
     if (!t.picks.length) return;
     const nDir = t.picks.filter(p => p.stance === "看多" || p.stance === "看空").length;
@@ -1246,6 +1324,13 @@ if (["overview", "consensus", "episodes", "teachers", "stocks", "quality"].inclu
   view = initView;
   document.querySelectorAll(".tab").forEach(t =>
     t.classList.toggle("active", t.dataset.view === view));
+} else if (initView.startsWith("ep=")) {
+  const ep = DATA.episodes.find(x => x.id === initView.slice(3));
+  if (ep) {
+    view = "episodes"; currentEp = ep;
+    document.querySelectorAll(".tab").forEach(t =>
+      t.classList.toggle("active", t.dataset.view === "episodes"));
+  }
 }
 renderTiles();
 render();
