@@ -8,9 +8,14 @@ import re
 import sys
 from datetime import datetime, timedelta
 
-from config import ANALYSIS_DIR, DASHBOARD_HTML, PERFORMANCE_JSON
+from config import ANALYSIS_DIR, DASHBOARD_HTML, DATA_DIR, PERFORMANCE_JSON
+
+ENTRY_DELAY_JSON = DATA_DIR / "entry_delay.json"
 
 HORIZONS = ["d3", "w1", "w2", "m1"]
+# 台股來回交易成本估計：買賣手續費各0.1425%(市場常見約2-4折，此處用未打折牌告
+# 較保守) + 賣出證交稅0.3%。四捨五入取一個代表值，供「淨超額」估算用。
+ROUNDTRIP_COST = 0.0057
 HORIZON_LABELS = {"d3": "+3日", "w1": "+1週", "w2": "+2週", "m1": "+1月"}
 
 
@@ -109,6 +114,8 @@ def compute_teacher_stats(episodes):
                 "avg_ret": round(hh["sum_ret"] / hh["n"], 5) if hh["n"] else None,
                 "avg_excess": (round(hh["sum_ex"] / hh["n_ex"], 5)
                                if hh["n_ex"] else None),
+                "avg_excess_net": (round(hh["sum_ex"] / hh["n_ex"] - ROUNDTRIP_COST, 5)
+                                   if hh["n_ex"] else None),
             }
         row["style"] = _teacher_style(row["h"])
         out.append(row)
@@ -332,18 +339,35 @@ def compute_backtest(episodes, teacher_stats):
                 benches.append(round(r - ex, 5))   # 大盤同期報酬（原始，不分多空）
             n = len(exs)
             if n:
+                exs_net = [e - ROUNDTRIP_COST for e in exs]  # 扣一次來回成本
                 beat = sum(1 for e in exs if e > 0)
+                beat_net = sum(1 for e in exs_net if e > 0)
                 profit = sum(1 for r in rets if r > 0)
+                wins = [e for e in exs_net if e > 0]
+                losses = [e for e in exs_net if e <= 0]
+                srt = sorted(exs_net)
+                median_net = srt[n // 2] if n % 2 else (srt[n // 2 - 1] + srt[n // 2]) / 2
                 hrow[h] = {"n": n, "beat": round(beat / n, 4),
                            "beat_ci": wilson_ci(beat, n),
+                           "beat_net": round(beat_net / n, 4),
                            "profit": round(profit / n, 4),
                            "avg_ex": round(sum(exs) / n, 5),
+                           "avg_ex_net": round(sum(exs_net) / n, 5),
                            "avg_ret": round(sum(rets) / n, 5),
-                           "avg_bench": round(sum(benches) / n, 5)}
+                           "avg_bench": round(sum(benches) / n, 5),
+                           "median_net": round(median_net, 5),
+                           "avg_win": round(sum(wins) / len(wins), 5) if wins else None,
+                           "avg_loss": round(sum(losses) / len(losses), 5) if losses else None,
+                           "win_loss_ratio": (round(abs((sum(wins) / len(wins)) /
+                                                        (sum(losses) / len(losses))), 2)
+                                               if wins and losses and sum(losses) != 0 else None),
+                           "max_loss": round(min(exs_net), 5)}
             else:
-                hrow[h] = {"n": 0, "beat": None, "beat_ci": None,
-                           "profit": None, "avg_ex": None, "avg_ret": None,
-                           "avg_bench": None}
+                hrow[h] = {"n": 0, "beat": None, "beat_ci": None, "beat_net": None,
+                           "profit": None, "avg_ex": None, "avg_ex_net": None,
+                           "avg_ret": None, "avg_bench": None, "median_net": None,
+                           "avg_win": None, "avg_loss": None,
+                           "win_loss_ratio": None, "max_loss": None}
         result[key] = {"label": label, "h": hrow}
     return {"cohorts": result,
             "order": [c[0] for c in cohorts],
@@ -434,8 +458,15 @@ def compute_weekly_focus(episodes, good_teachers, window_days=7):
                 key = (p.get("ticker") or p["stock_name"], p["stance"])
                 g = groups.setdefault(key, {
                     "stock_name": p["stock_name"], "ticker": p.get("ticker"),
-                    "stance": p["stance"], "teachers": set()})
+                    "stance": p["stance"], "teachers": set(),
+                    "market": p.get("market"), "tw_market": p.get("tw_market"),
+                    "first_date": ep["date"], "entry_price": None})
                 g["teachers"].add(t["name"])
+                # 記錄最早一次提及當時的進場價，供後續算「現在還有沒有肉」
+                perf = p.get("perf")
+                if ep["date"] <= g["first_date"] and perf:
+                    g["entry_price"] = perf.get("entry_price")
+                    g["first_date"] = ep["date"]
     items = []
     for g in groups.values():
         ts = sorted(g["teachers"])
@@ -445,12 +476,54 @@ def compute_weekly_focus(episodes, good_teachers, window_days=7):
             items.append({
                 "stock_name": g["stock_name"], "ticker": g["ticker"],
                 "stance": g["stance"], "n_teachers": len(ts),
-                "teachers": ts, "top_teachers": tops})
+                "teachers": ts, "top_teachers": tops,
+                "market": g["market"], "tw_market": g["tw_market"],
+                "entry_price": g["entry_price"], "current_price": None,
+                "pct_from_entry": None})
     keyfn = lambda i: (i["n_teachers"], len(i["top_teachers"]))
     longs = sorted([i for i in items if i["stance"] == "看多"], key=keyfn, reverse=True)
     shorts = sorted([i for i in items if i["stance"] == "看空"], key=keyfn, reverse=True)
+    attach_current_prices(longs + shorts)
     return {"start": start_d.isoformat(), "end": latest_d.isoformat(),
             "n_episodes": len(dates_in), "longs": longs, "shorts": shorts}
+
+
+def attach_current_prices(items):
+    """幫本週焦點標的抓最新收盤價，算「距首次提及進場價」現在漲跌多少。
+
+    讓使用者一眼判斷：現在跟還是追高、還是已經錯過反彈。
+    """
+    import yfinance as yf
+    from performance import yahoo_symbol
+
+    syms = {}
+    for it in items:
+        if it["entry_price"] is None:
+            continue
+        sym = yahoo_symbol({"ticker": it["ticker"], "market": it["market"],
+                             "tw_market": it["tw_market"]})
+        if sym:
+            syms[id(it)] = sym
+    if not syms:
+        return
+    try:
+        df = yf.download(sorted(set(syms.values())), period="5d",
+                          auto_adjust=True, progress=False, group_by="ticker")
+    except Exception:
+        return
+    latest = {}
+    for sym in set(syms.values()):
+        try:
+            s = df[sym]["Close"].dropna() if len(set(syms.values())) > 1 else df["Close"].dropna()
+            if len(s):
+                latest[sym] = float(s.iloc[-1])
+        except (KeyError, IndexError):
+            continue
+    for it in items:
+        sym = syms.get(id(it))
+        if sym and sym in latest:
+            it["current_price"] = round(latest[sym], 2)
+            it["pct_from_entry"] = round(latest[sym] / it["entry_price"] - 1, 4)
 
 
 HTML_TEMPLATE = """<!DOCTYPE html>
@@ -733,6 +806,18 @@ function verdictBanner() {
   return `<div class="verdict"><div class="vh">💡 一句話結論（滿一個月、贏大盤＝超額&gt;0）</div><div class="vb">${s}</div></div>`;
 }
 
+function priceStatus(i) {
+  // 距首次提及進場價，現在是「還能跟」還是「已經跑掉/晚了」
+  const x = i.pct_from_entry;
+  if (x === null || x === undefined) return "";
+  const favorable = i.stance === "看多" ? x : -x;   // 看空時，價格下跌才是利多方向
+  let text, cls2;
+  if (favorable > 0.05) { text = `已${x>0?'+':''}${(x*100).toFixed(0)}% 別追`; cls2 = "neg"; }
+  else if (favorable < -0.03) { text = `${x>0?'+':''}${(x*100).toFixed(0)}% 走勢不利`; cls2 = "neg"; }
+  else { text = `≈進場價 可跟（${x>0?'+':''}${(x*100).toFixed(0)}%）`; cls2 = "pos"; }
+  return `<div class="m ${cls2}">${text}</div>`;
+}
+
 function focusCard() {
   const f = DATA.weeklyFocus;
   if (!f || (!f.longs.length && !f.shorts.length))
@@ -744,7 +829,7 @@ function focusCard() {
     if (i.top_teachers.length) parts.push(`<span class="star">★${i.top_teachers.length}</span>`);
     return `<div class="fchip ${sm?'sm ':''}${i.stance==='看多'?'bull':'bear'}">
       <div class="s">${esc(i.stock_name)} ${i.ticker?`<span class="tk">${esc(i.ticker)}</span>`:""}</div>
-      <div class="m">${parts.join(" ・ ")}</div></div>`;
+      <div class="m">${parts.join(" ・ ")}</div>${priceStatus(i)}</div>`;
   };
   const strong = f.longs.filter(i => i.n_teachers >= 3);
   const normal = f.longs.filter(i => i.n_teachers < 3);
@@ -762,11 +847,20 @@ function focusCard() {
   return html;
 }
 
+function entryDelayNote() {
+  const ed = DATA.entryDelay;
+  if (!ed || !ed.core) return "";
+  const c = ed.core, d0 = c.delay0.d3, d1 = c.delay1.d3, d2 = c.delay2.d3;
+  if (!d0 || d0.avg_excess === null) return "";
+  return `<div class="note" style="margin:0 0 12px;padding:8px 10px;background:var(--page);border-radius:8px">⏱️ <b>訊號保鮮期</b>（短線強老師的 3 日超額，隨進場延遲遞減）：隔日進場 <b class="${cls(d0.avg_excess)}">${pct(d0.avg_excess)}</b> → 晚1天 <b class="${cls(d1&&d1.avg_excess)}">${d1?pct(d1.avg_excess):"–"}</b> → 晚2天 <b class="${cls(d2&&d2.avg_excess)}">${d2?pct(d2.avg_excess):"–"}</b>。<b>晚 2 天看到的訊號基本上已經沒有邊際了，別追。</b></div>`;
+}
+
 function overviewView() {
   const bt = DATA.backtest;
   const all = bt.cohorts.all.h.m1;
-  // 決策層放最前面：一句話結論 → 本週焦點
+  // 決策層放最前面：一句話結論 → 訊號保鮮期 → 本週焦點
   let html = verdictBanner();
+  html += entryDelayNote();
   html += focusCard();
   // 結論句：整體是否贏過大盤
   html += `<div class="card">
@@ -778,15 +872,16 @@ function overviewView() {
       ${bigStat("同期大盤平均", all.avg_bench, "signed")}
       ${bigStat("整體贏大盤率", all.beat, "pct", all.beat_ci)}
     </div>
-    <div class="note" style="margin:0;padding:8px 10px;background:var(--page);border-radius:8px">⚠️ <b>怎麼讀</b>：「同期大盤平均 ${pct(all.avg_bench)}」是<b>相同 1 個月持有窗口</b>下加權指數的平均報酬（不是整段大盤漲幅），這才是公平基準。照單全收平均報酬 <b class="${cls(all.avg_ret)}">${pct(all.avg_ret)}</b>、落後大盤 <b class="${cls(all.avg_ex)}">${pct(all.avg_ex)}</b>——代表<b>1 個月持有下，多數推薦其實跑輸指數（甚至小賠）</b>。價值全在下面的「篩選」，不在照單全收。</div></div>`;
+    <div class="note" style="margin:0 0 8px;padding:8px 10px;background:var(--page);border-radius:8px">⚠️ <b>怎麼讀</b>：「同期大盤平均 ${pct(all.avg_bench)}」是<b>相同 1 個月持有窗口</b>下加權指數的平均報酬（不是整段大盤漲幅），這才是公平基準。照單全收平均報酬 <b class="${cls(all.avg_ret)}">${pct(all.avg_ret)}</b>、落後大盤 <b class="${cls(all.avg_ex)}">${pct(all.avg_ex)}</b>——代表<b>1 個月持有下，多數推薦其實跑輸指數（甚至小賠）</b>。價值全在下面的「篩選」，不在照單全收。</div>
+    <div class="note" style="margin:0;padding:8px 10px;background:var(--page);border-radius:8px">💸 <b>扣掉交易成本呢</b>：買賣來回約抓 ${pct(DATA.roundtripCost)} 成本（手續費＋證交稅），扣完全部推薦的淨超額只剩 <b class="${cls(all.avg_ex_net)}">${pct(all.avg_ex_net)}</b>。這也是為什麼「照單全收」在下表全部是負值——短線頻繁進出的成本會吃光原本就薄的邊際，篩選後的策略才扛得住。</div></div>`;
 
   // 篩選策略比較：核心「數字說話」
   html += `<div class="card">
     <div class="chart-title" style="margin-bottom:4px">篩選策略比較：哪種過濾條件勝率最高？</div>
-    <div class="note" style="margin:0 0 8px">以滿一個月的「部位」為單位（多位老師同看＝1 個部位，不重複計數），套用不同篩選後的「贏大盤率」與「平均超額」。<b>粗體</b>＝Wilson 95% 信賴區間下緣仍 &gt; 50%（統計上真的贏，不是運氣）。前段班老師＝樣本≥10 且歷史平均超額為正者。</div>
+    <div class="note" style="margin:0 0 8px">以滿一個月的「部位」為單位（多位老師同看＝1 個部位，不重複計數），套用不同篩選後的表現。<b>粗體</b>＝Wilson 95% 信賴區間下緣仍 &gt; 50%（統計上真的贏，不是運氣）。前段班老師＝樣本≥10 且歷史平均超額為正者；<b>淨超額</b>已扣掉來回交易成本（${pct(DATA.roundtripCost)}）。</div>
     <div style="overflow-x:auto"><table><thead><tr>
       <th>篩選條件</th><th class="num">部位數</th><th class="num">贏大盤率</th>
-      <th class="num">賺錢率</th><th class="num">平均超額</th><th class="num">平均報酬</th>
+      <th class="num">賺錢率</th><th class="num">平均超額</th><th class="num">淨超額(扣成本)</th>
     </tr></thead><tbody>`;
   bt.order.forEach(k => {
     const c = bt.cohorts[k], m = c.h.m1;
@@ -796,10 +891,29 @@ function overviewView() {
       <td class="num"><span class="${sig?'sig':''}">${m.beat===null?"–":(m.beat*100).toFixed(0)+"%"}</span>${m.beat_ci?`<div class="ci">${(m.beat_ci[0]*100).toFixed(0)}–${(m.beat_ci[1]*100).toFixed(0)}%</div>`:""}</td>
       <td class="num">${m.profit===null?"–":(m.profit*100).toFixed(0)+"%"}</td>
       <td class="num ${cls(m.avg_ex)}">${pct(m.avg_ex)}</td>
-      <td class="num ${cls(m.avg_ret)}">${pct(m.avg_ret)}</td></tr>`;
+      <td class="num ${cls(m.avg_ex_net)}"><b>${pct(m.avg_ex_net)}</b></td></tr>`;
   });
   html += `</tbody></table></div>
     <div class="note" style="margin:8px 0 0">「精選日」＝該集這位老師只點名 ≤5 檔時的推薦——實測老師話越少、那幾檔越可信（一次噴 10+ 檔的明顯較差）。</div></div>`;
+
+  // 期望值面板：平均值會被單筆神單撐大，中位數/盈虧比/最大虧損才是真實體感
+  html += `<div class="card">
+    <div class="chart-title" style="margin-bottom:4px">期望值面板：忍受得了這個過程嗎？</div>
+    <div class="note" style="margin:0 0 8px">平均超額常被少數神單（如 +54%）撐大；<b>中位數</b>才反映「一般情況」。盈虧比＝平均賺的幅度／平均賠的幅度（已扣成本）。</div>
+    <div style="overflow-x:auto"><table><thead><tr>
+      <th>篩選條件</th><th class="num">中位數超額</th><th class="num">平均賺</th><th class="num">平均賠</th>
+      <th class="num">盈虧比</th><th class="num">最慘單筆</th></tr></thead><tbody>`;
+  ["all", "top", "top_consensus"].forEach(k => {
+    const c = bt.cohorts[k], m = c.h.m1;
+    if (!m.n) return;
+    html += `<tr><td>${esc(c.label)}</td>
+      <td class="num ${cls(m.median_net)}">${pct(m.median_net)}</td>
+      <td class="num pos">${m.avg_win===null?"–":pct(m.avg_win)}</td>
+      <td class="num neg">${m.avg_loss===null?"–":pct(m.avg_loss)}</td>
+      <td class="num">${m.win_loss_ratio===null?"–":m.win_loss_ratio.toFixed(2)}</td>
+      <td class="num neg">${pct(m.max_loss)}</td></tr>`;
+  });
+  html += `</tbody></table></div></div>`;
 
   // 信心分層：LLM 標的信心是否對應績效
   const cf = DATA.confidence;
@@ -1201,10 +1315,10 @@ function styleTag(s) {
   return `<span class="issue" style="border-color:${STYLE_CLR[s]};color:${STYLE_CLR[s]}">${esc(s)}</span>`;
 }
 function exCells(r) {
-  // 各持有期平均超額，一眼看出「短線賺、長線賠」之類的衰減型態
+  // 各持有期平均超額，一眼看出「短線賺、長線賠」之類的衰減型態；小字為扣成本後淨值
   return HORIZONS.map(h => {
-    const v = r.h[h].avg_excess;
-    return `<div class="exq"><div class="exh">${HL[h]}</div><div class="exv ${cls(v)}">${v===null?"–":pct(v)}</div></div>`;
+    const v = r.h[h].avg_excess, vn = r.h[h].avg_excess_net;
+    return `<div class="exq"><div class="exh">${HL[h]}</div><div class="exv ${cls(v)}">${v===null?"–":pct(v)}</div><div class="ci">淨${vn===null?"–":pct(vn)}</div></div>`;
   }).join("");
 }
 function teacherTable() {
@@ -1350,6 +1464,9 @@ def main():
         "teacherCurves": compute_teacher_curves(episodes),
         "quality": compute_quality(episodes),
         "consensus": compute_consensus(episodes),
+        "roundtripCost": ROUNDTRIP_COST,
+        "entryDelay": (json.loads(ENTRY_DELAY_JSON.read_text(encoding="utf-8"))
+                       if ENTRY_DELAY_JSON.exists() else None),
     }
     data["backtest"] = compute_backtest(episodes, teacher_stats)
     data["confidence"] = compute_confidence(episodes)

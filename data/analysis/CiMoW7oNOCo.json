@@ -1,0 +1,479 @@
+{
+ "episode_summary": "本集台股受美債殖利率走高、油價居高影響單日重挫逾700點並跌破前一日低點,三位老師分別解析被動元件與低軌衛星補漲股、記憶體族群大戶籌碼分歧與機器人接棒行情,以及玻璃基板新題材與主動式ETF(00987A)的超額報酬表現。整體共識是選股不選市,個股輪動快速,回檔修正視為AI長多格局下的上車機會。",
+ "market_view": "大盤在通膨疑慮、油價與美債殖利率走高壓力下重演三月式下跌,單日跌逾700點且跌破前低,但多數老師認為故事很少連兩次同樣上演,6月中以前大盤尚屬安全,6月下旬起可能緩步走弱但不至於崩跌,期間個股輪動迅速、漲多股拉回劇烈;長線在AI需求帶動下,台股今明兩年EPS年增率持續上修,基本面仍支撐多頭格局。",
+ "teachers": [
+  {
+   "name": "黃豐凱",
+   "picks": [
+    {
+     "stock_name": "世界",
+     "ticker": "5347",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察近三日低點是否守住",
+     "reasons": [
+      "台積電將較低階12吋機台訂單轉出,基本面未變,屬公司自行養小艦隊的策略性調整",
+      "以巨額交易一次性轉讓、非倒入市場,對股價衝擊有限"
+     ],
+     "target_price": "近三日低點需守住",
+     "confidence": "high",
+     "quote": "我說你如果他只要昨天的低點在近期這三天之內他可以守住基本上他就沒有什麼太大問題",
+     "tw_market": "TPEX",
+     "spoken_name": "世界先進"
+    },
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低承接/續抱",
+     "reasons": [
+      "週線大量低支撐仍在,正於回補前波跳空缺口",
+      "基金業者對單一持股25%上限已放寬,可望有資金回流買盤"
+     ],
+     "target_price": "缺口回補前逢低承接",
+     "confidence": "high",
+     "quote": "已經有基金放寬了...所以我覺得接下來他們也會回來買台積電所以我覺得也不用太害怕",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "光頡",
+     "ticker": "3624",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點(86-90元區間)",
+     "reasons": [
+      "投信與外資同步買超為稀有標的",
+      "薄膜電阻搭上大陸風華高科入主整併題材,綁定國內AI ODM廠",
+      "近期出量攻擊格局未歇"
+     ],
+     "target_price": "86-90元",
+     "confidence": "high",
+     "quote": "你可以等他壓回來這一根的中值進來買大概在86到90這個區間",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "華新科",
+     "ticker": "2492",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意補漲行情",
+     "reasons": [
+      "集團內國巨股價已近500元而華新科僅220元,補漲空間大",
+      "投信與外資同步買超"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "老大都已經來到接近500了...那他還在220...所以他補漲看起來是有道理的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "佳邦",
+     "ticker": "6284",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意突破量能後進場",
+     "reasons": [
+      "同屬華新麗華集團旗下,週線大量已站上大量高",
+      "外資買超但投信尚未進場,補漲味道浮現"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "它也有要漲的味道出現因為大量低已經站上了大量高其實今天就有點碰到了",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "信昌電",
+     "ticker": "6173",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察補缺口後偏多操作",
+     "reasons": [
+      "被動元件上游材料供應商",
+      "近期分盤交易顯示籌碼穩定,正在填補跳空缺口"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "信昌它也是做材料的它也是被動元件的材料它這一波也是漲的不要不要的...它其實也在補這個缺口",
+     "tw_market": "TPEX",
+     "spoken_name": "信昌陶瓷"
+    },
+    {
+     "stock_name": "雷科",
+     "ticker": "6207",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意觀察,不追高",
+     "reasons": [
+      "兼具被動元件與先進封裝雙重題材",
+      "為國巨供應鏈成員",
+      "近期買盤大於賣盤,籌碼鎖定率高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "先進封裝加倍充元件就是他跟其他被動元件不太一樣...我覺得他還是可以仔細的觀察",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "華通",
+     "ticker": "2313",
+     "market": "TW",
+     "stance": "看多",
+     "action": "偏多操作,觀察量價",
+     "reasons": [
+      "低軌衛星題材,近五日外資與投信同步買超",
+      "先前因子公司現增而降溫,現訂單回溫"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "近五日的外資的華通是買的近五日的投信也是買的所以告訴你他們是認同的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "啟碁",
+     "ticker": "6285",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱偏多操作",
+     "reasons": [
+      "結構強勢創高後拉回,無現增疑慮籌碼乾淨",
+      "投信認錯回補、外資站買方",
+      "主力大摩認同"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "你看它已經創高然後拉回...投信之前賣然後認錯回補而且外資也站在買方所以看起來它就一直往上走",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "信錦",
+     "ticker": "1582",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意評價已超越同族群指標股",
+     "reasons": [
+      "低軌衛星概念股,明年可望每股賺8元",
+      "股價117元已超越同族群股價"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "信錦是明年賺8塊...那他的股價117117是昨天他就已經超越他了",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "高憲容",
+   "picks": [
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "洗盤黑K確立後再進場,防守點為前次突破支撐",
+     "reasons": [
+      "打入台積電/輝達HBM供應鏈,受惠Vera Rubin平台SSD與LPDDR4新規格",
+      "5/5即有大戶回補訊號,提前卡位",
+      "大戶近期持續加碼未離場"
+     ],
+     "target_price": "季線支撐;前次突破當天黑K低點為防守點",
+     "confidence": "high",
+     "quote": "南亞科我們之前講過開始吸手台積電打入到輝達供應鏈了...大戶其實沒有走大戶還在南亞科裡面還在滿",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "群聯",
+     "ticker": "8299",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點",
+     "reasons": [
+      "積極打入AI供應鏈,為記憶體模組廠中最主動者",
+      "雖Q2可能為獲利高峰,但下半年靠AI客戶維持成長性"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "群聯的部分更是這地方最積極在打入AI供應鏈的...拉回以後又達到他業績的一個平衡點又是一個好的介入時間點",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "宜鼎國際",
+     "ticker": "5289",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回守住十字線可留意買點",
+     "reasons": [
+      "工業用客製化記憶體,產品線與消費型不同",
+      "擴大資料中心出貨,爆量十字線顯示籌碼支撐"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "伊頂也是類似他最主要做工業用的記憶體...如果說這次拉回來都有鎖住十字線那這個地方回後利空洗完盤還是有機會再供上去的",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "近期大戶持續加碼"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "南亞科、華邦電以及這個群聯其實最近這幾週大戶都有持續在加碼的動作",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "威剛",
+     "ticker": "3260",
+     "market": "TW",
+     "stance": "看空",
+     "action": "減碼/觀望",
+     "reasons": [
+      "近兩週400張以上大戶減碼",
+      "Q1單季EPS約30元,但獲利高峰恐落在Q2後不易延續",
+      "現貨低價庫存去化後成本墊高"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "微剛雨沾十全做模組場的減持了...一季賺了30塊耶可是你不要想說每一季都可以乘以死這個30塊這樣一直賺下去",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "宇瞻",
+     "ticker": "8271",
+     "market": "TW",
+     "stance": "看空",
+     "action": "減碼/觀望",
+     "reasons": [
+      "近兩週大戶減碼",
+      "模組廠獲利高峰疑慮落在Q2"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "微剛雨沾十全做模組場的減持了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "十銓",
+     "ticker": "4967",
+     "market": "TW",
+     "stance": "看空",
+     "action": "減碼/觀望",
+     "reasons": [
+      "近兩週大戶減碼",
+      "模組廠獲利高峰疑慮落在Q2"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "微剛雨沾十全做模組場的減持了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "旺宏",
+     "ticker": "2337",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望/調節",
+     "reasons": [
+      "記憶體報價上漲雖有吃到紅利,但未直接打入AI供應鏈",
+      "大戶近期調節"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "旺宏跟利基電這一波低論這個記憶體的報價有上漲到有吃到它的紅利但是他們有打入到AI鏈嗎好像也沒有那麼直接所以大戶也在調節",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "力積電",
+     "ticker": "6770",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望/調節",
+     "reasons": [
+      "未直接受惠AI鏈,大戶近期調節"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "旺宏跟利基電這一波...大戶也在調節",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "鴻海",
+     "ticker": "2317",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意補漲",
+     "reasons": [
+      "大戶連5週買進",
+      "轉型以AI伺服器機器人打造資料中心(德州休士頓廠)",
+      "若台積電止穩,鴻海補漲可帶動大盤"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "最近大戶連續四周增值重新看好鴻海...是不是有機會帶動股價上一波上去就可以觀察了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "上銀",
+     "ticker": "2049",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "大戶連6週買進",
+      "電腦展機器人題材指標股"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "上銀連6週買進...這都是最近大戶在主要這地方加碼機器人所謂的電腦展的一個題材的重點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "和椿",
+     "ticker": "6215",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "4/15已推薦並上漲逾15%,大戶持續加碼",
+      "3月營收創新高,4月續創歷史新高",
+      "股價突破下降壓力線"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "因為4月15號就推薦過...和春也15%了...這裡突破下降壓力線的動作是蠻明顯的再加上說營收3月創新高之後4月又繼續創歷史新高",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "研華",
+     "ticker": "2395",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察加溫走勢",
+     "reasons": [
+      "輝達Jetson機器人大腦三大菁英級合作夥伴之一",
+      "股價自200元起漲後續走高"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "那三家一家叫怡頂已經從200塊漲到現在已經多怡頂岩華最近上來",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "易登",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回回測缺口支撐可留意",
+     "reasons": [
+      "輝達Jetson機器人大腦三大精英級合作夥伴之一",
+      "近期成交量增溫,大戶買進"
+     ],
+     "target_price": "多方缺口前支撐",
+     "confidence": "low",
+     "quote": "最近這個易登的部分也開始有加溫的動作成交量增溫看到這地方大戶來做買進那股價我們就觀察如果拉回來回測這個多方缺口守住缺口前支撐應該都還是有機會再上去的",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "紀緯明",
+   "picks": [
+    {
+     "stock_name": "安可",
+     "ticker": "3615",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回檔布局,不追高(買綠不買紅)",
+     "reasons": [
+      "萊德集團與G2C聯盟合作導電玻璃鍍膜,產品進入FOPLP生產線驗證",
+      "股價創高代表前面無套牢賣壓,價量齊揚",
+      "外資5月來連續買超,股價位階仍低"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "股價連續兩天漲停以後創高代表前面沒有套牢量...我認為只要盤中稍微有震盪啦買綠不買猴都是可以上升的機會",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "哲米",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意突破後續表現",
+     "reasons": [
+      "越南12吋玻璃加工廠今年投入量產,具備晶圓級玻璃鍍膜與封裝整平能力",
+      "股價位階低,連續四天放量突破下降壓力線",
+      "大戶持股連續兩週增加"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "哲米他厲害的地方在於他本身做拋光加工的能力就很強在越南12吋廠...連續四天放量而且股價突破下降壓力線破切而且大戶的持股連續兩週增加",
+     "tw_market": null
+    },
+    {
+     "stock_name": "南電",
+     "ticker": "8046",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "觀察投信止賣轉買後再逢低布局",
+     "reasons": [
+      "ABF載板需求並未因玻璃基板方案而改變",
+      "投信自5月初起持續賣超導致股價修正"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "投信從5月初開始賣...我認為我們在這裡要觀察什麼投信什麼時候不再繼續賣甚至轉為買方那這個時候就可以去做逢低買進",
+     "tw_market": "TWSE",
+     "spoken_name": "南亞電路板"
+    },
+    {
+     "stock_name": "南亞",
+     "ticker": "1303",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "待外資投信止賣轉買後再逢低留意",
+     "reasons": [
+      "股價跌破季線,形態不佳,外資投信仍站在賣方不宜接刀",
+      "化工材料營收貢獻顯著提升,長多格局未被破壞"
+     ],
+     "target_price": "守住前低",
+     "confidence": "high",
+     "quote": "外資跟投信都站在賣方所以我不認為在這邊你要去接刀...只要能夠守住這個低點那麼後面回檔以後呢再去做拉高我覺得是有可能發生的情境可以逢低去做留意",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台新優勢成長",
+     "ticker": "00987A",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "逢回檔分批買進(跌破月線買一點,續跌半年線、季線再加碼)",
+     "reasons": [
+      "近三個月績效53%,遠勝加權指數22.8%及櫃買指數38.5%,並撐過三月修正考驗",
+      "選股池廣,涵蓋市值前250大以外之產業前三強與基金經理人看好的潛力黑馬股",
+      "中小型股(上櫃)佔比約四成,能捕捉台股中小型股爆發力",
+      "持股涵蓋台積電(核心)、萬潤/旺矽(設備檢測)、台光電(ABF載板)、雙鴻(散熱)、台達電(電源)、富世達(軸承)等AI供應鏈上中下游"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "近三個月表現說真的53%這個數字非常非常驚人...我覺得我們去做00987A它吸引我的真的是在大小同池",
+     "tw_market": null
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "CiMoW7oNOCo",
+  "title": "【理財達人秀】台股四萬攻防戰 輝達財報能救價？油價債息飆 漲前大買點？被動.低軌.機器人 大戶鎖碼名單？玻璃基板新寵？｜李兆華、黃豐凱、高憲容、紀緯明2026.05.19【電視完整版】",
+  "date": "2026-05-19",
+  "duration": 2931,
+  "url": "https://www.youtube.com/watch?v=CiMoW7oNOCo"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

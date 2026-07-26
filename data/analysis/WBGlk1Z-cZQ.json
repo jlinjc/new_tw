@@ -1,0 +1,412 @@
+{
+ "episode_summary": "美國30年期公債殖利率突破5%引發全球資金緊縮疑慮，台股盤中重挫逾千點但收斂跌幅，顯示4萬點附近仍有撐。台積電處分世界先進股權引發市場對其他子公司的聯想，資金則轉向老AI、被動元件、機器人與AI眼鏡供應鏈；SpaceX掛牌前一拆五更帶動低軌衛星與電源管理IC類股表態。",
+ "market_view": "美債殖利率飆破5%對高本益比科技股與資金行情構成壓力，加權指數週線出現二度RSI背離，短線月線是多空分水嶺，能否止穩仍待520談話與美元走勢觀察，惟成交量與類股輪動顯示台股健康度尚未惡化，回測4萬點不算意外。",
+ "teachers": [
+  {
+   "name": "李永年",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望，留意跳空缺口能否回補",
+     "reasons": [
+      "股價拉回進入疑似三波修正型態",
+      "若明日收紅可望回補當日跳空缺口"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "我們就看台積電了，台積電已經不漲一段時間了…這邊有沒有可能會1234呢，我覺得是有機會",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯電",
+     "ticker": "2303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察能否站上關鍵價位再進場",
+     "reasons": [
+      "EPS年增逾六成，法人喊買目標價120元，股價已接近118元",
+      "外資買超24.6萬張、投信買超24萬張，土洋合作籌碼穩定",
+      "上下影線反轉型態，隔日須收紅確認多方力道"
+     ],
+     "target_price": "120元(法人目標價，已接近118元)",
+     "confidence": "high",
+     "quote": "法人當時喊買，目標價上看120，結果一看已經118了，差不多了嘛快到價了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "鴻海",
+     "ticker": "2317",
+     "market": "TW",
+     "stance": "看多",
+     "action": "守穩月線可逢低承接",
+     "reasons": [
+      "外資自4月來買超48.1萬張，幅度9.5%",
+      "融資持續減少，籌碼安定",
+      "右肩橫盤整理健康，電腦展題材可望發酵"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "這檔股票怎麼看呢？它如果守穩月線的話，我是覺得說低接大概不會有太大的問題",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "技嘉",
+     "ticker": "2376",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "三日內須站回351元，否則視為轉弱",
+     "reasons": [
+      "出量留上影線，短線轉弱訊號",
+      "外資買超6.4萬張，幅度大增69.5%，籌碼仍偏多",
+      "第一季財報三率三升，若拉回守穩月線可續觀察"
+     ],
+     "target_price": "351元(三日內須收復)",
+     "confidence": "high",
+     "quote": "三天之內這個收盤價要站上351塊…萬一接下來三天收盤價都在今天盤中低點328塊以下，這股票恐怕要轉弱",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱，挑戰分拆前價位",
+     "reasons": [
+      "法人買超、融資減少，籌碼優異的標準飆股走勢",
+      "單日即站上長期年線，量縮價揚",
+      "分拆後股價正挑戰分拆前價位"
+     ],
+     "target_price": "532~550元(分拆前價位區間)",
+     "confidence": "high",
+     "quote": "我當初設定的目標價就在532到550塊之間…挑戰分拆前的價錢",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華新科",
+     "ticker": "2492",
+     "market": "TW",
+     "stance": "看多",
+     "action": "處置期間量縮，收盤站上222.5元轉強勢股",
+     "reasons": [
+      "同屬被動元件族群，跟隨國巨表態",
+      "處置期間賣壓較輕，週線仍偏多",
+      "上引線已幾乎被實體吃掉，動能延續"
+     ],
+     "target_price": "222.5元以上",
+     "confidence": "high",
+     "quote": "如果收盤價能夠收在222.5之上的話，那就又變成一支強勢股了",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "林漢偉",
+   "picks": [
+    {
+     "stock_name": "世界",
+     "ticker": "5347",
+     "market": "TW",
+     "stance": "看多",
+     "action": "未持有者待跌停打開後再考慮進場；已持有者視基本面決定去留",
+     "reasons": [
+      "台積電僅係股權比例調整，非出售產線與設備",
+      "長線競爭力未受影響，短線僅情緒性賣壓",
+      "可觀察明日能否守穩月線判斷是否短暫影響"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "跌停打開，那沒有的朋友是可以考慮一下的…並沒有要把產線跟基台設備回收，所以長線來看還是有競爭力",
+     "tw_market": "TPEX",
+     "spoken_name": "世界先進"
+    },
+    {
+     "stock_name": "創意",
+     "ticker": "3443",
+     "market": "TW",
+     "stance": "看多",
+     "action": "月線未破則採箱型區間操作，逢低留意",
+     "reasons": [
+      "回測月線尚未跌破，籌碼面仍偏多",
+      "Google開發者大會有望激勵資本支出題材",
+      "此波下殺僅投信短線出場，非基本面轉差"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果今天這個月線沒有被有效跌破的話，那後面…也許他在這個區間就會進行一個箱型的盤整",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "采鈺科技",
+     "ticker": "6789",
+     "market": "TW",
+     "stance": "看多",
+     "action": "跌破月線需觀察，可留意大量區低點作買點",
+     "reasons": [
+      "同具Google及AI眼鏡感測元件供應鏈題材",
+      "投信籌碼未鬆動，CIS題材仍具想像空間"
+     ],
+     "target_price": "500元附近可留意反彈",
+     "confidence": "high",
+     "quote": "如果你真的對它有興趣的話，你就不妨抓這個中間的大量區的低點當作觀察點，如果說到500塊附近有守，那也許就有反彈的空間",
+     "name_note": "推測，原音「彩域」",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "看多",
+     "action": "季節性波段操作，5月買進、9月蘋果新機發表前後出場",
+     "reasons": [
+      "缺口已回補，籌碼轉佳",
+      "兼具CPU、AI眼鏡、蘋果題材",
+      "投信與00981A基金開始買進"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "其實光學鏡頭類股它的操作時間點5月份都是一個好的時間點，因為它每年的最高點大概在9月份",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "玉晶光",
+     "ticker": "3406",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意AI眼鏡放量加分效應",
+     "reasons": [
+      "蘋果二供，iPhone17拉貨動能不淡",
+      "AI眼鏡若放量將額外加分",
+      "外資、投信、技術面轉為多方"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "目前來看外資、投信、籌碼面、技術線型我覺得轉為多方，也可以關注光學鏡頭",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "上銀",
+     "ticker": "2049",
+     "market": "TW",
+     "stance": "看多",
+     "action": "月線附近為波段買點，留意能否再創高突破",
+     "reasons": [
+      "三大法人同步買超，投信認同機器人題材發動",
+      "機器人族群指標股，經5年整理後籌碼與技術面轉強",
+      "股價回測月線都是過去良好買點"
+     ],
+     "target_price": "歷史高點576元附近",
+     "confidence": "high",
+     "quote": "上銀是很有指標意義的…這波段回到月線都是一個好的買點，如果能夠持續往高點做個突破，整個機器人族群的動能就會轉強",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "盟立",
+     "ticker": "2464",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回五日線附近找買點，不宜追高",
+     "reasons": [
+      "4月以來股價已上漲逾六成，創歷史新高",
+      "主力長期收籌碼後噴出",
+      "漲勢常需盤整消化，不建議追價"
+     ],
+     "target_price": "139元(創歷史新高)",
+     "confidence": "high",
+     "quote": "這張股票…到五日線附近你可以低接，那上去你就不要追",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "大銀微系統",
+     "ticker": "4576",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意伺服馬達拉貨動能",
+     "reasons": [
+      "同屬機器人零組件供應鏈，創價新高",
+      "第三季特斯拉拉貨、美系與中系機器人廠訂單動能可期"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "第三季特斯拉會拉貨，接下來美國Figure AI跟中國的一些機器人廠商，對微型伺服馬達都有一些拉貨的動能",
+     "name_note": "推測，原音「太陽銀」",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "亞光",
+     "ticker": "3019",
+     "market": "TW",
+     "stance": "看多",
+     "action": "低基期布局，留意下半年消費動能回溫",
+     "reasons": [
+      "對等關稅後幾乎未漲，位階仍低",
+      "具AI眼鏡、機器人之眼、超透鏡多重題材",
+      "法人論壇力挺AI眼鏡為下世代裝置重頭戲"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "它因為今年業績的爆發力比較弱，所以你要看下半年消費動能的回溫，但我覺得優點就在說你現在很少找到這麼低位階的股票",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "TPK-KY",
+     "ticker": "3673",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察AI眼鏡放量後的加分效應",
+     "reasons": [
+      "觸控模組廠，AI眼鏡放量有想像空間",
+      "目前仍與友達、群創面板封裝題材連動"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "AI眼鏡的一個量能放出來的話，對它未來一個想像空間是有比較大的幫助",
+     "tw_market": "TWSE",
+     "spoken_name": "TPK宸鴻"
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察後續表現",
+     "reasons": [
+      "三星罷工題材激勵尾盤翻紅"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "你可以看到華邦電尾盤拉到翻紅",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "楊雲翔",
+   "picks": [
+    {
+     "stock_name": "創意",
+     "ticker": "3443",
+     "market": "TW",
+     "stance": "中性",
+     "action": "月線未破，型態尚未轉弱可續觀察",
+     "reasons": [
+      "投信雖有出場但月線支撐仍在",
+      "多頭型態尚未被破壞"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "創意是因為投信買上去又賣下來，既然它回到月線，我覺得它的多頭的一個形態是還沒有破壞",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "昇達科",
+     "ticker": "3491",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意評價已偏高，追價宜謹慎",
+     "reasons": [
+      "4月營收年增約83%，Q1亦強勁成長",
+      "惟本益比已超過100倍，評價偏貴"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "曾達哥確實在4月的營收83%左右很厲害，那Q1來講達到3.68…可是問題是1800塊股價，本益比在今年的估值來講大概超過100倍",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "啟碁",
+     "ticker": "6285",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱，留意創高表現",
+     "reasons": [
+      "股價持續創高",
+      "本益比約26倍，評價相對合理"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "奇蹟來講就是他的本益比本來還算低，現在已經拉到大概26倍",
+     "name_note": "推測，原音「奇蹟」",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聲貓",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意能否突破前高",
+     "reasons": [
+      "Q1 EPS年增約174%，成長動能強",
+      "已打入SpaceX供應鏈，取得太空認證不易",
+      "放量突破颈線後距離前高不遠"
+     ],
+     "target_price": "約10元(預估本益比約14倍)",
+     "confidence": "medium",
+     "quote": "如果以它的收益這麼好，那大概越過前高的機會就比較大",
+     "name_note": "語音辨識不清，名稱待確認",
+     "tw_market": null
+    },
+    {
+     "stock_name": "矽力-KY",
+     "ticker": "6415",
+     "market": "TW",
+     "stance": "中性",
+     "action": "作為指標觀察電源IC類股表態",
+     "reasons": [
+      "今年以來漲幅已近兩倍，領漲電源管理IC族群"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "以目前矽力-KY來講，大概已經從今年不到200塊已經漲到514塊",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "茂達",
+     "ticker": "6138",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意放量突破前高後的表現",
+     "reasons": [
+      "業績表現優於同業",
+      "放量突破前高，籌碼轉強",
+      "毛利接近四成"
+     ],
+     "target_price": "今年估值約15元上下",
+     "confidence": "high",
+     "quote": "茂達業績比他(矽力)強很多…目前也是剛越過前高，這個量也是供起來，所以我覺得這次也要注意",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "致新科技",
+     "ticker": "8081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "高殖利率、低本益比可留意",
+     "reasons": [
+      "毛利約40%，配息16元，殖利率約6%",
+      "本益比僅約14倍，評價偏低",
+      "切入AI伺服器與DDR5電源需求，成長動能轉強"
+     ],
+     "target_price": "今年估值約19.4元(EPS)",
+     "confidence": "high",
+     "quote": "它的配息配很高，16塊，等於是它的殖利率…已經達6%，是高殖利率，那今年估值來講…本益比非常低，大概14倍左右",
+     "name_note": "推測，原音「智興」",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "WBGlk1Z-cZQ",
+  "title": "【理財達人秀】台股盤中V轉買點還在？台積賣世界 有下一檔？機器人.AI眼鏡正熱 電源IC找剛發動？SpaceX要分拆 低軌再飛？｜李兆華、李永年、林漢偉、楊雲翔2026.05.18【電視完整版】",
+  "date": "2026-05-18",
+  "duration": 2926,
+  "url": "https://www.youtube.com/watch?v=WBGlk1Z-cZQ"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}
