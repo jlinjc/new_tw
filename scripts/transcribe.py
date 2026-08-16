@@ -29,6 +29,11 @@ YTDLP_OPTS = {
     "quiet": True,
     "no_warnings": True,
     "remote_components": ["ejs:github"],
+    # YouTube 對 android_vr（yt-dlp 預設優先客戶端之一）的串流網址開始回
+    # 403；web_embedded 目前不需要 PO Token 也能正常解析與下載。若未來
+    # YouTube 又變，可用 `python -m yt_dlp --extractor-args
+    # "youtube:player_client=<client>" --simulate <url>` 逐一測試候選客戶端。
+    "extractor_args": {"youtube": {"player_client": ["web_embedded"]}},
 }
 
 
