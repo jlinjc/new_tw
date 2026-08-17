@@ -1,0 +1,323 @@
+{
+ "episode_summary": "台股盤中續創歷史新高，市場關心是否過熱，三位老師分別從台積電評價、京元電子財報解讀、低軌衛星與電力概念股補漲、以及主動式高息ETF(00984A)資產配置角度，說明目前籌碼與評價尚屬合理，台股仍處於健康輪動階段。整體氣氛偏多，但提醒短線漲多的個股宜逢拉回布局，不宜追高。",
+ "market_view": "台股創高但尚未過熱：台積電本益比約23倍，仍低於過去30倍的歷史高點，且外資、投信籌碼未過度凌亂，加上費城半導體與韓股同步走高帶來比價效應，支撐台股健康輪動；惟短線漲多族群（設備、衛星、電源相關）建議逢拉回再進場。",
+ "teachers": [
+  {
+   "name": "蔡明翰",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回找買點",
+     "reasons": [
+      "漲到3000元之前都不算過熱，對應約5萬點台股",
+      "目前本益比約23倍，仍低於過去高點30倍，估值不算貴",
+      "投信持股僅約3%、外資持股達7成，外資不會因台灣人瘋狂追捧而賣股，只看半導體景氣與系統性風險",
+      "4月營收不如預期，但法說會時公司已知情仍預告全年增5-10%，代表5、6月將加速成長彌補"
+     ],
+     "target_price": "3000元(過熱參考價)",
+     "confidence": "high",
+     "quote": "台積電漲到3000塊之前都不能算過熱",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "統一台灣高息動能ETF",
+     "ticker": "00403A",
+     "market": "ETF",
+     "stance": "觀望",
+     "action": "不建議追價，等待拉回",
+     "reasons": [
+      "掛牌首日大幅溢價達5%，溢價代表買貴了，屬於較差的進場時間點",
+      "同系列的981A無溢價，相對安全"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "今天你買403A不如買981A我覺得反而是時間點的問題",
+     "tw_market": null
+    },
+    {
+     "stock_name": "統一台灣科技動能ETF",
+     "ticker": "00981A",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "可留意，相對安全",
+     "reasons": [
+      "同日掛牌但無溢價，相對安全",
+      "與403A同公司操盤邏輯相近，長線可留意"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "981A他反而是平的，他沒有溢價情況下我覺得反而是相對比較安全",
+     "tw_market": null
+    },
+    {
+     "stock_name": "弘塑科技",
+     "ticker": "3131",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回布局、長線持有",
+     "reasons": [
+      "外資喊上看1萬元，目前來到7000元，不到一個月已漲45%",
+      "與台積電供應鏈關係直接，所在區塊具獨佔性",
+      "現在AI成長速度比原本預期快很多，過去嫌貴的價位事後回頭看都不貴"
+     ],
+     "target_price": "上看10000元(外資喊價)",
+     "confidence": "high",
+     "quote": "Alessia這家外資很厲害喊他是1萬元…你半年後再回來看你就會發現7000塊好像也不是很貴",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "中砂",
+     "ticker": "1560",
+     "market": "TW",
+     "stance": "看多",
+     "action": "創高後續留意",
+     "reasons": [
+      "今日創歷史新高",
+      "與台積電供應鏈連結度高，所屬領域具獨佔性"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "中砂今天創歷史新高",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "旺矽",
+     "ticker": "6223",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢突破可關注",
+     "reasons": [
+      "高檔整理相當長一段時間，今日剛突破可留意",
+      "屬於營收獲利成長的AI設備概念股"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "旺溪的部分雖然說今天非常強勢但是他其實也是高檔整理蠻長時間今天剛剛突破的部分我覺得也都是可以關注的",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "智邦",
+     "ticker": "2345",
+     "market": "TW",
+     "stance": "看多",
+     "action": "分批佈局",
+     "reasons": [
+      "獲利與基本面良好，本益比在可接受範圍",
+      "股價沿5日均線緩步上漲，相對抗震",
+      "外資調升目標價，營收創歷史新高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "他就是沿著5日均線慢慢往上…我就覺得可以分批佈局",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "陳唯泰",
+   "picks": [
+    {
+     "stock_name": "京元電子",
+     "ticker": "2449",
+     "market": "TW",
+     "stance": "看多",
+     "action": "中長線看好，短線拉回（季線）找買點",
+     "reasons": [
+      "Q1稅前盈餘年減46.7%主因去年同期認列一次性不動產收益，基期偏高",
+      "今年Q1苗栗新產能產線尚未量產但已先提列折舊等費用，壓抑淨利率",
+      "法人預估今年EPS挑戰10元，明年上看15元，年增約50%",
+      "毛利率與營收同步上升，外資雖看到獲利衰退仍調高目標價"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "金融電基本上中長線還是看好，短線上面可能會有一些法人打到季線的獲利調節跟賣壓",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "緯創",
+     "ticker": "3231",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察為主，留意下半年資本支出效益",
+     "reasons": [
+      "Q1營收獲利仍成長，但毛利率因GP200轉GP300的空窗期而下滑",
+      "港系外資(滙豐)目標價下修190→180，日系外資(野村)上調至280，看法分歧",
+      "董事會已通過網通、美國廠擴建等資本支出案，預期下半年逐步顯現成果"
+     ],
+     "target_price": "180~280元(外資看法分歧)",
+     "confidence": "high",
+     "quote": "HSBC它把它目標價略為調低190調到180，但是日系外資Nomura卻把目標價調高到280",
+     "tw_market": "TWSE",
+     "spoken_name": "偉創"
+    },
+    {
+     "stock_name": "保銳科技-KY",
+     "ticker": "8093",
+     "market": "TW",
+     "stance": "看多",
+     "action": "打底完成，續留意",
+     "reasons": [
+      "Q1 EPS達10.64元，獲利表現亮眼",
+      "主要客戶為Amazon、Microsoft兩大CSP，資本支出持續增加，訂單能見度高",
+      "國內少數能提供HVDC BBU方案的廠商",
+      "股價打底完整，過去經驗顯示上一代熱賣、這一代延續機率高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "AI伺服器BBU的主要客戶就是Amazon還有Microsoft…目前看起來在整個股價表現也是在這邊打底完整往上去做走高",
+     "name_note": "AES-KY",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "光寶科",
+     "ticker": "2301",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回布局",
+     "reasons": [
+      "Q1 EPS 1.66元，創近5年同期新高",
+      "AI相關產品年增47%，雲端電源營收占比拉高到53%",
+      "短線距月線、季線乖離過大，建議拉回再布局"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "光寶哥3月24號講到現在漲了53%…等拉回了，就再做布局",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "嘉晶電子",
+     "ticker": "3016",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回留意",
+     "reasons": [
+      "8吋碳化矽磊晶產能利用率回升，第三代半導體在AI應用加速",
+      "由虧轉盈，題材獲外資認同",
+      "短線漲多，距季線/月線乖離率偏大"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "虧轉盈是很大的題材了…也獲得外資的認同所以這邊來講股價就開始往上去衝高",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "強茂",
+     "ticker": "2481",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回可留意",
+     "reasons": [
+      "切入NVIDIA GP200、GP300供應鏈",
+      "國際IDM大廠交期拉長，可能有轉單效果",
+      "股價緩步沿月均線上行"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "在2481的強茂這個就是有切入到NVIDIA的GP200跟GP300的供應鏈",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "群創",
+     "ticker": "3481",
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線不追高，拉回布局",
+     "reasons": [
+      "Q1由虧轉盈，EPS 0.2元",
+      "切入CPO與半導體封裝題材，並傳出取得SpaceX RF晶片封裝訂單",
+      "已過法說會賣壓期"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "第一季EPS0.2這個算是非常大的鼓勵也是轉虧為盈…短線上面不要再去做追高可以等拉回的時候再來去做一個佈局",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "昇達科",
+     "ticker": "3491",
+     "market": "TW",
+     "stance": "看多",
+     "action": "整理近尾聲，留意突破",
+     "reasons": [
+      "Q1 EPS 3.68元，創單季歷史新高",
+      "衛星相關產品比重可望於Q2拉高到80%，將提升毛利率",
+      "股價已修正整理一段時間"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "森達科…第一季EPS3.68創下單季歷史新高…衛星相關的產品比重也會拉高甚至有可能第二季就升高到80%",
+     "tw_market": "TPEX",
+     "spoken_name": "昇達科技"
+    },
+    {
+     "stock_name": "台揚",
+     "ticker": "2314",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回可留意",
+     "reasons": [
+      "法人預估全年EPS挑戰8元，Q1已達1.73元，Q2~Q4動能加速成長",
+      "股價突破先前整理區間，橫盤已久"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "法人預估全年EPS挑戰8塊錢…第一季1.73…所以股價在這邊往上去做突破",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "紀緯明",
+   "picks": [
+    {
+     "stock_name": "安聯台灣高息成長ETF",
+     "ticker": "00984A",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "可納入資產配置，逢震盪找買點",
+     "reasons": [
+      "主動式選股具彈性，可依市場狀況動態調整成長股與高息股比重(除息前後約40%/60%)",
+      "台積電為最大持股但佔比仍有加碼空間，遇拉回可持續加碼龍頭股",
+      "去年掛牌以來三次配息全數快速填息，最快僅2天，優於多數被動高息ETF",
+      "績效超越00929、00878、0056、00919等被動高息ETF及市值型的0050",
+      "選股池涵蓋500~700檔，不受限於前300大市值股，選股彈性大"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "00984a是台股第一檔主動高息的ETF，展現了改良後的傳說：價差能賺、中小型股能買、高成長的能買、高息的也要配",
+     "tw_market": null
+    },
+    {
+     "stock_name": "聯電",
+     "ticker": "2303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱，留意評價上修空間",
+     "reasons": [
+      "過去被視為高股息、低本益比標的(約40元)，如今因AI與Intel合作題材已上看百元以上",
+      "投信、外資近期站在買方，反映市場對其本益比評價調高的認同",
+      "今日漲停，帶量創高"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "以前聯電是高息型的ETF喜歡的標的，現在跟Intel有點關係了…它現在可以股價來到三位數",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "6FTo6iZqzDI",
+  "title": "【理財達人秀】台股噴發才開始？台積3000前 沒過熱問題？高權息AI表態 Q1財報補漲黑馬？低軌.電力有績之彈 京元電被錯殺？｜李兆華、蔡明翰、陳唯泰、紀緯明2026.05.12【電視完整版】",
+  "date": "2026-05-12",
+  "duration": 2927,
+  "url": "https://www.youtube.com/watch?v=6FTo6iZqzDI"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

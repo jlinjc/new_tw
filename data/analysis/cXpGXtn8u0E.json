@@ -1,0 +1,498 @@
+{
+ "episode_summary": "本集聚焦8月解套行情：鍾國忠從技術面提醒4萬5附近應降低持股，並以高殖利率低本益比股票作為避風港；黃豐凱解析美國對多晶矽加關稅、CPO禁令對矽晶圓與散熱、光通訊供應鏈的正負面影響；翁世峻則以Q2財報年季雙增搭配投信買盤，篩選出PCB、記憶體、機器人等族群的解套與續強標的。整體氛圍是反彈已到滿足點，接下來將呈現強弱分明。",
+ "market_view": "加權指數短線反彈已接近滿足點（0.618滿足位、月線季線黃金交叉後的技術性反彈已兌現），且月線、櫃買月線仍下彎，下週台積電營收公布前建議先降低持股比重，越接近4萬5附近風險越高；MSCI於8/13調整、上櫃融資占比創6月以來新高為潛在籌碼壓力，但股市回檔多屬健康換手，非系統性风险。",
+ "teachers": [
+  {
+   "name": "鍾國忠",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "逢高先出、待營收公布後再觀察",
+     "reasons": [
+      "下週公布營收，不論好壞都建議先避開一段",
+      "身為權值一哥，若表現不好其他股票也會被拖累",
+      "股價目前糾結在季線與前波大量套牢區，短線不易向上攻擊"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台積電不管營收好壞，你都應該是要先閃一下",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "研華",
+     "ticker": "2395",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回可留意",
+     "reasons": [
+      "股價創歷史新高",
+      "IPC相關業績表現不錯"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "研華是創下了歷史新高，IPC的成績不錯",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "建準",
+     "ticker": "2421",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回布局作為避風港",
+     "reasons": [
+      "屬高殖利率低本益比抗跌型標的，殖利率約4-5%",
+      "股價拉回時殖利率會回升，具防禦性",
+      "本益比不到20倍"
+     ],
+     "target_price": "151元附近",
+     "confidence": "low",
+     "quote": "包括我們之前講見準（建準），見準像151塊",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "神機",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意下週財報公布",
+     "reasons": [
+      "切入歐美航太扣件相關供應鏈",
+      "上半年營收年增7.53%，市場預估EPS挑戰9元，逐年成長",
+      "本益比僅約12倍，估殖利率約6%",
+      "技術面月線、季線正上彎，即將交叉半年線"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "包括在航太扣件都成功切入到歐美的相關的控制鏈",
+     "name_note": "名稱待確認，軍工航太扣件概念股",
+     "tw_market": null
+    },
+    {
+     "stock_name": "巨洋",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意除息後表現，逢低留意",
+     "reasons": [
+      "8月為歷年營收高峰，對應美國消費旺季出貨",
+      "上半年EPS由第一季衰退15%轉為與去年持平，獲利率已回升至關稅前水準",
+      "5月以來非獨立董事持股增加逾5700張，籌碼安定",
+      "市場預估全年EPS約16元，估殖利率約6.5%"
+     ],
+     "target_price": "8/27除息6元",
+     "confidence": "low",
+     "quote": "另外一家公司是巨洋，歷年來的營收高峰就是8月",
+     "name_note": "名稱待確認，外銷美國消費品股",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "黃豐凱",
+   "picks": [
+    {
+     "stock_name": "合晶",
+     "ticker": "6182",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望",
+     "reasons": [
+      "市場原擔心多晶矽關稅衝擊最大，但產能已從中國移往日本三井",
+      "目前本益比約30-40倍，估值不算便宜",
+      "券商預估目標價多低於現價，市場買盤不積極"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "合晶其實很早就有在想一個對應政策，在日本有一家三井的矽晶圓廠",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "環球晶",
+     "ticker": "6488",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回買進",
+     "reasons": [
+      "今年獲利估持平，明年高階產能吃緊可望調漲報價，獲利可期",
+      "法說會利空已提前反應，股價已於法說前下跌完畢",
+      "為矽晶圓族群中相對抗跌者"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "我個人覺得環球晶這地方會是個很好的買點",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "台勝科",
+     "ticker": "3532",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低承接",
+     "reasons": [
+      "受惠記憶體價格走升",
+      "屬先進製程矽晶圓廠，基本面不受多晶矽禁令影響"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台勝科它是因為記憶體很好，所以它就已經往上走了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯亞",
+     "ticker": "3081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點",
+     "reasons": [
+      "CPO/矽光子模組直接受惠美國禁令效應，產能非在中國",
+      "投信持續買超，股價站上前波大量高",
+      "外資同步大買"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "聯亞、全新是最受影響（受惠），他們就直接會受惠",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "全新",
+     "ticker": "2455",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回布局",
+     "reasons": [
+      "CPO/光收發器族群同步受惠禁令效應",
+      "投信同步買超"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "全新也是投信受惠吧，對啊，全新投信受惠啊",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "環宇-KY",
+     "ticker": "4991",
+     "market": "TW",
+     "stance": "看多",
+     "action": "站穩前高後追蹤",
+     "reasons": [
+      "同屬CPO/矽光子受惠族群，今日站上前波大量高不容易",
+      "本益比偏高但籌碼相對乾淨",
+      "外資買進顯示公司派看好未來獲利成長"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "環宇今天也是幾乎站上這個大量高，不容易喔",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "奇鋐",
+     "ticker": "3017",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回買進、續抱",
+     "reasons": [
+      "散熱族群投信認養龍頭，買超逾11000張遠高於賣單4800張",
+      "外資投信同步站在買方",
+      "技術面過前高只是時間問題"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "他過這個新高應該是時間的問題",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "雙鴻",
+     "ticker": "3324",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回布局，先觀察整理",
+     "reasons": [
+      "7月營收表現落後，股價偏補漲",
+      "外資近期已轉買，惟投信尚未跟進",
+      "股價位置相對落後同族群，型態偏反彈"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "外資最近開始轉買了，可是投信還沒跟進",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "富世達",
+     "ticker": "6805",
+     "market": "TW",
+     "stance": "看多",
+     "action": "隨奇鋐同步操作",
+     "reasons": [
+      "為奇鋐子公司，股價連動性高",
+      "與奇鋐同步上漲合理"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "富世達基本上就是奇鋐的子公司嘛，所以他們跟著漲是合理的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "建準",
+     "ticker": "2421",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意",
+     "reasons": [
+      "屬散熱受惠族群之一（奇鋐、雙鴻、建準）"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "如果你真的要看這一塊應該是要看奇鋐、雙鴻跟建準",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "高力",
+     "ticker": "8996",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望，不追高",
+     "reasons": [
+      "近期上漲與CPO/散熱消息關聯性低，屬消息面混水摸魚的補漲",
+      "本業核心聚焦Blue Energy，並非CPO直接受惠者"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "高力昨天跟著這個消息漲，其實是有點混水摸魚啦，因為它其實真正核心是Blue Energy",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "翁士峻",
+   "picks": [
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱、逢回加碼",
+     "reasons": [
+      "7月營收創新高，為上市公司營收年增前五名",
+      "DRAM顆粒股中線型最漂亮，拉回幅度最小，即將V轉創高",
+      "財報基本面帶動率先解套"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "南亞科也是啊，他下去只有一點點而已啊，上來快要V轉創高了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "川湖",
+     "ticker": "2059",
+     "market": "TW",
+     "stance": "看多",
+     "action": "持有，偏多操作",
+     "reasons": [
+      "為華為供應鏈獨家客製化供應商，具供應鏈稀缺性",
+      "股價強勢噴出，當日再度漲停",
+      "為本波解套行情中的指標型龍頭股"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "川湖今天漲停，因為在華為這一部分他是獨家供應、客製化",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "光寶科",
+     "ticker": "2301",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回逢低承接",
+     "reasons": [
+      "第二季EPS達3.1元，毛利率創歷史新高",
+      "AI伺服器電源、BBU、跨足光通訊題材完整",
+      "法人目標價陸續上修（元大370元、永豐300元）",
+      "為權值股中少數股價創新高者，漲勢仍偏強"
+     ],
+     "target_price": "元大370元／永豐300元",
+     "confidence": "high",
+     "quote": "法人目標價都有上修，像元大上修到370，永豐也上修到300塊",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "欣興",
+     "ticker": "3037",
+     "market": "TW",
+     "stance": "看多",
+     "action": "季線站穩偏多操作，拉回可買進",
+     "reasons": [
+      "ABF載板長約可能鎖到2028年，供不應求持續漲價",
+      "股價率先過7月高點，屬V型反轉，強度優於大盤",
+      "投信不論漲跌幾乎天天買超，籌碼穩定",
+      "7月營收年增月增雙增，創歷史新高",
+      "季線已站穩三天，留意千元關卡能否突破"
+     ],
+     "target_price": "整數關卡1000元",
+     "confidence": "high",
+     "quote": "投信不管漲、不管跌，幾乎天天都在買，所以我認為1000塊還是有機會做突破",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "直得",
+     "ticker": "1597",
+     "market": "TW",
+     "stance": "中性",
+     "action": "來回做價差，靠季線減碼、拉回買進",
+     "reasons": [
+      "第二季EPS 0.86元，季增達100%",
+      "受惠8/19自動化大展及機械手臂題材",
+      "大戶持股連兩週增加",
+      "今日雖衝過季線但留長上影線，短線宜先減碼一趟"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "他今天上去可以稍微先減碼一點，然後回來5日線再做進場做價差",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "上銀",
+     "ticker": "2049",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回前高附近可留意",
+     "reasons": [
+      "為機器人族群指標型龍頭，漲價效應可望反映在Q3獲利",
+      "投信近5日買超逾1400張，外資同步進場承接投信賣單",
+      "法人目標價看400元以上（永豐400+、凱基478、統一460）",
+      "前波高點370元，拉回至此仍可操作"
+     ],
+     "target_price": "永豐400元以上／凱基478元／統一460元；前高370元",
+     "confidence": "high",
+     "quote": "永豐目標價要400多，然後凱基478，統一是460",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "旺宏",
+     "ticker": "2337",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回靠近投信成本買進",
+     "reasons": [
+      "7月營收年增達180%",
+      "投信前兩日大幅買超",
+      "法人目標價看到200元",
+      "記憶體產業景氣回升"
+     ],
+     "target_price": "法人目標價200元",
+     "confidence": "high",
+     "quote": "投信前兩天大買，那是拉回如果靠近投信的成本，你就可以跟著進場",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華通",
+     "ticker": "2313",
+     "market": "TW",
+     "stance": "看多",
+     "action": "靠近投信成本進場，投信賣則跟進調節",
+     "reasons": [
+      "第二季獲利雖略不如預期，但法人上修目標價至360元（凱基）",
+      "AI資料中心與衛星光模塊營收大幅上調，估明年合計占比將超過五成，脫離消費性電子屬性",
+      "股價由154元反彈至223元，籌碼站穩月線附近"
+     ],
+     "target_price": "凱基目標價360元",
+     "confidence": "high",
+     "quote": "凱基把目標價調到360，因為他認為光模塊營收大幅上調",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "臻鼎-KY",
+     "ticker": "4958",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意年增動能延續",
+     "reasons": [
+      "7月營收年增、月增雙增",
+      "為投信近期偏好買超的PCB族群個股之一"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "真挺KY我剛才看到也可以打個圈，這些全部都是年月雙增",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯茂",
+     "ticker": "6213",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意年增動能延續",
+     "reasons": [
+      "7月營收創歷史新高，年增月增雙增",
+      "為投信近期偏好買超的PCB族群個股之一"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "聯帽（聯茂）也是創歷史新高",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "望虹",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意投信買盤及技術面止跌",
+     "reasons": [
+      "為投信近期買超力道最強的PCB相關股之一，股價跌深急需資金拉抬",
+      "最新公告營收表現亮眼超乎預期"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "最近投信買比較多就是望虹，望虹跌的有夠慘，營收也是相當亮眼",
+     "name_note": "名稱待確認，PCB相關股",
+     "tw_market": null
+    },
+    {
+     "stock_name": "怡頂",
+     "ticker": null,
+     "market": "TW",
+     "stance": "中性",
+     "action": "碰季線先減碼一趟，拉回再勇敢承接",
+     "reasons": [
+      "單季EPS達108元，創記憶體模組廠史上新高紀錄",
+      "獲利雖佳但股價已提前反應，觸及季線恐有隔日沖賣壓",
+      "基本面強勢，拉回不需過度悲觀"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "EPS 108，這是記憶體模組裡面史上的冠軍",
+     "name_note": "名稱待確認，記憶體模組廠",
+     "tw_market": null
+    },
+    {
+     "stock_name": "台藥",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意反彈延續性",
+     "reasons": [
+      "7月營收表現佳，為上櫃股中反彈力道最兇猛之一",
+      "基本面優於大盤，股災中率先解套"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "上櫃的像台藥，這個反彈幅度也非常的兇猛，基本面好",
+     "name_note": "名稱待確認",
+     "tw_market": null
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "cXpGXtn8u0E",
+  "title": "【理財達人秀】8月解套行情 PCB.記憶體.散熱雙招留強！多晶矽關稅+禁令 矽晶圓.CPO得利？4萬5先收成 下週更有本錢大膽？｜李兆華、鍾國忠、黃豐凱、翁士峻2026.08.07【電視完整版】",
+  "date": "2026-08-07",
+  "duration": 2982,
+  "url": "https://www.youtube.com/watch?v=cXpGXtn8u0E"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

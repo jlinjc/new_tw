@@ -1,0 +1,442 @@
+{
+ "episode_summary": "台股連續兩天反彈但量能不足,外資期貨空單飆破9萬口創新高引發市場緊張,不過三位分析師都認為避險需求大於實質看空。焦點鎖定記憶體(南亞科、華邦電)、載板四雄(景碩、南電、欣興、臻鼎)、被動元件(國巨、鈺邦)、廠務與CPO(亞翔、漢科)等補漲題材股,並分享KD黃金交叉、量化選股等短線操作SOP。",
+ "market_view": "月線與季線已死亡交叉,4萬4附近為多空關鍵糾結壓力區,短線連續反彈但量縮代表追價意願不足,技術面偏空;外資期貨空單創9萬口新高,但多屬避險而非單純看空,需觀察外資現貨是否轉買超、台幣是否轉升;中長線因外資調升台灣GDP預估(荷蘭ING上看11.1%),基本面仍偏樂觀。",
+ "teachers": [
+  {
+   "name": "林漢偉",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察季線支撐與7月營收公布",
+     "reasons": [
+      "上週五拉漲停具宣示意味,今日量縮是漲多獲利了結而非轉弱",
+      "季線守穩",
+      "8月10日前公布7月營收理論上可望創高"
+     ],
+     "target_price": "季線(月線關卡之上)",
+     "confidence": "high",
+     "quote": "我覺得如果在8月10號之前台積電要公布它的7月營收,理論上應該也是創高,這些都反映到台積電如果能夠發揮穩盤工作、守在季線以上,那我覺得盤勢就不用看得太過悲觀。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "均線多排季線之上可鎖股,站穩月線後回檔找買點",
+     "reasons": [
+      "上半年財報毛利率創歷史新高",
+      "連續兩天漲停,籌碼型態最好",
+      "投信開始回補記憶體,融資減少屬於資減法人買"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "南亞科他公布上半年的財報毛利率都是創下歷史的新高,那今天也是連續兩天漲停板,他不管南亞科、華邦電都有望紅。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察週四法說會,站穩季線且上彎才轉多操作",
+     "reasons": [
+      "這波跌較深,之前靠矽電容(被動元件)題材帶動,現也隨被動元件走弱",
+      "週四公布法說會,毛利率與展望是關鍵"
+     ],
+     "target_price": "季線",
+     "confidence": "high",
+     "quote": "華邦電在禮拜四要公佈法說會,法說會的毛利率、獲利成長跟未來展望會影響這禮拜反彈的力道,只要能夠站穩季線且上彎,可能就有轉危為安的機會。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "群聯",
+     "ticker": "8299",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "觀望,等年底產業回溫",
+     "reasons": [
+      "董事長潘健成持續買股挺自家股價,但目前也身處套牢",
+      "市場信心仍待恢復"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "群聯可能很多人心裡的痛,潘董已經盡全力在宣傳自家的利多還買股票,潘董也在套牢中啊,大家要珍惜群聯,因為現在只有潘董可以相信,潘董年底就懂了。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "金豪科",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察能否站上頸線",
+     "reasons": [
+      "同為IC設計公司,本益比偏低",
+      "具AI眼鏡、機器人多重題材"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "今天還有一檔叫金豪科,也是走IC設計,他可能有AI眼鏡、機器人的題材,股價觀察一下,如果能夠站上頸線的話,可以稍微比較偏多來看待。",
+     "tw_market": null
+    },
+    {
+     "stock_name": "景碩",
+     "ticker": "3189",
+     "market": "TW",
+     "stance": "看多",
+     "action": "季線之上逢拉回承接,站穩月線後可積極操作",
+     "reasons": [
+      "今日698元站上季線,型態是載板四雄中最強",
+      "外資目標價不斷調高,對前景看法不離不棄"
+     ],
+     "target_price": "季線附近逢低承接,站穩月線轉積極",
+     "confidence": "high",
+     "quote": "景碩你可以看到今天698塊剛好站到季線以上,形態算是載板裡面最強的,季線上你可以偏多、逢拉回到季線附近做逢低承接。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "欣興",
+     "ticker": "3037",
+     "market": "TW",
+     "stance": "中性",
+     "action": "不追價,等拉回後再找買點",
+     "reasons": [
+      "先前跌破半年線,近期靠法說會連續兩根漲停止穩,但仍在季線之下",
+      "投信連買,但融資未大幅減少,籌碼未完全乾淨"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "星星(欣興)目前站到月線以上,但還在季線之下,我覺得他還是會來回整理,大家不要追價,盡量等拉回之後重新做買進的動作。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "臻鼎-KY",
+     "ticker": "4958",
+     "market": "TW",
+     "stance": "看多",
+     "action": "等反彈,留意蘋果新品發表助攻",
+     "reasons": [
+      "載板四雄中價位相對便宜,補漲空間",
+      "另一個題材是蘋果供應鏈,新品發表可能帶動助攻"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "珍鼎(臻鼎)還是有機會跟他們補漲,但珍鼎另外一塊是蘋果,那個要觀察蘋果產品發表後股價有沒有轉強,就有一些助攻的機會。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南電",
+     "ticker": "8046",
+     "market": "TW",
+     "stance": "看多",
+     "action": "暫時觀察景碩表態,待其解關注動向",
+     "reasons": [
+      "近期漲停鎖住(被關),外資對載板族群目標價不離不棄、持續調高"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "南電因為被關,所以我們以景碩來當作當中的代表,如果南電還沒有出來,景碩是優先觀察指標,如果兩檔都一起轉強,欣興跟臻鼎都有機會加速補漲。",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "楊雲翔",
+   "picks": [
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "EPS成長穩定,第二季EPS約4.59元",
+      "同業春田上修資本支出,顯示產業趨勢向上不只今年,明年也看好",
+      "股價強度在被動元件族群中特別突出"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "國巨今等於兩根漲停板,鎖死直接到552元,主要是第二季EPS出來還不錯,大概4塊59元,那國巨也會繼續放,兩支長線半年了還會放。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華新科",
+     "ticker": "2492",
+     "market": "TW",
+     "stance": "看空",
+     "action": "出場/避開",
+     "reasons": [
+      "第二季獲利成長率高達91%但營收僅增19%,疑似有業外挹注",
+      "業績成長品質存疑,本益比可能被高估"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "華新科第一季11.69、第二季3.24,成長率很高但營收只有19%,代表可能有業外,所以我大概比較放掉,擔心業績有沒有那麼好。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "禾伸堂",
+     "ticker": "3026",
+     "market": "TW",
+     "stance": "看空",
+     "action": "避開",
+     "reasons": [
+      "起漲點已遠(自155元起漲到450元左右),漲幅已大,續強力道相對弱",
+      "遭延長列入處置,流動性可能有疑慮"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "和珍糖的起漲點是從155塊開始,現在已經450、500左右,差距很大,強度可能彈起來沒有那麼強;而且他又被延長處置了,關不完,流動性可能會有問題,我覺得稍微避開。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台慶科",
+     "ticker": "3357",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意佈局",
+     "reasons": [
+      "成長性高,估計獲利季增2~2.5倍",
+      "本益比相對低,明年估值有上修空間"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台慶科的成長性都很高,大概2到2.5倍的激增,以它的本益比來講比較低,明年估值更高。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "鈺邦",
+     "ticker": "6449",
+     "market": "TW",
+     "stance": "看多",
+     "action": "提前佈局,留意業績公布",
+     "reasons": [
+      "與台慶科為母子公司關係,純AI被動元件供應商",
+      "大廠(NVIDIA、AMD等)綁定深度高",
+      "具日系替代效應題材",
+      "外資買超增加,融資持續下降,籌碼相對有利"
+     ],
+     "target_price": "月線附近約270元",
+     "confidence": "high",
+     "quote": "鈺邦它有所謂日本的替代效應,加上大廠綁定深度很高,包括NVIDIA、AMD都很強,外資是增,融資持續降,籌碼相對有利,至少在月線附近約270左右。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "亞翔",
+     "ticker": "6139",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回留意,800元附近觀察",
+     "reasons": [
+      "在手訂單高達4000多億元,遠超過21億股本市值",
+      "估值換算本益比僅約十餘倍,相對便宜"
+     ],
+     "target_price": "800元附近",
+     "confidence": "high",
+     "quote": "雅翔它21億的股票,在手訂單4000多億,估值大概60塊左右,本益比基本上很低,如果強反彈,大概在800的時候可以稍微看一下。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "漢科",
+     "ticker": "3402",
+     "market": "TW",
+     "stance": "看多",
+     "action": "在上升軌道下緣做區間操作",
+     "reasons": [
+      "主要做氣體配管,為漢唐子公司,訂單穩定",
+      "業務佈局台美日新加坡等地,先進製程(2nm以下)產能持續攀升",
+      "毛利率高,配息率高達75%",
+      "融資使用率極低,僅6%多"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "漢科主要是做氣體配管,是漢唐的子公司,布局台美日新都有,毛利率很高,配息率也高,大概75%,融資使用率非常低,只有6%多,可以在軌道線來回操作。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "華星光",
+     "ticker": "4979",
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線區間操作,以月線為觀察點",
+     "reasons": [
+      "年增率達92%,業績表現優於同族群",
+      "股價已打出第二隻腳,技術面回到月線"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "華星光他是打第二隻腳,已經回到大概月線的部分,華星光至少有年增92%。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "波若威",
+     "ticker": "3163",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "觀望",
+     "reasons": [
+      "營收月減,單月數字不夠亮眼,業績動能較弱"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "Poloway(波若威)的營收是有下來,單月也不漂亮,數字不夠高,目前只能說短線在這個區間有機會。",
+     "tw_market": "TPEX"
+    }
+   ]
+  },
+  {
+   "name": "張林忠",
+   "picks": [
+    {
+     "stock_name": "聯電",
+     "ticker": "2303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察台積電/聯電價差指標,綠翻紅前留意風險資產",
+     "reasons": [
+      "台積電/聯電價差指標近期轉綠,代表資金開始從台積電流向聯電等風險性資產",
+      "反映市場風險偏好回升"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "最近翻成綠色了,代表台積電落於聯電,也就是說現在很多股票持續反彈,錢都跑出來了,上禮拜有教我們本來是台積電比聯電強,但你發現現在風險偏好想要去買聯電了。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "緯創",
+     "ticker": "3231",
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線操作,5日停損停利",
+     "reasons": [
+      "10日均線上揚,近期創平台新高有挑戰前高態勢",
+      "融資餘額排名市場前100名(聰明積極籌碼指標)",
+      "本益比小於40倍"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "緯創我們買在173,是在平盤下面的位置,剛好巧不巧他就這樣往上拉了,這一檔的獲利目前還蠻多的。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "神達",
+     "ticker": "3706",
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線持有,5日停損停利",
+     "reasons": [
+      "符合量化選股條件:10日均線上揚、融資排名前100、本益比低於40倍"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "目前持有部位除了神達、中華電、台灣大之外,其他全部都是金融類股。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "中華電",
+     "ticker": "2412",
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線持有,5日停損停利",
+     "reasons": [
+      "符合量化選股條件:10日均線上揚、融資排名前100、本益比低於40倍"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "目前持有部位除了神達、中華電、台灣大之外,其他全部都是金融類股。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台灣大",
+     "ticker": "3045",
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線持有,5日停損停利",
+     "reasons": [
+      "符合量化選股條件:10日均線上揚、融資排名前100、本益比低於40倍"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "目前持有部位除了神達、中華電、台灣大之外,其他全部都是金融類股。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "鴻海",
+     "ticker": "2317",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意後續表現",
+     "reasons": [
+      "自7月17日史上最大跌點以來修正有限,防禦性佳",
+      "連兩天紅K,KD黃金交叉且均線上揚",
+      "AI組裝代工可望持續受惠AI紅利"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "鴻海從前一波7月17日史上最大跌點開始到現在其實沒有太大的修正,今天連續兩天都是紅棒,KD今天黃金交叉,均線還在上揚,可以留意它後續的表現。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "錦碩",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意連續一字線後續表現",
+     "reasons": [
+      "均線上揚,連續兩天跳空一字線走勢強勢",
+      "KD黃金交叉"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "錦碩均線還在上揚,連續兩天都是一字線,代表很強勢,連續兩天跳空KD黃金交叉,可以留意。",
+     "tw_market": null
+    },
+    {
+     "stock_name": "金豪科",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意後續表現",
+     "reasons": [
+      "屬記憶體類股,連續上漲觸及月線",
+      "KD第一天黃金交叉"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "金豪科一樣是記憶體的狀況,連續漲兩天,漲到月線,KD一樣黃金交叉第一天,這個也可以留意。",
+     "tw_market": null
+    },
+    {
+     "stock_name": "長榮",
+     "ticker": "2603",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意持有,適合高股息族群",
+     "reasons": [
+      "自7月初18元附近緩步走高,防禦性佳,避風港角色",
+      "均線上揚且站於均線上方,KD第一天黃金交叉",
+      "殖利率高,基本面穩健"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "2603長榮是最近真正的避風港,貨櫃航運挺穩,均線正在上升且站在均線上方,KD一樣今天第一天黃金交叉,殖利率也很高。",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "0ZoIdbCQg8A",
+  "title": "【理財達人秀】台股反應利多 套牢股怎處理？記憶體鎖籌碼 載板獲利罩！CPO.被動.廠務 反彈搶誰？晶圓雙雄鎖利 4檔KD金叉賺短打？｜李兆華、林漢偉、楊雲翔、張林忠2026.08.03【電視完整版】",
+  "date": "2026-08-03",
+  "duration": 2959,
+  "url": "https://www.youtube.com/watch?v=0ZoIdbCQg8A"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

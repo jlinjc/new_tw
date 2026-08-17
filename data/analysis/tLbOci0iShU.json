@@ -1,0 +1,431 @@
+{
+ "episode_summary": "台積電再創歷史新高帶動大盤站上4萬2千點，被動元件龍頭國巨、矽晶圓龍頭環球晶同步漲停，聯發科則因股價急漲首度遭列入處置引發個股期貨操作話題。三位老師分別聚焦被動元件與散熱錯殺股的低接策略、聯發科處置期間的期貨操作與量化選股名單、以及矽晶圓補漲行情與短債ETF資產配置建議。",
+ "market_view": "在AI供應鏈接單暢旺、投信與主動式ETF資金持續流入下，大盤短期支撐約39,100-39,600點，中期可望站穩4萬點之上，目前尚未出現過熱泡沫跡象；外資空單雖創新高但屬合理避險，暫不構成下跌訊號，惟三位老師均提醒指數已處高檔，宜留意配置與資金池管理以防波動加劇。",
+ "teachers": [
+  {
+   "name": "容逸燊",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回續抱，不追高",
+     "reasons": [
+      "技術護城河領先，仍是市場焦點並持續創高",
+      "ADR溢價已收斂至12%-16%，較過去20%-25%明顯縮小",
+      "金管會調高主動式ETF單一持股上限後，投信買盤持續承接"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台積電仍然是市場上的焦點，仍然持續創高",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "未來兩三天若震盪量縮可試著切入",
+     "reasons": [
+      "突破頸線後拉回頸線企穩，是不錯的切入點",
+      "投信持續加碼，主力籌碼並未撤退",
+      "被動元件需求增加，經銷商庫存回到健康水位",
+      "全年EPS估15.7-16.1元，本益比平易近人"
+     ],
+     "target_price": "距投信成本區約兩成空間，上檔壓力不大",
+     "confidence": "high",
+     "quote": "未來兩三天如果有震盪量縮的話，也可以試著去切入",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台慶科",
+     "ticker": "3357",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局，留意主力與投信是否轉買",
+     "reasons": [
+      "月線支撐後整理向上，與輝達合作打入AI伺服器供應鏈",
+      "第二季繞線式電感報價調漲10%-15%",
+      "與台達電合作供應BBU、PSU功率電感",
+      "今年EPS估12.6-13.4元，本益比僅十餘倍，相對低估"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "今年EPS估計12.6-13.4元，本益比大家算一下，才十幾倍",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "聯詠",
+     "ticker": "3034",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回仍可留意買點",
+     "reasons": [
+      "驅動IC龍頭，跟隨聯發科帶動IC設計族群動能，近期漲約一成",
+      "法人與主力開始佈局IC設計龍頭股"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "這個是最近也開始動了，漲了10%左右",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華星光",
+     "ticker": "4979",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察創高後續動能",
+     "reasons": [
+      "近期創歷史新高，動能強勁"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "CPU的華星光還是非常的強，最近又在創了一個歷史新高",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "宜鼎",
+     "ticker": "5289",
+     "market": "TW",
+     "stance": "中性",
+     "action": "創高後不宜追高，留意賺賠比",
+     "reasons": [
+      "雖不再偏好記憶體股，但逆勢創歷史新高",
+      "位階已高，賺賠比不如先前"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "來到這個位階，我覺得已經要稍微注意一下",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "健策",
+     "ticker": "3653",
+     "market": "TW",
+     "stance": "看多",
+     "action": "待投信賣壓出清、股價自高點拉回三到四成後承接",
+     "reasons": [
+      "散熱股遭錯殺，基本面未必轉差",
+      "轉型為AI伺服器零組件供應商，打入GB300、新世代平台",
+      "目前處置導致投信出清賣壓，出清結束後可望止跌"
+     ],
+     "target_price": "高點拉回三到四成為入手區",
+     "confidence": "high",
+     "quote": "我覺得高檔跌下來大概三到四成，就可以開始去做入手了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "光寶科",
+     "ticker": "2301",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察能否站穩前波高點",
+     "reasons": [
+      "久盤後今日強勢漲停，走勢與同業散熱股不同",
+      "過去投信也曾關注此股"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "光寶科今天漲停，跟人家硬是要漲的不一樣",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "雙鴻",
+     "ticker": "3324",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低找買點，留意能否超車轉機",
+     "reasons": [
+      "第一季毛利率年增表現不錯，股價修正後本益比約20倍偏低",
+      "今年EPS估51元，明年估70元，成長性佳",
+      "低檔有支撐，不易再破底"
+     ],
+     "target_price": "明年EPS估70元",
+     "confidence": "high",
+     "quote": "今年EPS已經估計51塊，同樣本益比大概20倍，明年馬上就估計70塊了",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "富世達",
+     "ticker": "6805",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢100日線支撐布局",
+     "reasons": [
+      "中長期支撐約在100日均線附近，外資持續買超",
+      "轉型為AI伺服器零組件供應商，打入新世代平台快接頭",
+      "投信賣壓告一段落後可望回穩向上"
+     ],
+     "target_price": "100日線支撐",
+     "confidence": "high",
+     "quote": "它已轉型成為AI伺服器一人的零組件商⋯⋯可以注意中長期的支撐",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "張林忠",
+   "picks": [
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "長線續抱不受處置影響；短線交易者建議改用個股期貨操作",
+     "reasons": [
+      "切入AI相關ASIC晶片帶動股價上漲",
+      "處置期間現貨5-20分鐘集合競價，個股期貨可即時撮合不受影響",
+      "市場對其2027-2028年EPS上修，估值仍有想像空間"
+     ],
+     "target_price": "以2028年EPS約150-152元、本益比40倍估算，約看6000元",
+     "confidence": "high",
+     "quote": "如果你對他有信仰的話，其實短線關這1、20天並不影響，你可以持續放著",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "信驊",
+     "ticker": "5274",
+     "market": "TW",
+     "stance": "看多",
+     "action": "依量化策略持有(5日內出場，停損10%/停利20%)",
+     "reasons": [
+      "符合投信持股逾百檔、營收成長逾10%、20日均線上揚、高ROE等量化選股條件"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "進場價5月6號昨天在1838",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "創意電子",
+     "ticker": "3443",
+     "market": "TW",
+     "stance": "看多",
+     "action": "依量化策略持有(5日內出場，停損10%/停利20%)",
+     "reasons": [
+      "符合量化選股條件，進場後已獲利"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "小創意呢5月5號是交易4735⋯⋯所以今天這個就賺的還蠻多的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "智邦",
+     "ticker": "2345",
+     "market": "TW",
+     "stance": "看多",
+     "action": "依量化策略持有(5日內出場，停損10%/停利20%)",
+     "reasons": [
+      "符合量化選股條件，進場後已獲利"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "小智邦是5月4號，這個也還是獲利的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台光電",
+     "ticker": "2383",
+     "market": "TW",
+     "stance": "看多",
+     "action": "依量化策略持有(5日內出場，停損10%/停利20%)",
+     "reasons": [
+      "符合量化選股條件，進場後已獲利"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "小台光店交易在這一天，目前看起來也是獲利的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "齊鴻",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "依量化策略今日新進場(5日內出場，停損10%/停利20%)",
+     "reasons": [
+      "符合量化選股條件今日新進場",
+      "市場對其未來三年EPS展望不差"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "今天進場就只有這一檔，齊鴻⋯⋯市場公司針對他未來3年的EPS並不會太差",
+     "ticker_unverified": "3535",
+     "tw_market": null
+    },
+    {
+     "stock_name": "長興材料",
+     "ticker": "1717",
+     "market": "TW",
+     "stance": "看多",
+     "action": "低檔轉強黃金交叉進場",
+     "reasons": [
+      "5日與10日均線黃金交叉，KD值40以下，研發費用夠水準",
+      "基期低，有補漲機會"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "目前載倉是兩檔，一個是長新⋯⋯前幾天這個是黃金交叉",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "萬海",
+     "ticker": "2615",
+     "market": "TW",
+     "stance": "看多",
+     "action": "低檔轉強黃金交叉進場",
+     "reasons": [
+      "5月5日符合5日10日均線KD黃金交叉",
+      "近期獲利表現不錯，研發費用達標，基期低"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "萬海最近是賺錢，這兩三天雖然他很溫和，但是你這樣可以撈到基期很低的股票",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "宏達電",
+     "ticker": "2498",
+     "market": "TW",
+     "stance": "看多",
+     "action": "黃金交叉今日新進場",
+     "reasons": [
+      "符合5日10日均線KD黃金交叉，均線呈多方排列",
+      "具AI眼鏡、XR題材"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "今天呢可以進場是2498的宏達店，他也有一些題材啦，包括AI眼鏡跟XR這個題材",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "陳威良",
+   "picks": [
+    {
+     "stock_name": "環球晶",
+     "ticker": "6488",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢震盪回測700元整數關卡或5日均線布局",
+     "reasons": [
+      "矽晶圓景氣落後晶圓代工1-2季，補漲行情確立",
+      "公司自行宣布明顯漲價",
+      "長約覆蓋率逾八成，營運穩定，外資投信高度共識買超",
+      "為矽晶圓產業龍頭，法人優先佈局指標股"
+     ],
+     "target_price": "長線有機會挑戰四位數(千元以上)",
+     "confidence": "high",
+     "quote": "環球金確實長線應該有機會挑戰四位數",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "台勝科",
+     "ticker": "3532",
+     "market": "TW",
+     "stance": "看多",
+     "action": "看好先進製程布局可留意",
+     "reasons": [
+      "12吋晶圓比重最高，超過七成，對應先進製程需求"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果你是在壓寶所謂的先進製程這個角度的話，台勝科相對就會比較吃香了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "合晶",
+     "ticker": "6182",
+     "market": "TW",
+     "stance": "看多",
+     "action": "股價過前高拉回時介入",
+     "reasons": [
+      "8吋晶圓佔比約七成，受惠成熟製程漲價",
+      "長約比重僅約三成，現貨漲價效益反應快",
+      "目前剛過前高拉回，頸線位置亦為最大量低點附近，屬安全介入點"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "現在剛過前高之後有壓回撤的時候⋯⋯我覺得這個地方相對會是近期介入比較安全的點位",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "中性",
+     "action": "區間操作/來回操作，勿追高",
+     "reasons": [
+      "記憶體股基期已墊高，市場預期轉重口味",
+      "部分投資人仍有套牢籌碼待消化"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "我會建議說記憶體的個股你可能要區間操作或來回操作這個策略",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "中性",
+     "action": "區間操作/來回操作，勿追高",
+     "reasons": [
+      "近期股價有表現但前面套牢籌碼仍需消化",
+      "建議斟酌操作節奏而非續抱"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "利基電、華邦電甚至南亞科都有動，不過他們前面也都有些套牢籌碼",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "力積電",
+     "ticker": "6770",
+     "market": "TW",
+     "stance": "中性",
+     "action": "區間操作/來回操作，勿追高",
+     "reasons": [
+      "記憶體相關個股基期已墊高",
+      "前面仍有套牢籌碼需消化"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "利基電、華邦電甚至南亞科都有動",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "00988B",
+     "ticker": "00988B",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "5月15日除息基準日前買進參與配息",
+     "reasons": [
+      "月配息、非投資等級短債ETF，票面利率明訂需逾7.5%，部分持債達9-11%",
+      "持債以美國大型企業為主(占78.6%)，流動性佳、風險相對可控",
+      "年化配息率約9.2%，兼顧收益與防禦性配置",
+      "景氣熱絡下違約率低，適合作為資金池或防護盾"
+     ],
+     "target_price": "5月15日前買進可參與除息，每股配息0.153元",
+     "confidence": "high",
+     "quote": "00988b因為它是月配息⋯⋯每股要除0.153元，那算起來年化配息是在9.2%",
+     "tw_market": null
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "tLbOci0iShU",
+  "title": "【理財達人秀】台積電新高 台股沒天花板？聯發科被關 小資新黑馬上車？被動漲停潮 散熱遭錯殺？環球晶漲停 矽晶圓補漲？｜李兆華、容逸燊、張林忠、陳威良2026.05.07【電視完整版】",
+  "date": "2026-05-07",
+  "duration": 2931,
+  "url": "https://www.youtube.com/watch?v=tLbOci0iShU"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

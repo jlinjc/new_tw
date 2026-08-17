@@ -1,0 +1,336 @@
+{
+ "episode_summary": "韓國政府將去槓桿新制提前至7月底上路，加上美伊戰事推升油價突破每桶100美元，台股週五重挫近千二百點，塑化、矽晶圓、載板、CPO等族群跟著重摔。三位老師分別從技術面（月季線走緩、拉回兩週反彈一週）、資金面（韓股測試大量高、AI資本支出實為利多）與基本面（AMD 2奈米晶片帶動散熱電源供應鏈訂單能見度）解讀後市，普遍認為這波修正屬情緒性錯殺，塑化、軍工、矽晶圓載板、CPO、散熱電源等具基本面支撐的個股拉回反而是找買點的時機。",
+ "market_view": "大盤本週量縮價漲，籌碼仍在整理消化前波套牢量，短線月季線即將交叉向下、韓股去槓桿測試大量高，下週上半週宜保守操作，但三位老師皆認為短期低點已在前一週出現、油價與韓國利空多屬情緒性殺盤，AI資本支出趨勢未變，逢回應是找買點而非追空。",
+ "teachers": [
+  {
+   "name": "鍾國忠",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回布局、不需過度擔心",
+     "reasons": [
+      "ADR回補顯示利空是市場自己想多了",
+      "買盤是大戶大量進場而非一般散戶",
+      "股價修正是消化前波套牢籌碼的正常現象"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台積電那天的利空都是你們自己想多了，所以我覺得不用太擔心",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南亞",
+     "ticker": "1303",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望，留意塑膠與電子雙引擎走勢",
+     "reasons": [
+      "塑化與電子（南亞電路板）兩道力量今日同步走弱",
+      "本週塑膠股本來就弱、電子股又弱，雙重壓力"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "今天南亞比較辛苦，是因為過去我講的塑化股是塑膠皮電子股，所以它有兩道力量",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "樺漢",
+     "ticker": "6414",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "留意評價偏高後的拉回風險",
+     "reasons": [
+      "股價創歷史新高，本益比隨股價墊高轉高",
+      "前波量能偏低，籌碼追高風險上升"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "這兩檔都到歷史新高，反而要留意一下，可能會拉回走",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "研華",
+     "ticker": "2395",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "留意評價偏高後的拉回風險",
+     "reasons": [
+      "工業電腦龍頭股價接近歷史新高",
+      "評價已不便宜，短線宜留意拉回"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "研華工業電腦的龍頭這幾天也是在歷史的新高附近",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "長榮航太",
+     "ticker": "2645",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低承接，接近大戶成本區可留意",
+     "reasons": [
+      "EPS年增率將近73%，成長強勁",
+      "產能接近滿載，法人估今年營收挑戰200億元創新高",
+      "股息殖利率估有機會從4%升至5%",
+      "股價拉回至季線與大戶成本附近，進可攻退可守"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "殖利率搞不好有從4%升到5%，所以是進可攻、退可守，獲利很好的公司",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "雷虎",
+     "ticker": "8033",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回布局",
+     "reasons": [
+      "6月營收MoM、YoY表現強勁",
+      "取得美國無人機優勢計畫第二期訂單1520架",
+      "存貨與應收帳款明顯改善，營運體質轉佳",
+      "EPS轉為連續成長趨勢"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "我個人覺得他是有機會開始出現一個連續獲利成長，這塊可以去做期待",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "黃豐凱",
+   "picks": [
+    {
+     "stock_name": "環球晶",
+     "ticker": "6488",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低買進",
+     "reasons": [
+      "意大利廠火災實為缺貨利多卻被錯殺",
+      "長線結構趨勢向上，量能持續遞減到位",
+      "目前買盤大於賣盤"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "回到這裡其實是一個好的買點，而且基本上是買大於賣，不要一跌就告訴自己說好像不對",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "合晶",
+     "ticker": "6182",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "待止穩訊號出現再介入",
+     "reasons": [
+      "因處置（過度追價）率先重挫拖累矽晶圓族群",
+      "一旦止穩可望帶動族群回升"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "合晶什麼時候可以止穩，如果它一旦止穩，我覺得它就會開始回升",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "南電",
+     "ticker": "8046",
+     "market": "TW",
+     "stance": "看空",
+     "action": "不追高、避開",
+     "reasons": [
+      "未跟進擴廠，在AI趨勢中相對較不受惠",
+      "載板需求朝大尺寸、堆疊發展，南電competitiveness相對弱"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "我之前有講過，我說最不能追的就是什麼？就是南電，因為它沒有擴廠",
+     "tw_market": "TWSE",
+     "spoken_name": "南亞電路板"
+    },
+    {
+     "stock_name": "欣興",
+     "ticker": "3037",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回布局，穩健首選",
+     "reasons": [
+      "有擴廠受惠AI載板需求成長",
+      "籌資計畫已完成，大量低不易再破",
+      "近期土洋（外資、投信）同步買超"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果說就穩紮穩打來講，應該欣興是首選",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "景碩",
+     "ticker": "3189",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回布局，波段彈性較大",
+     "reasons": [
+      "有擴廠受惠AI載板需求成長",
+      "股性較活潑、反彈彈性較大"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "如果說就彈性而言，我覺得當然還是景碩比較大",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "臻鼎-KY",
+     "ticker": "4958",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意",
+     "reasons": [
+      "屬於有擴廠、受惠AI載板需求的族群之一"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "景碩然後還有真底，這幾家是有擴廠的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯亞光電",
+     "ticker": "3081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "買點浮現，留意能否成為族群反攻領頭羊",
+     "reasons": [
+      "投信大幅買超約3500張",
+      "發行CB加碼設備投資、擴充產能",
+      "市場視為CPO族群指標一哥",
+      "股價拉回至周線大量高附近具支撐，屬右下角低接位置"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "聯亞如果可以開始往上走，基本上它可以把整個族群帶著往上走",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "環宇",
+     "ticker": "4991",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "觀察",
+     "reasons": [
+      "特定人（大股東）與投信近期持續賣超",
+      "原本受累於認列中國虧損事業，處分後已回歸常態獲利",
+      "賣壓風暴接近尾聲"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "但是至少它的這個風暴已經結束了，所以我覺得這邊是可以用這個角度來觀察",
+     "tw_market": "TPEX"
+    }
+   ]
+  },
+  {
+   "name": "黎志建",
+   "picks": [
+    {
+     "stock_name": "奇鋐",
+     "ticker": "3017",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局，待法說會驗證展望",
+     "reasons": [
+      "高功率AI機櫃帶動散熱需求高漲",
+      "產能持續擴張中",
+      "ASIC題材接棒GPU，訂單能見度看到2028至2029年",
+      "良率提升至90%以上，毛利率可望挑戰38%以上",
+      "評價隨獲利成長下修，2027、2028年本益比降至17倍、15倍更具吸引力"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "高功率的AI機櫃帶動下散熱需求很高，這個旋律、這個節奏會走的比較久一點點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "建碩",
+     "ticker": "3579",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察",
+     "reasons": [
+      "先前受散熱鍍金外包疑慮拖累重挫",
+      "近期相對族群轉強"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "建碩跟奇鋐就一直跌了，但近期反而他們是比較強的一個族群",
+     "tw_market": null
+    },
+    {
+     "stock_name": "台達電",
+     "ticker": "2308",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉長時間持有，逢低布局並留意法說會HVDC進度",
+     "reasons": [
+      "800伏、400伏HVDC電源架構屬AI機櫃標配而非選配",
+      "BBU滲透率將從今年60%提升至2027年85%",
+      "PSU市佔約七成，成本上升可轉嫁客戶帶動ASP與營收成長",
+      "評價隨獲利成長下修，2027年後本益比降至30倍以下更具吸引力"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "這個東西是標配、非選配，因為未來機櫃整個用電非常大",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "順達",
+     "ticker": "3211",
+     "market": "TW",
+     "stance": "看多",
+     "action": "待下週法說會釐清Q2獲利不如預期原因，逢低留意",
+     "reasons": [
+      "Q2 EPS僅1.35元，低於第一季的2元",
+      "拿下Panasonic BBU認證，取得約50%份額",
+      "Q3出貨8kW、Q4放量12kW高壓BBU",
+      "另有桃園、高雄合計逾百億土地資產"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果說本業的BBU是爆發的……我覺得就可以留意一下下",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "新普",
+     "ticker": "6121",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局",
+     "reasons": [
+      "上半年營收年增70%，成長動能明顯",
+      "BBU營收占比預估較順達更高，達60-70%",
+      "主力出貨規格上看25kW高壓BBU",
+      "毛利率預估可突破27%"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "新普股價今天也是表現比較弱一點，但我們把時間拉長一點點給他們一點點時間",
+     "tw_market": "TPEX"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "ef_V8R3Ld8Q",
+  "title": "【理財達人秀】韓加速去槓桿.AI資本支出 變利空藉口？矽晶圓.載板機會到 買低檔CPO？AMD點火 散熱.電源翻身？塑化.軍工低有撐？｜李兆華、鍾國忠、黃豐凱、黎志建2026.07.24【電視完整版】",
+  "date": "2026-07-24",
+  "duration": 2926,
+  "url": "https://www.youtube.com/watch?v=ef_V8R3Ld8Q"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

@@ -1,0 +1,488 @@
+{
+ "episode_summary": "台股盤中大漲逾400點創新高，台積電雖因Intel傳搶蘋果1.8奈米訂單而連跌兩天，但聯發科、台達電、鴻海等權值股撐盤，資金行情持續。三位老師分別以籌碼面挑出廠務工程與被動元件股（李永年）、電力／MOSFET／MCU等AI伺服器供應鏈落後補漲股（楊雲翔）、記憶體與主動式高股息ETF新策略（林漢偉）供投資人參考。",
+ "market_view": "加權指數創高但已23天未拉回測試日線、周RSI二度背離，技術面有拉回疑慮；惟目前屬AI帶動的資金行情，外資4月匯入資金僅約一半進入股市，籌碼面尚未過熱，資金行情研判尚未結束，不建議做空。",
+ "teachers": [
+  {
+   "name": "李永年",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低找買點",
+     "reasons": [
+      "Intel搶單為假性利空，客戶本就需要第二供應商分散風險，非台積電獨家地位喪失",
+      "韓媒報導台積電產能已滿到2028年",
+      "台積電雖跌但有聯發科、台達電、鴻海撐盤，大盤仍收紅顯示信心穩定",
+      "只怕它不跌，回檔即是買點"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "所以我是覺得說只怕它不跌啦，只怕它跌、只怕它不跌，大家可以注意看一下。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "中砂",
+     "ticker": "1560",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點，關注明日收盤能否站上400元確認換手量",
+     "reasons": [
+      "今年以來漲幅僅44%，漲幅不算大",
+      "外資買超1.6萬張，投信雖賣超但融資同步減少，籌碼相對穩定",
+      "在手訂單由991億增加到1081億，續創歷史新高",
+      "4月營收年增18.8%創單月新高，近5個月有4個月創歷史高",
+      "近期爆量後連兩日收紅量縮，研判為洗盤／換手量"
+     ],
+     "target_price": "400元（觀察能否站上）",
+     "confidence": "high",
+     "quote": "今年到上禮拜五為止它的漲幅是多少?44%，有沒有很少?",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "帆宣",
+     "ticker": "6196",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回布局",
+     "reasons": [
+      "今年漲幅僅49%，漲幅不算大，融資持續減少籌碼穩定",
+      "從上周三開始向上突破，成交量並未失控",
+      "在手訂單較先前又增加約100億元，續創歷史新高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "以帆宣來講的話……在手訂單現在已經達到1081億。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "辛耘",
+     "ticker": "3583",
+     "market": "TW",
+     "stance": "看多",
+     "action": "突破整理區後可留意",
+     "reasons": [
+      "今年漲幅136%，外資與投信同步買超",
+      "融資雖增加但增幅小可忽略不計",
+      "今日突破移動均線並拉至漲停，底部大量而近期無爆量，籌碼穩定"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "新雲呢……今天是突破了移動均線然後拉到漲停板……籌碼非常的穩定。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "陽積",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看空",
+     "action": "暫不介入，優先選籌碼集中股",
+     "reasons": [
+      "今年漲幅僅17%，相對同族群偏弱",
+      "外資與投信同步賣超，融資雖減少但不及外資投信賣超力道",
+      "走勢相對弱勢，籌碼較不理想（此股名為語音辨識推測，正式名稱不確定）"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "我們就找籌碼集中的，我們找好的。",
+     "tw_market": null
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回可留意，趨勢向上",
+     "reasons": [
+      "每次突破重要均線後通常盤整兩個月，這次突破年線但研判將直接向上不再久盤",
+      "4月以來外資買超12.3萬張",
+      "上周五爆大量收紅後連續量縮收紅，研判為洗盤／換手量"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "四月份以來外資買超12.3萬張，所以這檔股票我覺得他沒有意外的話應該還有更高點可以值得期待。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華新科",
+     "ticker": "2492",
+     "market": "TW",
+     "stance": "看多",
+     "action": "突破整理區後可介入",
+     "reasons": [
+      "今日補漲至漲停，跟隨國巨表態",
+      "外資買超17萬張、投信買超4.8萬張，融資減少1.39萬張，籌碼安定",
+      "周線盤整許久後今日以周線角度突破整理區",
+      "技術指標仍在低檔，上檔空間仍大",
+      "市場期待其AI營收占比快速提升"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "華新科你看一下他盤了這麼久，今天終於突破盤整區了，以周線來看是突破的態勢。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "利隆電",
+     "ticker": null,
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望",
+     "reasons": [
+      "今年漲幅較大達111%~211%",
+      "外資買超但投信賣超，籌碼不如國巨、華新科理想",
+      "融資餘額增加，籌碼安定度較差"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "那利隆電呢……外資買超、投信賣超，然後融資餘額是增加的，所以它現在的籌碼就沒有像國巨跟華新科這麼好。",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "楊雲翔",
+   "picks": [
+    {
+     "stock_name": "光寶科",
+     "ticker": "2301",
+     "market": "TW",
+     "stance": "看多",
+     "action": "創高後仍可留意，拉回或量增可介入",
+     "reasons": [
+      "電力／BBU族群齊漲，今日已是連三根漲停",
+      "本益比已由約40倍降至約26倍，估值消化",
+      "切入AI算力機櫃需求，型態走出晚期打底",
+      "自4月9日提示以來累積漲幅已達44.5%",
+      "創高後籌碼反而安定，突破前高有機會延續多頭"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "4月9號講到現在……44.5%。光寶科真的不忍了，已經漲停板三次了。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台達電",
+     "ticker": "2308",
+     "market": "TW",
+     "stance": "看多",
+     "action": "持續關注，長線續抱",
+     "reasons": [
+      "市場看好其未來兩年AI相關獲利成長，推升本益比持續墊高至63倍（2025/2026）",
+      "股價已創高翻倍，屬族群指標大哥"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "台達電本益比還在持續創高，因為大家還是看兩年後還是夠強，本益比2025、2026本益比63倍。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "全漢",
+     "ticker": "3015",
+     "market": "TW",
+     "stance": "看多",
+     "action": "型態突破打底區可介入",
+     "reasons": [
+      "本益比僅落在約15倍，今年EPS估約6.1元，估值偏低",
+      "切入AI算力國家隊模組化貨櫃（800V高壓直流電源）",
+      "在手訂單已超過兩個股本，Q3起可望認列營收",
+      "已與美系CSP業者合作",
+      "線型走出晚期底部，右側突破可望海闊天空"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "這裡面我覺得全漢目前來講它的本益比落點大概落在15倍，今年的估值大概6塊1左右……而且它的在手訂單大概超過兩個股本。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "博勝",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "若強勢漲停表態可介入",
+     "reasons": [
+      "今年EPS估8.84元，本益比僅約17倍，在MOSFET族群中偏低",
+      "切入AI伺服器機櫃電源交換保護元件，可望打入CSP供應鏈（如供給台達電）",
+      "近期爆量突破前高，非急漲的軌道性強勢"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "他目前來講今年顧到8塊84，本益比才17倍，等於是在MOSFI裡面很低的。",
+     "tw_market": null
+    },
+    {
+     "stock_name": "強茂",
+     "ticker": "2481",
+     "market": "TW",
+     "stance": "看多",
+     "action": "持續關注",
+     "reasons": [
+      "MOSFET／功率元件漲價題材，今日族群多檔漲停",
+      "持續創高但非急漲，屬軌道性強勢走勢"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "連強茂目前來講都已經持續在一個創高的，其實不算急漲，它也是一個軌道性的強勢的漲場。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台半",
+     "ticker": "5425",
+     "market": "TW",
+     "stance": "看多",
+     "action": "突破後可留意",
+     "reasons": [
+      "原處於下降區間，今日突破區間上緣",
+      "本身具業績支撐",
+      "功率元件／半導體族群齊漲帶動被動表態",
+      "今年漲幅約37%"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果它本來是一個下降區間裡面，突然間它打過這個下降區間的一個上緣……所以今天它已經越過這個高點了，也是已經漲到大概37%。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "新唐",
+     "ticker": "4919",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回月線附近找買點",
+     "reasons": [
+      "MCU缺貨漲價潮再起",
+      "受惠AI伺服器BMC相關需求，帶動較大漲勢",
+      "持續創高，拉回月線有機會再攻"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "新唐它持續從這裡創高，我想說創高可能拉回以後，月線附近它可能有機會再攻。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "偉詮電",
+     "ticker": "2436",
+     "market": "TW",
+     "stance": "看多",
+     "action": "上升軌道拉回可留意，貼近軌道上緣大量拉回可調節",
+     "reasons": [
+      "首季EPS年增約400%",
+      "業務由快充轉型至AI伺服器散熱、電源傳感相關",
+      "本益比僅約25倍，估值偏低",
+      "毛利率有機會上看30%",
+      "股價位於上升軌道起點，仍有表現空間"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "他的優勢在於第一季，基本上他們還沒有認起來，已經大概有400%……本益比大概在25倍，其實本益比都還蠻低的。",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "林漢偉",
+   "picks": [
+    {
+     "stock_name": "群聯",
+     "ticker": "8299",
+     "market": "TW",
+     "stance": "看多",
+     "action": "創高後不追高，拉回可留意",
+     "reasons": [
+      "本季存貨股本比達33倍，積極補庫存",
+      "首季交出68.8元EPS，表現亮眼",
+      "董事長潘建成認為記憶體已由景氣循環轉為結構性缺口，缺口將延續到2028年",
+      "與NAND Flash相關，漲價趨勢較DRAM更持久，屬創高模範生"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "群聯在這一季的存貨到多少?33倍。所以第一季交出68.8的EPS。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "宜鼎",
+     "ticker": "5289",
+     "market": "TW",
+     "stance": "看多",
+     "action": "創高後不追高，拉回可留意",
+     "reasons": [
+      "存貨股本比由5倍多提升至8倍，持續補庫存",
+      "上一次交出57.49元EPS表現亮眼",
+      "屬創歷史新高模範生，與NAND Flash相關漲價趨勢較久"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "儀頂在上一次是5倍多的存貨股本比，就交出來57.49的EPS……怡頂到8倍。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "十銓",
+     "ticker": "4967",
+     "market": "TW",
+     "stance": "看多",
+     "action": "可觀察補庫存後續財報表現",
+     "reasons": [
+      "本季存貨股本比達13倍，積極補庫存",
+      "記憶體結構性缺貨有利模組廠獲利"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "石泉到13倍，維鋼到10倍，怡頂到8倍。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "威剛",
+     "ticker": "3260",
+     "market": "TW",
+     "stance": "看多",
+     "action": "可觀察補庫存後續財報表現",
+     "reasons": [
+      "本季存貨股本比達10倍，積極補庫存",
+      "記憶體結構性缺貨有利模組廠獲利"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "維鋼到10倍，怡頂到8倍。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "沿均線操作，跌破月季線則先出場",
+     "reasons": [
+      "股價落後美光、三星漲勢，具補漲空間",
+      "市場對5月21日三星是否罷工有題材期待",
+      "均線呈多方排列，季線可望轉為上彎，有機會挑戰前波歷史高點",
+      "若比照美光以10倍本益比、明年EPS估50元推算，可望挑戰400元"
+     ],
+     "target_price": "400元（10倍本益比、明年EPS估50元推算，僅供參考）",
+     "confidence": "high",
+     "quote": "如果美光可以用10倍本益比來計算，那南亞科明年上看50塊，以10倍來算就400塊。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "看多",
+     "action": "沿均線操作，跌破月季線則先出場",
+     "reasons": [
+      "股價落後美光、三星漲勢，具補漲空間",
+      "市場對5月21日三星是否罷工有題材期待",
+      "均線呈多方排列，季線可望轉為上彎，有機會挑戰前波歷史高點",
+      "若以10倍本益比、明年EPS估30元推算，可望挑戰300元"
+     ],
+     "target_price": "300元（10倍本益比、明年EPS估30元推算，僅供參考）",
+     "confidence": "high",
+     "quote": "華邦電明年可以上看30塊，以10倍來算就300塊。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "旺宏",
+     "ticker": "2337",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "等投信買盤回補、股價重回多方軌道再介入",
+     "reasons": [
+      "先前位階與群聯、宜鼎相近但漲勢提前過高，過高後投信轉為賣超籌碼較凌亂",
+      "南亞科、華邦電近期整理後仍創高，顯示族群仍有輪動機會",
+      "需等待投信買盤回流確認"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "只要你等待投信開始買回來，股價重新回到多方軌道，我覺得應該都有比較的效應。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "野村台灣智慧優選",
+     "ticker": "00999A",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "積極型投資人可增加配置",
+     "reasons": [
+      "5月5日甫掛牌，短短數日績效即達6.5%，超越所有主動式ETF",
+      "採四季度輪動策略：預估股利黑馬、宣告股利套利、輪動領息、成長模型充實績效",
+      "可提前卡位股利優於預期標的並靈活換股，避免除息後貼息套牢",
+      "前十大成分股含台積電、鴻海、華碩、宏達電等，兼顧成長股",
+      "與00980A為同一經理人操盤"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "這檔0099A特別在哪……5月5號掛牌績效6.5%，才幾天而已，而且從掛牌以來績效還超越所有的主動式ETF。",
+     "tw_market": null
+    },
+    {
+     "stock_name": "野村台灣新科技50",
+     "ticker": "00935",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "可作核心持股續抱",
+     "reasons": [
+      "台灣首檔主動型ETF，掛牌至今已上漲130%，績效超越大盤"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "00980A，他是台灣首檔的主動型ETF，掛牌至今也賺了130%，超越了大盤。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "統一台灣高息動能",
+     "ticker": "00939",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "可作0050替代或加碼",
+     "reasons": [
+      "掛牌以來報酬達98%，超越台灣50指數表現"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "00985A就是0050的加強版，你看這段時間他賺了98%的報酬，也超越了台灣50的指數。",
+     "name_note": "0050強化版",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "元大高股息",
+     "ticker": "0056",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "搭配月月配息組合，1、2月可領息",
+     "reasons": [
+      "與00878搭配可作為月月配基本盤",
+      "5月以來高股息成分股（如聯發科、聯電、光寶科、世界先進、環球晶）漲幅已超越大盤"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "我們最基本的0056配00878配息，1月2月都可以領息。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國泰永續高股息",
+     "ticker": "00878",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "搭配月月配息組合，1、2月可領息",
+     "reasons": [
+      "與0056搭配可作為月月配基本盤",
+      "高股息成分股布局提前受惠AI相關漲勢"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "我們最基本的0056配00878配息，1月2月都可以領息。",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "1NlFUWDwEzY",
+  "title": "【理財達人秀】台積被英特爾搶單？不跌怎撿？融資減法人掃貨 籌碼穩定名單？光寶科不忍了 電力整包漲？記憶體越漲越便宜？｜李兆華、李永年、楊雲翔、林漢偉2026.05.11【電視完整版】",
+  "date": "2026-05-11",
+  "duration": 2928,
+  "url": "https://www.youtube.com/watch?v=1NlFUWDwEzY"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

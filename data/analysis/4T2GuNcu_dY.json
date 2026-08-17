@@ -1,0 +1,377 @@
+{
+ "episode_summary": "本集聚焦加權指數在季線附近的關鍵拉鋸戰，成交量創今年新低；李永年篩選出多檔營收成長強勁卻遭錯殺、甚至面臨融資斷頭壓力的「委屈股」如台達電、金居、創意電子等；楊雲翔分析被動元件股國巨的止跌與型態轉折，並點名AI伺服器、半導體設備類股作為資金避風港；股魚聚焦輝達佈局暗光纖題材，點名波若威、光聖等CPO受惠股，並建議保守投資人可利用ETF逢低加碼因應。",
+ "market_view": "本週為台股關鍵十字路口，加權指數在季線附近拉鋸且成交量創今年新低，若本週週線收黑恐展開末跌段、下探半年線約38500~40500點，若收紅則有機會挑戰46000~48000點；美股本週FED利率決議及七大科技巨頭財報將是牽動全球股市走勢的關鍵變數。",
+ "teachers": [
+  {
+   "name": "李永年",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低找買點/持有",
+     "reasons": [
+      "EPS成長透明度高，即使拉回接近半年線2100元附近也是逢低布局機會",
+      "以明年外資預估EPS約143元、22倍本益比計算，目標價約3145元",
+      "需留意季線保衛戰，若跌破前波低點2290元三日不站回恐拉回測試半年線"
+     ],
+     "target_price": "目標價約3145元（支撐區2100~2290元）",
+     "confidence": "high",
+     "quote": "所以呢我對他還是有期待",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台達電",
+     "ticker": "2308",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低承接",
+     "reasons": [
+      "因客戶端零組件成本壓力及交貨延遲遭市場錯殺，跌幅達35.6%",
+      "股價已跌至半年線，技術指標可能出現多頭背離",
+      "外資預估明年EPS約61元，以45倍本益比計算目標價約2745元"
+     ],
+     "target_price": "2745元",
+     "confidence": "high",
+     "quote": "如果有低點的話應該還是可以考慮這個逢低承接",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "金居",
+     "ticker": "8358",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀望/逢低留意（注意融資斷頭風險）",
+     "reasons": [
+      "跌幅逾54%，但6月及上半年營收年增率均達43%，基本面未惡化",
+      "已打入輝達Rubin及亞馬遜相關平台供應鏈",
+      "明年EPS預估22.8元，本益比僅約15倍，評價偏低",
+      "融資維持率已跌至120%，接近斷頭邊緣，籌碼風險需留意"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "以現在的價錢來講它本益比才15倍所以也是委屈了",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "創意電子",
+     "ticker": "3443",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低承接",
+     "reasons": [
+      "台積電子公司，切入ASIC浪潮，客戶包含Google、Tesla及地平線",
+      "6月營收年增率103%，股價超跌後打到半年線",
+      "外資預估明年EPS約107元，以45倍本益比計算目標價約4815元，距現價尚有約兩成上漲空間"
+     ],
+     "target_price": "4815元",
+     "confidence": "high",
+     "quote": "所以這支股票呢我覺得說逢低去承接的話這個風險應該不算大",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "光洋科",
+     "ticker": "1785",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀望/逢低留意",
+     "reasons": [
+      "跌幅46.5%，但6月營收年增率高達70%",
+      "屬台積電概念股，基本面未見惡化",
+      "融資維持率124%，先前已被追繳一次，籌碼風險需留意"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "光陽科這是台積電概念果也是一樣你看他跌幅46.5%",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "穩懋",
+     "ticker": "3105",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀望/逢低留意",
+     "reasons": [
+      "遭內外資調降目標價，盤中一度打跌停後又快速拉高，單日震盪逾15%",
+      "跌幅52.2%，6月營收年增率雖未達30%但接近，上半年年增率已達標",
+      "融資維持率承壓，接近斷頭邊緣"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "他直接打跌停然後直接拉上去今天的震盪幅度大概有超過15%",
+     "tw_market": "TPEX"
+    }
+   ]
+  },
+  {
+   "name": "楊雲翔",
+   "picks": [
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "中性",
+     "action": "區間操作（600~750元），跌破600元需停損",
+     "reasons": [
+      "前波跌破千元後型態轉差，如今已來到5字頭（590元）",
+      "認為600~750元為整理區間，可區間操作",
+      "若跌破600元恐測試起漲點約400元，風險加大"
+     ],
+     "target_price": "區間600~750元，跌破600元停損",
+     "confidence": "high",
+     "quote": "我覺得他可能會在這個區間大概600到750左右，這個區間來講，我覺得他是一個整理的區間",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "禾伸堂",
+     "ticker": "3026",
+     "market": "TW",
+     "stance": "看空",
+     "action": "避開",
+     "reasons": [
+      "剛跌破季線，技術面轉弱",
+      "融資使用率偏高，起漲點與現價落差大、風險高"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "核生糖我覺得是比較我自己會小心一點因為它是剛灌破...所以這樣來講說稍微避開一點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台育科",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "股價拉回至起漲點約200元附近有支撐，今日逆勢收漲2.4%",
+      "本益比偏低（今年估19倍、明年估14倍）",
+      "融資使用率持續下降，外資買盤增加，籌碼安定"
+     ],
+     "target_price": "季線壓力約258~260元",
+     "confidence": "medium",
+     "quote": "我認為說至少它的一個高點的一個位置點大概你可以抓說季線大概落點都在大概258接近260左右",
+     "name_note": "名稱不確定，語音辨識疑為被動元件相關股",
+     "tw_market": null
+    },
+    {
+     "stock_name": "信昌電",
+     "ticker": "6173",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望",
+     "reasons": [
+      "尾盤遭大戶重金拉抬，單日一度暴漲14%~40%，疑為主力自救而非基本面轉強",
+      "底部買盤墊高持股成本，有利後續籌碼調節"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "信倉電最後一盤有可能是比如說主力在裡面套牢的情況下如果他為了自己要救股票最好的方式當然在最後一盤去拉動這個股票",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "緯創",
+     "ticker": "3231",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低承接/持有",
+     "reasons": [
+      "AI伺服器族群強力支撐，本益比僅約12倍",
+      "持續於美國擴增雲端機房產能（新承租約6000坪場地）",
+      "技術面站穩月季線，長黑實體遭放量突破後轉為支撐"
+     ],
+     "target_price": "留意前波高點約200元",
+     "confidence": "high",
+     "quote": "偽創是一個大盤最近強力支撐,本益比只有到12倍",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "神達",
+     "ticker": "3706",
+     "market": "TW",
+     "stance": "看多",
+     "action": "買進/持有",
+     "reasons": [
+      "今年預估EPS達8元以上，本益比約11倍，低於同業緯創",
+      "6月營收創新高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "我倒覺得說現在我會看神達因為神達基本上它今年預估8塊多來講6月基本上它的營收是創高的所以整體來講它的本益比大概11倍",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華通",
+     "ticker": "2313",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望",
+     "reasons": [
+      "跌破現金增資價205元，但預期公司派會維護股價不致太難看",
+      "明年EPS上看10元以上（今年約7元多），可留意"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "我倒覺得跌破公司派是不能太難看了我覺得大概應該會稍微有一點支撐",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "精技",
+     "ticker": "2414",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "本益比僅約10倍，評價偏低",
+      "併購日本公司切入AI伺服器領域",
+      "為SpaceX供應商"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "因為最近來講併了一家日本的公司所以他也切入AI伺服器這一塊同時他本來也就是SpaceX的一個供應商",
+     "tw_market": "TWSE",
+     "spoken_name": "精技電腦"
+    },
+    {
+     "stock_name": "漢唐",
+     "ticker": "2404",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "半導體廠務設備概念股，屬高價股，近期剛拉回"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "設備股來講就是漢唐、亞翔基本上當然是高價剛回碟",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "亞翔",
+     "ticker": "6139",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低承接",
+     "reasons": [
+      "在手訂單由2000億大增至4000億，業績展望佳",
+      "剛跌破季線但長期支撐約落在700元附近，有機會打出底部"
+     ],
+     "target_price": "支撐約700元，反彈看6~7字頭",
+     "confidence": "high",
+     "quote": "他可能有機會接近大概7到6字頭這樣子啦...他前一波的支撐大概也落在大概接近700左右",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "信用客",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "區間操作/逢低留意",
+     "reasons": [
+      "強力支撐約230元，高點約300元，區間操作空間大",
+      "本益比偏低"
+     ],
+     "target_price": "支撐約230元，高點約300元",
+     "confidence": "low",
+     "quote": "信用客來講就是說他本來他的強力支撐就在這一條所謂的大概230左右...高點來講落點大概在300",
+     "name_note": "名稱不確定，語音辨識疑為半導體設備相關股",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "股魚",
+   "picks": [
+    {
+     "stock_name": "波若威",
+     "ticker": "3163",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低關注/加碼",
+     "reasons": [
+      "台灣少數具備DWDM分波多工技術的公司，卡位暗光纖左右端商機",
+      "已通過輝達認證的合格供應商",
+      "股價自1315元腰斬至587元，跌深後只要一點買盤即有反彈機會",
+      "稅後淨利逐年成長（部分來自轉投資認列）"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "波羅威是台股當中少數已經通過輝達認證許可的一個供應商",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "光聖",
+     "ticker": "6442",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低承接/關注",
+     "reasons": [
+      "CPO題材第一波領頭羊，具高密度光纖配線及連接器技術，可與波若威技術互補",
+      "6月營收因缺料不如預期，但缺料問題解決後營收可望回升",
+      "毛利率呈現持續上升趨勢，明年獲利展望佳",
+      "股價自2640元腰斬至1170元，跌深"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "光盛這間公司的話他有一個叫做高密度光纖的配線加跟連接器而這個部分的話它是可以跟暗光纖跟菠蘿威的技術互相來做一個搭配的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "高股息ETF",
+     "ticker": null,
+     "market": "ETF",
+     "stance": "看多",
+     "action": "逢低加碼（優先選擇）",
+     "reasons": [
+      "回檔超過10%可視為加碼時機",
+      "可挑選內含價值股與高現金流企業的標的，波動相對較低，適合作為當前避風港"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "你可以考慮呢把加碼的資金的話呢放在高息型的一個產品幫我們自己找價值股",
+     "tw_market": null
+    },
+    {
+     "stock_name": "市值型ETF",
+     "ticker": null,
+     "market": "ETF",
+     "stance": "看多",
+     "action": "逢低加碼",
+     "reasons": [
+      "回檔超過10%即可考慮進場加碼"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "你像市值型的這個部分的話它回檔超過10%你就可以做一個投資加碼的一個動作",
+     "tw_market": null
+    },
+    {
+     "stock_name": "主動式ETF",
+     "ticker": null,
+     "market": "ETF",
+     "stance": "中性",
+     "action": "逢低加碼（須留意波動較大）",
+     "reasons": [
+      "回檔超過10%可視為加碼參考，但波動相對較大需留意風險"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "現在剛回檔10%除了主動是可能它的波動比較大",
+     "tw_market": null
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "4T2GuNcu_dY",
+  "title": "【理財達人秀】超級財報救台股？國巨5字頭 被動進場條件？老AI.設備撿低本益比！CPO放閃 輝達為何買暗光纖？台達電.金居還公道？｜李兆華、李永年、楊雲翔、股魚2026.07.27【電視完整版】",
+  "date": "2026-07-27",
+  "duration": 2926,
+  "url": "https://www.youtube.com/watch?v=4T2GuNcu_dY"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

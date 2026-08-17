@@ -1,0 +1,433 @@
+{
+ "episode_summary": "本集聚焦輝達宣布CPO量產、日廠揖斐電與村田製作所上修財測帶動載板與被動元件族群齊揚，以及南亞科等記憶體股財報亮眼所引發的多頭行情。朱家泓從技術面判斷大盤與個股是否完成「第二隻腳」打底，王建文鎖定CPO、記憶體與先進封裝相關個股逢低布局，陳威良則建議透過0050、00923等市值型ETF參與AI反彈行情。",
+ "market_view": "大盤已連續反彈並站上月線、跌破下降切線，39384點有大量與跳空缺口支撐，技術面轉強但尚未完成「第二隻腳」確認打底，預期短線震盪整理後再挑戰高點；基本面上台股預估本益比已修正到15.9倍、融資減幅超過大盤跌幅顯示籌碼清洗完成，加上企業獲利成長率高達72.9%，評價偏低具備反彈空間。",
+ "teachers": [
+  {
+   "name": "朱家泓",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "突破找買點",
+     "reasons": [
+      "已完成打第二隻腳",
+      "站上月線",
+      "若明天過高則轉多，將挑戰歷史高點"
+     ],
+     "target_price": "2535（歷史高點）",
+     "confidence": "high",
+     "quote": "台積電已經打了第二隻腳，如果明天一過高它就轉多，轉多就會挑戰歷史高點2535",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "鴻海",
+     "ticker": "2317",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回不破月線找買點",
+     "reasons": [
+      "7月營收創歷史新高",
+      "已站上月線與季線",
+      "眼看即將挑戰前高，回測後可望打出第二隻腳"
+     ],
+     "target_price": "前波高點",
+     "confidence": "high",
+     "quote": "鴻海7月營收創歷史新高，已經站上月線季線，回來不要破月線就是一個很好的買點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華碩",
+     "ticker": "2357",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回月線找買點",
+     "reasons": [
+      "領先大盤打底完成",
+      "多頭格局未變，只是漲勢較緩"
+     ],
+     "target_price": "960",
+     "confidence": "high",
+     "quote": "這支股票上面的目標價可以看得很清楚，一看就知道有機會再去挑戰960",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "研華",
+     "ticker": "2395",
+     "market": "TW",
+     "stance": "看多",
+     "action": "持續追蹤",
+     "reasons": [
+      "工業電腦族群持續強於大盤",
+      "股價創歷史新高"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "工業電腦已經比大盤強，延華（研華）創歷史新高，它一直就比大盤強",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯詠",
+     "ticker": "3034",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點",
+     "reasons": [
+      "由空頭轉為多頭排列",
+      "前波跌深後止穩反彈"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "跌深的聯詠現在也轉成多頭",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "緯創",
+     "ticker": "3231",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回布局，不追高",
+     "reasons": [
+      "很早就打底轉強",
+      "本波領漲股之一，已具獲利機會"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "偽創（緯創）就不用講了，很早就知道轉強了，這一波你可以獲利",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "奇鋐",
+     "ticker": "3017",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回布局",
+     "reasons": [
+      "散熱族群前波跌深",
+      "已由空頭轉為多頭格局"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "奇鋐這個散熱跌得很慘，終於轉多，不是反彈，它已經轉成多頭了",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "王建文",
+   "picks": [
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回整理區找買點，不追高",
+     "reasons": [
+      "法說會表態偏正面",
+      "股價已上漲約27%，資金持續青睞",
+      "PEG僅0.31，評價不貴"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果你喜歡聯發科的話，不要賣在低點，如果壓下來有整理區，你要買再買",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "緯創",
+     "ticker": "3231",
+     "market": "TW",
+     "stance": "看多",
+     "action": "創高不追，拉回五日線、十日線找買點",
+     "reasons": [
+      "兩三週前即提前看好其低本益比",
+      "今日再創新高，屬本波領漲股"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "偽創當然今天創高，他也厲害，是那一波先領漲的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "波若威",
+     "ticker": "3163",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回缺口回補找買點，中線分批布局",
+     "reasons": [
+      "輝達CPO供應鏈成員",
+      "連續四根紅K表態，籌碼轉強",
+      "中期均線可望挑戰半年線"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "波若威主要是輝達供應鏈，如果有壓回，這個缺口稍微回補一下，你要進場再進場",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "環宇-KY",
+     "ticker": "4991",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回缺口找買點",
+     "reasons": [
+      "財報內容中規中矩，股價持續墊高",
+      "已連續拉出多根長紅"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "環宇KY開的相關內容中規中矩，如果壓回來缺口這邊你要買再買",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "聯電",
+     "ticker": "2303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "區間分批操作，逢缺口布局",
+     "reasons": [
+      "前波回檔劇烈，從185跌到近100元，評價委屈",
+      "屬矽光子供應鏈題材，投信持續買進"
+     ],
+     "target_price": "上緣觀察60日線、130日線一帶壓力，留意下方缺口約125元附近支撐",
+     "confidence": "medium",
+     "quote": "聯電這一波的回檔也是很恐怖，從185跌到快100，這種股票至少都有機會去挑戰一下",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "訊芯-KY",
+     "ticker": "6451",
+     "market": "TW",
+     "stance": "看多",
+     "action": "區間分批進場",
+     "reasons": [
+      "與台積電合作CoWoS先進封裝",
+      "輝達推動CPO料將延續與台積電合作，消息掌握度高"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "跟台積電合作的訊芯，如果輝達要推CPO一定是跟台積電合作，這部分訊息掌握度蠻高的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察能否收斂並突破前高",
+     "reasons": [
+      "7月營收月增近50%，年增近7倍",
+      "記憶體產業財報全面優異"
+     ],
+     "target_price": "距前高約7%，若能收斂並突破前高可望轉強",
+     "confidence": "high",
+     "quote": "南亞科月增百分之將近50%，年增將近7倍，如果能夠往上收斂再突破，這些個股就活過來",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "宇瞻",
+     "ticker": "8271",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱追蹤",
+     "reasons": [
+      "股價站上所有均線之上",
+      "記憶體模組族群同步走強"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "宇瞻也是活種，所有均線之上，這不就模組嗎",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "看多",
+     "action": "連續急漲不追，拉回找買點",
+     "reasons": [
+      "記憶體題材帶動股價急漲四根",
+      "200元附近可能面臨賣壓"
+     ],
+     "target_price": "200元附近有壓力",
+     "confidence": "high",
+     "quote": "華邦電我認為可能200塊以上，上面頭部可能會有一些壓力，如果壓回來找機會切入",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "旺宏",
+     "ticker": "2337",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低站買方承接",
+     "reasons": [
+      "上半年EPS達4.82元",
+      "上半年營收年增128%，基本面翻倍成長"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "旺宏開高走低，壓下來站在買方，上半年EPS是4.82元，上半年營收年增128%",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "力積電",
+     "ticker": "6770",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意逢低布局",
+     "reasons": [
+      "成熟製程兼顧晶圓代工與記憶體雙引擎",
+      "漲幅落後同業，評價偏委屈",
+      "上半年EPS 4.08元，切入美光HBM先進封裝供應鏈"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "利基電（力積電）成熟製程兼顧晶圓和記憶體，也可以留意，上半年EPS 4.08，切入美光的HBM先進封裝供應鏈",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "陳威良",
+   "picks": [
+    {
+     "stock_name": "元大台灣50",
+     "ticker": "0050",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "核心配置／定期布局",
+     "reasons": [
+      "台積電占比近六成，台積電表現佳時漲勢跟著出色",
+      "可作為投資組合最重要的底座，波動相對個股小"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "市值型一般來說我都會建議把它當成是投資組合最重要的底座",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "群益台ESG低碳50",
+     "ticker": "00923",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "除息前布局（最後買進日8月17日，建議提前一日進場）",
+     "reasons": [
+      "台積電占比約4成3，加計其他AI龍頭合計近9成",
+      "本益成長比（PEG）偏低，成分股明年獲利平均可成長65%",
+      "年化配息率高達15%，且歷次填息紀錄百分之百",
+      "今年以來績效61.5%，居市值型ETF之冠"
+     ],
+     "target_price": "配息3.05元（史上最高）",
+     "confidence": "high",
+     "quote": "00923它也有台積電，加上其他AI龍頭股合計佔9成，年化配息率有15%，而且過去每一次都填息",
+     "tw_market": "TWSE",
+     "spoken_name": "群益台灣ESG低碳30"
+    },
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低可買",
+     "reasons": [
+      "PEG僅0.57，估值不貴",
+      "明年獲利估可再成長約3成，市場信心與共識最高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台積電PEG只有0.57，長到這邊當然可以買",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "禾伸堂",
+     "ticker": "3026",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意處置解除後之表態行情",
+     "reasons": [
+      "MLCC全球市占前段班（居全球第四）",
+      "AI高功率、高電壓應用不可或缺的關鍵零組件",
+      "處置期間外資仍延續買超，籌碼面偏多"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "合成堂（禾伸堂）在MLCC這個領域是全世界第四大，外資延續買超，AI高功率應用不可或缺",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "欣興電子",
+     "ticker": "3037",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回季線、月均線附近找買點",
+     "reasons": [
+      "國內載板（ABF）龍頭",
+      "AI營收占比下半年將衝上70%",
+      "法說會上修資本支出58%，達537億元台幣，顯示對前景信心"
+     ],
+     "target_price": "1000元以上留下長上影線，賣壓較重，拉回季線附近較安全",
+     "confidence": "medium",
+     "quote": "星星（欣興電子）是國內載板龍頭，AI比重下半年要衝到70%，法說上修資本支出58%到537億台幣",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "AMD",
+     "ticker": null,
+     "market": "US",
+     "stance": "中性",
+     "action": "觀察拉回消化，不追高",
+     "reasons": [
+      "上季財報與財測亮眼，估Q3營收約130億美元",
+      "但市場預期更高（140億美元以上），股價已處歷史高檔",
+      "財報公布後盤後重挫，屬短線獲利了結"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "AMD財測亮眼但股價在歷史高點附近，盤後重挫，不過大概消化一兩天就沒事了",
+     "tw_market": null
+    },
+    {
+     "stock_name": "揖斐電",
+     "ticker": null,
+     "market": "OTHER",
+     "stance": "看多",
+     "action": null,
+     "reasons": [
+      "日系載板龍頭，上修財測後股價單日大漲24%",
+      "與台廠載板供應鏈連動效應強"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "易斐電（揖斐電）上修財測後股價爆噴，單日大漲24%",
+     "tw_market": null
+    },
+    {
+     "stock_name": "村田製作所",
+     "ticker": null,
+     "market": "OTHER",
+     "stance": "看多",
+     "action": null,
+     "reasons": [
+      "日系被動元件龍頭，上修財測後股價大漲10%",
+      "與台廠被動元件供應鏈連動效應強"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "被動元件龍頭Morata（村田製作所）上修財測，股價漲了10%",
+     "tw_market": null
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "DCArNDFxadY",
+  "title": "【理財達人秀】台股V轉還打第二隻腳？輝達喊量產 CPO年線起跑？南亞科賺爆 記憶體開炸？揖斐電.村田上修財測 被動.載板還會漲？｜李兆華、朱家泓、王建文、陳威良2026.08.05【電視完整版】",
+  "date": "2026-08-05",
+  "duration": 2920,
+  "url": "https://www.youtube.com/watch?v=DCArNDFxadY"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}
