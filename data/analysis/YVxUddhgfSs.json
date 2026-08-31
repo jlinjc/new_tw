@@ -1,0 +1,498 @@
+{
+ "episode_summary": "本集聚焦輝達財報優於預期（明年營收展望上修70%）帶動CPO、光通訊、機器人等輝達概念股走強；載板、銅箔基板族群持續創高，型男股神並示範南電與新興的配對交易策略；2400億無人機條例通過激勵軍工股；另關注9月蘋果新品發表會（傳聞推出折疊機）與台灣半導體展，帶動先進封裝設備、特用化學品及蘋果雙吃供應鏈題材。",
+ "market_view": "台股反彈上攻逼近前波高點，距46000不遠，若成交量能重返1兆元以上、美股延續輝達財報激勵氣勢，有機會挑戰48000歷史新高；但今日尾盤留下較大上影線、量能仍未明顯放大，短線追高需留意風險。",
+ "teachers": [
+  {
+   "name": "Eason",
+   "picks": [
+    {
+     "stock_name": "輝達",
+     "ticker": null,
+     "market": "US",
+     "stance": "看多",
+     "action": "觀望，留意本季營收動能與美股走勢",
+     "reasons": [
+      "明年營收展望上修至再成長70%",
+      "資料中心與整體營收年增強勁",
+      "Rubin本季開始貢獻營收",
+      "毛利率略低於預期但整體財報仍屬強勁"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "下一個季度明年一整年的營收還要再成長70%這非常強勁",
+     "tw_market": null
+    },
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢高追蹤，留意乖離過大追高風險",
+     "reasons": [
+      "CPO/光學族群指標，帶動整個光學族群走強",
+      "投信連續買進，股價創新高",
+      "題材含蘋果拉貨動能"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "現在看起來投信一直連買，股價已經創立新高了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯亞",
+     "ticker": "3081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回至10日線附近找買點",
+     "reasons": [
+      "CPO題材股，今天創歷史新高",
+      "低檔主力已連續跳空墊高成本，不易再破"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "聯亞今天創歷史新高真的好猛",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "全新",
+     "ticker": "2455",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀望追蹤",
+     "reasons": [
+      "CPU/CPO補漲概念，股價快到新高"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "全新也是快到新高，股災殺成那樣全新也快到新高了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "前鼎",
+     "ticker": "4908",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回布局，留意低位階補漲",
+     "reasons": [
+      "穩住月線後開始突破",
+      "融資型態偏法人卡位非散戶追高",
+      "400G/800G已驗證並量產，明年1.6T放量",
+      "位階相對偏低具補漲空間"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "4908前頂也是穩住月線之後開始做一個突破，今天突然表態",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "亞光",
+     "ticker": "3019",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀望",
+     "reasons": [
+      "切入CPO供應鏈使用光學玻璃/材料",
+      "歐洲大廠訂單回溫",
+      "醫療檢測、休閒望遠鏡、瞄準鏡等業務營收與毛利率同步改善"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "另外歐洲大廠訂單也開始續徵，包括醫療檢測、休閒望遠鏡，還有瞄準鏡等等",
+     "name_note": "語音辨識不確定，原文近似「法脈」",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "廣達",
+     "ticker": "2382",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局，跳空缺口已完全回補",
+     "reasons": [
+      "GDR換算台幣約280元可視為實質支撐",
+      "大戶持股穩定",
+      "外資近期轉買",
+      "利空缺口已消化完畢"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "這個GDR轉換過來的價錢應該可以當作是它實質的一個支撐",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "盟立",
+     "ticker": "2464",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察能否守住今日開盤價，續抱波段",
+     "reasons": [
+      "機器人族群指標，創歷史新高",
+      "切入CoWoS先進封裝自動化供應鏈，在手訂單突破100億元",
+      "大戶持股穩定，主力轉買",
+      "今日長紅漲停"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "在手訂單突破100億元，今天算是突破這麼長的區間的漲停板",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "魏亮哥",
+   "picks": [
+    {
+     "stock_name": "南電",
+     "ticker": "8046",
+     "market": "TW",
+     "stance": "看多",
+     "action": "配對交易做多南電（相對強勢方），落後星星時買進",
+     "reasons": [
+      "ABF/BT比重高，純度高",
+      "EPS預估顯著優於欣興且差距逐年擴大",
+      "近期落後星星後急起直追創高"
+     ],
+     "target_price": "110元（2028年EPS預估對應，外資高盛預測）",
+     "confidence": "high",
+     "quote": "南電可能是要來到110塊，新興是66塊錢，就拉開來哦",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "欣興",
+     "ticker": "3037",
+     "market": "TW",
+     "stance": "中性",
+     "action": "配對交易：當南電領先超過約400元價差時轉買欣興",
+     "reasons": [
+      "EPS成長預估低於南電",
+      "價差拉開過大時具輪動買點"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "大概如果差距到了400塊的時候，這個時候反而我又會從南電的資金撤出來轉戰新興",
+     "name_note": "新興",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "景碩",
+     "ticker": "3189",
+     "market": "TW",
+     "stance": "看多",
+     "action": "沿五日均線移動停利，續抱",
+     "reasons": [
+      "ABF/BT純度高",
+      "今日創新高",
+      "法說會揭露營收未達天花板，缺料反凸顯需求強勁",
+      "投信持股持續加碼",
+      "EPS預估2028年可能追上甚至超車欣興"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "警碩今天也是創新高，只要投信持股還在加碼的話，我覺得沿著五日均線往上去做移動停利是沒有問題的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "金居",
+     "ticker": "8358",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回布局，留意爆量長上影線或黑K作為停利訊號",
+     "reasons": [
+      "銅箔基板上游材料，缺貨受惠",
+      "7月營收創新高，8月可期",
+      "股價已站上季線",
+      "外資投信雖賣超但股價逆勢大漲，顯示有聰明錢吸籌",
+      "高盛預估2027年成長方向明確"
+     ],
+     "target_price": "940元（高盛預估，僅供參考）",
+     "confidence": "high",
+     "quote": "現在才500不到，高盛的目標價940，大家看看就好",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "漢翔",
+     "ticker": "2634",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱關注",
+     "reasons": [
+      "軍工指標股，市值最大，接近創高",
+      "代表大資金認同無人機商機"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "漢翔他其實已經接近創高了，那他市值最大，所以漢翔能夠高姿態，那就代表大資金沒有跑",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "雷虎",
+     "ticker": "8033",
+     "market": "TW",
+     "stance": "看多",
+     "action": "關注是否延續漲勢",
+     "reasons": [
+      "股性活潑，題材反應最快速",
+      "代表靈活資金提前卡位無人機商機"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "雷虎他的股性向來就是最活潑，所以雷虎會漲也代表靈活的資金也知道有戲唱，後面有行情",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "創鈺科技",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回至上升趨勢線附近留意轉強訊號，避免追高",
+     "reasons": [
+      "反制無人機系統台灣代理商，內外通吃海陸雙棲題材",
+      "代理美國ONDS（已收購以色列反制無人機公司）產品",
+      "成交量偏清淡、籌碼需留意是否為隔日沖炒作"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "這邊我會先建議就是一個去看一下這個反制無人機系統的創紅科技",
+     "name_note": "語音辨識不確定，原文近似「創紅科技」",
+     "tw_market": null
+    },
+    {
+     "stock_name": "麗珊",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察能否突破空方缺口",
+     "reasons": [
+      "由工具機、健身器材跨足無人機動力系統與馬達",
+      "已接獲大量訂單",
+      "均線糾結整理後轉為偏多排列"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "麗珊已經從工具機再跨到健身機產，再跨到無人機的動力系統",
+     "name_note": "語音辨識不確定",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "維泰",
+   "picks": [
+    {
+     "stock_name": "台虹",
+     "ticker": "8039",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀望追蹤",
+     "reasons": [
+      "軟性CCL供應商，同時供應蘋果與非蘋陣營（雙吃）",
+      "折疊機供應鏈概念股"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "台虹台積軟版，軟性的CCL軟版的部分，它有出蘋果，也有出非蘋",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "齊鴻",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀望（已大漲，非當前首選）",
+     "reasons": [
+      "今年1-7月累計營收成長80.34%",
+      "股價創歷史新高",
+      "已跨入AI相關營收"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "齊鴻他在今年1到7月的累計營收成長80.34%，而且股價創歷史新高了",
+     "name_note": "語音辨識不確定",
+     "tw_market": null
+    },
+    {
+     "stock_name": "雙鴻",
+     "ticker": "3324",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀望（已大漲，非當前首選）",
+     "reasons": [
+      "累計營收成長83.28%創新高",
+      "已跨入AI散熱供應鏈"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "其他像是雙鴻也創了，也加了83.28%",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "玉晶光",
+     "ticker": "3406",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回可留意，注意乖離過大風險",
+     "reasons": [
+      "光學鏡頭族群二哥，同步布局光通訊與手機鏡頭",
+      "大戶持股增加，優於大立光的持股趨勢",
+      "投信轉為買方，籌碼結構優於大立光"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "玉晶光呢，他在這個波段他的大戶持股是往上做增加，甚至投信也開始回頭站在買方",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華通",
+     "ticker": "2313",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意右肩頸線是否向上突破",
+     "reasons": [
+      "低軌衛星加蘋果供應鏈題材",
+      "股價腰斬後呈現頭肩底型態",
+      "投信由持續賣超轉為近期天天買超"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "投信從原本的一直賣、一直賣，在最近這個禮拜幾乎天天都在買華通",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "成陽",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察量縮止跌後是否守穩，留意套牢賣壓",
+     "reasons": [
+      "股價腰斬後量縮守在月線之上",
+      "外資7月起開始回補",
+      "大戶持股連四週增加",
+      "位階偏低具輪動補漲機會"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "從136到70塊錢，基本上假設這個算140的話，就是腰斬",
+     "name_note": "語音辨識不確定，原文近似「成名店」",
+     "tw_market": null
+    },
+    {
+     "stock_name": "弘塑",
+     "ticker": "3131",
+     "market": "TW",
+     "stance": "看多",
+     "action": "關注",
+     "reasons": [
+      "先進封裝設備族群，受惠2奈米放量",
+      "與COWOS相關設備族群重疊，先前較被市場忽略"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "其實像是紅碩、君華、萬潤、星雲這一類的，大家有沒有覺得跟之前什麼COWAS的這些設備都好像都重疊",
+     "name_note": "語音辨識不確定，原文近似「紅碩」",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "均華",
+     "ticker": "6640",
+     "market": "TW",
+     "stance": "看多",
+     "action": "關注",
+     "reasons": [
+      "均豪子公司，先進封裝檢測設備受惠2奈米放量"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "君豪是君華的母公司",
+     "name_note": "語音辨識不確定，原文近似「君華」",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "萬潤",
+     "ticker": "6187",
+     "market": "TW",
+     "stance": "看多",
+     "action": "關注",
+     "reasons": [
+      "先進封裝設備族群，受惠2奈米放量",
+      "今日出現漲停"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "今天萬潤就是出現漲停板的一個表現",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "均豪",
+     "ticker": "5443",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回布局，續抱",
+     "reasons": [
+      "檢測設備股，底部型態確立，突破頸線後回測",
+      "大戶持股增加",
+      "第三、四季進入出貨旺季高峰"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "接下來相關的這些所謂檢測設備，進入到出貨旺季高峰，所以第三季跟第四季大家可以特別做留意",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "盟立",
+     "ticker": "2464",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "機器人與半導體設備雙題材，股價創新高",
+      "外資與投信同步站在買方"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "目前看起來股價也是再度創下突破性新高，那麼外資跟投信都同步站在買方",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台特化",
+     "ticker": "4772",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局，等待Q3、Q4獲利跳升",
+     "reasons": [
+      "主要供應鏈集中台積電，供應2奈米製程特用氣體與化學品",
+      "已完成高階驗證但量產尚未放大，導致上半年EPS僅約1元多",
+      "隨2奈米製程放量，營收及獲利有望倒吃甘蔗"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "隨著接下來兩奈米製程的一個放量，我認為他整個營收有機會會出現倒吃甘蔗的情況",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "旺矽",
+     "ticker": "6223",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察",
+     "reasons": [
+      "探針卡族群，股價一度殺至4500元附近但留下長下影線"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "今天旺矽一度又殺到好像4500塊錢附近，但拉上來好長的下影線",
+     "tw_market": "TPEX"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "YVxUddhgfSs",
+  "title": "【理財達人秀】輝達救全村 CPO.老AI.機器人買補漲？載板帶旺銅箔 戰前高？蘋果大秀接棒 設備.特化黑馬？無人機起飛？｜李兆華、容逸燊、陳威良、陳唯泰2026.08.27【電視完整版】",
+  "date": "2026-08-27",
+  "duration": 2984,
+  "url": "https://www.youtube.com/watch?v=YVxUddhgfSs"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

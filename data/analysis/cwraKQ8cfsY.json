@@ -1,0 +1,460 @@
+{
+ "episode_summary": "本集聚焦台股在輝達Vera Rubin法說前夕的強勢表態：光學／CPO族群（大立光、聯亞等）集體創歷史新高，帶動大盤完成技術面「第二隻腳」；王建文延伸點名CPO、HVDC/BBU、功率半導體等尚在低位階的受惠股；陳於晨獨家解析PCB新材料PTFE／無玻纖趨勢，點名台虹、台燿、台光電、金像電等受惠廠商。",
+ "market_view": "大盤在AI股全面走高帶動下強勢突破，朱家泓認為技術面已完成N字底「第二隻腳」，目標價看到51,326點；台積電尚未創高，被視為補漲要角，只要站上2445即完成多頭確認。",
+ "teachers": [
+  {
+   "name": "朱家泓",
+   "picks": [
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "看多",
+     "action": "已持有續抱，空手視空間決定是否進場",
+     "reasons": [
+      "創歷史新高，帶動光學族群領漲",
+      "圓弧底型態成形，具備目標價",
+      "切入CPO/FAU題材"
+     ],
+     "target_price": "7035元（上方約700元空間）",
+     "confidence": "high",
+     "quote": "這個圓弧底可以到7035，其實大概還有700塊。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯亞",
+     "ticker": "3081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "型態未變前續抱操作",
+     "reasons": [
+      "創歷史新高，光學族群同步走強",
+      "周線呈N字底型態"
+     ],
+     "target_price": "128.5元",
+     "confidence": "high",
+     "quote": "聯亞光的這個目標價已經快到了，因為它的目標價是128.5元。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "光寶科",
+     "ticker": "2301",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回後買上漲",
+     "reasons": [
+      "過前高後照多頭方向操作",
+      "HVDC/BBU題材領頭羊"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "光寶科大家現在那麼注目，那過了就照多頭去做，回後買上漲。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "創意",
+     "ticker": "3443",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "創歷史新高",
+      "型態可推估目標價"
+     ],
+     "target_price": "6900元",
+     "confidence": "high",
+     "quote": "創意上歷史新高，他的目標價是6900，接近7000。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "揚明光",
+     "ticker": "3504",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點",
+     "reasons": [
+      "右把柄型態突破壓力",
+      "20日均線已碰觸60日均線",
+      "底部有大量進駐，具主力布局跡象"
+     ],
+     "target_price": "近壓力97.8元，目標價105.8元，短線區間約80-100元",
+     "confidence": "medium",
+     "quote": "這也可以把它當作圓弧底……這會到105.8。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "等待站上2445確認多頭再介入",
+     "reasons": [
+      "大盤創高需要台積電補漲",
+      "目前弱勢是讓出上漲空間，並非走壞"
+     ],
+     "target_price": "2445（多頭確認關卡）",
+     "confidence": "high",
+     "quote": "台積電目前來說，它只要過了2445，多頭反轉就完成了。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "站上230元才轉多操作",
+     "reasons": [
+      "空頭趨勢中出現底底高型態",
+      "多空即將對決，過高點才轉強"
+     ],
+     "target_price": "230元（轉多關鍵價）",
+     "confidence": "medium",
+     "quote": "如果這個多把230過，它就會大漲一波。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "藍天電腦",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意漲停後續強走勢",
+     "reasons": [
+      "長期下跌後出現漲停板，代表多方轉強"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "一個空投股票……你一出現漲停板，這個地方大概就不太容易再破，表示多方轉強。",
+     "name_note": "推測，原文聽為「藍牙」，正式名稱不確定",
+     "tw_market": null
+    },
+    {
+     "stock_name": "重達KY",
+     "ticker": null,
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察月線是否站穩季線再追蹤",
+     "reasons": [
+      "月線尚未穿越季線，多頭未完全確認"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "月線還沒有穿過季線嘛，可是如果你下一次來看月線就穿過，那這裡就可以去挑戰了。",
+     "name_note": "股名待確認，語音辨識可能有誤",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "王建文",
+   "picks": [
+    {
+     "stock_name": "台達電",
+     "ticker": "2308",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察，低點未破可留意落後補漲",
+     "reasons": [
+      "公司派態度正面",
+      "股價低點未跌破，屬落後補漲族群"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "至少低點沒有破，那就看他的規劃，其實公司派基本上還是蠻正面。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "光寶科",
+     "ticker": "2301",
+     "market": "TW",
+     "stance": "看多",
+     "action": "沿五日線操作",
+     "reasons": [
+      "站上300元關卡，走勢強勁",
+      "HVDC/BBU題材領頭羊"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "所以我覺得就沿著五日線操作。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "切入CPO/FAU題材，市占可望由一成拉升到四成",
+      "法人籌碼尚未完全反映，題材仍在發酵"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "大立光也是我們一直非常看好的，從那個時候到今天創新高已經漲了59個百分點。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯亞",
+     "ticker": "3081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "CPO零組件題材受惠，本波族群大贏家"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "聯亞也是這一波……大贏家，漲了三成。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "環宇-KY",
+     "ticker": "4991",
+     "market": "TW",
+     "stance": "看多",
+     "action": "區間操作，留意營收數字持續進帳",
+     "reasons": [
+      "美國製造具地緣優勢",
+      "800G PD市佔全球第一",
+      "前7月營收年增45.74%"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "800G的PD他是市佔全球第一，前7月的營收年增45.74%。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "強茂",
+     "ticker": "2481",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意續強表現",
+     "reasons": [
+      "功率半導體/HVDC題材受惠",
+      "當日漲停"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "功率半導電（功率半導體）之前是所謂的強茂、台半，今天都漲停。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台半",
+     "ticker": "5425",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意續強表現",
+     "reasons": [
+      "功率半導體/HVDC題材受惠",
+      "當日漲停"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "強茂、台半，今天都漲停。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "順達",
+     "ticker": "3211",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意族群接力表現",
+     "reasons": [
+      "HVDC/BBU題材接力上漲",
+      "當日拉出漲停"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "順達接著拉漲，漲停了，是不是一個一個帶一個。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "新盛力",
+     "ticker": "4931",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回後買上漲",
+     "reasons": [
+      "上半年獲利高於順達",
+      "大戶持股明顯增加，不離不棄",
+      "與順達股價價差近百元，具補漲空間"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "新盛力其實上半年獲利是高於順達，現在的新盛力跟順達的股價差了快100塊。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "順德",
+     "ticker": "2351",
+     "market": "TW",
+     "stance": "看多",
+     "action": "守株待兔，逢低留意",
+     "reasons": [
+      "大戶持股未鬆動",
+      "國巨集團為主要大股東",
+      "產品即將調漲15%"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "他的主要的大股東就是國巨集團……要漲價15%，所以我的看法是不如守株待兔。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "Vertiv",
+     "ticker": "VRT",
+     "market": "US",
+     "stance": "看多",
+     "action": "留意",
+     "reasons": [
+      "AI機櫃電力系統獨立化（PowerRack）趨勢受惠"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "包含像Vertiv跟BE，這個是跟電有關係的。",
+     "tw_market": null
+    },
+    {
+     "stock_name": "Bloom Energy",
+     "ticker": "BE",
+     "market": "US",
+     "stance": "看多",
+     "action": "留意",
+     "reasons": [
+      "裴洛西買進並加碼選擇權，市場解讀看好電力題材"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "裴洛西不是買了BE嗎，還買了選擇權。",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "陳於晨",
+   "picks": [
+    {
+     "stock_name": "NVIDIA",
+     "ticker": "NVDA",
+     "market": "US",
+     "stance": "看多",
+     "action": "留意財報後表現",
+     "reasons": [
+      "Vera Rubin已開始交貨且量產順利",
+      "市場期待Q4展望上看千億美元營收",
+      "股價已提前反映修正，財報後利空出盡機率提高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "市場上會期待NVIDIA在展望的部分去交出千億美元的營收。",
+     "tw_market": null
+    },
+    {
+     "stock_name": "台虹",
+     "ticker": "8039",
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線拉回找買點",
+     "reasons": [
+      "PTFE直接用於CCL核心層，屬直接受惠廠商",
+      "從無到有題材，想像空間大",
+      "法人／投信買進"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台虹跟台燿這個創新高了……這個短線上面還會有題材，這短線不會那麼快走完。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台燿",
+     "ticker": "6274",
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線拉回找買點",
+     "reasons": [
+      "同為PTFE型CCL直接受惠廠商",
+      "股價提前反映，率先創高"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "台虹跟台燿這個創新高了。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "台光電",
+     "ticker": "2383",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回布局",
+     "reasons": [
+      "CCL龍頭廠，各類規格套餐均可供應客戶選擇",
+      "股價拉回整理在均線附近"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "龍頭廠台光電……拉回目前整理在所有均線附近，我覺得也是不錯。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南亞",
+     "ticker": "1303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意",
+     "reasons": [
+      "材料端（樹脂/銅箔）全面布局PTFE相關研發",
+      "本業與業外表現俱佳",
+      "子公司南亞科明年貢獻可期"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "南亞……材料端，所以也是什麼套餐用到的材料，他都有在研發。",
+     "tw_market": "TWSE",
+     "spoken_name": "南亞塑膠"
+    },
+    {
+     "stock_name": "博智",
+     "ticker": "8155",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意下半年放量",
+     "reasons": [
+      "高毛利IPC用PCB",
+      "下半年即將開始放量",
+      "股價已修正一大段"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "以8155博智來講，它在IPC的PCB上面……下半年即將會開始放量，我覺得這個修正也一大段了。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "金像電",
+     "ticker": "2368",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱，留意能否挑戰新高",
+     "reasons": [
+      "PCB龍頭股，上半年EPS已達16元",
+      "第二季毛利率修正幅度優於市場預期",
+      "第三、四季產品組合優化可望挑戰新高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "金像電……龍頭真的有神，上半年已經賺了16塊……第三季第四季的產品組合有上來的話，他的毛利率還有機會去挑戰新高。",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "cwraKQ8cfsY",
+  "title": "【理財達人秀】第2腳打完 台股新目標價！大立光漲停 CPO看高做低!光學平價起漲 BBU下檔光寶？輝達PCB規格拉滿 漲誰？｜李兆華、朱家泓、王建文、陳於晨2026.08.26【電視完整版】",
+  "date": "2026-08-26",
+  "duration": 2931,
+  "url": "https://www.youtube.com/watch?v=cwraKQ8cfsY"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

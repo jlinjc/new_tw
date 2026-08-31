@@ -1,0 +1,317 @@
+{
+ "episode_summary": "本集在成交量清淡、台股於月線附近整理的背景下，三位老師分別鎖定機器人與CPO/CPU中長線題材、以海力士庫藏股與現貨報價回升帶動的記憶體族群（南亞科為首選）、以及九月半導體展先進封裝（CoWoS、SoIC）爆單商機，點名萬潤、均華、家登等可雙吃台積電與Intel訂單的設備股。另分享以「400張大戶連兩週增持」偵測電力、重電族群（光寶科、中興電）資金卡位的選股邏輯。",
+ "market_view": "台股受惠美國財政部進場購債壓低公債殖利率，指數守在月線附近整理，市場等待費半與南韓股市補漲；技術面上42000~44000有外資與台幣升值買盤支撐，若跌破42000恐引發套牢賣壓但機率不高，預期維持區間震盪待攻擊訊號。",
+ "teachers": [
+  {
+   "name": "Eason",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱觀察",
+     "reasons": [
+      "漲停開盤缺口未破，走勢強勢",
+      "撐住大盤指數位階"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "台積電的話撐在這裡算蠻強的，除了漲停這一天之外基本上都守在開盤價位置",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "上銀",
+     "ticker": "2049",
+     "market": "TW",
+     "stance": "看多",
+     "action": "400以上站穩偏多續抱，400以下逢低布局",
+     "reasons": [
+      "外資近期聯合買超",
+      "EPS上半年4元，第二季2.4元",
+      "外資報告目標價落在四字頭以上"
+     ],
+     "target_price": "400",
+     "confidence": "high",
+     "quote": "上銀可不可以穩住在400之上，我覺得相對來的重要",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "所羅門",
+     "ticker": "2359",
+     "market": "TW",
+     "stance": "看多",
+     "action": "創新高續抱",
+     "reasons": [
+      "機器人族群創新高指標股之一",
+      "資金持續往機器人題材聚集"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "機器人有幾檔有創新高，一檔是所羅門",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "盟立",
+     "ticker": "2464",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意月線支撐，逢拉回布局",
+     "reasons": [
+      "外資連續買超，投信介入後未出場",
+      "轉投資子公司切入機器人關節減速器零件",
+      "題材延續至九月半導體展"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "外資也在做個連買，包括投信也進場之後都沒有出，可以注意月線這邊的支撐",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "看多",
+     "action": "位階偏高，拉回再介入",
+     "reasons": [
+      "CPO題材指標股，股價將重返歷史高點",
+      "蘋果新機拉貨題材加持"
+     ],
+     "target_price": "6075（歷史高點）",
+     "confidence": "high",
+     "quote": "大力光快要重返榮耀了，歷史高點6075快過了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華星光",
+     "ticker": "4979",
+     "market": "TW",
+     "stance": "看多",
+     "action": "中低位階者可先介入或先布局一半持股",
+     "reasons": [
+      "股價沿月線墊高，外資買多賣少",
+      "大客戶Marvell與谷歌合作帶動業績",
+      "AI資料中心光收發模組、800G產品開始放量"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "華星光沿著月線往上做一個墊高，外資最近也是買多賣比較少",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "全新",
+     "ticker": "2455",
+     "market": "TW",
+     "stance": "看多",
+     "action": "等拉回至平台低檔再布局",
+     "reasons": [
+      "股價強勢反彈接近前波高檔",
+      "跳空缺口未回補，多頭排列",
+      "轉型光化學（矽光子）題材受惠零化音機板供應商擴產"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "全新是接近前面第二季的高檔，其實他算很強勢反彈",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "高憲容",
+   "picks": [
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找支撐買點，勿追高",
+     "reasons": [
+      "記憶體現貨報價續漲，DDR5達53美元、DDR4突破90美元，供不應求",
+      "大戶連續兩週增持",
+      "率先創歷史新高，為記憶體首選",
+      "下半年獲利可望持續走高，上半年EPS已達23元"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "南亞科的部分這個還是記憶體的首選，上半年EPS賺了23塊但不是最高峰",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "中性",
+     "action": "區間操作，守157.5-164.5支撐",
+     "reasons": [
+      "股價已站上均線轉強",
+      "低檔多方缺口支撐仍穩固",
+      "DRAM占營收53%、Flash 31%、邏輯IC13%"
+     ],
+     "target_price": "157.5-164.5",
+     "confidence": "medium",
+     "quote": "低檔支撐8月5號這個多方缺口，大概在157.5到164.5之間，這裡我覺得也可以守得住",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "群聯",
+     "ticker": "8299",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "觀察能否站上頸線168.5轉強",
+     "reasons": [
+      "財報開高走低，但200張大戶開始低檔增持",
+      "形態有望走出頭肩底"
+     ],
+     "target_price": "168.5（左肩位置，需觀察頸線突破）",
+     "confidence": "medium",
+     "quote": "群聯的部分最近提到，200張大戶開始有低檔慢慢的在做增持了",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "台光電",
+     "ticker": "2383",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回檔不破前低可續抱",
+     "reasons": [
+      "創歷史新高後回檔，均線多頭排列未破壞",
+      "ABF基板族群市場共識高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台光電創下歷史新高，最近有回檔，但目前這一組股價還是維持多頭的結構",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "雙鴻",
+     "ticker": "3324",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低買進",
+     "reasons": [
+      "下半年GB300追加訂單已出現",
+      "7月營收創歷史新高",
+      "散熱指標股，估值相對安全"
+     ],
+     "target_price": "810（前次介紹低點參考）",
+     "confidence": "high",
+     "quote": "下半年GB300我們說過追加的訂單已經開始出現，所以營收7月份也創歷史新高",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "光寶科",
+     "ticker": "2301",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回守247找買點，創高續抱",
+     "reasons": [
+      "400張大戶連續增持，股價創新高286.5元",
+      "本益比相對同族群偏低"
+     ],
+     "target_price": "247（支撐）",
+     "confidence": "high",
+     "quote": "廣寶科反而成為重點，股價創新高，如果能夠守住247不要破，股價還是有機會繼續走高",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "中興電",
+     "ticker": "1513",
+     "market": "TW",
+     "stance": "看多",
+     "action": "評價合理，伺機布局",
+     "reasons": [
+      "已確認接獲台積電供應鏈訂單",
+      "上半年EPS 4.5元創歷史新高，明年估上看12-15元",
+      "以今年估值計算本益比僅18倍，不貴",
+      "400張大戶連續兩週明顯增持"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "上半年EPS賺了4.5元，這是創歷史新高，本益比算一算用今年9塊來算18倍而已也不貴",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "張捷",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "資本支出持續增加",
+      "美國業績成績單亮眼，毛利率高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "先從台積電來看，資本支出增加，美國繳出漂亮成績單，然後毛利率很高",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "萬潤",
+     "ticker": "6187",
+     "market": "TW",
+     "stance": "看多",
+     "action": "創高續抱",
+     "reasons": [
+      "CoWoS與CPO雙題材受惠，設備出貨挹注新單",
+      "今年以來營收累積成長42%",
+      "7、8月營收創新高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "萬潤也跟CoWoS有關，今年以來這個營收累積成長42%，7月跟6月的營收都是新高附近",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "均華",
+     "ticker": "6640",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局，觀察頭肩底突破",
+     "reasons": [
+      "受惠CoWoS先進封裝設備需求",
+      "蘋果WMCM封裝亦帶來機會",
+      "以20倍本益比評價相對合理",
+      "頭肩底、三角收斂型態成形"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "君華他真的是有三角收斂，法人認為第一個CoWoS受惠，那真的Apple出了WMCM的封裝",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "家登",
+     "ticker": "3680",
+     "market": "TW",
+     "stance": "看多",
+     "action": "買在CB轉換價476以下相對安全",
+     "reasons": [
+      "全球晶圓載具EUV Pod市占龍頭，具寡占地位",
+      "Intel案子全數重啟帶動訂單回溫",
+      "成熟製程與記憶體需求同步回升",
+      "營收與獲利創歷史新高"
+     ],
+     "target_price": "476（可轉債轉換價，建議價格以下布局較安全）",
+     "confidence": "high",
+     "quote": "加登的一個線型回到這個468，然後營收獲利創新高又加上整個產業寡占，我覺得他是一個很棒的、業績很好的公司",
+     "tw_market": "TPEX"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "Fy9pwEd9SMQ",
+  "title": "【理財達人秀】海力士庫藏護盤 台股月線強？機器人新利多 CPO挖低檔？大戶教學 都在買電力？半導體展 鎖3檔小台積？｜李兆華、容逸燊、高憲容、張捷2026.08.20【電視完整版】",
+  "date": "2026-08-20",
+  "duration": 2927,
+  "url": "https://www.youtube.com/watch?v=Fy9pwEd9SMQ"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

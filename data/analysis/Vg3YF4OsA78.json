@@ -1,0 +1,501 @@
+{
+ "episode_summary": "本集三位老師分別聚焦MSCI換股延續行情（禾伸堂、日電貿等被動元件與雷虎等軍工股）、CPO與ABF族群變化（欣興電子遭檢調搜索衝擊、聯電/金像電/國巨投信回補行情）、以及外資單月買超創新高帶動的記憶體與電力散熱概念股（台積電、神達、東元等）三大主軸，並提醒下週欣興股價恐仍有修正壓力。",
+ "market_view": "台股週五收在反彈新高，成交量約1兆元，8月外資買超創單月歷史新高（逾3700億元），景氣燈號連8紅；後續須觀察全球央行年會（Jackson Hole）政策動向、台幣升值是否延續、以及OTC融資變化，技術面上加權指數上看46,500附近有壓，拉回不破45,000月線仍偏多操作。",
+ "teachers": [
+  {
+   "name": "鍾國忠",
+   "picks": [
+    {
+     "stock_name": "禾伸堂",
+     "ticker": "3026",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回布局",
+     "reasons": [
+      "下週MSCI換股將納入為新成分股，具指標意義",
+      "技術面站上大量下緣支撐，套牢籌碼少",
+      "若被動元件族群要往上攻，禾伸堂是下週關注重點"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "下禮拜MSCI會把和聲堂納進去，如果這波被動元件要往上攻，和聲堂絕對是下禮拜要關注的重點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "日電貿",
+     "ticker": "3090",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局",
+     "reasons": [
+      "同為下週MSCI新增成分股",
+      "屬防守型標的，明年股利估配9元、殖利率約5%",
+      "攻守兼具，目前股價相對低檔"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "日電報是屬於防守組，明年殖利率可能5%左右，攻守我認為都已經在具備機會了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "觀望",
+     "action": null,
+     "reasons": [
+      "股價來到先前下降壓力線位置，需觀察能否突破",
+      "若無法突破，可能進入區間盤整"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "台積電這邊來講就是碰到之前提到過一個下降的壓力線位置，這兩天觀察能不能突破",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "中光電投控",
+     "ticker": "3718",
+     "market": "TW",
+     "stance": "觀望",
+     "action": null,
+     "reasons": [
+      "9月3日以1:1換股掛牌上市（原中光電5371）",
+      "換股後是否出現慶祝行情值得觀察"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "下禮拜9月3日有一家新公司掛牌叫3718中光電投控，會不會有所謂的慶祝效應值得觀察",
+     "tw_market": null
+    },
+    {
+     "stock_name": "雷虎科技",
+     "ticker": "8033",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "無人機相關預算條例通過，產業趨勢確立",
+      "營業利益率轉正並持續改善",
+      "9月15日將受邀參加國際塑膠橡膠工業展分享前瞻技術",
+      "400張大戶持股增加，存貨水位較上季下降"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "通過無人機的預算基本上就是產業成長趨勢又更確立，非獨立董監持股6月份650張，存貨已經比上次來得低",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "金區",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意逢回布局",
+     "reasons": [
+      "營收年增率近四五成，屬成長型股票",
+      "上半年EPS 4.2，營業利益率由16-18%擴大至25%",
+      "從事高頻高速低損耗材料研發，受惠AI發展",
+      "技術面均線全數在股價之下，套牢籌碼少，未來有機會形成黃金交叉"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "金區高階同伯真的是不容易，上半年EPS是4.2，營業利益率成長到將近25%，比之前18%、16%坦白講有擴大",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "黃豐凱",
+   "picks": [
+    {
+     "stock_name": "聯電",
+     "ticker": "2303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回留意",
+     "reasons": [
+      "先前因矽電容傳言遭錯殺，其實是矽光子受惠股",
+      "今日外資大買逾8萬張，量能明顯放大",
+      "但周線型態尚未構成完整V轉，僅是反彈"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "外資回來買了8萬多張，這根的量遠遠超過前一根，看起來震盪完之後還會再往上走",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "金像電",
+     "ticker": "2368",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "投信由賣轉買，等於認錯回補",
+      "日線、周線皆已突破先前大量高點",
+      "業績表現不錯，市場持續不離不棄"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "金像電今天投信就開始回來買了，形態上大量高在這裡他已經突破了，周的角度來看就更明顯",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "等待反攻/逢低布局",
+     "reasons": [
+      "雖投信、外資今日仍賣，但同族群指標股（禾伸堂等）已率先拉抬",
+      "預期9月為反攻契機，不宜期待立即重返千元"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "我覺得9月是他們一個反攻的契機，先不要想一千啦，先反攻再說",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "欣興電子",
+     "ticker": "3037",
+     "market": "TW",
+     "stance": "看空",
+     "action": "減碼因應",
+     "reasons": [
+      "公司及兩名副總、一名會計遭檢調帶回調查",
+      "內控問題恐使投信不敢再買，即使不賣也會觀望",
+      "預估股價恐再跌兩三根，來到900-1000附近",
+      "但ABF族群整體不受牽連，因高階ABF技術門檻高，難以造假產地"
+     ],
+     "target_price": "900-1000附近",
+     "confidence": "high",
+     "quote": "我覺得禮拜一有還是要先減碼一點，我覺得他可能會先跌到900到1000的附近",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "景碩",
+     "ticker": "3189",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意資金轉進",
+     "reasons": [
+      "欣興爆雷後，資金可能轉戰至同業景碩",
+      "投信近期已開始青睞景碩"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "那你剛好就有理由說，那我就把景碩再加滿，這是有可能的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯亞光電",
+     "ticker": "3081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回布局",
+     "reasons": [
+      "雖進行短暫休息整理，但外資持股不離不棄",
+      "第三季氮化鋁基板產能開出，業績可望走揚"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "聯亞其實這兩天就在進行一個休息，但是外資還是不離不棄",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "全新",
+     "ticker": "2455",
+     "market": "TW",
+     "stance": "看多",
+     "action": null,
+     "reasons": [
+      "受惠同族群CPO/光學需求，股價同步上漲"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "不是只有聯亞漲，其實像全新也漲",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "旺矽科技",
+     "ticker": "6223",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "投信持續賣出但外資已開始回補，判斷屬於錯殺",
+      "一旦賣壓消化完畢，籌碼力道有機會扭轉向上"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "投信在賣，可是外資已經開始回來買了，我覺得旺矽有點被錯殺也是可以留意",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "穎崴科技",
+     "ticker": "6515",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回布局",
+     "reasons": [
+      "股價逼近先前大量高點，尚未站上但差距不大",
+      "外資買超略大於賣超，型態上仍有機會再上一層樓"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "隱威現在這個位置離他的新高還有一段距離，我覺得這個是不錯的",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "高憲容",
+   "picks": [
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意持續買超",
+     "reasons": [
+      "8月外資買超超過10萬張，居記憶體族群之冠",
+      "前七月營收年增率高於整體上市公司平均及自身累計年增，成長動能加速"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "南亞科、利基店跟華邦電都是買超過10萬張以上，外資這個月主要重點幾乎都在買記憶體",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "力積電",
+     "ticker": "6770",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意持續買超",
+     "reasons": [
+      "同屬記憶體族群，8月外資買超逾10萬張"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "南亞科、利基店跟華邦電都是買超過10萬張以上",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意持續買超",
+     "reasons": [
+      "同屬記憶體族群，8月外資買超逾10萬張"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "南亞科、利基店跟華邦電都是買超過10萬張以上",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "威剛科技",
+     "ticker": "3260",
+     "market": "TW",
+     "stance": "看多",
+     "action": null,
+     "reasons": [
+      "納入外資本月記憶體概念買超名單"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "還包括微缸、玉窗，其實外資這個月主要重點幾乎都是在買記憶體為主",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "英業達",
+     "ticker": "2356",
+     "market": "TW",
+     "stance": "看多",
+     "action": null,
+     "reasons": [
+      "下游伺服器組裝廠受惠記憶體資本支出題材，獲外資買超"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "另外還包括像鷹葉達、神達、鴻海、技嘉、華碩這個部分也都有買超",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "神達",
+     "ticker": "3706",
+     "market": "TW",
+     "stance": "看多",
+     "action": "分批布局/等突破量進場",
+     "reasons": [
+      "6月電腦展推出52U高密度AI液冷機櫃及鑽石散熱伺服器",
+      "業務由純組裝跨入散熱領域，評價可望重新調整",
+      "股價仍在盤整、均線糾結，屬於一動即為大行情的類型"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "神達推出52U的高密度AI液冷機櫃還有鑽石散熱伺服器，均線越是糾結常常一動就是比較大幅度的行情",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "鴻海",
+     "ticker": "2317",
+     "market": "TW",
+     "stance": "看多",
+     "action": null,
+     "reasons": [
+      "下游組裝廠受惠記憶體資本支出題材，獲外資買超"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "另外還包括像鷹葉達、神達、鴻海、技嘉、華碩這個部分也都有買超",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "技嘉",
+     "ticker": "2376",
+     "market": "TW",
+     "stance": "看多",
+     "action": null,
+     "reasons": [
+      "下游組裝廠受惠記憶體資本支出題材，獲外資買超"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "另外還包括像鷹葉達、神達、鴻海、技嘉、華碩這個部分也都有買超",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華碩",
+     "ticker": "2357",
+     "market": "TW",
+     "stance": "看多",
+     "action": null,
+     "reasons": [
+      "下游組裝廠受惠記憶體資本支出題材，獲外資買超"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "另外還包括像鷹葉達、神達、鴻海、技嘉、華碩這個部分也都有買超",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回買進/長期持有",
+     "reasons": [
+      "雲端資本支出明年約七成將投入記憶體，台積電為最大受惠者",
+      "第三季總營收預估約1.4兆元，8、9月營收可望挑戰4800-5000億元新高",
+      "技術面目前僅漲約5週，過去型態常延續約13週，仍有上漲空間至10月中法說會"
+     ],
+     "target_price": "支撐8/19低點不破，技術面預估可延續上漲至10月中法說會",
+     "confidence": "high",
+     "quote": "台積電第三季的總營收會達到1.4兆左右，8、9月份營收預估至少突破4800億甚至挑戰5000億，這是長期投資最主要的首選",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "光寶科",
+     "ticker": "2301",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "上週已推薦，今日再創新高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "光寶科上個禮拜才推薦，今天已經又創新高了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "雙鴻",
+     "ticker": "3324",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "今日補漲，股價1155元創波段新高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "雙鴻之前大家覺得好像都沒跟上，今天跟上來了1,155塊也創了波段新高",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "台光電",
+     "ticker": "2383",
+     "market": "TW",
+     "stance": "看多",
+     "action": "長期持有",
+     "reasons": [
+      "長期看好，近期技術面重新轉強"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台光電當然是長期看好，現在也已經開始轉強",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "新盛力科技",
+     "ticker": "4931",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回布局/留意突破前高",
+     "reasons": [
+      "連續三週400張大戶持續加碼",
+      "月線季線出現黃金交叉",
+      "BBU業務占比持續提升，7月營收創新高"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "連續三個禮拜400張大戶都有開始加碼，技術面上月線季線已經開始黃金交叉，是有機會突破前波高點帶動上去",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "焊權",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找支撐布局",
+     "reasons": [
+      "生產板端連接器，為光寶科、台達電800V系統供應商",
+      "400張大戶開始回穩，7月營收創新高",
+      "近期出量急漲後拉回，判斷為洗盤而非反轉"
+     ],
+     "target_price": "支撐約97.3元（8/25大量低點）",
+     "confidence": "medium",
+     "quote": "股價從66塊一口氣漲到110，8月25號爆大量之後震盪換手，守住那天大量的低點97.3應該還是有機會繼續啟動下一波",
+     "tw_market": null
+    },
+    {
+     "stock_name": "東元",
+     "ticker": "1504",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回布局",
+     "reasons": [
+      "川普政策要求電力設備在美國在地生產，東元德州廠具優勢",
+      "積極轉型AI電力人員服務商，與鴻海合作鎖定輝達、微軟供應鏈",
+      "300-400張大戶連續三週加碼"
+     ],
+     "target_price": "支撐967.2元（8/13起漲低點）",
+     "confidence": "high",
+     "quote": "東元在德州西烏廠區具有美國在地優勢，8月13號帶量長紅那天的低點967.2可以當作防守點",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "Vg3YF4OsA78",
+  "title": "【理財達人秀】邁威爾跌 CPO還是旺？台股反彈新高 國巨能回血？欣興被搜索 若跌停可以撿？MSCI換股大戲 誰最有漲相？｜李兆華、鍾國忠、黃豐凱、高憲容2026.08.28【電視完整版】",
+  "date": "2026-08-28",
+  "duration": 2931,
+  "url": "https://www.youtube.com/watch?v=Vg3YF4OsA78"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

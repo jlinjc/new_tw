@@ -1,0 +1,295 @@
+{
+ "episode_summary": "三位老師聚焦美國財政部千億美元救債行動效果有限,強調美債殖利率走高並非股市下跌主因,真正關鍵在AI資本支出持續成長與輝達財報表現;輝達財報前歷史統計顯示股價多先蹲後跳,盤面短線震盪但中長線仍偏多。個股操作上,蔡明翰列出PCB、設備為AI第一梯隊,並看好南亞科、聯亞、台勝科;張林忠以KD黃金交叉及聰明融資選出光寶科、聯電、航運股;紀緯明則看好上游IC設計股與00402A美股科技ETF做台美配置。",
+ "market_view": "台股目前為量縮盤整格局,美債殖利率走高不必過度擔心,市場靜待輝達財報與PCE通膨數據等關�024鍵事件,短線震盪、電子與傳產類股輪動,但中長線多方格局未變。",
+ "teachers": [
+  {
+   "name": "蔡明翰",
+   "picks": [
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "以南亞科為操作主軸",
+     "reasons": [
+      "記憶體外溢效應下獲利面非常好",
+      "目前市場中轉強的記憶體股僅剩此檔具表現"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "現在市場只剩下一檔南亞科其他的通常都沒有太大表現所以如果你今天要操作就只有一檔就是南亞科",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯亞",
+     "ticker": "3081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回檔不追、待轉強再進場",
+     "reasons": [
+      "營收數字表現佳,持續往上攻高",
+      "為矽光子族群領頭羊"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "聯亞因為剛剛提到數字很好持續往上攻高我覺得是可以持續留意",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "台勝科",
+     "ticker": "3532",
+     "market": "TW",
+     "stance": "看多",
+     "action": "突破再買、拉回不向下攤平",
+     "reasons": [
+      "矽晶圓族群中股價相對強勢",
+      "但基本面(營收獲利)相對較弱,展望偏未來性,風險較高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "矽晶圓的部分台勝科就算是股價相對比較強勢的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "旺矽",
+     "ticker": "6223",
+     "market": "TW",
+     "stance": "看多",
+     "action": "第三季逢低佈局",
+     "reasons": [
+      "法說會後崩盤但需求並未改變,問題是產能做不出來",
+      "全產全銷,未來靠調漲價格與新產能推升營收",
+      "第三季是市場最不看好但反而是佈局良機,明年產能開出營收將恢復成長軌道"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "另外 旺矽的部分法說會之後就崩盤的個股但是只要記得一個問題公司就有講他不是需求沒有任何改變",
+     "tw_market": "TPEX"
+    }
+   ]
+  },
+  {
+   "name": "張林忠",
+   "picks": [
+    {
+     "stock_name": "光寶科",
+     "ticker": "2301",
+     "market": "TW",
+     "stance": "看多",
+     "action": "可追價,不喜追高者可等拉回靠均線進場",
+     "reasons": [
+      "KD黃金交叉,股價創歷史新高且已過前高",
+      "指標顯示後續仍有推動力"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "光寶科今天再創新高再創歷史新高而且你說他不但創新高它的指標讓它後續還是有推動力",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯電",
+     "ticker": "2303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "KD低檔黃金交叉可留意,逢低布局",
+     "reasons": [
+      "前高185.5,此波反彈相對落後大盤",
+      "KD在50以下黃金交叉",
+      "現金殖利率題材可吸引資金在大盤震盪時進駐"
+     ],
+     "target_price": "前高185.5元",
+     "confidence": "high",
+     "quote": "聯電你看啊前高在185.5...現在看起來KD在50以下黃金交叉我覺得你可以留意一下",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "金像電",
+     "ticker": "2368",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意前波黑棒高點,突破可再進場",
+     "reasons": [
+      "股價在前高附近,法人集中度佳",
+      "均線斜率轉平未下彎,KD在50附近交叉位階有利"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "那第三檔就是金豪科 最強的啊...那基底我覺得最近表現都還不錯",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "裕民",
+     "ticker": "2606",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回靠近均線找買點",
+     "reasons": [
+      "聰明融資量化選股(均線上揚、融資增加、基金持有數、本益比<40倍)篩出的強勢股",
+      "昨日收盤即選出,今日開盤價進場一度衝上漲停"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "第一個是2606的育民那今天一度衝上漲停那我們其實我們在昨天收盤就選出來了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "陽明",
+     "ticker": "2609",
+     "market": "TW",
+     "stance": "看多",
+     "action": "等拉回重新突破前波黑棒高點再進場",
+     "reasons": [
+      "聰明融資篩選出的強勢股",
+      "短線漲多、乖離偏高,過熱需回檔消化"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "陽明今天有點開高走低...因為他協率有點高在最近才被我們撈出來",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "玉金光",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線操作,停損停利節奏設短",
+     "reasons": [
+      "聰明融資選股條件篩出的相對強勢股,均線上揚、融資增加",
+      "KD在此區間有不錯交叉機會"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "那玉金光這一波修正下來現在大概談到一半左右...KD呢在這個地方有不錯交叉",
+     "name_note": "語音辨識不確定,疑為航運股,代號無法確認",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "紀緯明",
+   "picks": [
+    {
+     "stock_name": "華星光",
+     "ticker": "4979",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱或逢回檔留意",
+     "reasons": [
+      "上週已提及此波反彈,今日再度攻上漲停,單週漲幅達30%"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "低價的瑞瑄最近表現很強...達標一個禮拜漲30%",
+     "name_note": "語音辨識為瑞瑄,光通訊族群,代號不確定",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局,可用零股操作",
+     "reasons": [
+      "回檔修正已跌無可跌,評價已顯便宜",
+      "法人(投信)力挺,沿五日均線向上走",
+      "尚未出現停利條件,中長線仍有高點可期"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "大立光在這邊都還沒有這個去做停利的條件中長線應該都還是有高點可以做期待",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "創意",
+     "ticker": "3443",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回找買點,盤中買紅不買綠,跟隨法人動向",
+     "reasons": [
+      "台積電支持的IP矽智財龍頭,股價型態屬多頭排列",
+      "7月營收年增翻倍,上半年EPS已達23.89",
+      "今明兩年預估EPS為50.8與101,同樣翻倍成長",
+      "月線已穿越季線,法人未轉為賣方"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "創意畢竟是一檔多頭的股票再加上月線已經順利穿過季線",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低佈局",
+     "reasons": [
+      "與Google TPU專案屬深度綁定的Code Design合作,遭AMD搶單疑慮不需過度擔心",
+      "今明年EPS預估67.9及150,明年翻倍成長,現股價遭低估",
+      "Google TPU ASIC專案第四季開始量產,營收可望開出"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "明年的EPS是翻倍成長所以股價怎麼會被莫名其妙壓在月線下面我覺得這個是不合理的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "信驊",
+     "ticker": "5274",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "伺服器晶片管理IC股王,基本面穩健"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "另外在做伺服器晶片管理IC的信驊 股王嘛加油 不要被窗戶操車了 加油 頂住",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "瑞昱",
+     "ticker": "2379",
+     "market": "TW",
+     "stance": "看空",
+     "action": "觀望",
+     "reasons": [
+      "網通控制IC類股中股價相對疲軟",
+      "營收未能創新高,數字表現不亮眼"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "像瑞育這些我認為網通控制IC股價相對的就比較疲軟一點點",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "安聯美國科技領航",
+     "ticker": "00402A",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "逢回檔分批佈局,作為美股核心配置",
+     "reasons": [
+      "前10大持股佔比逾5成,前20大佔比達7成,科技純度高",
+      "集中佈局七巨頭與半導體,基金經理人可超配看好個股(如輝達、美光)",
+      "6月掛牌以來相對抗跌抗震,適合台美配置中的美股核心部位"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "因為我們去買這些科技巨頭我希望的就是純度要高...00402A它的特色它光是前10大的持股就已經佔比超過5成",
+     "name_note": "00402A",
+     "tw_market": null
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "geEDrE0IWJc",
+  "title": "【理財達人秀】1兆美元救債 台股拉千點要攻？輝達財報三情境 先跌後漲？PCB.設備 第一梯隊出列！記憶體.航運KD金叉股｜李兆華、蔡明翰、張林忠、紀緯明2026.08.25【電視完整版】",
+  "date": "2026-08-25",
+  "duration": 2984,
+  "url": "https://www.youtube.com/watch?v=geEDrE0IWJc"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}
