@@ -763,7 +763,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-08-07",
-   "entry_price": 173.5,
+   "entry_price": 173.06,
    "ret": {
     "d3": 0.13256,
     "w1": 0.10663,
@@ -1299,7 +1299,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-06-30",
-   "entry_price": 923.0,
+   "entry_price": 895.43,
    "ret": {
     "d3": 0.02709,
     "w1": -0.04334,
@@ -2111,7 +2111,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-07-06",
-   "entry_price": 932.0,
+   "entry_price": 904.17,
    "ret": {
     "d3": -0.06116,
     "w1": -0.05258,
@@ -3284,7 +3284,7 @@
     "d3": -0.19424,
     "w1": -0.15827,
     "w2": -0.03957,
-    "m1": 0.04317
+    "m1": 0.01215
    }
   },
   "bench": {
@@ -3299,7 +3299,7 @@
    "d3": -0.11142,
    "w1": -0.14601,
    "w2": -0.05265,
-   "m1": 0.0178
+   "m1": -0.01322
   },
   "hit": {
    "d3": false,
@@ -4401,10 +4401,36 @@
   "ticker": "00409A",
   "symbol": "00409A.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-02",
+   "entry_price": 9.7,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "0XSO25AVCgs",
@@ -5111,7 +5137,7 @@
     "d3": 0.02155,
     "w1": 0.03233,
     "w2": 0.02586,
-    "m1": null
+    "m1": 0.02802
    }
   },
   "bench": {
@@ -5119,20 +5145,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": 0.0016,
    "w1": -0.00826,
    "w2": -0.01907,
-   "m1": null
+   "m1": -0.03665
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -5150,7 +5176,7 @@
     "d3": 0.04817,
     "w1": 0.12156,
     "w2": 0.18119,
-    "m1": null
+    "m1": 0.18807
    }
   },
   "bench": {
@@ -5158,20 +5184,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": 0.02822,
    "w1": 0.08097,
    "w2": 0.13626,
-   "m1": null
+   "m1": 0.1234
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -5189,7 +5215,7 @@
     "d3": 0.0414,
     "w1": 0.13376,
     "w2": 0.1242,
-    "m1": null
+    "m1": 0.14013
    }
   },
   "bench": {
@@ -5197,14 +5223,14 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": 0.02145,
    "w1": 0.09317,
    "w2": 0.07927,
-   "m1": null
+   "m1": 0.07546
   },
   "hit": {}
  },
@@ -5223,7 +5249,7 @@
     "d3": 0.10989,
     "w1": 0.14835,
     "w2": 0.0989,
-    "m1": null
+    "m1": 0.13462
    }
   },
   "bench": {
@@ -5231,14 +5257,14 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": 0.08994,
    "w1": 0.10776,
    "w2": 0.05397,
-   "m1": null
+   "m1": 0.06995
   },
   "hit": {}
  },
@@ -5270,7 +5296,7 @@
     "d3": 0.07301,
     "w1": 0.09778,
     "w2": 0.12777,
-    "m1": null
+    "m1": 0.1043
    }
   },
   "bench": {
@@ -5278,20 +5304,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": 0.05306,
    "w1": 0.05719,
    "w2": 0.08284,
-   "m1": null
+   "m1": 0.03963
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -5309,7 +5335,7 @@
     "d3": 0.03355,
     "w1": 0.07359,
     "w2": 0.23918,
-    "m1": null
+    "m1": 0.05303
    }
   },
   "bench": {
@@ -5317,14 +5343,14 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": 0.0136,
    "w1": 0.033,
    "w2": 0.19425,
-   "m1": null
+   "m1": -0.01164
   },
   "hit": {}
  },
@@ -5343,7 +5369,7 @@
     "d3": 0.06532,
     "w1": 0.1036,
     "w2": 0.06757,
-    "m1": null
+    "m1": 0.14189
    }
   },
   "bench": {
@@ -5351,20 +5377,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": 0.04537,
    "w1": 0.06301,
    "w2": 0.02264,
-   "m1": null
+   "m1": 0.07722
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -5382,7 +5408,7 @@
     "d3": 0.03349,
     "w1": 0.10048,
     "w2": 0.19139,
-    "m1": null
+    "m1": 0.14833
    }
   },
   "bench": {
@@ -5390,20 +5416,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": 0.01354,
    "w1": 0.05989,
    "w2": 0.14646,
-   "m1": null
+   "m1": 0.08366
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -5421,7 +5447,7 @@
     "d3": -0.04594,
     "w1": 0.09011,
     "w2": 0.01767,
-    "m1": null
+    "m1": -0.04594
    }
   },
   "bench": {
@@ -5429,20 +5455,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": -0.06589,
    "w1": 0.04952,
    "w2": -0.02726,
-   "m1": null
+   "m1": -0.11061
   },
   "hit": {
    "d3": false,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -5460,7 +5486,7 @@
     "d3": -0.03276,
     "w1": 0.158,
     "w2": 0.08671,
-    "m1": null
+    "m1": 0.12909
    }
   },
   "bench": {
@@ -5468,20 +5494,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": -0.05271,
    "w1": 0.11741,
    "w2": 0.04178,
-   "m1": null
+   "m1": 0.06442
   },
   "hit": {
    "d3": true,
    "w1": false,
    "w2": false,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -5499,7 +5525,7 @@
     "d3": 0.0743,
     "w1": 0.29719,
     "w2": 0.34137,
-    "m1": null
+    "m1": 0.37751
    }
   },
   "bench": {
@@ -5507,20 +5533,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": 0.05435,
    "w1": 0.2566,
    "w2": 0.29644,
-   "m1": null
+   "m1": 0.31284
   },
   "hit": {
    "d3": false,
    "w1": false,
    "w2": false,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -5538,7 +5564,7 @@
     "d3": 0.00485,
     "w1": 0.06311,
     "w2": 0.03398,
-    "m1": null
+    "m1": 0.01456
    }
   },
   "bench": {
@@ -5546,20 +5572,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": -0.0151,
    "w1": 0.02252,
    "w2": -0.01095,
-   "m1": null
+   "m1": -0.05011
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -5577,7 +5603,7 @@
     "d3": -0.00879,
     "w1": 0.04615,
     "w2": -0.01538,
-    "m1": null
+    "m1": -0.01099
    }
   },
   "bench": {
@@ -5585,20 +5611,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": -0.02874,
    "w1": 0.00556,
    "w2": -0.06031,
-   "m1": null
+   "m1": -0.07566
   },
   "hit": {
    "d3": false,
    "w1": true,
    "w2": false,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -5611,12 +5637,12 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-08-04",
-   "entry_price": 786.0,
+   "entry_price": 762.53,
    "ret": {
     "d3": 0.02036,
     "w1": 0.03308,
     "w2": -0.00509,
-    "m1": null
+    "m1": -0.05446
    }
   },
   "bench": {
@@ -5624,20 +5650,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": 0.00041,
    "w1": -0.00751,
    "w2": -0.05002,
-   "m1": null
+   "m1": -0.11913
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": false,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -5655,7 +5681,7 @@
     "d3": -0.03448,
     "w1": -0.03065,
     "w2": -0.05747,
-    "m1": null
+    "m1": -0.0728
    }
   },
   "bench": {
@@ -5663,20 +5689,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": -0.05443,
    "w1": -0.07124,
    "w2": -0.1024,
-   "m1": null
+   "m1": -0.13747
   },
   "hit": {
    "d3": false,
    "w1": false,
    "w2": false,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -5694,7 +5720,7 @@
     "d3": 0.0905,
     "w1": 0.13966,
     "w2": 0.17989,
-    "m1": null
+    "m1": 0.39441
    }
   },
   "bench": {
@@ -5702,20 +5728,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": 0.07055,
    "w1": 0.09907,
    "w2": 0.13496,
-   "m1": null
+   "m1": 0.32974
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -5733,7 +5759,7 @@
     "d3": 0.02131,
     "w1": 0.03957,
     "w2": 0.08219,
-    "m1": null
+    "m1": 0.16591
    }
   },
   "bench": {
@@ -5741,14 +5767,14 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": 0.00136,
    "w1": -0.00102,
    "w2": 0.03726,
-   "m1": null
+   "m1": 0.10124
   },
   "hit": {}
  },
@@ -5767,7 +5793,7 @@
     "d3": -0.0211,
     "w1": 0.03797,
     "w2": 0.00422,
-    "m1": null
+    "m1": 0.06329
    }
   },
   "bench": {
@@ -5775,20 +5801,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": -0.04105,
    "w1": -0.00262,
    "w2": -0.04071,
-   "m1": null
+   "m1": -0.00138
   },
   "hit": {
    "d3": false,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -5806,7 +5832,7 @@
     "d3": -0.05897,
     "w1": -0.02051,
     "w2": -0.07179,
-    "m1": null
+    "m1": -0.04872
    }
   },
   "bench": {
@@ -5814,20 +5840,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": -0.07892,
    "w1": -0.0611,
    "w2": -0.11672,
-   "m1": null
+   "m1": -0.11339
   },
   "hit": {
    "d3": false,
    "w1": false,
    "w2": false,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -5845,7 +5871,7 @@
     "d3": 0.00438,
     "w1": -0.01424,
     "w2": -0.00767,
-    "m1": null
+    "m1": 0.03724
    }
   },
   "bench": {
@@ -5853,20 +5879,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": -0.01557,
    "w1": -0.05483,
    "w2": -0.0526,
-   "m1": null
+   "m1": -0.02743
   },
   "hit": {
    "d3": true,
    "w1": false,
    "w2": false,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -5884,7 +5910,7 @@
     "d3": 0.00733,
     "w1": -0.00366,
     "w2": 0.00366,
-    "m1": null
+    "m1": 0.00733
    }
   },
   "bench": {
@@ -5892,20 +5918,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": -0.01262,
    "w1": -0.04425,
    "w2": -0.04127,
-   "m1": null
+   "m1": -0.05734
   },
   "hit": {
    "d3": true,
    "w1": false,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -5923,7 +5949,7 @@
     "d3": 0.0045,
     "w1": -0.01351,
     "w2": 0.0,
-    "m1": null
+    "m1": 0.04505
    }
   },
   "bench": {
@@ -5931,20 +5957,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": -0.01545,
    "w1": -0.0541,
    "w2": -0.04493,
-   "m1": null
+   "m1": -0.01962
   },
   "hit": {
    "d3": true,
    "w1": false,
    "w2": false,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -5962,7 +5988,7 @@
     "d3": 0.04,
     "w1": 0.052,
     "w2": -0.004,
-    "m1": null
+    "m1": 0.004
    }
   },
   "bench": {
@@ -5970,20 +5996,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": 0.02005,
    "w1": 0.01141,
    "w2": -0.04893,
-   "m1": null
+   "m1": -0.06067
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": false,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -6027,7 +6053,7 @@
     "d3": 0.00728,
     "w1": 0.05825,
     "w2": 0.15534,
-    "m1": null
+    "m1": 0.13835
    }
   },
   "bench": {
@@ -6035,20 +6061,20 @@
     "d3": 0.01995,
     "w1": 0.04059,
     "w2": 0.04493,
-    "m1": null
+    "m1": 0.06467
    }
   },
   "excess": {
    "d3": -0.01267,
    "w1": 0.01766,
    "w2": 0.11041,
-   "m1": null
+   "m1": 0.07368
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -6953,7 +6979,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-05-12",
-   "entry_price": 17.77,
+   "entry_price": 17.67,
    "ret": {
     "d3": 0.0061,
     "w1": 0.00222,
@@ -10270,7 +10296,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-07-28",
-   "entry_price": 704.0,
+   "entry_price": 682.97,
    "ret": {
     "d3": 0.00426,
     "w1": 0.11648,
@@ -13920,7 +13946,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-06-15",
-   "entry_price": 885.0,
+   "entry_price": 858.57,
    "ret": {
     "d3": -0.07006,
     "w1": -0.10621,
@@ -15735,7 +15761,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-08-13",
-   "entry_price": 196.0,
+   "entry_price": 195.5,
    "ret": {
     "d3": -0.09184,
     "w1": -0.07908,
@@ -16940,7 +16966,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-07-01",
-   "entry_price": 912.0,
+   "entry_price": 884.76,
    "ret": {
     "d3": 0.02193,
     "w1": -0.05044,
@@ -18144,7 +18170,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 6915.0,
    "ret": {
-    "d3": null,
+    "d3": 0.09617,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18152,20 +18178,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.075,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18183,7 +18209,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 3370.0,
    "ret": {
-    "d3": null,
+    "d3": 0.01632,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18191,20 +18217,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.00485,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18222,7 +18248,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 301.0,
    "ret": {
-    "d3": null,
+    "d3": -0.00166,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18230,20 +18256,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.02283,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18261,7 +18287,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 5920.0,
    "ret": {
-    "d3": null,
+    "d3": 0.01267,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18269,20 +18295,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.0085,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18300,7 +18326,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 94.1,
    "ret": {
-    "d3": null,
+    "d3": -0.07333,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18308,20 +18334,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.0945,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18339,7 +18365,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 2410.0,
    "ret": {
-    "d3": null,
+    "d3": 0.01245,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18347,20 +18373,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.00872,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18378,7 +18404,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 541.0,
    "ret": {
-    "d3": null,
+    "d3": -0.04251,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18386,14 +18412,14 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.06368,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18438,7 +18464,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 1770.0,
    "ret": {
-    "d3": null,
+    "d3": 0.05367,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18446,20 +18472,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.0325,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18477,7 +18503,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 301.0,
    "ret": {
-    "d3": null,
+    "d3": -0.00166,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18485,20 +18511,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.02283,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18516,7 +18542,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 6915.0,
    "ret": {
-    "d3": null,
+    "d3": 0.09617,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18524,20 +18550,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.075,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18555,7 +18581,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 3370.0,
    "ret": {
-    "d3": null,
+    "d3": 0.01632,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18563,20 +18589,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.00485,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18594,7 +18620,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 538.0,
    "ret": {
-    "d3": null,
+    "d3": 0.01115,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18602,20 +18628,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.01002,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18633,7 +18659,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 146.5,
    "ret": {
-    "d3": null,
+    "d3": 0.07167,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18641,20 +18667,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.0505,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18672,7 +18698,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 95.2,
    "ret": {
-    "d3": null,
+    "d3": 0.0,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18680,20 +18706,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.02117,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18711,7 +18737,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 397.5,
    "ret": {
-    "d3": null,
+    "d3": 0.02138,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18719,20 +18745,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.00021,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18750,7 +18776,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 265.5,
    "ret": {
-    "d3": null,
+    "d3": -0.01883,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18758,20 +18784,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.04,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18789,7 +18815,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 240.0,
    "ret": {
-    "d3": null,
+    "d3": -0.05833,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18797,20 +18823,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.0795,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18828,7 +18854,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 269.28,
    "ret": {
-    "d3": null,
+    "d3": -0.04807,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18836,20 +18862,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.05219,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18867,7 +18893,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 217.83,
    "ret": {
-    "d3": null,
+    "d3": -0.01928,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18875,20 +18901,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.04045,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18906,7 +18932,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 227.98,
    "ret": {
-    "d3": null,
+    "d3": -0.04623,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18914,20 +18940,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.0674,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18945,7 +18971,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 352.5,
    "ret": {
-    "d3": null,
+    "d3": -0.09504,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18953,20 +18979,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.11621,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -18984,7 +19010,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 1445.0,
    "ret": {
-    "d3": null,
+    "d3": 0.00346,
     "w1": null,
     "w2": null,
     "m1": null
@@ -18992,20 +19018,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.01771,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -19023,7 +19049,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 5475.0,
    "ret": {
-    "d3": null,
+    "d3": 0.03014,
     "w1": null,
     "w2": null,
     "m1": null
@@ -19031,20 +19057,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.00897,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -19062,7 +19088,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 227.5,
    "ret": {
-    "d3": null,
+    "d3": 0.03077,
     "w1": null,
     "w2": null,
     "m1": null
@@ -19070,20 +19096,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.0096,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -19101,7 +19127,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 364.5,
    "ret": {
-    "d3": null,
+    "d3": 0.01372,
     "w1": null,
     "w2": null,
     "m1": null
@@ -19109,20 +19135,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.00745,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -19140,7 +19166,7 @@
    "entry_date": "2026-08-27",
    "entry_price": 1030.0,
    "ret": {
-    "d3": null,
+    "d3": 0.18932,
     "w1": null,
     "w2": null,
     "m1": null
@@ -19148,20 +19174,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.02117,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.16815,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -21596,7 +21622,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-05-15",
-   "entry_price": 150.0,
+   "entry_price": 147.86,
    "ret": {
     "d3": -0.03667,
     "w1": 0.06333,
@@ -22319,7 +22345,7 @@
   "stance": "觀望",
   "perf": {
    "entry_date": "2026-06-09",
-   "entry_price": 749.0,
+   "entry_price": 726.63,
    "ret": {
     "d3": 0.07477,
     "w1": 0.08411,
@@ -24654,6 +24680,1029 @@
    "w2": true,
    "m1": true
   }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "李永年",
+  "stock_name": "台積電",
+  "ticker": "2330",
+  "symbol": "2330.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 2440.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "李永年",
+  "stock_name": "欣興",
+  "ticker": "3037",
+  "symbol": "3037.TW",
+  "stance": "中性",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 971.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {}
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "李永年",
+  "stock_name": "景碩",
+  "ticker": "3189",
+  "symbol": "3189.TW",
+  "stance": "中性",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 874.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {}
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "李永年",
+  "stock_name": "南電",
+  "ticker": "8046",
+  "symbol": "8046.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 1225.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "李永年",
+  "stock_name": "金居",
+  "ticker": "8358",
+  "symbol": "8358.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 526.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "李永年",
+  "stock_name": "創意",
+  "ticker": "3443",
+  "symbol": "3443.TW",
+  "stance": "觀望",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 5995.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {}
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "李永年",
+  "stock_name": "金像電",
+  "ticker": "2368",
+  "symbol": "2368.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 1225.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "李永年",
+  "stock_name": "臻鼎-KY",
+  "ticker": "4958",
+  "symbol": "4958.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 535.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "李永年",
+  "stock_name": "定穎",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "林漢偉",
+  "stock_name": "南亞科",
+  "ticker": "2408",
+  "symbol": "2408.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 518.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "林漢偉",
+  "stock_name": "華邦電",
+  "ticker": "2344",
+  "symbol": "2344.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 176.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "林漢偉",
+  "stock_name": "群聯",
+  "ticker": "8299",
+  "symbol": "8299.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 2125.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "林漢偉",
+  "stock_name": "晶豪科",
+  "ticker": "3006",
+  "symbol": "3006.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 278.5,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "林漢偉",
+  "stock_name": "鈺創",
+  "ticker": "5351",
+  "symbol": "5351.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 119.5,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "林漢偉",
+  "stock_name": "大立光",
+  "ticker": "3008",
+  "symbol": "3008.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 7580.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "林漢偉",
+  "stock_name": "玉晶光",
+  "ticker": "3406",
+  "symbol": "3406.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 1005.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "林漢偉",
+  "stock_name": "新日興",
+  "ticker": "3376",
+  "symbol": "3376.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 213.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "林漢偉",
+  "stock_name": "富世達",
+  "ticker": "6805",
+  "symbol": "6805.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 2285.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "林漢偉",
+  "stock_name": "雙鴻",
+  "ticker": "3324",
+  "symbol": "3324.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 1375.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "林漢偉",
+  "stock_name": "奇鋐",
+  "ticker": "3017",
+  "symbol": "3017.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 3410.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "林漢偉",
+  "stock_name": "華通",
+  "ticker": "2313",
+  "symbol": "2313.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 252.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "林漢偉",
+  "stock_name": "台虹",
+  "ticker": "8039",
+  "symbol": "8039.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 319.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "楊雲翔",
+  "stock_name": "三福化工",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "楊雲翔",
+  "stock_name": "聯德控股-KY",
+  "ticker": "4912",
+  "symbol": "4912.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 98.7,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "楊雲翔",
+  "stock_name": "森茂",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "楊雲翔",
+  "stock_name": "中華化",
+  "ticker": "1727",
+  "symbol": "1727.TW",
+  "stance": "中性",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 95.3,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {}
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "楊雲翔",
+  "stock_name": "長興材料",
+  "ticker": "1717",
+  "symbol": "1717.TW",
+  "stance": "中性",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 84.7,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {}
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "楊雲翔",
+  "stock_name": "華通",
+  "ticker": "2313",
+  "symbol": "2313.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 252.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "EGhPyJrwf7M",
+  "date": "2026-08-31",
+  "teacher": "楊雲翔",
+  "stock_name": "台光電",
+  "ticker": "2383",
+  "symbol": "2383.TW",
+  "stance": "中性",
+  "perf": {
+   "entry_date": "2026-09-01",
+   "entry_price": 5640.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {}
  },
  {
   "video_id": "eW1988tVKkQ",
@@ -27634,7 +28683,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-08-21",
-   "entry_price": 179.0,
+   "entry_price": 178.54,
    "ret": {
     "d3": 0.07263,
     "w1": 0.06145,
@@ -28212,7 +29261,7 @@
    "entry_price": 517.0,
    "ret": {
     "d3": 0.05029,
-    "w1": null,
+    "w1": 0.00193,
     "w2": null,
     "m1": null
    }
@@ -28220,20 +29269,20 @@
   "bench": {
    "ret": {
     "d3": 0.00645,
-    "w1": null,
+    "w1": 0.00725,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.04384,
-   "w1": null,
+   "w1": -0.00532,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -28251,7 +29300,7 @@
    "entry_price": 3255.0,
    "ret": {
     "d3": 0.08449,
-    "w1": null,
+    "w1": 0.04301,
     "w2": null,
     "m1": null
    }
@@ -28259,20 +29308,20 @@
   "bench": {
    "ret": {
     "d3": 0.00645,
-    "w1": null,
+    "w1": 0.00725,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.07804,
-   "w1": null,
+   "w1": 0.03576,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -28290,7 +29339,7 @@
    "entry_price": 382.0,
    "ret": {
     "d3": -0.00785,
-    "w1": null,
+    "w1": 0.01047,
     "w2": null,
     "m1": null
    }
@@ -28298,20 +29347,20 @@
   "bench": {
    "ret": {
     "d3": 0.00645,
-    "w1": null,
+    "w1": 0.00725,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.0143,
-   "w1": null,
+   "w1": 0.00322,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -28329,7 +29378,7 @@
    "entry_price": 5040.0,
    "ret": {
     "d3": 0.01786,
-    "w1": null,
+    "w1": 0.0496,
     "w2": null,
     "m1": null
    }
@@ -28337,20 +29386,20 @@
   "bench": {
    "ret": {
     "d3": 0.00645,
-    "w1": null,
+    "w1": 0.00725,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.01141,
-   "w1": null,
+   "w1": 0.04235,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -28368,7 +29417,7 @@
    "entry_price": 307.0,
    "ret": {
     "d3": -0.00651,
-    "w1": null,
+    "w1": 0.02606,
     "w2": null,
     "m1": null
    }
@@ -28376,20 +29425,20 @@
   "bench": {
    "ret": {
     "d3": 0.00645,
-    "w1": null,
+    "w1": 0.00725,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.01296,
-   "w1": null,
+   "w1": 0.01881,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -28407,7 +29456,7 @@
    "entry_price": 123.5,
    "ret": {
     "d3": 0.04453,
-    "w1": null,
+    "w1": 0.02024,
     "w2": null,
     "m1": null
    }
@@ -28415,20 +29464,20 @@
   "bench": {
    "ret": {
     "d3": 0.00645,
-    "w1": null,
+    "w1": 0.00725,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.03808,
-   "w1": null,
+   "w1": 0.01299,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -28446,7 +29495,7 @@
    "entry_price": 1040.0,
    "ret": {
     "d3": 0.12019,
-    "w1": null,
+    "w1": 0.12981,
     "w2": null,
     "m1": null
    }
@@ -28454,20 +29503,20 @@
   "bench": {
    "ret": {
     "d3": 0.00645,
-    "w1": null,
+    "w1": 0.00725,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.11374,
-   "w1": null,
+   "w1": 0.12256,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -28485,7 +29534,7 @@
    "entry_price": 72.0,
    "ret": {
     "d3": 0.05694,
-    "w1": null,
+    "w1": 0.04306,
     "w2": null,
     "m1": null
    }
@@ -28493,20 +29542,20 @@
   "bench": {
    "ret": {
     "d3": 0.00645,
-    "w1": null,
+    "w1": 0.00725,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.05049,
-   "w1": null,
+   "w1": 0.03581,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -28524,7 +29573,7 @@
    "entry_price": 57.6,
    "ret": {
     "d3": 0.03299,
-    "w1": null,
+    "w1": -0.00174,
     "w2": null,
     "m1": null
    }
@@ -28532,20 +29581,20 @@
   "bench": {
    "ret": {
     "d3": 0.00645,
-    "w1": null,
+    "w1": 0.00725,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.02654,
-   "w1": null,
+   "w1": -0.00899,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -28576,7 +29625,7 @@
    "entry_price": 598.0,
    "ret": {
     "d3": 0.01839,
-    "w1": null,
+    "w1": 0.04348,
     "w2": null,
     "m1": null
    }
@@ -28584,20 +29633,20 @@
   "bench": {
    "ret": {
     "d3": 0.00645,
-    "w1": null,
+    "w1": 0.00725,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.01194,
-   "w1": null,
+   "w1": 0.03623,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -28615,7 +29664,7 @@
    "entry_price": 6290.0,
    "ret": {
     "d3": 0.21622,
-    "w1": null,
+    "w1": 0.24165,
     "w2": null,
     "m1": null
    }
@@ -28623,20 +29672,20 @@
   "bench": {
    "ret": {
     "d3": 0.00645,
-    "w1": null,
+    "w1": 0.00725,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.20977,
-   "w1": null,
+   "w1": 0.2344,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -28654,7 +29703,7 @@
    "entry_price": 6125.0,
    "ret": {
     "d3": -0.00408,
-    "w1": null,
+    "w1": -0.03755,
     "w2": null,
     "m1": null
    }
@@ -28662,20 +29711,20 @@
   "bench": {
    "ret": {
     "d3": 0.00645,
-    "w1": null,
+    "w1": 0.00725,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.01053,
-   "w1": null,
+   "w1": -0.0448,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -28693,7 +29742,7 @@
    "entry_price": 3945.0,
    "ret": {
     "d3": -0.00507,
-    "w1": null,
+    "w1": 0.08365,
     "w2": null,
     "m1": null
    }
@@ -28701,20 +29750,20 @@
   "bench": {
    "ret": {
     "d3": 0.00645,
-    "w1": null,
+    "w1": 0.00725,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.01152,
-   "w1": null,
+   "w1": 0.0764,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -28732,7 +29781,7 @@
    "entry_price": 15690.0,
    "ret": {
     "d3": 0.0239,
-    "w1": null,
+    "w1": 0.1297,
     "w2": null,
     "m1": null
    }
@@ -28740,20 +29789,20 @@
   "bench": {
    "ret": {
     "d3": 0.00645,
-    "w1": null,
+    "w1": 0.00725,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.01745,
-   "w1": null,
+   "w1": 0.12245,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -28771,7 +29820,7 @@
    "entry_price": 734.0,
    "ret": {
     "d3": -0.01771,
-    "w1": null,
+    "w1": 0.01362,
     "w2": null,
     "m1": null
    }
@@ -28779,20 +29828,20 @@
   "bench": {
    "ret": {
     "d3": 0.00645,
-    "w1": null,
+    "w1": 0.00725,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.02416,
-   "w1": null,
+   "w1": 0.00637,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -29416,7 +30465,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-07-02",
-   "entry_price": 939.0,
+   "entry_price": 910.96,
    "ret": {
     "d3": -0.05964,
     "w1": -0.06816,
@@ -29767,7 +30816,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-05-18",
-   "entry_price": 721.0,
+   "entry_price": 699.47,
    "ret": {
     "d3": 0.08738,
     "w1": 0.11928,
@@ -31167,7 +32216,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-08-11",
-   "entry_price": 116.5,
+   "entry_price": 114.84,
    "ret": {
     "d3": -0.02146,
     "w1": -0.01288,
@@ -31206,7 +32255,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-08-11",
-   "entry_price": 116.5,
+   "entry_price": 114.84,
    "ret": {
     "d3": -0.02146,
     "w1": -0.01288,
@@ -32208,7 +33257,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-07-31",
-   "entry_price": 5390.0,
+   "entry_price": 1807.03,
    "ret": {
     "d3": 0.14564,
     "w1": 0.13173,
@@ -34959,7 +36008,7 @@
   "stance": "中性",
   "perf": {
    "entry_date": "2026-05-29",
-   "entry_price": 784.0,
+   "entry_price": 760.59,
    "ret": {
     "d3": 0.0,
     "w1": 0.03061,
@@ -35083,7 +36132,7 @@
    "ret": {
     "d3": 0.04158,
     "w1": 0.07484,
-    "w2": null,
+    "w2": 0.07692,
     "m1": null
    }
   },
@@ -35091,14 +36140,14 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.04062,
    "w1": 0.04995,
-   "w2": null,
+   "w2": 0.0446,
    "m1": null
   },
   "hit": {}
@@ -35117,7 +36166,7 @@
    "ret": {
     "d3": 0.08651,
     "w1": 0.08142,
-    "w2": null,
+    "w2": 0.05089,
     "m1": null
    }
   },
@@ -35125,14 +36174,14 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.08555,
    "w1": 0.05653,
-   "w2": null,
+   "w2": 0.01857,
    "m1": null
   },
   "hit": {}
@@ -35151,7 +36200,7 @@
    "ret": {
     "d3": 0.11013,
     "w1": 0.05316,
-    "w2": null,
+    "w2": 0.0443,
     "m1": null
    }
   },
@@ -35159,14 +36208,14 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.10917,
    "w1": 0.02827,
-   "w2": null,
+   "w2": 0.01198,
    "m1": null
   },
   "hit": {}
@@ -35185,7 +36234,7 @@
    "ret": {
     "d3": -0.07653,
     "w1": 0.00255,
-    "w2": null,
+    "w2": -0.06975,
     "m1": null
    }
   },
@@ -35193,20 +36242,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.07749,
    "w1": -0.02234,
-   "w2": null,
+   "w2": -0.10207,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -35224,7 +36273,7 @@
    "ret": {
     "d3": -0.08846,
     "w1": 0.0,
-    "w2": null,
+    "w2": 0.12981,
     "m1": null
    }
   },
@@ -35232,20 +36281,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.08942,
    "w1": -0.02489,
-   "w2": null,
+   "w2": 0.09749,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -35263,7 +36312,7 @@
    "ret": {
     "d3": -0.02973,
     "w1": 0.13333,
-    "w2": null,
+    "w2": 0.40721,
     "m1": null
    }
   },
@@ -35271,20 +36320,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.03069,
    "w1": 0.10844,
-   "w2": null,
+   "w2": 0.37489,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -35302,7 +36351,7 @@
    "ret": {
     "d3": 0.02394,
     "w1": 0.09437,
-    "w2": null,
+    "w2": 0.07887,
     "m1": null
    }
   },
@@ -35310,20 +36359,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.02298,
    "w1": 0.06948,
-   "w2": null,
+   "w2": 0.04655,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -35341,7 +36390,7 @@
    "ret": {
     "d3": 0.17891,
     "w1": 0.32588,
-    "w2": null,
+    "w2": 0.34984,
     "m1": null
    }
   },
@@ -35349,20 +36398,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.17795,
    "w1": 0.30099,
-   "w2": null,
+   "w2": 0.31752,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -35380,7 +36429,7 @@
    "ret": {
     "d3": 0.06842,
     "w1": 0.20526,
-    "w2": null,
+    "w2": 0.13158,
     "m1": null
    }
   },
@@ -35388,20 +36437,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.06746,
    "w1": 0.18037,
-   "w2": null,
+   "w2": 0.09926,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -35419,7 +36468,7 @@
    "ret": {
     "d3": -0.02887,
     "w1": 0.06824,
-    "w2": null,
+    "w2": 0.05774,
     "m1": null
    }
   },
@@ -35427,20 +36476,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.02983,
    "w1": 0.04335,
-   "w2": null,
+   "w2": 0.02542,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -35458,7 +36507,7 @@
    "ret": {
     "d3": -0.07663,
     "w1": -0.00383,
-    "w2": null,
+    "w2": 0.02682,
     "m1": null
    }
   },
@@ -35466,20 +36515,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.07759,
    "w1": -0.02872,
-   "w2": null,
+   "w2": -0.0055,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -35493,11 +36542,11 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-08-19",
-   "entry_price": 247.0,
+   "entry_price": 243.68,
    "ret": {
     "d3": -0.0587,
     "w1": -0.03036,
-    "w2": null,
+    "w2": 0.0526,
     "m1": null
    }
   },
@@ -35505,20 +36554,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.05966,
    "w1": -0.05525,
-   "w2": null,
+   "w2": 0.02028,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -35536,7 +36585,7 @@
    "ret": {
     "d3": 0.05899,
     "w1": -0.04091,
-    "w2": null,
+    "w2": 0.00666,
     "m1": null
    }
   },
@@ -35544,14 +36593,14 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.05803,
    "w1": -0.0658,
-   "w2": null,
+   "w2": -0.02566,
    "m1": null
   },
   "hit": {}
@@ -35570,7 +36619,7 @@
    "ret": {
     "d3": 0.02893,
     "w1": 0.09091,
-    "w2": null,
+    "w2": 0.15702,
     "m1": null
    }
   },
@@ -35578,20 +36627,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.02797,
    "w1": 0.06602,
-   "w2": null,
+   "w2": 0.1247,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -35609,7 +36658,7 @@
    "ret": {
     "d3": -0.05586,
     "w1": 0.04853,
-    "w2": null,
+    "w2": 0.05678,
     "m1": null
    }
   },
@@ -35617,20 +36666,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.05682,
    "w1": 0.02364,
-   "w2": null,
+   "w2": 0.02446,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -35648,7 +36697,7 @@
    "ret": {
     "d3": -0.04336,
     "w1": 0.13287,
-    "w2": null,
+    "w2": 0.18042,
     "m1": null
    }
   },
@@ -35656,20 +36705,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.04432,
    "w1": 0.10798,
-   "w2": null,
+   "w2": 0.1481,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -35687,7 +36736,7 @@
    "ret": {
     "d3": -0.017,
     "w1": -0.0085,
-    "w2": null,
+    "w2": -0.01983,
     "m1": null
    }
   },
@@ -35695,20 +36744,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.01796,
    "w1": -0.03339,
-   "w2": null,
+   "w2": -0.05215,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -35726,7 +36775,7 @@
    "ret": {
     "d3": 0.09322,
     "w1": -0.02373,
-    "w2": null,
+    "w2": -0.02542,
     "m1": null
    }
   },
@@ -35734,20 +36783,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.09226,
    "w1": -0.04862,
-   "w2": null,
+   "w2": -0.05774,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -35765,7 +36814,7 @@
    "ret": {
     "d3": -0.00408,
     "w1": -0.0517,
-    "w2": null,
+    "w2": -0.04626,
     "m1": null
    }
   },
@@ -35773,20 +36822,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.00504,
    "w1": -0.07659,
-   "w2": null,
+   "w2": -0.07858,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -35804,7 +36853,7 @@
    "ret": {
     "d3": 0.02857,
     "w1": -0.02571,
-    "w2": null,
+    "w2": -0.05714,
     "m1": null
    }
   },
@@ -35812,20 +36861,20 @@
    "ret": {
     "d3": 0.00096,
     "w1": 0.02489,
-    "w2": null,
+    "w2": 0.03232,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.02761,
    "w1": -0.0506,
-   "w2": null,
+   "w2": -0.08946,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -36750,7 +37799,7 @@
    "entry_price": 2400.0,
    "ret": {
     "d3": 0.00833,
-    "w1": null,
+    "w1": 0.01667,
     "w2": null,
     "m1": null
    }
@@ -36758,20 +37807,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.00951,
-   "w1": null,
+   "w1": -0.02272,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -36786,10 +37835,10 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-08-25",
-   "entry_price": 768.0,
+   "entry_price": 745.06,
    "ret": {
     "d3": 0.00911,
-    "w1": null,
+    "w1": 0.0026,
     "w2": null,
     "m1": null
    }
@@ -36797,20 +37846,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.00873,
-   "w1": null,
+   "w1": -0.03679,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -36828,7 +37877,7 @@
    "entry_price": 296.0,
    "ret": {
     "d3": 0.07264,
-    "w1": null,
+    "w1": 0.0152,
     "w2": null,
     "m1": null
    }
@@ -36836,20 +37885,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.0548,
-   "w1": null,
+   "w1": -0.02419,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -36867,7 +37916,7 @@
    "entry_price": 1710.0,
    "ret": {
     "d3": 0.07018,
-    "w1": null,
+    "w1": 0.09064,
     "w2": null,
     "m1": null
    }
@@ -36875,20 +37924,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.05234,
-   "w1": null,
+   "w1": 0.05125,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -36906,7 +37955,7 @@
    "entry_price": 717.0,
    "ret": {
     "d3": 0.053,
-    "w1": null,
+    "w1": 0.06137,
     "w2": null,
     "m1": null
    }
@@ -36914,20 +37963,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.03516,
-   "w1": null,
+   "w1": 0.02198,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -36945,7 +37994,7 @@
    "entry_price": 2085.0,
    "ret": {
     "d3": 0.03118,
-    "w1": null,
+    "w1": 0.01918,
     "w2": null,
     "m1": null
    }
@@ -36953,14 +38002,14 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.01334,
-   "w1": null,
+   "w1": -0.02021,
    "w2": null,
    "m1": null
   },
@@ -36979,7 +38028,7 @@
    "entry_price": 299.0,
    "ret": {
     "d3": -0.01672,
-    "w1": null,
+    "w1": -0.01338,
     "w2": null,
     "m1": null
    }
@@ -36987,20 +38036,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.03456,
-   "w1": null,
+   "w1": -0.05277,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -37018,7 +38067,7 @@
    "entry_price": 270.0,
    "ret": {
     "d3": -0.00185,
-    "w1": null,
+    "w1": 0.03148,
     "w2": null,
     "m1": null
    }
@@ -37026,20 +38075,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.01969,
-   "w1": null,
+   "w1": -0.00791,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -37057,7 +38106,7 @@
    "entry_price": 510.0,
    "ret": {
     "d3": 0.05882,
-    "w1": null,
+    "w1": 0.01569,
     "w2": null,
     "m1": null
    }
@@ -37065,20 +38114,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.04098,
-   "w1": null,
+   "w1": -0.0237,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -37096,7 +38145,7 @@
    "entry_price": 418.5,
    "ret": {
     "d3": -0.01553,
-    "w1": null,
+    "w1": -0.01553,
     "w2": null,
     "m1": null
    }
@@ -37104,20 +38153,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.03337,
-   "w1": null,
+   "w1": -0.05492,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -37135,7 +38184,7 @@
    "entry_price": 126.5,
    "ret": {
     "d3": -0.11858,
-    "w1": null,
+    "w1": -0.09486,
     "w2": null,
     "m1": null
    }
@@ -37143,20 +38192,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.13642,
-   "w1": null,
+   "w1": -0.13425,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -37174,7 +38223,7 @@
    "entry_price": 246.0,
    "ret": {
     "d3": -0.05894,
-    "w1": null,
+    "w1": -0.03252,
     "w2": null,
     "m1": null
    }
@@ -37182,20 +38231,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.07678,
-   "w1": null,
+   "w1": -0.07191,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -37213,7 +38262,7 @@
    "entry_price": 95.5,
    "ret": {
     "d3": -0.0356,
-    "w1": null,
+    "w1": 0.00105,
     "w2": null,
     "m1": null
    }
@@ -37221,20 +38270,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.05344,
-   "w1": null,
+   "w1": -0.03834,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -37265,7 +38314,7 @@
    "entry_price": 980.0,
    "ret": {
     "d3": -0.00816,
-    "w1": null,
+    "w1": 0.01429,
     "w2": null,
     "m1": null
    }
@@ -37273,20 +38322,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.026,
-   "w1": null,
+   "w1": -0.0251,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -37304,7 +38353,7 @@
    "entry_price": 183.0,
    "ret": {
     "d3": 0.00273,
-    "w1": null,
+    "w1": 0.00273,
     "w2": null,
     "m1": null
    }
@@ -37312,20 +38361,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.01511,
-   "w1": null,
+   "w1": -0.03666,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -37343,7 +38392,7 @@
    "entry_price": 137.0,
    "ret": {
     "d3": 0.12409,
-    "w1": null,
+    "w1": 0.14599,
     "w2": null,
     "m1": null
    }
@@ -37351,14 +38400,14 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.10625,
-   "w1": null,
+   "w1": 0.1066,
    "w2": null,
    "m1": null
   },
@@ -37403,7 +38452,7 @@
    "entry_price": 1270.0,
    "ret": {
     "d3": 0.18898,
-    "w1": null,
+    "w1": 0.16535,
     "w2": null,
     "m1": null
    }
@@ -37411,20 +38460,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.17114,
-   "w1": null,
+   "w1": 0.12596,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -37442,7 +38491,7 @@
    "entry_price": 5569.57,
    "ret": {
     "d3": -0.01429,
-    "w1": null,
+    "w1": 0.01265,
     "w2": null,
     "m1": null
    }
@@ -37450,20 +38499,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.03213,
-   "w1": null,
+   "w1": -0.02674,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -37481,7 +38530,7 @@
    "entry_price": 217.5,
    "ret": {
     "d3": 0.10805,
-    "w1": null,
+    "w1": 0.15862,
     "w2": null,
     "m1": null
    }
@@ -37489,20 +38538,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.09021,
-   "w1": null,
+   "w1": 0.11923,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -37520,7 +38569,7 @@
    "entry_price": 2075.0,
    "ret": {
     "d3": 0.08916,
-    "w1": null,
+    "w1": 0.11566,
     "w2": null,
     "m1": null
    }
@@ -37528,20 +38577,20 @@
   "bench": {
    "ret": {
     "d3": 0.01784,
-    "w1": null,
+    "w1": 0.03939,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.07132,
-   "w1": null,
+   "w1": 0.07627,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -39650,7 +40699,7 @@
     "d3": 0.13187,
     "w1": 0.09524,
     "w2": 0.08425,
-    "m1": null
+    "m1": 0.2967
    }
   },
   "bench": {
@@ -39658,20 +40707,20 @@
     "d3": 0.02329,
     "w1": 0.03555,
     "w2": 0.05695,
-    "m1": null
+    "m1": 0.08211
    }
   },
   "excess": {
    "d3": 0.10858,
    "w1": 0.05969,
    "w2": 0.0273,
-   "m1": null
+   "m1": 0.21459
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -39715,7 +40764,7 @@
     "d3": 0.18868,
     "w1": 0.15903,
     "w2": 0.13747,
-    "m1": null
+    "m1": 0.35849
    }
   },
   "bench": {
@@ -39723,14 +40772,14 @@
     "d3": 0.02329,
     "w1": 0.03555,
     "w2": 0.05695,
-    "m1": null
+    "m1": 0.08211
    }
   },
   "excess": {
    "d3": 0.16539,
    "w1": 0.12348,
    "w2": 0.08052,
-   "m1": null
+   "m1": 0.27638
   },
   "hit": {}
  },
@@ -39762,7 +40811,7 @@
     "d3": -0.00211,
     "w1": 0.00422,
     "w2": 0.01266,
-    "m1": null
+    "m1": 0.02954
    }
   },
   "bench": {
@@ -39770,20 +40819,20 @@
     "d3": 0.02329,
     "w1": 0.03555,
     "w2": 0.05695,
-    "m1": null
+    "m1": 0.08211
    }
   },
   "excess": {
    "d3": -0.0254,
    "w1": -0.03133,
    "w2": -0.04429,
-   "m1": null
+   "m1": -0.05257
   },
   "hit": {
    "d3": false,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -39801,7 +40850,7 @@
     "d3": 0.22206,
     "w1": 0.19771,
     "w2": 0.29656,
-    "m1": null
+    "m1": 0.25215
    }
   },
   "bench": {
@@ -39809,20 +40858,20 @@
     "d3": 0.02329,
     "w1": 0.03555,
     "w2": 0.05695,
-    "m1": null
+    "m1": 0.08211
    }
   },
   "excess": {
    "d3": 0.19877,
    "w1": 0.16216,
    "w2": 0.23961,
-   "m1": null
+   "m1": 0.17004
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -39840,7 +40889,7 @@
     "d3": 0.08527,
     "w1": 0.07235,
     "w2": -0.00086,
-    "m1": null
+    "m1": -0.06804
    }
   },
   "bench": {
@@ -39848,20 +40897,20 @@
     "d3": 0.02329,
     "w1": 0.03555,
     "w2": 0.05695,
-    "m1": null
+    "m1": 0.08211
    }
   },
   "excess": {
    "d3": 0.06198,
    "w1": 0.0368,
    "w2": -0.05781,
-   "m1": null
+   "m1": -0.15015
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": false,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -39879,7 +40928,7 @@
     "d3": 0.16749,
     "w1": 0.21182,
     "w2": 0.30542,
-    "m1": null
+    "m1": 0.31034
    }
   },
   "bench": {
@@ -39887,20 +40936,20 @@
     "d3": 0.02329,
     "w1": 0.03555,
     "w2": 0.05695,
-    "m1": null
+    "m1": 0.08211
    }
   },
   "excess": {
    "d3": 0.1442,
    "w1": 0.17627,
    "w2": 0.24847,
-   "m1": null
+   "m1": 0.22823
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -39918,7 +40967,7 @@
     "d3": -0.02459,
     "w1": 0.03279,
     "w2": 0.0082,
-    "m1": null
+    "m1": 0.0
    }
   },
   "bench": {
@@ -39926,20 +40975,20 @@
     "d3": 0.02329,
     "w1": 0.03555,
     "w2": 0.05695,
-    "m1": null
+    "m1": 0.08211
    }
   },
   "excess": {
    "d3": -0.04788,
    "w1": -0.00276,
    "w2": -0.04875,
-   "m1": null
+   "m1": -0.08211
   },
   "hit": {
    "d3": false,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -39957,7 +41006,7 @@
     "d3": 0.00256,
     "w1": 0.01279,
     "w2": 0.03581,
-    "m1": null
+    "m1": 0.10358
    }
   },
   "bench": {
@@ -39965,20 +41014,20 @@
     "d3": 0.02329,
     "w1": 0.03555,
     "w2": 0.05695,
-    "m1": null
+    "m1": 0.08211
    }
   },
   "excess": {
    "d3": -0.02073,
    "w1": -0.02276,
    "w2": -0.02114,
-   "m1": null
+   "m1": 0.02147
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -39996,7 +41045,7 @@
     "d3": 0.03261,
     "w1": 0.03804,
     "w2": 0.10145,
-    "m1": null
+    "m1": 0.02899
    }
   },
   "bench": {
@@ -40004,14 +41053,14 @@
     "d3": 0.02329,
     "w1": 0.03555,
     "w2": 0.05695,
-    "m1": null
+    "m1": 0.08211
    }
   },
   "excess": {
    "d3": 0.00932,
    "w1": 0.00249,
    "w2": 0.0445,
-   "m1": null
+   "m1": -0.05312
   },
   "hit": {}
  },
@@ -40030,7 +41079,7 @@
     "d3": 0.15763,
     "w1": 0.26608,
     "w2": 0.32156,
-    "m1": null
+    "m1": 0.30643
    }
   },
   "bench": {
@@ -40038,20 +41087,20 @@
     "d3": 0.02329,
     "w1": 0.03555,
     "w2": 0.05695,
-    "m1": null
+    "m1": 0.08211
    }
   },
   "excess": {
    "d3": 0.13434,
    "w1": 0.23053,
    "w2": 0.26461,
-   "m1": null
+   "m1": 0.22432
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -40069,7 +41118,7 @@
     "d3": 0.16742,
     "w1": 0.20814,
     "w2": 0.17195,
-    "m1": null
+    "m1": 0.1086
    }
   },
   "bench": {
@@ -40077,20 +41126,20 @@
     "d3": 0.02329,
     "w1": 0.03555,
     "w2": 0.05695,
-    "m1": null
+    "m1": 0.08211
    }
   },
   "excess": {
    "d3": 0.14413,
    "w1": 0.17259,
    "w2": 0.115,
-   "m1": null
+   "m1": 0.02649
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -40108,7 +41157,7 @@
     "d3": 0.03261,
     "w1": 0.03804,
     "w2": 0.10145,
-    "m1": null
+    "m1": 0.02899
    }
   },
   "bench": {
@@ -40116,20 +41165,20 @@
     "d3": 0.02329,
     "w1": 0.03555,
     "w2": 0.05695,
-    "m1": null
+    "m1": 0.08211
    }
   },
   "excess": {
    "d3": 0.00932,
    "w1": 0.00249,
    "w2": 0.0445,
-   "m1": null
+   "m1": -0.05312
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -40147,7 +41196,7 @@
     "d3": -0.00211,
     "w1": 0.00422,
     "w2": 0.01266,
-    "m1": null
+    "m1": 0.02954
    }
   },
   "bench": {
@@ -40155,20 +41204,20 @@
     "d3": 0.02329,
     "w1": 0.03555,
     "w2": 0.05695,
-    "m1": null
+    "m1": 0.08211
    }
   },
   "excess": {
    "d3": -0.0254,
    "w1": -0.03133,
    "w2": -0.04429,
-   "m1": null
+   "m1": -0.05257
   },
   "hit": {
    "d3": false,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -40186,7 +41235,7 @@
     "d3": 0.04545,
     "w1": 0.04545,
     "w2": 0.00791,
-    "m1": null
+    "m1": 0.01186
    }
   },
   "bench": {
@@ -40194,20 +41243,20 @@
     "d3": 0.02329,
     "w1": 0.03555,
     "w2": 0.05695,
-    "m1": null
+    "m1": 0.08211
    }
   },
   "excess": {
    "d3": 0.02216,
    "w1": 0.0099,
    "w2": -0.04904,
-   "m1": null
+   "m1": -0.07025
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -40561,7 +41610,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-07-14",
-   "entry_price": 157.5,
+   "entry_price": 156.12,
    "ret": {
     "d3": -0.11746,
     "w1": -0.02857,
@@ -41250,7 +42299,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-05-21",
-   "entry_price": 201.17,
+   "entry_price": 201.27,
    "ret": {
     "d3": 0.15159,
     "w1": 0.02934,
@@ -43651,7 +44700,7 @@
    "ret": {
     "d3": 0.01261,
     "w1": 0.0084,
-    "w2": null,
+    "w2": 0.02521,
     "m1": null
    }
   },
@@ -43659,20 +44708,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.01447,
    "w1": 0.01147,
-   "w2": null,
+   "w2": -0.01099,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -43690,7 +44739,7 @@
    "ret": {
     "d3": -0.06855,
     "w1": -0.00592,
-    "w2": null,
+    "w2": -0.01184,
     "m1": null
    }
   },
@@ -43698,20 +44747,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.06669,
    "w1": -0.00285,
-   "w2": null,
+   "w2": -0.04804,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -43729,7 +44778,7 @@
    "ret": {
     "d3": 0.01174,
     "w1": 0.00632,
-    "w2": null,
+    "w2": 0.08311,
     "m1": null
    }
   },
@@ -43737,20 +44786,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.0136,
    "w1": 0.00939,
-   "w2": null,
+   "w2": 0.04691,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -43768,7 +44817,7 @@
    "ret": {
     "d3": -0.08461,
     "w1": -0.09831,
-    "w2": null,
+    "w2": -0.08691,
     "m1": null
    }
   },
@@ -43776,20 +44825,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.08275,
    "w1": -0.09524,
-   "w2": null,
+   "w2": -0.12311,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -43803,11 +44852,11 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-08-18",
-   "entry_price": 6400.0,
+   "entry_price": 2145.64,
    "ret": {
     "d3": -0.02266,
     "w1": 0.00625,
-    "w2": null,
+    "w2": 0.21875,
     "m1": null
    }
   },
@@ -43815,20 +44864,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.0208,
    "w1": 0.00932,
-   "w2": null,
+   "w2": 0.18255,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -43846,7 +44895,7 @@
    "ret": {
     "d3": 0.01209,
     "w1": 0.01648,
-    "w2": null,
+    "w2": 0.10989,
     "m1": null
    }
   },
@@ -43854,20 +44903,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.01395,
    "w1": 0.01955,
-   "w2": null,
+   "w2": 0.07369,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -43885,7 +44934,7 @@
    "ret": {
     "d3": -0.0369,
     "w1": 0.09225,
-    "w2": null,
+    "w2": 0.10886,
     "m1": null
    }
   },
@@ -43893,20 +44942,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.03504,
    "w1": 0.09532,
-   "w2": null,
+   "w2": 0.07266,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -43924,7 +44973,7 @@
    "ret": {
     "d3": -0.01682,
     "w1": 0.00459,
-    "w2": null,
+    "w2": 0.04587,
     "m1": null
    }
   },
@@ -43932,20 +44981,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.01496,
    "w1": 0.00766,
-   "w2": null,
+   "w2": 0.00967,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -43963,7 +45012,7 @@
    "ret": {
     "d3": -0.02443,
     "w1": -0.00144,
-    "w2": null,
+    "w2": 0.03161,
     "m1": null
    }
   },
@@ -43971,20 +45020,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.02257,
    "w1": 0.00163,
-   "w2": null,
+   "w2": -0.00459,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -44002,7 +45051,7 @@
    "ret": {
     "d3": -0.15493,
     "w1": -0.1831,
-    "w2": null,
+    "w2": -0.18873,
     "m1": null
    }
   },
@@ -44010,20 +45059,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.15307,
    "w1": -0.18003,
-   "w2": null,
+   "w2": -0.22493,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -44037,11 +45086,11 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-08-18",
-   "entry_price": 178.0,
+   "entry_price": 177.55,
    "ret": {
     "d3": 0.00562,
     "w1": 0.08427,
-    "w2": null,
+    "w2": 0.03652,
     "m1": null
    }
   },
@@ -44049,20 +45098,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.00748,
    "w1": 0.08734,
-   "w2": null,
+   "w2": 0.00032,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -44080,7 +45129,7 @@
    "ret": {
     "d3": -0.04418,
     "w1": -0.01325,
-    "w2": null,
+    "w2": 0.04713,
     "m1": null
    }
   },
@@ -44088,20 +45137,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.04232,
    "w1": -0.01018,
-   "w2": null,
+   "w2": 0.01093,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -44119,7 +45168,7 @@
    "ret": {
     "d3": -0.03041,
     "w1": -0.01351,
-    "w2": null,
+    "w2": -0.02365,
     "m1": null
    }
   },
@@ -44127,20 +45176,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.02855,
    "w1": -0.01044,
-   "w2": null,
+   "w2": -0.05985,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -44158,7 +45207,7 @@
    "ret": {
     "d3": 0.06049,
     "w1": 0.08129,
-    "w2": null,
+    "w2": 0.43289,
     "m1": null
    }
   },
@@ -44166,20 +45215,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.06235,
    "w1": 0.08436,
-   "w2": null,
+   "w2": 0.39669,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -44197,7 +45246,7 @@
    "ret": {
     "d3": -0.04818,
     "w1": 0.0073,
-    "w2": null,
+    "w2": 0.46715,
     "m1": null
    }
   },
@@ -44205,20 +45254,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.04632,
    "w1": 0.01037,
-   "w2": null,
+   "w2": 0.43095,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -44236,7 +45285,7 @@
    "ret": {
     "d3": 0.0375,
     "w1": 0.0425,
-    "w2": null,
+    "w2": 0.0625,
     "m1": null
    }
   },
@@ -44244,14 +45293,14 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.03936,
    "w1": 0.04557,
-   "w2": null,
+   "w2": 0.0263,
    "m1": null
   },
   "hit": {}
@@ -44270,7 +45319,7 @@
    "ret": {
     "d3": 0.02524,
     "w1": -0.00971,
-    "w2": null,
+    "w2": 0.00583,
     "m1": null
    }
   },
@@ -44278,20 +45327,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.0271,
    "w1": -0.00664,
-   "w2": null,
+   "w2": -0.03037,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": false,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -44309,7 +45358,7 @@
    "ret": {
     "d3": 0.0041,
     "w1": 0.0,
-    "w2": null,
+    "w2": 0.0041,
     "m1": null
    }
   },
@@ -44317,20 +45366,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.00596,
    "w1": 0.00307,
-   "w2": null,
+   "w2": -0.0321,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -44348,7 +45397,7 @@
    "ret": {
     "d3": 0.18571,
     "w1": 0.20476,
-    "w2": null,
+    "w2": 0.09048,
     "m1": null
    }
   },
@@ -44356,20 +45405,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.18757,
    "w1": 0.20783,
-   "w2": null,
+   "w2": 0.05428,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -44387,7 +45436,7 @@
    "ret": {
     "d3": 0.05672,
     "w1": 0.03361,
-    "w2": null,
+    "w2": 0.0,
     "m1": null
    }
   },
@@ -44395,20 +45444,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.05858,
    "w1": 0.03668,
-   "w2": null,
+   "w2": -0.0362,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -44426,7 +45475,7 @@
    "ret": {
     "d3": 0.13879,
     "w1": 0.13167,
-    "w2": null,
+    "w2": 0.02491,
     "m1": null
    }
   },
@@ -44434,20 +45483,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.14065,
    "w1": 0.13474,
-   "w2": null,
+   "w2": -0.01129,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -44465,7 +45514,7 @@
    "ret": {
     "d3": 0.01235,
     "w1": 0.02469,
-    "w2": null,
+    "w2": 0.06958,
     "m1": null
    }
   },
@@ -44473,20 +45522,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.01421,
    "w1": 0.02776,
-   "w2": null,
+   "w2": 0.03338,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -44504,7 +45553,7 @@
    "ret": {
     "d3": -0.0369,
     "w1": 0.09225,
-    "w2": null,
+    "w2": 0.10886,
     "m1": null
    }
   },
@@ -44512,14 +45561,14 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.03504,
    "w1": 0.09532,
-   "w2": null,
+   "w2": 0.07266,
    "m1": null
   },
   "hit": {}
@@ -44538,7 +45587,7 @@
    "ret": {
     "d3": -0.03846,
     "w1": -0.06044,
-    "w2": null,
+    "w2": 0.02473,
     "m1": null
    }
   },
@@ -44546,20 +45595,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.0366,
    "w1": -0.05737,
-   "w2": null,
+   "w2": -0.01147,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -44577,7 +45626,7 @@
    "ret": {
     "d3": -0.04634,
     "w1": -0.05172,
-    "w2": null,
+    "w2": -0.03233,
     "m1": null
    }
   },
@@ -44585,14 +45634,14 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.04448,
    "w1": -0.04865,
-   "w2": null,
+   "w2": -0.06853,
    "m1": null
   },
   "hit": {}
@@ -44611,7 +45660,7 @@
    "ret": {
     "d3": -0.04659,
     "w1": -0.01792,
-    "w2": null,
+    "w2": 0.12545,
     "m1": null
    }
   },
@@ -44619,20 +45668,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.04473,
    "w1": -0.01485,
-   "w2": null,
+   "w2": 0.08925,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -44650,7 +45699,7 @@
    "ret": {
     "d3": -0.06286,
     "w1": -0.0781,
-    "w2": null,
+    "w2": -0.00808,
     "m1": null
    }
   },
@@ -44658,20 +45707,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.061,
    "w1": -0.07503,
-   "w2": null,
+   "w2": -0.04428,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -44689,7 +45738,7 @@
    "ret": {
     "d3": -0.00171,
     "w1": 0.01197,
-    "w2": null,
+    "w2": 0.17094,
     "m1": null
    }
   },
@@ -44697,20 +45746,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.00015,
    "w1": 0.01504,
-   "w2": null,
+   "w2": 0.13474,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -44728,7 +45777,7 @@
    "ret": {
     "d3": -0.02754,
     "w1": 0.00479,
-    "w2": null,
+    "w2": 0.25509,
     "m1": null
    }
   },
@@ -44736,20 +45785,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.02568,
    "w1": 0.00786,
-   "w2": null,
+   "w2": 0.21889,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -44763,11 +45812,11 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-08-18",
-   "entry_price": 115.0,
+   "entry_price": 113.36,
    "ret": {
     "d3": -0.03913,
     "w1": 0.00435,
-    "w2": null,
+    "w2": 0.08501,
     "m1": null
    }
   },
@@ -44775,20 +45824,20 @@
    "ret": {
     "d3": -0.00186,
     "w1": -0.00307,
-    "w2": null,
+    "w2": 0.0362,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.03727,
    "w1": 0.00742,
-   "w2": null,
+   "w2": 0.04881,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -45362,12 +46411,12 @@
   "stance": "觀望",
   "perf": {
    "entry_date": "2026-07-16",
-   "entry_price": 141.66,
+   "entry_price": 141.72,
    "ret": {
     "d3": -0.06944,
-    "w1": -0.05051,
-    "w2": -0.24817,
-    "m1": 0.01655
+    "w1": -0.05098,
+    "w2": -0.24854,
+    "m1": 0.01605
    }
   },
   "bench": {
@@ -45380,9 +46429,9 @@
   },
   "excess": {
    "d3": -0.03893,
-   "w1": -0.03354,
-   "w2": -0.12342,
-   "m1": 0.01247
+   "w1": -0.03401,
+   "w2": -0.12379,
+   "m1": 0.01197
   },
   "hit": {}
  },
@@ -45708,7 +46757,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-07-16",
-   "entry_price": 5115.0,
+   "entry_price": 1714.83,
    "ret": {
     "d3": -0.02248,
     "w1": 0.0694,
@@ -47165,7 +48214,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-07-23",
-   "entry_price": 5470.0,
+   "entry_price": 1833.85,
    "ret": {
     "d3": -0.02834,
     "w1": -0.1042,
@@ -49587,7 +50636,7 @@
   "stance": "看空",
   "perf": {
    "entry_date": "2026-07-03",
-   "entry_price": 5265.0,
+   "entry_price": 1765.12,
    "ret": {
     "d3": -0.04084,
     "w1": -0.04274,
@@ -50058,7 +51107,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-05-26",
-   "entry_price": 173.5,
+   "entry_price": 173.06,
    "ret": {
     "d3": 0.0634,
     "w1": 0.06628,
@@ -53893,7 +54942,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-07-21",
-   "entry_price": 815.0,
+   "entry_price": 790.66,
    "ret": {
     "d3": 0.03067,
     "w1": -0.1362,
@@ -56622,7 +57671,7 @@
   "stance": "中性",
   "perf": {
    "entry_date": "2026-06-02",
-   "entry_price": 185.0,
+   "entry_price": 184.53,
    "ret": {
     "d3": -0.10811,
     "w1": -0.18919,
@@ -62469,7 +63518,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-06-26",
-   "entry_price": 141.0,
+   "entry_price": 138.99,
    "ret": {
     "d3": 0.01773,
     "w1": 0.02128,
@@ -62508,7 +63557,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-06-26",
-   "entry_price": 878.0,
+   "entry_price": 851.78,
    "ret": {
     "d3": 0.03872,
     "w1": 0.07973,
@@ -63234,7 +64283,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-05-19",
-   "entry_price": 135.0,
+   "entry_price": 134.66,
    "ret": {
     "d3": 0.06667,
     "w1": 0.28519,
@@ -63713,7 +64762,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-05-27",
-   "entry_price": 811.0,
+   "entry_price": 786.78,
    "ret": {
     "d3": -0.04192,
     "w1": -0.03329,
@@ -64314,7 +65363,7 @@
   "stance": "中性",
   "perf": {
    "entry_date": "2026-05-27",
-   "entry_price": 4932.16,
+   "entry_price": 1653.54,
    "ret": {
     "d3": 0.0867,
     "w1": 0.10345,
@@ -65518,6 +66567,573 @@
   }
  },
  {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "蔡明翰",
+  "stock_name": "聯發科",
+  "ticker": "2454",
+  "symbol": "2454.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-02",
+   "entry_price": 4275.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "蔡明翰",
+  "stock_name": "大立光",
+  "ticker": "3008",
+  "symbol": "3008.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-02",
+   "entry_price": 7810.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "蔡明翰",
+  "stock_name": "聯亞光電",
+  "ticker": "3081",
+  "symbol": "3081.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-02",
+   "entry_price": 3395.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "蔡明翰",
+  "stock_name": "全新光電",
+  "ticker": "2455",
+  "symbol": "2455.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-02",
+   "entry_price": 542.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "蔡明翰",
+  "stock_name": "智邦",
+  "ticker": "2345",
+  "symbol": "2345.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-02",
+   "entry_price": 2140.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "紀緯明",
+  "stock_name": "陽程科技",
+  "ticker": "3498",
+  "symbol": "3498.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-02",
+   "entry_price": 201.5,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "紀緯明",
+  "stock_name": "萬潤",
+  "ticker": "6187",
+  "symbol": "6187.TWO",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-02",
+   "entry_price": 1340.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "紀緯明",
+  "stock_name": "有成精密",
+  "ticker": "4949",
+  "symbol": "4949.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-02",
+   "entry_price": 82.3,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "紀緯明",
+  "stock_name": "愛普",
+  "ticker": "6531",
+  "symbol": "6531.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-02",
+   "entry_price": 957.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "紀緯明",
+  "stock_name": "天鈺",
+  "ticker": "4961",
+  "symbol": "4961.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-02",
+   "entry_price": 169.5,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "紀緯明",
+  "stock_name": "金鴻",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "陳威良",
+  "stock_name": "世芯-KY",
+  "ticker": "3661",
+  "symbol": "3661.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-02",
+   "entry_price": 4200.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "陳威良",
+  "stock_name": "南電",
+  "ticker": "8046",
+  "symbol": "8046.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-02",
+   "entry_price": 1200.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "陳威良",
+  "stock_name": "景碩",
+  "ticker": "3189",
+  "symbol": "3189.TW",
+  "stance": "中性",
+  "perf": {
+   "entry_date": "2026-09-02",
+   "entry_price": 847.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {}
+ },
+ {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "陳威良",
+  "stock_name": "一致",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "XHkb69qrhDk",
+  "date": "2026-09-01",
+  "teacher": "陳威良",
+  "stock_name": "未來全球算力ETF",
+  "ticker": "009827",
+  "symbol": "009827.TW",
+  "stance": "看多",
+  "perf": {
+   "entry_date": "2026-09-02",
+   "entry_price": 9.9,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
+ },
+ {
   "video_id": "y_-F0aWMoGU",
   "date": "2026-07-29",
   "teacher": "朱家泓",
@@ -66193,6 +67809,396 @@
    "w2": true,
    "m1": true
   }
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "朱家泓",
+  "stock_name": "聯發科",
+  "ticker": "2454",
+  "symbol": "2454.TW",
+  "stance": "中性",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "朱家泓",
+  "stock_name": "台積電",
+  "ticker": "2330",
+  "symbol": "2330.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "朱家泓",
+  "stock_name": "大立光",
+  "ticker": "3008",
+  "symbol": "3008.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "朱家泓",
+  "stock_name": "玉晶光",
+  "ticker": "3406",
+  "symbol": "3406.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "朱家泓",
+  "stock_name": "亞光",
+  "ticker": "3019",
+  "symbol": "3019.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "朱家泓",
+  "stock_name": "大銀微系統",
+  "ticker": "4576",
+  "symbol": "4576.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "朱家泓",
+  "stock_name": "全球傳動",
+  "ticker": "4540",
+  "symbol": "4540.TW",
+  "stance": "中性",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "王建文",
+  "stock_name": "聯亞光電",
+  "ticker": "3081",
+  "symbol": "3081.TWO",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "王建文",
+  "stock_name": "全新光電",
+  "ticker": "2455",
+  "symbol": "2455.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "王建文",
+  "stock_name": "光環科技",
+  "ticker": "3234",
+  "symbol": "3234.TWO",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "王建文",
+  "stock_name": "光聖科技",
+  "ticker": "6442",
+  "symbol": "6442.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "王建文",
+  "stock_name": "光寶科",
+  "ticker": "2301",
+  "symbol": "2301.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "王建文",
+  "stock_name": "台達電",
+  "ticker": "2308",
+  "symbol": "2308.TW",
+  "stance": "中性",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "王建文",
+  "stock_name": "訊芯-KY",
+  "ticker": "6451",
+  "symbol": "6451.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "王建文",
+  "stock_name": "友達",
+  "ticker": "2409",
+  "symbol": "2409.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "王建文",
+  "stock_name": "富采",
+  "ticker": "3714",
+  "symbol": "3714.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "王建文",
+  "stock_name": "穩懋",
+  "ticker": "3105",
+  "symbol": "3105.TWO",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "王建文",
+  "stock_name": "台積電",
+  "ticker": "2330",
+  "symbol": "2330.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "王建文",
+  "stock_name": "欣銓",
+  "ticker": "3264",
+  "symbol": "3264.TWO",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "王建文",
+  "stock_name": "矽格",
+  "ticker": "6257",
+  "symbol": "6257.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "王建文",
+  "stock_name": "台星科",
+  "ticker": "3265",
+  "symbol": "3265.TWO",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "王建文",
+  "stock_name": "日月光投控",
+  "ticker": "3711",
+  "symbol": "3711.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "林信富",
+  "stock_name": "戴爾",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "林信富",
+  "stock_name": "鴻海",
+  "ticker": "2317",
+  "symbol": "2317.TW",
+  "stance": "中性",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "林信富",
+  "stock_name": "廣達",
+  "ticker": "2382",
+  "symbol": "2382.TW",
+  "stance": "中性",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "林信富",
+  "stock_name": "緯創",
+  "ticker": "3231",
+  "symbol": "3231.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "林信富",
+  "stock_name": "南亞科",
+  "ticker": "2408",
+  "symbol": "2408.TW",
+  "stance": "中性",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "林信富",
+  "stock_name": "愛普",
+  "ticker": "6531",
+  "symbol": "6531.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "林信富",
+  "stock_name": "台航",
+  "ticker": "2617",
+  "symbol": "2617.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "YafjQkOcI78",
+  "date": "2026-09-02",
+  "teacher": "林信富",
+  "stock_name": "慧洋",
+  "ticker": "2637",
+  "symbol": "2637.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
  },
  {
   "video_id": "YCpvbPgMF0A",
@@ -67725,7 +69731,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 7065.0,
    "ret": {
-    "d3": null,
+    "d3": 0.10545,
     "w1": null,
     "w2": null,
     "m1": null
@@ -67733,20 +69739,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.10133,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -67764,7 +69770,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 3305.0,
    "ret": {
-    "d3": null,
+    "d3": 0.02723,
     "w1": null,
     "w2": null,
     "m1": null
@@ -67772,20 +69778,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.02311,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -67803,7 +69809,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 434.0,
    "ret": {
-    "d3": null,
+    "d3": 0.24885,
     "w1": null,
     "w2": null,
     "m1": null
@@ -67811,20 +69817,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.24473,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -67842,7 +69848,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 190.0,
    "ret": {
-    "d3": null,
+    "d3": 0.14737,
     "w1": null,
     "w2": null,
     "m1": null
@@ -67850,20 +69856,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.14325,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -67881,7 +69887,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 138.5,
    "ret": {
-    "d3": null,
+    "d3": 0.13718,
     "w1": null,
     "w2": null,
     "m1": null
@@ -67889,20 +69895,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.13306,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -67920,7 +69926,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 332.5,
    "ret": {
-    "d3": null,
+    "d3": 0.01353,
     "w1": null,
     "w2": null,
     "m1": null
@@ -67928,20 +69934,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.00941,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -67957,9 +69963,9 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-08-28",
-   "entry_price": 190.0,
+   "entry_price": 189.51,
    "ret": {
-    "d3": null,
+    "d3": 0.06588,
     "w1": null,
     "w2": null,
     "m1": null
@@ -67967,20 +69973,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.06176,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -67998,7 +70004,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 1240.0,
    "ret": {
-    "d3": null,
+    "d3": -0.03226,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68006,20 +70012,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.03638,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68037,7 +70043,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 1110.0,
    "ret": {
-    "d3": null,
+    "d3": -0.12342,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68045,14 +70051,14 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.12754,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68071,7 +70077,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 899.0,
    "ret": {
-    "d3": null,
+    "d3": -0.05784,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68079,20 +70085,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.06196,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68110,7 +70116,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 543.0,
    "ret": {
-    "d3": null,
+    "d3": -0.07366,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68118,20 +70124,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.07778,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68149,7 +70155,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 67.8,
    "ret": {
-    "d3": null,
+    "d3": -0.02065,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68157,20 +70163,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.02477,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68188,7 +70194,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 189.5,
    "ret": {
-    "d3": null,
+    "d3": -0.04485,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68196,20 +70202,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.04897,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68253,7 +70259,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 343.5,
    "ret": {
-    "d3": null,
+    "d3": -0.08734,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68261,20 +70267,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.09146,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68305,7 +70311,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 1140.0,
    "ret": {
-    "d3": null,
+    "d3": 0.25877,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68313,20 +70319,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.25465,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68344,7 +70350,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 917.0,
    "ret": {
-    "d3": null,
+    "d3": 0.14504,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68352,20 +70358,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.14092,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68383,7 +70389,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 241.0,
    "ret": {
-    "d3": null,
+    "d3": 0.0332,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68391,20 +70397,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.02908,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68435,7 +70441,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 2485.0,
    "ret": {
-    "d3": null,
+    "d3": -0.03219,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68443,20 +70449,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.03631,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68474,7 +70480,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 1060.0,
    "ret": {
-    "d3": null,
+    "d3": 0.14151,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68482,20 +70488,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.13739,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68513,7 +70519,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 1365.0,
    "ret": {
-    "d3": null,
+    "d3": -0.01832,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68521,20 +70527,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.02244,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68552,7 +70558,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 112.0,
    "ret": {
-    "d3": null,
+    "d3": 0.0,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68560,20 +70566,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.00412,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68589,9 +70595,9 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-08-28",
-   "entry_price": 190.0,
+   "entry_price": 189.51,
    "ret": {
-    "d3": null,
+    "d3": 0.06588,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68599,20 +70605,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.06176,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68630,7 +70636,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 265.0,
    "ret": {
-    "d3": null,
+    "d3": -0.03396,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68638,20 +70644,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.03808,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -68669,7 +70675,7 @@
    "entry_date": "2026-08-28",
    "entry_price": 5030.0,
    "ret": {
-    "d3": null,
+    "d3": 0.05169,
     "w1": null,
     "w2": null,
     "m1": null
@@ -68677,14 +70683,14 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": 0.00412,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.04757,
    "w1": null,
    "w2": null,
    "m1": null

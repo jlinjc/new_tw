@@ -1,0 +1,285 @@
+{
+ "episode_summary": "輝達宣布投資聯發科35億美元可轉債，聯合Google投資，開啟台灣晶片十年大夢，激勵台股尾盤大漲；適逢半導體展及矽光子論壇登場，設備股與ASIC相關IC設計股輪動表態；三位老師分別解析聯發科/大立光比較、設備與ASIC受惠股(萬潤、有成精密、愛普、天鈺)，以及台廠籌資擴產潮與算力主題ETF 009827。",
+ "market_view": "台股尾盤上漲逾820點，氣勢如虹但外資提醒費半指數仍在月線下、上檔有壓力，輝達財報後震盪屬合理現象、不代表轉空；外資觀察台灣科技業生產持續走高、庫存雖高但庫存出貨比顯示需求強勁，整體結構偏正向，AI趨勢中長期不用擔心。",
+ "teachers": [
+  {
+   "name": "蔡明翰",
+   "picks": [
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低找買點/續抱",
+     "reasons": [
+      "獲輝達35億美元可轉債投資，防止被ASIC陣營挖走，屬防禦性策略",
+      "已取得客戶訂單並將於年底大量出貨，產業鏈位階靠後、變數較小",
+      "今年營收貢獻有限，但明後年可望大幅成長"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "聯發科今年股價能夠轉強靠的其實是Google的TPU...但發哥受到輝達的肯定，世界在跟我們搶人了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "看多",
+     "action": "能漲就買、拉回不向下攤平",
+     "reasons": [
+      "切入CPU(FA)領域，正在反映未來成長故事",
+      "今年為AI轉型第三年，故事類似聯發科但結構不同、波動較大",
+      "營收要到2028年才會大幅進來，屬夢想階段，見頂後恐拉出長時間整理"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "大力光操作原則很簡單，反正他只要能漲你就買、你就追買；如果修正就不要向下攤平，因為我擔心他整理的時間會很長",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯亞光電",
+     "ticker": "3081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "乖離率偏高，可稍待拉回再進場",
+     "reasons": [
+      "矽光子/PA相關族群，年增率與營收累積數字亮眼",
+      "上禮拜才降過乖離率，近期又再漲15%，短線稍熱"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "我們之前有講到聯亞，只是目前確實這一段一講完稍微乖離率有點高，可以稍微等一下",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "全新光電",
+     "ticker": "2455",
+     "market": "TW",
+     "stance": "看多",
+     "action": "追高需注意風險",
+     "reasons": [
+      "已創高並連兩日拉漲停，同屬矽光子/MOCVD族群"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "再來是全新，結果全新也已經創高，而且這兩天幾乎都拉漲停",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "智邦",
+     "ticker": "2345",
+     "market": "TW",
+     "stance": "看多",
+     "action": "長線分批布局",
+     "reasons": [
+      "交換器類股，今年獲利年增率高、營收表現亮眼，屬標準AI受惠股",
+      "股價整理已久甚至破底，但業績持續創高，未來可望以業績還原股價公道"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "我建議大家操作來講一定用長線的角度分批布局智邦...業績面還在創高，可是股價一直沒辦法突破之前的高點，代表未來還是會有機會還他公道",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "紀緯明",
+   "picks": [
+    {
+     "stock_name": "陽程科技",
+     "ticker": "3498",
+     "market": "TW",
+     "stance": "看多",
+     "action": "創高續留意，設備股尚未走完",
+     "reasons": [
+      "兩週前提及後已上漲17%並創歷史新高",
+      "外資剛開始買進、大戶持股增加，資金行情剛啟動",
+      "邏輯類比聯發科：好公司才會被強者青睞入股"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "因為這兩個禮拜前講的陽城就漲了17%還在創歷史新高...雖然留黑K，但是只要股價能創高，代表設備還沒走完",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "萬潤",
+     "ticker": "6187",
+     "market": "TW",
+     "stance": "看多",
+     "action": "接近前高，留意突破",
+     "reasons": [
+      "碗型打底完成，即將挑戰1490元前高",
+      "法說會提到產能利用率維持高檔，訂單能見度到2027年第二季，且可能持續延伸",
+      "業務由單機設備轉型一站式整合，矽光子自動光耦合機受惠",
+      "大戶籌碼持續增加"
+     ],
+     "target_price": "1490",
+     "confidence": "high",
+     "quote": "6187的萬潤快接近1490的前高了...以股價的型態來講距離前高一步之遙，碗形底打好，大戶的籌碼在這邊增加",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "有成精密",
+     "ticker": "4949",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局，留意本益比修復空間",
+     "reasons": [
+      "站上所有短中長期均線，轉強訊號明確",
+      "主要客戶含台積電、聯電、美光、格羅方德、英飛凌，屬離子植入/MOCVD耗材零組件供應商",
+      "上半年EPS 2.67元，7月營收年增近翻倍創35個月新高，法人預估全年EPS 6元",
+      "以20倍本益比推算仍有上漲空間，大戶及外資近一個月悄悄佈局"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "法人預估的EPS6塊，可是我們看到他的股價卻只有81.7元，換算下來等於是本益比不到13倍",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "愛普",
+     "ticker": "6531",
+     "market": "TW",
+     "stance": "看多",
+     "action": "技術面完成整理，可挑戰前高",
+     "reasons": [
+      "ASIC受惠股，屬全球少數具備矽電容IP設計能力的公司",
+      "第二季營收年增78%，7月營收年增達144%",
+      "外資近兩週買超明顯，7月底起持續買進"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "我會認為創意如果能夠漲到右上角，沒有道理愛普不去挑戰前高",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "天鈺",
+     "ticker": "4961",
+     "market": "TW",
+     "stance": "看多",
+     "action": "跟隨外資成本進場",
+     "reasons": [
+      "切入客製化ASIC晶片(邊緣AI，用於生物辨識/機器人/工業裝置)",
+      "外本比高達3.35，外資持續買超、籌碼集中",
+      "上半年EPS 5元，法人預估全年EPS 11元，本益比不到15倍，估值有調升空間"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "天鈺現在的股價167，換算下來本益比只有15倍不到...外資是一路買上來，所以他的外本比一樣高達3.35",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "金鴻",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "已漲停鎖住，追價需注意風險",
+     "reasons": [
+      "外本比高達7.44，近60個交易日外資買超金額占股本比重高",
+      "本益比偏低，帶動今日漲停"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "他的外本比高達7.44...這個數字其實高到我很少看到，再加上我覺得今天會漲停也是因為一方面本益比確實是偏低",
+     "name_note": "驅動IC，語音辨識名稱待確認",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "陳威良",
+   "picks": [
+    {
+     "stock_name": "世芯-KY",
+     "ticker": "3661",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低找買點，落底訊號浮現",
+     "reasons": [
+      "投信平均買進成本約1000元，目前浮虧未達強制停損兩成門檻，賣壓有限",
+      "今日爆量守住月線未破平盤，外資逆勢買超逾4200張",
+      "先前GDR增資屬良性籌資，用於擴充算力產能，非利空"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "現在看起來我覺得最壞的已經過去...外資買了4200多張",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南電",
+     "ticker": "8046",
+     "market": "TW",
+     "stance": "看多",
+     "action": "配對交易首選，續抱",
+     "reasons": [
+      "為載板三雄之中長約比重最大者，體質相對穩健",
+      "與世芯的配對交易操作近期表現良好，安全邊際較高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "南電呢，仍然是屬於載板三雄裡面首選，因為畢竟就是它的長約比重比較大",
+     "tw_market": "TWSE",
+     "spoken_name": "南亞電路板"
+    },
+    {
+     "stock_name": "景碩",
+     "ticker": "3189",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察是否納入配對交易",
+     "reasons": [
+      "與世芯目前價格已有落差，具備前景但非首選"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "那我認為景碩當然也有前景",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "一致",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "沿均線留意續強",
+     "reasons": [
+      "可轉債轉換價256元，股價略高於轉換價",
+      "投信連續買超，站上月線季線，營收暴衝，毛利率/營業率/稅前稅後淨利率等獲利指標全面走揚"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "最近慢慢墊高，先站上月線再站上季線，然後投信明顯的連續買超",
+     "name_note": "轉換價256元，語音辨識名稱待確認",
+     "tw_market": null
+    },
+    {
+     "stock_name": "未來全球算力ETF",
+     "ticker": "009827",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "逢低分批布局，穩健型配置2成、積極型3成",
+     "reasons": [
+      "三大主軸：AI科技、AI基建、AI太空衛星，聚焦全球算力核心領域前50強公司",
+      "具快速通關調整機制，已提前納入SpaceX，佔比達11.35%，華爾街估未來5年SpaceX營收成長21倍",
+      "近5年回測顯示8月底進場，3個月平均報酬4.3%，6個月7.1%，1年期近2成",
+      "明日正式掛牌，掛牌價10元"
+     ],
+     "target_price": "掛牌價10元",
+     "confidence": "high",
+     "quote": "未來全球算力指數是漲了244.9%...009827明天正式掛牌",
+     "tw_market": null
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "XHkb69qrhDk",
+  "title": "【理財達人秀】輝達挺聯發科 台灣晶片10年大夢狂飆？欣興不再跌停 最甜籌資股？半導體展 CPO.設備.IC設計猛將！｜李兆華、蔡明翰、紀緯明、陳威良2026.09.01【電視完整版】",
+  "date": "2026-09-01",
+  "duration": 2980,
+  "url": "https://www.youtube.com/watch?v=XHkb69qrhDk"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}
