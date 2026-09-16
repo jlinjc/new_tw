@@ -1,108 +1,108 @@
 {
- "generated_at": "2026-08-31T22:13:11",
+ "generated_at": "2026-09-17T01:52:24",
  "methodology_ref": "scripts/strategy_candidates.md",
  "roundtrip_cost": 0.0057,
  "min_n_threshold": 15,
  "min_half_n_threshold": 5,
- "n_episodes": 81,
- "n_baseline_positions": 1469,
+ "n_episodes": 93,
+ "n_baseline_positions": 1649,
  "date_range": {
   "start": "2026-05-07",
-  "end": "2026-08-28"
+  "end": "2026-09-16"
  },
- "half_boundary_date": "2026-07-02",
+ "half_boundary_date": "2026-07-13",
  "half1_range": [
   "2026-05-07",
-  "2026-07-02"
+  "2026-07-13"
  ],
  "half2_range": [
-  "2026-07-02",
-  "2026-08-28"
+  "2026-07-13",
+  "2026-09-16"
  ],
  "strategies": [
   {
    "name": "baseline_all",
    "description": "全部有明確多空方向且有績效的部位，無篩選（對照組）",
    "primary_horizon": "d3",
-   "n_positions_total": 1469,
+   "n_positions_total": 1649,
    "horizons": {
     "d3": {
      "full": {
-      "n": 1399,
-      "beat_rate": 0.4482,
+      "n": 1615,
+      "beat_rate": 0.4303,
       "beat_ci": [
-       0.4223,
-       0.4743
+       0.4064,
+       0.4546
       ],
-      "beat_net_rate": 0.4124,
-      "avg_excess_gross": 0.00252,
-      "avg_excess_net": -0.00318,
-      "top2_share_of_gain": 0.1782
+      "beat_net_rate": 0.3926,
+      "avg_excess_gross": 0.0,
+      "avg_excess_net": -0.0057,
+      "top2_share_of_gain": 1529.8293
      },
      "half1": {
-      "n": 730,
-      "beat_rate": 0.4507,
+      "n": 852,
+      "beat_rate": 0.4519,
       "beat_ci": [
-       0.4149,
-       0.4869
+       0.4187,
+       0.4854
       ],
-      "beat_net_rate": 0.4192,
-      "avg_excess_gross": 0.00571,
-      "avg_excess_net": 1e-05,
-      "top2_share_of_gain": 0.1477
+      "beat_net_rate": 0.4155,
+      "avg_excess_gross": 0.00528,
+      "avg_excess_net": -0.00042,
+      "top2_share_of_gain": 0.1396
      },
      "half2": {
-      "n": 669,
-      "beat_rate": 0.4454,
+      "n": 763,
+      "beat_rate": 0.4063,
       "beat_ci": [
-       0.4082,
-       0.4833
+       0.372,
+       0.4415
       ],
-      "beat_net_rate": 0.4051,
-      "avg_excess_gross": -0.00097,
-      "avg_excess_net": -0.00667,
-      "top2_share_of_gain": -0.8668
+      "beat_net_rate": 0.367,
+      "avg_excess_gross": -0.00589,
+      "avg_excess_net": -0.01159,
+      "top2_share_of_gain": -0.1146
      },
      "verdict": "INCONSISTENT_ACROSS_HALVES"
     },
     "m1": {
      "full": {
-      "n": 1073,
-      "beat_rate": 0.3635,
+      "n": 1277,
+      "beat_rate": 0.3774,
       "beat_ci": [
-       0.3352,
-       0.3927
+       0.3513,
+       0.4044
       ],
-      "beat_net_rate": 0.3514,
-      "avg_excess_gross": -0.01735,
-      "avg_excess_net": -0.02305,
-      "top2_share_of_gain": -0.1591
+      "beat_net_rate": 0.3657,
+      "avg_excess_gross": -0.01324,
+      "avg_excess_net": -0.01894,
+      "top2_share_of_gain": -0.1753
      },
      "half1": {
-      "n": 730,
-      "beat_rate": 0.3616,
+      "n": 852,
+      "beat_rate": 0.3533,
       "beat_ci": [
-       0.3276,
-       0.3971
+       0.3219,
+       0.386
       ],
-      "beat_net_rate": 0.3466,
-      "avg_excess_gross": -0.01353,
-      "avg_excess_net": -0.01923,
-      "top2_share_of_gain": -0.2998
+      "beat_net_rate": 0.3392,
+      "avg_excess_gross": -0.024,
+      "avg_excess_net": -0.0297,
+      "top2_share_of_gain": -0.1448
      },
      "half2": {
-      "n": 343,
-      "beat_rate": 0.3673,
+      "n": 425,
+      "beat_rate": 0.4259,
       "beat_ci": [
-       0.3181,
-       0.4196
+       0.3797,
+       0.4734
       ],
-      "beat_net_rate": 0.3615,
-      "avg_excess_gross": -0.02548,
-      "avg_excess_net": -0.03118,
-      "top2_share_of_gain": -0.1524
+      "beat_net_rate": 0.4188,
+      "avg_excess_gross": 0.00835,
+      "avg_excess_net": 0.00265,
+      "top2_share_of_gain": 0.3753
      },
-     "verdict": "NEGATIVE"
+     "verdict": "INCONSISTENT_ACROSS_HALVES"
     }
    },
    "verdict": "INCONSISTENT_ACROSS_HALVES"
@@ -111,170 +111,170 @@
    "name": "core5_d3",
    "description": "只跟短線核心老師（容逸燊/李永年/張林忠/鍾國忠/黃豐凱）",
    "primary_horizon": "d3",
-   "n_positions_total": 387,
+   "n_positions_total": 436,
    "horizons": {
     "d3": {
      "full": {
-      "n": 375,
-      "beat_rate": 0.512,
+      "n": 420,
+      "beat_rate": 0.4857,
       "beat_ci": [
-       0.4615,
-       0.5622
+       0.4383,
+       0.5334
       ],
-      "beat_net_rate": 0.472,
-      "avg_excess_gross": 0.01691,
-      "avg_excess_net": 0.01121,
-      "top2_share_of_gain": 0.0948
+      "beat_net_rate": 0.4476,
+      "avg_excess_gross": 0.01251,
+      "avg_excess_net": 0.00681,
+      "top2_share_of_gain": 0.1144
      },
      "half1": {
-      "n": 203,
-      "beat_rate": 0.5369,
+      "n": 229,
+      "beat_rate": 0.5459,
       "beat_ci": [
-       0.4683,
-       0.6042
+       0.4811,
+       0.6091
       ],
-      "beat_net_rate": 0.4975,
-      "avg_excess_gross": 0.02343,
-      "avg_excess_net": 0.01773,
-      "top2_share_of_gain": 0.1186
+      "beat_net_rate": 0.5022,
+      "avg_excess_gross": 0.02528,
+      "avg_excess_net": 0.01958,
+      "top2_share_of_gain": 0.1038
      },
      "half2": {
-      "n": 172,
-      "beat_rate": 0.4826,
+      "n": 191,
+      "beat_rate": 0.4136,
       "beat_ci": [
-       0.4091,
-       0.5568
+       0.3461,
+       0.4845
       ],
-      "beat_net_rate": 0.4419,
-      "avg_excess_gross": 0.00921,
-      "avg_excess_net": 0.00351,
-      "top2_share_of_gain": 0.3548
+      "beat_net_rate": 0.3822,
+      "avg_excess_gross": -0.0028,
+      "avg_excess_net": -0.0085,
+      "top2_share_of_gain": -0.7232
      },
-     "verdict": "RELIABLE_CANDIDATE"
+     "verdict": "INCONSISTENT_ACROSS_HALVES"
     },
     "m1": {
      "full": {
-      "n": 287,
-      "beat_rate": 0.3484,
+      "n": 347,
+      "beat_rate": 0.3804,
       "beat_ci": [
-       0.2956,
-       0.4052
+       0.3309,
+       0.4325
       ],
-      "beat_net_rate": 0.338,
-      "avg_excess_gross": -0.01154,
-      "avg_excess_net": -0.01724,
-      "top2_share_of_gain": -0.7484
+      "beat_net_rate": 0.3718,
+      "avg_excess_gross": 0.0003,
+      "avg_excess_net": -0.0054,
+      "top2_share_of_gain": 23.4564
      },
      "half1": {
-      "n": 203,
-      "beat_rate": 0.3645,
+      "n": 229,
+      "beat_rate": 0.3624,
       "beat_ci": [
-       0.3014,
-       0.4327
+       0.3029,
+       0.4265
       ],
-      "beat_net_rate": 0.3547,
-      "avg_excess_gross": 0.0053,
-      "avg_excess_net": -0.0004,
-      "top2_share_of_gain": 2.3033
+      "beat_net_rate": 0.3493,
+      "avg_excess_gross": -0.01272,
+      "avg_excess_net": -0.01842,
+      "top2_share_of_gain": -0.8508
      },
      "half2": {
-      "n": 84,
-      "beat_rate": 0.3095,
+      "n": 118,
+      "beat_rate": 0.4153,
       "beat_ci": [
-       0.2208,
-       0.4149
+       0.3304,
+       0.5055
       ],
-      "beat_net_rate": 0.2976,
-      "avg_excess_gross": -0.05224,
-      "avg_excess_net": -0.05794,
-      "top2_share_of_gain": -0.2681
+      "beat_net_rate": 0.4153,
+      "avg_excess_gross": 0.02559,
+      "avg_excess_net": 0.01989,
+      "top2_share_of_gain": 0.3897
      },
      "verdict": "INCONSISTENT_ACROSS_HALVES"
     }
    },
-   "verdict": "RELIABLE_CANDIDATE"
+   "verdict": "INCONSISTENT_ACROSS_HALVES"
   },
   {
    "name": "core5_selective_d3",
    "description": "core5 + 該老師當集點名 ≤5 檔（精選日，以 core5 成員的當集計分數判斷）",
    "primary_horizon": "d3",
-   "n_positions_total": 85,
+   "n_positions_total": 92,
    "horizons": {
     "d3": {
      "full": {
-      "n": 82,
-      "beat_rate": 0.5122,
+      "n": 89,
+      "beat_rate": 0.5056,
       "beat_ci": [
-       0.4059,
-       0.6174
+       0.4037,
+       0.6071
       ],
-      "beat_net_rate": 0.5,
-      "avg_excess_gross": 0.01276,
-      "avg_excess_net": 0.00706,
-      "top2_share_of_gain": 0.5388
+      "beat_net_rate": 0.4944,
+      "avg_excess_gross": 0.00882,
+      "avg_excess_net": 0.00312,
+      "top2_share_of_gain": 0.7184
      },
      "half1": {
-      "n": 45,
-      "beat_rate": 0.6222,
+      "n": 48,
+      "beat_rate": 0.6042,
       "beat_ci": [
-       0.4763,
-       0.7489
+       0.4631,
+       0.7298
       ],
-      "beat_net_rate": 0.6,
-      "avg_excess_gross": 0.03383,
-      "avg_excess_net": 0.02813,
-      "top2_share_of_gain": 0.3704
+      "beat_net_rate": 0.5833,
+      "avg_excess_gross": 0.03095,
+      "avg_excess_net": 0.02525,
+      "top2_share_of_gain": 0.3797
      },
      "half2": {
-      "n": 37,
-      "beat_rate": 0.3784,
+      "n": 41,
+      "beat_rate": 0.3902,
       "beat_ci": [
-       0.2406,
-       0.539
+       0.2566,
+       0.5427
       ],
-      "beat_net_rate": 0.3784,
-      "avg_excess_gross": -0.01286,
-      "avg_excess_net": -0.01856,
-      "top2_share_of_gain": -0.4736
+      "beat_net_rate": 0.3902,
+      "avg_excess_gross": -0.01708,
+      "avg_excess_net": -0.02278,
+      "top2_share_of_gain": -0.3218
      },
      "verdict": "INCONSISTENT_ACROSS_HALVES"
     },
     "m1": {
      "full": {
-      "n": 68,
-      "beat_rate": 0.3235,
+      "n": 75,
+      "beat_rate": 0.3333,
       "beat_ci": [
-       0.2244,
-       0.4416
+       0.2371,
+       0.4458
       ],
-      "beat_net_rate": 0.3235,
-      "avg_excess_gross": -0.00154,
-      "avg_excess_net": -0.00724,
-      "top2_share_of_gain": -20.7373
+      "beat_net_rate": 0.3333,
+      "avg_excess_gross": -0.00218,
+      "avg_excess_net": -0.00788,
+      "top2_share_of_gain": -13.309
      },
      "half1": {
-      "n": 45,
-      "beat_rate": 0.3556,
+      "n": 48,
+      "beat_rate": 0.3542,
       "beat_ci": [
-       0.2322,
-       0.5016
+       0.2343,
+       0.4956
       ],
-      "beat_net_rate": 0.3556,
-      "avg_excess_gross": 0.01952,
-      "avg_excess_net": 0.01382,
-      "top2_share_of_gain": 2.4753
+      "beat_net_rate": 0.3542,
+      "avg_excess_gross": 0.01304,
+      "avg_excess_net": 0.00734,
+      "top2_share_of_gain": 3.4735
      },
      "half2": {
-      "n": 23,
-      "beat_rate": 0.2609,
+      "n": 27,
+      "beat_rate": 0.2963,
       "beat_ci": [
-       0.1255,
-       0.4647
+       0.1585,
+       0.4848
       ],
-      "beat_net_rate": 0.2609,
-      "avg_excess_gross": -0.04274,
-      "avg_excess_net": -0.04844,
-      "top2_share_of_gain": -0.4323
+      "beat_net_rate": 0.2963,
+      "avg_excess_gross": -0.02923,
+      "avg_excess_net": -0.03493,
+      "top2_share_of_gain": -0.5807
      },
      "verdict": "INCONSISTENT_ACROSS_HALVES"
     }
@@ -285,170 +285,170 @@
    "name": "core5_highconf_d3",
    "description": "core5 + 該筆信心 high（以 core5 成員的信心判斷）",
    "primary_horizon": "d3",
-   "n_positions_total": 272,
+   "n_positions_total": 306,
    "horizons": {
     "d3": {
      "full": {
-      "n": 264,
-      "beat_rate": 0.4848,
+      "n": 296,
+      "beat_rate": 0.4628,
       "beat_ci": [
-       0.4252,
-       0.5449
+       0.4069,
+       0.5198
       ],
-      "beat_net_rate": 0.4432,
-      "avg_excess_gross": 0.0126,
-      "avg_excess_net": 0.0069,
-      "top2_share_of_gain": 0.1696
+      "beat_net_rate": 0.4223,
+      "avg_excess_gross": 0.00862,
+      "avg_excess_net": 0.00292,
+      "top2_share_of_gain": 0.221
      },
      "half1": {
-      "n": 140,
-      "beat_rate": 0.5214,
+      "n": 156,
+      "beat_rate": 0.5321,
       "beat_ci": [
-       0.4392,
-       0.6025
+       0.4539,
+       0.6086
       ],
-      "beat_net_rate": 0.4786,
-      "avg_excess_gross": 0.02197,
-      "avg_excess_net": 0.01627,
-      "top2_share_of_gain": 0.1833
+      "beat_net_rate": 0.4808,
+      "avg_excess_gross": 0.02051,
+      "avg_excess_net": 0.01481,
+      "top2_share_of_gain": 0.1763
      },
      "half2": {
-      "n": 124,
-      "beat_rate": 0.4435,
+      "n": 140,
+      "beat_rate": 0.3857,
       "beat_ci": [
-       0.3591,
-       0.5314
+       0.3092,
+       0.4684
       ],
-      "beat_net_rate": 0.4032,
-      "avg_excess_gross": 0.00201,
-      "avg_excess_net": -0.00369,
-      "top2_share_of_gain": 1.5509
+      "beat_net_rate": 0.3571,
+      "avg_excess_gross": -0.00462,
+      "avg_excess_net": -0.01032,
+      "top2_share_of_gain": -0.5969
      },
-     "verdict": "RELIABLE_CANDIDATE"
+     "verdict": "INCONSISTENT_ACROSS_HALVES"
     },
     "m1": {
      "full": {
-      "n": 208,
-      "beat_rate": 0.375,
+      "n": 246,
+      "beat_rate": 0.3984,
       "beat_ci": [
-       0.312,
-       0.4425
+       0.3392,
+       0.4607
       ],
-      "beat_net_rate": 0.3606,
-      "avg_excess_gross": 0.01145,
-      "avg_excess_net": 0.00575,
-      "top2_share_of_gain": 1.0411
+      "beat_net_rate": 0.3862,
+      "avg_excess_gross": 0.01891,
+      "avg_excess_net": 0.0132,
+      "top2_share_of_gain": 0.533
      },
      "half1": {
-      "n": 140,
-      "beat_rate": 0.4,
+      "n": 156,
+      "beat_rate": 0.4103,
       "beat_ci": [
-       0.3226,
-       0.4828
+       0.3361,
+       0.4887
       ],
-      "beat_net_rate": 0.3857,
-      "avg_excess_gross": 0.03518,
-      "avg_excess_net": 0.02948,
-      "top2_share_of_gain": 0.5033
+      "beat_net_rate": 0.391,
+      "avg_excess_gross": 0.01839,
+      "avg_excess_net": 0.01269,
+      "top2_share_of_gain": 0.8641
      },
      "half2": {
-      "n": 68,
-      "beat_rate": 0.3235,
+      "n": 90,
+      "beat_rate": 0.3778,
       "beat_ci": [
-       0.2244,
-       0.4416
+       0.2846,
+       0.481
       ],
-      "beat_net_rate": 0.3088,
-      "avg_excess_gross": -0.03741,
-      "avg_excess_net": -0.04311,
-      "top2_share_of_gain": -0.4625
+      "beat_net_rate": 0.3778,
+      "avg_excess_gross": 0.0198,
+      "avg_excess_net": 0.0141,
+      "top2_share_of_gain": 0.6603
      },
-     "verdict": "INCONSISTENT_ACROSS_HALVES"
+     "verdict": "RELIABLE_CANDIDATE_BUT_OUTLIER_DRIVEN"
     }
    },
-   "verdict": "RELIABLE_CANDIDATE"
+   "verdict": "INCONSISTENT_ACROSS_HALVES"
   },
   {
    "name": "core5_selective_highconf_d3",
    "description": "core5 + 精選日 + 高信心（三條件疊加）",
    "primary_horizon": "d3",
-   "n_positions_total": 66,
+   "n_positions_total": 69,
    "horizons": {
     "d3": {
      "full": {
-      "n": 63,
-      "beat_rate": 0.5079,
+      "n": 68,
+      "beat_rate": 0.5,
       "beat_ci": [
-       0.3876,
-       0.6273
+       0.3844,
+       0.6156
       ],
-      "beat_net_rate": 0.5079,
-      "avg_excess_gross": 0.01526,
-      "avg_excess_net": 0.00956,
-      "top2_share_of_gain": 0.5868
+      "beat_net_rate": 0.5,
+      "avg_excess_gross": 0.0106,
+      "avg_excess_net": 0.0049,
+      "top2_share_of_gain": 0.7821
      },
      "half1": {
-      "n": 33,
-      "beat_rate": 0.6364,
+      "n": 35,
+      "beat_rate": 0.6286,
       "beat_ci": [
-       0.4662,
-       0.7781
+       0.4634,
+       0.7683
       ],
-      "beat_net_rate": 0.6364,
-      "avg_excess_gross": 0.04379,
-      "avg_excess_net": 0.03809,
-      "top2_share_of_gain": 0.3903
+      "beat_net_rate": 0.6286,
+      "avg_excess_gross": 0.04124,
+      "avg_excess_net": 0.03554,
+      "top2_share_of_gain": 0.3907
      },
      "half2": {
-      "n": 30,
-      "beat_rate": 0.3667,
+      "n": 33,
+      "beat_rate": 0.3636,
       "beat_ci": [
-       0.2187,
-       0.5449
+       0.2219,
+       0.5338
       ],
-      "beat_net_rate": 0.3667,
-      "avg_excess_gross": -0.01613,
-      "avg_excess_net": -0.02183,
-      "top2_share_of_gain": -0.4656
+      "beat_net_rate": 0.3636,
+      "avg_excess_gross": -0.02189,
+      "avg_excess_net": -0.02759,
+      "top2_share_of_gain": -0.312
      },
      "verdict": "INCONSISTENT_ACROSS_HALVES"
     },
     "m1": {
      "full": {
-      "n": 54,
-      "beat_rate": 0.2963,
+      "n": 58,
+      "beat_rate": 0.3103,
       "beat_ci": [
-       0.1914,
-       0.4283
+       0.2062,
+       0.438
       ],
-      "beat_net_rate": 0.2963,
-      "avg_excess_gross": 0.00045,
-      "avg_excess_net": -0.00525,
-      "top2_share_of_gain": 89.3502
+      "beat_net_rate": 0.3103,
+      "avg_excess_gross": 0.00164,
+      "avg_excess_net": -0.00406,
+      "top2_share_of_gain": 22.9168
      },
      "half1": {
-      "n": 33,
-      "beat_rate": 0.3333,
+      "n": 35,
+      "beat_rate": 0.3429,
       "beat_ci": [
-       0.1975,
-       0.5039
+       0.2083,
+       0.5085
       ],
-      "beat_net_rate": 0.3333,
-      "avg_excess_gross": 0.03024,
-      "avg_excess_net": 0.02454,
-      "top2_share_of_gain": 2.1786
+      "beat_net_rate": 0.3429,
+      "avg_excess_gross": 0.02381,
+      "avg_excess_net": 0.01811,
+      "top2_share_of_gain": 2.6082
      },
      "half2": {
-      "n": 21,
-      "beat_rate": 0.2381,
+      "n": 23,
+      "beat_rate": 0.2609,
       "beat_ci": [
-       0.1063,
-       0.4509
+       0.1255,
+       0.4647
       ],
-      "beat_net_rate": 0.2381,
-      "avg_excess_gross": -0.04636,
-      "avg_excess_net": -0.05206,
-      "top2_share_of_gain": -0.4365
+      "beat_net_rate": 0.2609,
+      "avg_excess_gross": -0.03211,
+      "avg_excess_net": -0.03781,
+      "top2_share_of_gain": -0.6204
      },
      "verdict": "INCONSISTENT_ACROSS_HALVES"
     }
@@ -459,85 +459,85 @@
    "name": "rongyisheng_only_d3",
    "description": "只跟容逸燊一人",
    "primary_horizon": "d3",
-   "n_positions_total": 88,
+   "n_positions_total": 98,
    "horizons": {
     "d3": {
      "full": {
-      "n": 88,
-      "beat_rate": 0.6477,
+      "n": 92,
+      "beat_rate": 0.6196,
       "beat_ci": [
-       0.5437,
-       0.7394
+       0.5175,
+       0.7121
       ],
-      "beat_net_rate": 0.6023,
-      "avg_excess_gross": 0.03918,
-      "avg_excess_net": 0.03348,
-      "top2_share_of_gain": 0.1743
+      "beat_net_rate": 0.5761,
+      "avg_excess_gross": 0.03554,
+      "avg_excess_net": 0.02984,
+      "top2_share_of_gain": 0.1838
      },
      "half1": {
-      "n": 49,
-      "beat_rate": 0.5918,
+      "n": 57,
+      "beat_rate": 0.614,
       "beat_ci": [
-       0.4525,
-       0.7178
+       0.4843,
+       0.7294
       ],
-      "beat_net_rate": 0.551,
-      "avg_excess_gross": 0.03833,
-      "avg_excess_net": 0.03263,
-      "top2_share_of_gain": 0.2862
+      "beat_net_rate": 0.5789,
+      "avg_excess_gross": 0.04672,
+      "avg_excess_net": 0.04102,
+      "top2_share_of_gain": 0.2257
      },
      "half2": {
-      "n": 39,
-      "beat_rate": 0.7179,
+      "n": 35,
+      "beat_rate": 0.6286,
       "beat_ci": [
-       0.5622,
-       0.8346
+       0.4634,
+       0.7683
       ],
-      "beat_net_rate": 0.6667,
-      "avg_excess_gross": 0.04024,
-      "avg_excess_net": 0.03454,
-      "top2_share_of_gain": 0.358
+      "beat_net_rate": 0.5714,
+      "avg_excess_gross": 0.01732,
+      "avg_excess_net": 0.01162,
+      "top2_share_of_gain": 0.5332
      },
      "verdict": "RELIABLE_CANDIDATE"
     },
     "m1": {
      "full": {
-      "n": 69,
-      "beat_rate": 0.3043,
+      "n": 88,
+      "beat_rate": 0.3636,
       "beat_ci": [
-       0.2085,
-       0.4208
+       0.2708,
+       0.4679
       ],
-      "beat_net_rate": 0.2899,
-      "avg_excess_gross": -0.04901,
-      "avg_excess_net": -0.05471,
-      "top2_share_of_gain": -0.5155
+      "beat_net_rate": 0.3523,
+      "avg_excess_gross": -0.0188,
+      "avg_excess_net": -0.0245,
+      "top2_share_of_gain": -1.0538
      },
      "half1": {
-      "n": 49,
-      "beat_rate": 0.3265,
+      "n": 57,
+      "beat_rate": 0.2982,
       "beat_ci": [
-       0.2121,
-       0.4662
+       0.1953,
+       0.4266
       ],
-      "beat_net_rate": 0.3061,
-      "avg_excess_gross": -0.02629,
-      "avg_excess_net": -0.03199,
-      "top2_share_of_gain": -1.3532
+      "beat_net_rate": 0.2807,
+      "avg_excess_gross": -0.05937,
+      "avg_excess_net": -0.06507,
+      "top2_share_of_gain": -0.5151
      },
      "half2": {
-      "n": 20,
-      "beat_rate": 0.25,
+      "n": 31,
+      "beat_rate": 0.4839,
       "beat_ci": [
-       0.1119,
-       0.4687
+       0.3197,
+       0.6516
       ],
-      "beat_net_rate": 0.25,
-      "avg_excess_gross": -0.10467,
-      "avg_excess_net": -0.11037,
-      "top2_share_of_gain": -0.1647
+      "beat_net_rate": 0.4839,
+      "avg_excess_gross": 0.05581,
+      "avg_excess_net": 0.05011,
+      "top2_share_of_gain": 0.4633
      },
-     "verdict": "NEGATIVE"
+     "verdict": "INCONSISTENT_ACROSS_HALVES"
     }
    },
    "verdict": "RELIABLE_CANDIDATE"
@@ -546,346 +546,346 @@
    "name": "consensus2_d3",
    "description": "同集 ≥2 位老師同看同標的同方向（部位已去重）",
    "primary_horizon": "d3",
-   "n_positions_total": 60,
+   "n_positions_total": 66,
    "horizons": {
     "d3": {
      "full": {
-      "n": 56,
-      "beat_rate": 0.5357,
+      "n": 66,
+      "beat_rate": 0.5152,
       "beat_ci": [
-       0.407,
-       0.6598
+       0.3971,
+       0.6315
       ],
-      "beat_net_rate": 0.5,
-      "avg_excess_gross": 0.0083,
-      "avg_excess_net": 0.0026,
-      "top2_share_of_gain": 0.7996
+      "beat_net_rate": 0.4697,
+      "avg_excess_gross": 0.00634,
+      "avg_excess_net": 0.00064,
+      "top2_share_of_gain": 0.8891
      },
      "half1": {
-      "n": 23,
-      "beat_rate": 0.6087,
+      "n": 28,
+      "beat_rate": 0.6786,
       "beat_ci": [
-       0.4079,
-       0.7784
+       0.4934,
+       0.8207
       ],
-      "beat_net_rate": 0.5652,
-      "avg_excess_gross": 0.01806,
-      "avg_excess_net": 0.01236,
-      "top2_share_of_gain": 0.8952
+      "beat_net_rate": 0.6429,
+      "avg_excess_gross": 0.02315,
+      "avg_excess_net": 0.01745,
+      "top2_share_of_gain": 0.5737
      },
      "half2": {
-      "n": 33,
-      "beat_rate": 0.4848,
+      "n": 38,
+      "beat_rate": 0.3947,
       "beat_ci": [
-       0.325,
-       0.6478
+       0.256,
+       0.5528
       ],
-      "beat_net_rate": 0.4545,
-      "avg_excess_gross": 0.00151,
-      "avg_excess_net": -0.00419,
-      "top2_share_of_gain": 4.0072
+      "beat_net_rate": 0.3421,
+      "avg_excess_gross": -0.00605,
+      "avg_excess_net": -0.01175,
+      "top2_share_of_gain": -0.7796
      },
-     "verdict": "RELIABLE_CANDIDATE_BUT_OUTLIER_DRIVEN"
+     "verdict": "INCONSISTENT_ACROSS_HALVES"
     },
     "m1": {
      "full": {
-      "n": 44,
-      "beat_rate": 0.4773,
+      "n": 54,
+      "beat_rate": 0.463,
       "beat_ci": [
-       0.3375,
-       0.6206
+       0.3369,
+       0.5939
       ],
-      "beat_net_rate": 0.4545,
-      "avg_excess_gross": 0.00491,
-      "avg_excess_net": -0.00079,
-      "top2_share_of_gain": 7.3227
+      "beat_net_rate": 0.4444,
+      "avg_excess_gross": 0.01074,
+      "avg_excess_net": 0.00504,
+      "top2_share_of_gain": 2.7242
      },
      "half1": {
-      "n": 23,
-      "beat_rate": 0.5217,
-      "beat_ci": [
-       0.3296,
-       0.7076
-      ],
-      "beat_net_rate": 0.4783,
-      "avg_excess_gross": 0.02297,
-      "avg_excess_net": 0.01727,
-      "top2_share_of_gain": 2.9919
-     },
-     "half2": {
-      "n": 21,
-      "beat_rate": 0.4286,
-      "beat_ci": [
-       0.2447,
-       0.6345
-      ],
-      "beat_net_rate": 0.4286,
-      "avg_excess_gross": -0.01488,
-      "avg_excess_net": -0.02058,
-      "top2_share_of_gain": -1.4294
-     },
-     "verdict": "INCONSISTENT_ACROSS_HALVES"
-    }
-   },
-   "verdict": "RELIABLE_CANDIDATE_BUT_OUTLIER_DRIVEN"
-  },
-  {
-   "name": "consensus2_m1",
-   "description": "同上（≥2 位老師共識）但 m1 持有（對照組，預期較差）",
-   "primary_horizon": "m1",
-   "n_positions_total": 60,
-   "horizons": {
-    "d3": {
-     "full": {
-      "n": 56,
+      "n": 28,
       "beat_rate": 0.5357,
       "beat_ci": [
-       0.407,
-       0.6598
+       0.3581,
+       0.7047
       ],
       "beat_net_rate": 0.5,
-      "avg_excess_gross": 0.0083,
-      "avg_excess_net": 0.0026,
-      "top2_share_of_gain": 0.7996
-     },
-     "half1": {
-      "n": 23,
-      "beat_rate": 0.6087,
-      "beat_ci": [
-       0.4079,
-       0.7784
-      ],
-      "beat_net_rate": 0.5652,
-      "avg_excess_gross": 0.01806,
-      "avg_excess_net": 0.01236,
-      "top2_share_of_gain": 0.8952
+      "avg_excess_gross": 0.00567,
+      "avg_excess_net": -3e-05,
+      "top2_share_of_gain": 9.9512
      },
      "half2": {
-      "n": 33,
-      "beat_rate": 0.4848,
+      "n": 26,
+      "beat_rate": 0.3846,
       "beat_ci": [
-       0.325,
-       0.6478
+       0.2243,
+       0.5747
       ],
-      "beat_net_rate": 0.4545,
-      "avg_excess_gross": 0.00151,
-      "avg_excess_net": -0.00419,
-      "top2_share_of_gain": 4.0072
+      "beat_net_rate": 0.3846,
+      "avg_excess_gross": 0.01621,
+      "avg_excess_net": 0.01051,
+      "top2_share_of_gain": 1.5023
      },
      "verdict": "RELIABLE_CANDIDATE_BUT_OUTLIER_DRIVEN"
-    },
-    "m1": {
-     "full": {
-      "n": 44,
-      "beat_rate": 0.4773,
-      "beat_ci": [
-       0.3375,
-       0.6206
-      ],
-      "beat_net_rate": 0.4545,
-      "avg_excess_gross": 0.00491,
-      "avg_excess_net": -0.00079,
-      "top2_share_of_gain": 7.3227
-     },
-     "half1": {
-      "n": 23,
-      "beat_rate": 0.5217,
-      "beat_ci": [
-       0.3296,
-       0.7076
-      ],
-      "beat_net_rate": 0.4783,
-      "avg_excess_gross": 0.02297,
-      "avg_excess_net": 0.01727,
-      "top2_share_of_gain": 2.9919
-     },
-     "half2": {
-      "n": 21,
-      "beat_rate": 0.4286,
-      "beat_ci": [
-       0.2447,
-       0.6345
-      ],
-      "beat_net_rate": 0.4286,
-      "avg_excess_gross": -0.01488,
-      "avg_excess_net": -0.02058,
-      "top2_share_of_gain": -1.4294
-     },
-     "verdict": "INCONSISTENT_ACROSS_HALVES"
     }
    },
    "verdict": "INCONSISTENT_ACROSS_HALVES"
   },
   {
-   "name": "consensus_core_d3",
-   "description": "同集 ≥2 位老師同看，且其中至少 1 位是 core5 成員",
-   "primary_horizon": "d3",
-   "n_positions_total": 26,
+   "name": "consensus2_m1",
+   "description": "同上（≥2 位老師共識）但 m1 持有（對照組，預期較差）",
+   "primary_horizon": "m1",
+   "n_positions_total": 66,
    "horizons": {
     "d3": {
      "full": {
-      "n": 26,
-      "beat_rate": 0.6154,
+      "n": 66,
+      "beat_rate": 0.5152,
       "beat_ci": [
-       0.4253,
-       0.7757
+       0.3971,
+       0.6315
       ],
-      "beat_net_rate": 0.5385,
-      "avg_excess_gross": 0.02109,
-      "avg_excess_net": 0.01539,
-      "top2_share_of_gain": 0.6782
+      "beat_net_rate": 0.4697,
+      "avg_excess_gross": 0.00634,
+      "avg_excess_net": 0.00064,
+      "top2_share_of_gain": 0.8891
      },
      "half1": {
-      "n": 13,
-      "beat_rate": 0.6154,
+      "n": 28,
+      "beat_rate": 0.6786,
       "beat_ci": [
-       0.3552,
-       0.8229
+       0.4934,
+       0.8207
       ],
-      "beat_net_rate": 0.5385,
-      "avg_excess_gross": 0.03418,
-      "avg_excess_net": 0.02848,
-      "top2_share_of_gain": 0.8369
+      "beat_net_rate": 0.6429,
+      "avg_excess_gross": 0.02315,
+      "avg_excess_net": 0.01745,
+      "top2_share_of_gain": 0.5737
      },
      "half2": {
-      "n": 13,
-      "beat_rate": 0.6154,
+      "n": 38,
+      "beat_rate": 0.3947,
       "beat_ci": [
-       0.3552,
-       0.8229
+       0.256,
+       0.5528
       ],
-      "beat_net_rate": 0.5385,
-      "avg_excess_gross": 0.008,
-      "avg_excess_net": 0.0023,
-      "top2_share_of_gain": 1.4593
+      "beat_net_rate": 0.3421,
+      "avg_excess_gross": -0.00605,
+      "avg_excess_net": -0.01175,
+      "top2_share_of_gain": -0.7796
      },
-     "verdict": "RELIABLE_CANDIDATE_BUT_OUTLIER_DRIVEN"
+     "verdict": "INCONSISTENT_ACROSS_HALVES"
     },
     "m1": {
      "full": {
-      "n": 20,
-      "beat_rate": 0.4,
+      "n": 54,
+      "beat_rate": 0.463,
       "beat_ci": [
-       0.2188,
-       0.6134
+       0.3369,
+       0.5939
       ],
-      "beat_net_rate": 0.4,
-      "avg_excess_gross": 0.03566,
-      "avg_excess_net": 0.02996,
-      "top2_share_of_gain": 2.2162
+      "beat_net_rate": 0.4444,
+      "avg_excess_gross": 0.01074,
+      "avg_excess_net": 0.00504,
+      "top2_share_of_gain": 2.7242
      },
      "half1": {
-      "n": 13,
-      "beat_rate": 0.4615,
+      "n": 28,
+      "beat_rate": 0.5357,
       "beat_ci": [
-       0.2321,
-       0.7086
+       0.3581,
+       0.7047
       ],
-      "beat_net_rate": 0.4615,
-      "avg_excess_gross": 0.07096,
-      "avg_excess_net": 0.06526,
-      "top2_share_of_gain": 1.7134
+      "beat_net_rate": 0.5,
+      "avg_excess_gross": 0.00567,
+      "avg_excess_net": -3e-05,
+      "top2_share_of_gain": 9.9512
      },
      "half2": {
-      "n": 7,
-      "beat_rate": 0.2857,
+      "n": 26,
+      "beat_rate": 0.3846,
       "beat_ci": [
-       0.0822,
-       0.6411
+       0.2243,
+       0.5747
       ],
-      "beat_net_rate": 0.2857,
-      "avg_excess_gross": -0.0299,
-      "avg_excess_net": -0.0356,
-      "top2_share_of_gain": -1.4147
+      "beat_net_rate": 0.3846,
+      "avg_excess_gross": 0.01621,
+      "avg_excess_net": 0.01051,
+      "top2_share_of_gain": 1.5023
      },
-     "verdict": "INCONSISTENT_ACROSS_HALVES"
+     "verdict": "RELIABLE_CANDIDATE_BUT_OUTLIER_DRIVEN"
     }
    },
    "verdict": "RELIABLE_CANDIDATE_BUT_OUTLIER_DRIVEN"
   },
   {
-   "name": "highconf_only_d3",
-   "description": "全部老師，只留信心 high 的部位",
+   "name": "consensus_core_d3",
+   "description": "同集 ≥2 位老師同看，且其中至少 1 位是 core5 成員",
    "primary_horizon": "d3",
-   "n_positions_total": 986,
+   "n_positions_total": 27,
    "horizons": {
     "d3": {
      "full": {
-      "n": 949,
-      "beat_rate": 0.4415,
+      "n": 27,
+      "beat_rate": 0.5926,
       "beat_ci": [
-       0.4102,
-       0.4733
+       0.4073,
+       0.7549
       ],
-      "beat_net_rate": 0.4046,
-      "avg_excess_gross": 0.00018,
-      "avg_excess_net": -0.00552,
-      "top2_share_of_gain": 3.6354
+      "beat_net_rate": 0.5185,
+      "avg_excess_gross": 0.0178,
+      "avg_excess_net": 0.0121,
+      "top2_share_of_gain": 0.7736
      },
      "half1": {
-      "n": 499,
-      "beat_rate": 0.4389,
+      "n": 15,
+      "beat_rate": 0.6667,
       "beat_ci": [
-       0.396,
-       0.4827
+       0.4171,
+       0.8482
       ],
-      "beat_net_rate": 0.4068,
-      "avg_excess_gross": 0.00262,
-      "avg_excess_net": -0.00308,
-      "top2_share_of_gain": 0.4705
+      "beat_net_rate": 0.6,
+      "avg_excess_gross": 0.03614,
+      "avg_excess_net": 0.03044,
+      "top2_share_of_gain": 0.686
      },
      "half2": {
-      "n": 450,
-      "beat_rate": 0.4444,
+      "n": 12,
+      "beat_rate": 0.5,
       "beat_ci": [
-       0.3992,
-       0.4906
+       0.2538,
+       0.7462
       ],
-      "beat_net_rate": 0.4022,
-      "avg_excess_gross": -0.00253,
-      "avg_excess_net": -0.00823,
-      "top2_share_of_gain": -0.4062
+      "beat_net_rate": 0.4167,
+      "avg_excess_gross": -0.00511,
+      "avg_excess_net": -0.01081,
+      "top2_share_of_gain": -1.4884
      },
      "verdict": "INCONSISTENT_ACROSS_HALVES"
     },
     "m1": {
      "full": {
-      "n": 739,
-      "beat_rate": 0.3816,
+      "n": 25,
+      "beat_rate": 0.44,
       "beat_ci": [
-       0.3473,
-       0.4171
+       0.2667,
+       0.6293
       ],
-      "beat_net_rate": 0.3654,
-      "avg_excess_gross": -0.00715,
-      "avg_excess_net": -0.01285,
-      "top2_share_of_gain": -0.5278
+      "beat_net_rate": 0.44,
+      "avg_excess_gross": 0.04794,
+      "avg_excess_net": 0.04224,
+      "top2_share_of_gain": 1.3188
      },
      "half1": {
-      "n": 499,
-      "beat_rate": 0.3848,
+      "n": 15,
+      "beat_rate": 0.4667,
       "beat_ci": [
-       0.3431,
-       0.4282
+       0.2481,
+       0.6988
       ],
-      "beat_net_rate": 0.3647,
-      "avg_excess_gross": -0.00191,
-      "avg_excess_net": -0.00761,
-      "top2_share_of_gain": -2.9284
+      "beat_net_rate": 0.4667,
+      "avg_excess_gross": 0.03857,
+      "avg_excess_net": 0.03287,
+      "top2_share_of_gain": 2.7316
      },
      "half2": {
-      "n": 240,
-      "beat_rate": 0.375,
+      "n": 10,
+      "beat_rate": 0.4,
       "beat_ci": [
-       0.3162,
-       0.4378
+       0.1682,
+       0.6873
       ],
-      "beat_net_rate": 0.3667,
-      "avg_excess_gross": -0.01804,
-      "avg_excess_net": -0.02374,
-      "top2_share_of_gain": -0.2931
+      "beat_net_rate": 0.4,
+      "avg_excess_gross": 0.06198,
+      "avg_excess_net": 0.05628,
+      "top2_share_of_gain": 1.0212
      },
-     "verdict": "NEGATIVE"
+     "verdict": "RELIABLE_CANDIDATE_BUT_OUTLIER_DRIVEN"
+    }
+   },
+   "verdict": "INCONSISTENT_ACROSS_HALVES"
+  },
+  {
+   "name": "highconf_only_d3",
+   "description": "全部老師，只留信心 high 的部位",
+   "primary_horizon": "d3",
+   "n_positions_total": 1107,
+   "horizons": {
+    "d3": {
+     "full": {
+      "n": 1083,
+      "beat_rate": 0.4257,
+      "beat_ci": [
+       0.3965,
+       0.4553
+      ],
+      "beat_net_rate": 0.385,
+      "avg_excess_gross": -0.00245,
+      "avg_excess_net": -0.00815,
+      "top2_share_of_gain": -0.232
+     },
+     "half1": {
+      "n": 569,
+      "beat_rate": 0.4446,
+      "beat_ci": [
+       0.4043,
+       0.4857
+      ],
+      "beat_net_rate": 0.4077,
+      "avg_excess_gross": 0.00241,
+      "avg_excess_net": -0.00329,
+      "top2_share_of_gain": 0.449
+     },
+     "half2": {
+      "n": 514,
+      "beat_rate": 0.4047,
+      "beat_ci": [
+       0.3631,
+       0.4477
+      ],
+      "beat_net_rate": 0.3599,
+      "avg_excess_gross": -0.00783,
+      "avg_excess_net": -0.01353,
+      "top2_share_of_gain": -0.115
+     },
+     "verdict": "INCONSISTENT_ACROSS_HALVES"
+    },
+    "m1": {
+     "full": {
+      "n": 876,
+      "beat_rate": 0.395,
+      "beat_ci": [
+       0.3631,
+       0.4277
+      ],
+      "beat_net_rate": 0.379,
+      "avg_excess_gross": -0.00406,
+      "avg_excess_net": -0.00976,
+      "top2_share_of_gain": -0.7848
+     },
+     "half1": {
+      "n": 569,
+      "beat_rate": 0.3849,
+      "beat_ci": [
+       0.3458,
+       0.4255
+      ],
+      "beat_net_rate": 0.3656,
+      "avg_excess_gross": -0.00952,
+      "avg_excess_net": -0.01522,
+      "top2_share_of_gain": -0.5149
+     },
+     "half2": {
+      "n": 307,
+      "beat_rate": 0.4137,
+      "beat_ci": [
+       0.36,
+       0.4695
+      ],
+      "beat_net_rate": 0.4039,
+      "avg_excess_gross": 0.00606,
+      "avg_excess_net": 0.00036,
+      "top2_share_of_gain": 0.6815
+     },
+     "verdict": "INCONSISTENT_ACROSS_HALVES"
     }
    },
    "verdict": "INCONSISTENT_ACROSS_HALVES"
@@ -894,170 +894,170 @@
    "name": "highconf_only_m1",
    "description": "全部老師，只留信心 high 的部位（m1 持有）",
    "primary_horizon": "m1",
-   "n_positions_total": 986,
+   "n_positions_total": 1107,
    "horizons": {
     "d3": {
      "full": {
-      "n": 949,
-      "beat_rate": 0.4415,
+      "n": 1083,
+      "beat_rate": 0.4257,
       "beat_ci": [
-       0.4102,
-       0.4733
+       0.3965,
+       0.4553
       ],
-      "beat_net_rate": 0.4046,
-      "avg_excess_gross": 0.00018,
-      "avg_excess_net": -0.00552,
-      "top2_share_of_gain": 3.6354
+      "beat_net_rate": 0.385,
+      "avg_excess_gross": -0.00245,
+      "avg_excess_net": -0.00815,
+      "top2_share_of_gain": -0.232
      },
      "half1": {
-      "n": 499,
-      "beat_rate": 0.4389,
+      "n": 569,
+      "beat_rate": 0.4446,
       "beat_ci": [
-       0.396,
-       0.4827
+       0.4043,
+       0.4857
       ],
-      "beat_net_rate": 0.4068,
-      "avg_excess_gross": 0.00262,
-      "avg_excess_net": -0.00308,
-      "top2_share_of_gain": 0.4705
+      "beat_net_rate": 0.4077,
+      "avg_excess_gross": 0.00241,
+      "avg_excess_net": -0.00329,
+      "top2_share_of_gain": 0.449
      },
      "half2": {
-      "n": 450,
-      "beat_rate": 0.4444,
+      "n": 514,
+      "beat_rate": 0.4047,
       "beat_ci": [
-       0.3992,
-       0.4906
+       0.3631,
+       0.4477
       ],
-      "beat_net_rate": 0.4022,
-      "avg_excess_gross": -0.00253,
-      "avg_excess_net": -0.00823,
-      "top2_share_of_gain": -0.4062
+      "beat_net_rate": 0.3599,
+      "avg_excess_gross": -0.00783,
+      "avg_excess_net": -0.01353,
+      "top2_share_of_gain": -0.115
      },
      "verdict": "INCONSISTENT_ACROSS_HALVES"
     },
     "m1": {
      "full": {
-      "n": 739,
-      "beat_rate": 0.3816,
+      "n": 876,
+      "beat_rate": 0.395,
       "beat_ci": [
-       0.3473,
-       0.4171
+       0.3631,
+       0.4277
       ],
-      "beat_net_rate": 0.3654,
-      "avg_excess_gross": -0.00715,
-      "avg_excess_net": -0.01285,
-      "top2_share_of_gain": -0.5278
+      "beat_net_rate": 0.379,
+      "avg_excess_gross": -0.00406,
+      "avg_excess_net": -0.00976,
+      "top2_share_of_gain": -0.7848
      },
      "half1": {
-      "n": 499,
-      "beat_rate": 0.3848,
+      "n": 569,
+      "beat_rate": 0.3849,
       "beat_ci": [
-       0.3431,
-       0.4282
+       0.3458,
+       0.4255
       ],
-      "beat_net_rate": 0.3647,
-      "avg_excess_gross": -0.00191,
-      "avg_excess_net": -0.00761,
-      "top2_share_of_gain": -2.9284
+      "beat_net_rate": 0.3656,
+      "avg_excess_gross": -0.00952,
+      "avg_excess_net": -0.01522,
+      "top2_share_of_gain": -0.5149
      },
      "half2": {
-      "n": 240,
-      "beat_rate": 0.375,
+      "n": 307,
+      "beat_rate": 0.4137,
       "beat_ci": [
-       0.3162,
-       0.4378
+       0.36,
+       0.4695
       ],
-      "beat_net_rate": 0.3667,
-      "avg_excess_gross": -0.01804,
-      "avg_excess_net": -0.02374,
-      "top2_share_of_gain": -0.2931
+      "beat_net_rate": 0.4039,
+      "avg_excess_gross": 0.00606,
+      "avg_excess_net": 0.00036,
+      "top2_share_of_gain": 0.6815
      },
-     "verdict": "NEGATIVE"
+     "verdict": "INCONSISTENT_ACROSS_HALVES"
     }
    },
-   "verdict": "NEGATIVE"
+   "verdict": "INCONSISTENT_ACROSS_HALVES"
   },
   {
    "name": "avoid_excluded_d3",
    "description": "排除長期穩定跑輸的老師（朱家泓/紀緯明/高憲容/權證小哥/翁士峻/蔡明翰/林漢偉），且不含 core5（core5 已另外驗證，此策略只看「剩下的中段班」），後的全部推薦。定義：部位的所有貢獻老師都不在 EXCLUDED 也不在 CORE5 才納入。",
    "primary_horizon": "d3",
-   "n_positions_total": 473,
+   "n_positions_total": 514,
    "horizons": {
     "d3": {
      "full": {
-      "n": 436,
-      "beat_rate": 0.4197,
+      "n": 508,
+      "beat_rate": 0.4232,
       "beat_ci": [
-       0.3743,
+       0.381,
        0.4666
       ],
-      "beat_net_rate": 0.383,
-      "avg_excess_gross": -0.00338,
-      "avg_excess_net": -0.00908,
-      "top2_share_of_gain": -0.3339
+      "beat_net_rate": 0.3839,
+      "avg_excess_gross": -0.00262,
+      "avg_excess_net": -0.00832,
+      "top2_share_of_gain": -0.3874
      },
      "half1": {
-      "n": 196,
-      "beat_rate": 0.4184,
+      "n": 238,
+      "beat_rate": 0.4034,
       "beat_ci": [
-       0.3515,
-       0.4883
+       0.343,
+       0.4667
       ],
-      "beat_net_rate": 0.3827,
-      "avg_excess_gross": -0.00354,
-      "avg_excess_net": -0.00924,
-      "top2_share_of_gain": -0.7032
+      "beat_net_rate": 0.3739,
+      "avg_excess_gross": -0.00521,
+      "avg_excess_net": -0.01091,
+      "top2_share_of_gain": -0.3938
      },
      "half2": {
-      "n": 240,
-      "beat_rate": 0.4208,
+      "n": 270,
+      "beat_rate": 0.4407,
       "beat_ci": [
-       0.3601,
-       0.4841
+       0.3828,
+       0.5004
       ],
-      "beat_net_rate": 0.3833,
-      "avg_excess_gross": -0.00325,
-      "avg_excess_net": -0.00895,
-      "top2_share_of_gain": -0.616
+      "beat_net_rate": 0.3926,
+      "avg_excess_gross": -0.00033,
+      "avg_excess_net": -0.00603,
+      "top2_share_of_gain": -5.7483
      },
      "verdict": "NEGATIVE"
     },
     "m1": {
      "full": {
-      "n": 323,
-      "beat_rate": 0.356,
+      "n": 397,
+      "beat_rate": 0.3526,
       "beat_ci": [
-       0.3058,
-       0.4097
+       0.3073,
+       0.4009
       ],
-      "beat_net_rate": 0.3467,
-      "avg_excess_gross": -0.01283,
-      "avg_excess_net": -0.01853,
-      "top2_share_of_gain": -0.6143
+      "beat_net_rate": 0.3426,
+      "avg_excess_gross": -0.0157,
+      "avg_excess_net": -0.0214,
+      "top2_share_of_gain": -0.4083
      },
      "half1": {
-      "n": 196,
-      "beat_rate": 0.3367,
+      "n": 238,
+      "beat_rate": 0.3193,
       "beat_ci": [
-       0.2743,
-       0.4055
+       0.2634,
+       0.381
       ],
-      "beat_net_rate": 0.3265,
-      "avg_excess_gross": -0.01845,
-      "avg_excess_net": -0.02415,
-      "top2_share_of_gain": -0.704
+      "beat_net_rate": 0.3109,
+      "avg_excess_gross": -0.02416,
+      "avg_excess_net": -0.02986,
+      "top2_share_of_gain": -0.4428
      },
      "half2": {
-      "n": 127,
-      "beat_rate": 0.3858,
+      "n": 159,
+      "beat_rate": 0.4025,
       "beat_ci": [
-       0.3057,
-       0.4727
+       0.3295,
+       0.4802
       ],
-      "beat_net_rate": 0.378,
-      "avg_excess_gross": -0.00416,
-      "avg_excess_net": -0.00986,
-      "top2_share_of_gain": -1.9397
+      "beat_net_rate": 0.3899,
+      "avg_excess_gross": -0.00305,
+      "avg_excess_net": -0.00875,
+      "top2_share_of_gain": -2.1087
      },
      "verdict": "NEGATIVE"
     }
@@ -1068,83 +1068,83 @@
    "name": "bull_regime_only_m1",
    "description": "只留「該部位持有窗口內大盤原始報酬 > 0」的部位（用 ret-excess 還原判斷），m1 持有。此策略的部位母體本身就限定「有 m1 資料可判斷情境」的子集。",
    "primary_horizon": "m1",
-   "n_positions_total": 711,
+   "n_positions_total": 897,
    "horizons": {
     "d3": {
      "full": {
-      "n": 711,
-      "beat_rate": 0.4191,
+      "n": 897,
+      "beat_rate": 0.447,
       "beat_ci": [
-       0.3834,
-       0.4557
+       0.4148,
+       0.4797
       ],
-      "beat_net_rate": 0.3854,
-      "avg_excess_gross": -0.00231,
-      "avg_excess_net": -0.00801,
-      "top2_share_of_gain": -0.365
+      "beat_net_rate": 0.408,
+      "avg_excess_gross": 0.00132,
+      "avg_excess_net": -0.00438,
+      "top2_share_of_gain": 0.5045
      },
      "half1": {
-      "n": 489,
-      "beat_rate": 0.4499,
+      "n": 492,
+      "beat_rate": 0.4533,
       "beat_ci": [
-       0.4064,
-       0.4942
+       0.4098,
+       0.4974
       ],
-      "beat_net_rate": 0.4233,
-      "avg_excess_gross": 0.00557,
-      "avg_excess_net": -0.00013,
-      "top2_share_of_gain": 0.22
+      "beat_net_rate": 0.4228,
+      "avg_excess_gross": 0.00569,
+      "avg_excess_net": -1e-05,
+      "top2_share_of_gain": 0.2142
      },
      "half2": {
-      "n": 222,
-      "beat_rate": 0.3514,
+      "n": 405,
+      "beat_rate": 0.4395,
       "beat_ci": [
-       0.2916,
-       0.4162
+       0.392,
+       0.4882
       ],
-      "beat_net_rate": 0.3018,
-      "avg_excess_gross": -0.01966,
-      "avg_excess_net": -0.02536,
-      "top2_share_of_gain": -0.1101
+      "beat_net_rate": 0.3901,
+      "avg_excess_gross": -0.00397,
+      "avg_excess_net": -0.00967,
+      "top2_share_of_gain": -0.2985
      },
      "verdict": "INCONSISTENT_ACROSS_HALVES"
     },
     "m1": {
      "full": {
-      "n": 711,
-      "beat_rate": 0.4318,
+      "n": 897,
+      "beat_rate": 0.4359,
       "beat_ci": [
-       0.3958,
-       0.4685
+       0.4038,
+       0.4686
       ],
-      "beat_net_rate": 0.4177,
-      "avg_excess_gross": 0.02767,
-      "avg_excess_net": 0.02197,
-      "top2_share_of_gain": 0.1506
+      "beat_net_rate": 0.4225,
+      "avg_excess_gross": 0.02401,
+      "avg_excess_net": 0.01831,
+      "top2_share_of_gain": 0.1375
      },
      "half1": {
-      "n": 489,
-      "beat_rate": 0.4397,
+      "n": 492,
+      "beat_rate": 0.4431,
       "beat_ci": [
-       0.3963,
-       0.484
+       0.3998,
+       0.4873
       ],
-      "beat_net_rate": 0.4213,
-      "avg_excess_gross": 0.03581,
-      "avg_excess_net": 0.03011,
-      "top2_share_of_gain": 0.1692
+      "beat_net_rate": 0.4248,
+      "avg_excess_gross": 0.03586,
+      "avg_excess_net": 0.03016,
+      "top2_share_of_gain": 0.1679
      },
      "half2": {
-      "n": 222,
-      "beat_rate": 0.4144,
+      "n": 405,
+      "beat_rate": 0.4272,
       "beat_ci": [
-       0.3516,
-       0.4801
+       0.3799,
+       0.4758
       ],
-      "beat_net_rate": 0.4099,
-      "avg_excess_gross": 0.00974,
-      "avg_excess_net": 0.00404,
-      "top2_share_of_gain": 0.6163
+      "beat_net_rate": 0.4198,
+      "avg_excess_gross": 0.00962,
+      "avg_excess_net": 0.00392,
+      "top2_share_of_gain": 0.342
      },
      "verdict": "RELIABLE_CANDIDATE"
     }
@@ -1155,83 +1155,83 @@
    "name": "tsmc_only",
    "description": "只交易 2330 台積電（不分老師），驗證先前~90%勝率是否在更大樣本下持續",
    "primary_horizon": "both",
-   "n_positions_total": 61,
+   "n_positions_total": 69,
    "horizons": {
     "d3": {
      "full": {
-      "n": 59,
-      "beat_rate": 0.5085,
+      "n": 67,
+      "beat_rate": 0.4925,
       "beat_ci": [
-       0.3843,
-       0.6316
+       0.3765,
+       0.6094
       ],
-      "beat_net_rate": 0.3559,
-      "avg_excess_gross": -0.00089,
-      "avg_excess_net": -0.00659,
-      "top2_share_of_gain": -1.1035
+      "beat_net_rate": 0.3433,
+      "avg_excess_gross": -0.00097,
+      "avg_excess_net": -0.00667,
+      "top2_share_of_gain": -0.8886
      },
      "half1": {
-      "n": 29,
-      "beat_rate": 0.5517,
+      "n": 35,
+      "beat_rate": 0.5714,
       "beat_ci": [
-       0.3755,
-       0.7159
+       0.4086,
+       0.7202
       ],
-      "beat_net_rate": 0.3448,
-      "avg_excess_gross": -0.00079,
-      "avg_excess_net": -0.00649,
-      "top2_share_of_gain": -1.8517
+      "beat_net_rate": 0.3714,
+      "avg_excess_gross": 0.00072,
+      "avg_excess_net": -0.00498,
+      "top2_share_of_gain": 2.0804
      },
      "half2": {
-      "n": 30,
-      "beat_rate": 0.4667,
+      "n": 32,
+      "beat_rate": 0.4062,
       "beat_ci": [
-       0.3023,
-       0.6386
+       0.2552,
+       0.5774
       ],
-      "beat_net_rate": 0.3667,
-      "avg_excess_gross": -0.00098,
-      "avg_excess_net": -0.00668,
-      "top2_share_of_gain": -1.9649
+      "beat_net_rate": 0.3125,
+      "avg_excess_gross": -0.00281,
+      "avg_excess_net": -0.00851,
+      "top2_share_of_gain": -0.5582
      },
-     "verdict": "NEGATIVE"
+     "verdict": "INCONSISTENT_ACROSS_HALVES"
     },
     "m1": {
      "full": {
-      "n": 49,
-      "beat_rate": 0.4694,
+      "n": 55,
+      "beat_rate": 0.4182,
       "beat_ci": [
-       0.337,
-       0.6062
+       0.2974,
+       0.5497
       ],
-      "beat_net_rate": 0.4286,
-      "avg_excess_gross": -0.00359,
-      "avg_excess_net": -0.00929,
-      "top2_share_of_gain": -0.6276
+      "beat_net_rate": 0.3818,
+      "avg_excess_gross": -0.00674,
+      "avg_excess_net": -0.01244,
+      "top2_share_of_gain": -0.2976
      },
      "half1": {
-      "n": 29,
-      "beat_rate": 0.6552,
+      "n": 35,
+      "beat_rate": 0.6571,
       "beat_ci": [
-       0.4734,
-       0.8006
+       0.4915,
+       0.7917
       ],
-      "beat_net_rate": 0.6207,
-      "avg_excess_gross": 0.00756,
-      "avg_excess_net": 0.00186,
-      "top2_share_of_gain": 0.5034
+      "beat_net_rate": 0.6,
+      "avg_excess_gross": 0.00764,
+      "avg_excess_net": 0.00194,
+      "top2_share_of_gain": 0.4127
      },
      "half2": {
       "n": 20,
-      "beat_rate": 0.2,
+      "beat_rate": 0.0,
       "beat_ci": [
-       0.0807,
-       0.416
+       0.0,
+       0.1611
       ],
-      "beat_net_rate": 0.15,
-      "avg_excess_gross": -0.01976,
-      "avg_excess_net": -0.02546,
-      "top2_share_of_gain": -0.1357
+      "beat_net_rate": 0.0,
+      "avg_excess_gross": -0.03192,
+      "avg_excess_net": -0.03762,
+      "top2_share_of_gain": 0.0264
      },
      "verdict": "INCONSISTENT_ACROSS_HALVES"
     }
@@ -1242,85 +1242,85 @@
    "name": "tw_stock_only_d3",
    "description": "排除 ETF 與美股/其他，只留台股個股",
    "primary_horizon": "d3",
-   "n_positions_total": 1431,
+   "n_positions_total": 1606,
    "horizons": {
     "d3": {
      "full": {
-      "n": 1364,
-      "beat_rate": 0.4516,
+      "n": 1572,
+      "beat_rate": 0.4326,
       "beat_ci": [
-       0.4254,
-       0.4781
+       0.4083,
+       0.4572
       ],
-      "beat_net_rate": 0.415,
-      "avg_excess_gross": 0.00264,
-      "avg_excess_net": -0.00306,
-      "top2_share_of_gain": 0.174
+      "beat_net_rate": 0.3957,
+      "avg_excess_gross": 0.00015,
+      "avg_excess_net": -0.00555,
+      "top2_share_of_gain": 2.695
      },
      "half1": {
-      "n": 712,
-      "beat_rate": 0.4551,
+      "n": 832,
+      "beat_rate": 0.4543,
       "beat_ci": [
-       0.4188,
-       0.4918
+       0.4208,
+       0.4883
       ],
-      "beat_net_rate": 0.4228,
-      "avg_excess_gross": 0.00602,
-      "avg_excess_net": 0.00032,
-      "top2_share_of_gain": 0.1436
+      "beat_net_rate": 0.4171,
+      "avg_excess_gross": 0.00546,
+      "avg_excess_net": -0.00024,
+      "top2_share_of_gain": 0.138
      },
      "half2": {
-      "n": 652,
-      "beat_rate": 0.4479,
+      "n": 740,
+      "beat_rate": 0.4081,
       "beat_ci": [
-       0.4101,
-       0.4862
+       0.3733,
+       0.4439
       ],
-      "beat_net_rate": 0.4064,
-      "avg_excess_gross": -0.00105,
-      "avg_excess_net": -0.00675,
-      "top2_share_of_gain": -0.8208
+      "beat_net_rate": 0.3716,
+      "avg_excess_gross": -0.00583,
+      "avg_excess_net": -0.01153,
+      "top2_share_of_gain": -0.1194
      },
      "verdict": "INCONSISTENT_ACROSS_HALVES"
     },
     "m1": {
      "full": {
-      "n": 1044,
-      "beat_rate": 0.3669,
+      "n": 1244,
+      "beat_rate": 0.3818,
       "beat_ci": [
-       0.3382,
-       0.3965
+       0.3552,
+       0.4092
       ],
-      "beat_net_rate": 0.3544,
-      "avg_excess_gross": -0.01731,
-      "avg_excess_net": -0.02301,
-      "top2_share_of_gain": -0.1639
+      "beat_net_rate": 0.3698,
+      "avg_excess_gross": -0.01291,
+      "avg_excess_net": -0.01861,
+      "top2_share_of_gain": -0.1844
      },
      "half1": {
-      "n": 712,
-      "beat_rate": 0.3652,
+      "n": 832,
+      "beat_rate": 0.3558,
       "beat_ci": [
-       0.3306,
-       0.4012
+       0.324,
+       0.3889
       ],
-      "beat_net_rate": 0.3497,
-      "avg_excess_gross": -0.0133,
-      "avg_excess_net": -0.019,
-      "top2_share_of_gain": -0.3129
+      "beat_net_rate": 0.3413,
+      "avg_excess_gross": -0.02414,
+      "avg_excess_net": -0.02984,
+      "top2_share_of_gain": -0.1475
      },
      "half2": {
-      "n": 332,
-      "beat_rate": 0.3705,
+      "n": 412,
+      "beat_rate": 0.4345,
       "beat_ci": [
-       0.3203,
-       0.4236
+       0.3874,
+       0.4827
       ],
-      "beat_net_rate": 0.3645,
-      "avg_excess_gross": -0.02591,
-      "avg_excess_net": -0.03161,
-      "top2_share_of_gain": -0.1549
+      "beat_net_rate": 0.4272,
+      "avg_excess_gross": 0.00977,
+      "avg_excess_net": 0.00407,
+      "top2_share_of_gain": 0.3311
      },
-     "verdict": "NEGATIVE"
+     "verdict": "INCONSISTENT_ACROSS_HALVES"
     }
    },
    "verdict": "INCONSISTENT_ACROSS_HALVES"
@@ -1329,85 +1329,85 @@
    "name": "first_mention_only_d3",
    "description": "首次點名（部位內所有貢獻老師中，最小 mention_seq == 1）",
    "primary_horizon": "d3",
-   "n_positions_total": 1026,
+   "n_positions_total": 1120,
    "horizons": {
     "d3": {
      "full": {
-      "n": 979,
-      "beat_rate": 0.4321,
+      "n": 1102,
+      "beat_rate": 0.4156,
       "beat_ci": [
-       0.4014,
-       0.4633
+       0.3869,
+       0.4449
       ],
-      "beat_net_rate": 0.4004,
-      "avg_excess_gross": -0.00091,
-      "avg_excess_net": -0.00661,
-      "top2_share_of_gain": -0.7063
+      "beat_net_rate": 0.3811,
+      "avg_excess_gross": -0.00275,
+      "avg_excess_net": -0.00845,
+      "top2_share_of_gain": -0.2066
      },
      "half1": {
-      "n": 565,
-      "beat_rate": 0.4442,
+      "n": 647,
+      "beat_rate": 0.4513,
       "beat_ci": [
-       0.4038,
-       0.4855
+       0.4134,
+       0.4898
       ],
-      "beat_net_rate": 0.4159,
-      "avg_excess_gross": 0.00294,
-      "avg_excess_net": -0.00276,
-      "top2_share_of_gain": 0.3713
+      "beat_net_rate": 0.4189,
+      "avg_excess_gross": 0.00335,
+      "avg_excess_net": -0.00235,
+      "top2_share_of_gain": 0.2896
      },
      "half2": {
-      "n": 414,
-      "beat_rate": 0.4155,
+      "n": 455,
+      "beat_rate": 0.3648,
       "beat_ci": [
-       0.369,
-       0.4635
+       0.3219,
+       0.41
       ],
-      "beat_net_rate": 0.3792,
-      "avg_excess_gross": -0.00615,
-      "avg_excess_net": -0.01185,
-      "top2_share_of_gain": -0.2183
+      "beat_net_rate": 0.3275,
+      "avg_excess_gross": -0.01143,
+      "avg_excess_net": -0.01713,
+      "top2_share_of_gain": -0.0969
      },
      "verdict": "INCONSISTENT_ACROSS_HALVES"
     },
     "m1": {
      "full": {
-      "n": 802,
-      "beat_rate": 0.3703,
+      "n": 905,
+      "beat_rate": 0.3823,
       "beat_ci": [
-       0.3376,
-       0.4043
+       0.3512,
+       0.4144
       ],
-      "beat_net_rate": 0.3591,
-      "avg_excess_gross": -0.00917,
-      "avg_excess_net": -0.01487,
-      "top2_share_of_gain": -0.4027
+      "beat_net_rate": 0.3724,
+      "avg_excess_gross": -0.00576,
+      "avg_excess_net": -0.01146,
+      "top2_share_of_gain": -0.5681
      },
      "half1": {
-      "n": 565,
-      "beat_rate": 0.3735,
+      "n": 647,
+      "beat_rate": 0.3617,
       "beat_ci": [
-       0.3345,
-       0.4141
+       0.3256,
+       0.3994
       ],
-      "beat_net_rate": 0.3593,
-      "avg_excess_gross": -0.00013,
-      "avg_excess_net": -0.00583,
-      "top2_share_of_gain": -41.8311
+      "beat_net_rate": 0.3493,
+      "avg_excess_gross": -0.01163,
+      "avg_excess_net": -0.01733,
+      "top2_share_of_gain": -0.3936
      },
      "half2": {
-      "n": 237,
-      "beat_rate": 0.3629,
+      "n": 258,
+      "beat_rate": 0.4341,
       "beat_ci": [
-       0.3043,
-       0.4258
+       0.375,
+       0.4951
       ],
-      "beat_net_rate": 0.3586,
-      "avg_excess_gross": -0.03074,
-      "avg_excess_net": -0.03644,
-      "top2_share_of_gain": -0.1615
+      "beat_net_rate": 0.4302,
+      "avg_excess_gross": 0.00896,
+      "avg_excess_net": 0.00326,
+      "top2_share_of_gain": 0.509
      },
-     "verdict": "NEGATIVE"
+     "verdict": "INCONSISTENT_ACROSS_HALVES"
     }
    },
    "verdict": "INCONSISTENT_ACROSS_HALVES"
@@ -1416,85 +1416,85 @@
    "name": "repeat_only_d3",
    "description": "重申（部位內所有貢獻老師的 mention_seq 都 > 1，即沒有任何人是首次）",
    "primary_horizon": "d3",
-   "n_positions_total": 443,
+   "n_positions_total": 529,
    "horizons": {
     "d3": {
      "full": {
-      "n": 420,
-      "beat_rate": 0.4857,
+      "n": 513,
+      "beat_rate": 0.462,
       "beat_ci": [
-       0.4383,
-       0.5334
+       0.4193,
+       0.5053
       ],
-      "beat_net_rate": 0.4405,
-      "avg_excess_gross": 0.0105,
-      "avg_excess_net": 0.0048,
-      "top2_share_of_gain": 0.1281
+      "beat_net_rate": 0.4172,
+      "avg_excess_gross": 0.00592,
+      "avg_excess_net": 0.00022,
+      "top2_share_of_gain": 0.186
      },
      "half1": {
-      "n": 165,
-      "beat_rate": 0.4727,
+      "n": 205,
+      "beat_rate": 0.4537,
       "beat_ci": [
-       0.398,
-       0.5487
+       0.387,
+       0.522
       ],
-      "beat_net_rate": 0.4303,
-      "avg_excess_gross": 0.01521,
-      "avg_excess_net": 0.00951,
-      "top2_share_of_gain": 0.225
+      "beat_net_rate": 0.4049,
+      "avg_excess_gross": 0.01136,
+      "avg_excess_net": 0.00566,
+      "top2_share_of_gain": 0.2425
      },
      "half2": {
-      "n": 255,
-      "beat_rate": 0.4941,
+      "n": 308,
+      "beat_rate": 0.4675,
       "beat_ci": [
-       0.4333,
-       0.5551
+       0.4126,
+       0.5233
       ],
-      "beat_net_rate": 0.4471,
-      "avg_excess_gross": 0.00745,
-      "avg_excess_net": 0.00175,
-      "top2_share_of_gain": 0.2562
+      "beat_net_rate": 0.4253,
+      "avg_excess_gross": 0.0023,
+      "avg_excess_net": -0.0034,
+      "top2_share_of_gain": 0.6952
      },
      "verdict": "RELIABLE_CANDIDATE"
     },
     "m1": {
      "full": {
-      "n": 271,
-      "beat_rate": 0.3432,
+      "n": 372,
+      "beat_rate": 0.3656,
       "beat_ci": [
-       0.2892,
-       0.4015
+       0.3183,
+       0.4157
       ],
-      "beat_net_rate": 0.3284,
-      "avg_excess_gross": -0.04156,
-      "avg_excess_net": -0.04726,
-      "top2_share_of_gain": -0.193
+      "beat_net_rate": 0.3495,
+      "avg_excess_gross": -0.03142,
+      "avg_excess_net": -0.03712,
+      "top2_share_of_gain": -0.186
      },
      "half1": {
-      "n": 165,
-      "beat_rate": 0.3212,
+      "n": 205,
+      "beat_rate": 0.3268,
       "beat_ci": [
-       0.2547,
-       0.3958
+       0.2663,
+       0.3937
       ],
-      "beat_net_rate": 0.303,
-      "avg_excess_gross": -0.05944,
-      "avg_excess_net": -0.06514,
-      "top2_share_of_gain": -0.2217
+      "beat_net_rate": 0.3073,
+      "avg_excess_gross": -0.06305,
+      "avg_excess_net": -0.06875,
+      "top2_share_of_gain": -0.1682
      },
      "half2": {
-      "n": 106,
-      "beat_rate": 0.3774,
+      "n": 167,
+      "beat_rate": 0.4132,
       "beat_ci": [
-       0.2909,
-       0.4724
+       0.3413,
+       0.489
       ],
-      "beat_net_rate": 0.3679,
-      "avg_excess_gross": -0.01372,
-      "avg_excess_net": -0.01942,
-      "top2_share_of_gain": -0.9162
+      "beat_net_rate": 0.4012,
+      "avg_excess_gross": 0.00742,
+      "avg_excess_net": 0.00172,
+      "top2_share_of_gain": 1.0756
      },
-     "verdict": "NEGATIVE"
+     "verdict": "INCONSISTENT_ACROSS_HALVES"
     }
    },
    "verdict": "RELIABLE_CANDIDATE"
@@ -1503,85 +1503,85 @@
    "name": "weighted_score_top20pct",
    "description": "綜合評分（信心high=2/medium=1、consensus人數、core5成員+2、精選日+1）每週取分數前20%的部位",
    "primary_horizon": "both",
-   "n_positions_total": 301,
+   "n_positions_total": 339,
    "horizons": {
     "d3": {
      "full": {
-      "n": 292,
-      "beat_rate": 0.5137,
+      "n": 333,
+      "beat_rate": 0.4895,
       "beat_ci": [
-       0.4566,
-       0.5705
+       0.4362,
+       0.543
       ],
-      "beat_net_rate": 0.476,
-      "avg_excess_gross": 0.0167,
-      "avg_excess_net": 0.011,
-      "top2_share_of_gain": 0.1156
+      "beat_net_rate": 0.4535,
+      "avg_excess_gross": 0.0121,
+      "avg_excess_net": 0.0064,
+      "top2_share_of_gain": 0.1399
      },
      "half1": {
-      "n": 150,
-      "beat_rate": 0.56,
+      "n": 175,
+      "beat_rate": 0.5714,
       "beat_ci": [
-       0.48,
-       0.637
+       0.4973,
+       0.6424
       ],
-      "beat_net_rate": 0.52,
-      "avg_excess_gross": 0.03008,
-      "avg_excess_net": 0.02438,
-      "top2_share_of_gain": 0.125
+      "beat_net_rate": 0.5257,
+      "avg_excess_gross": 0.02769,
+      "avg_excess_net": 0.02199,
+      "top2_share_of_gain": 0.1164
      },
      "half2": {
-      "n": 142,
-      "beat_rate": 0.4648,
+      "n": 158,
+      "beat_rate": 0.3987,
       "beat_ci": [
-       0.3848,
-       0.5467
+       0.3257,
+       0.4766
       ],
-      "beat_net_rate": 0.4296,
-      "avg_excess_gross": 0.00257,
-      "avg_excess_net": -0.00313,
-      "top2_share_of_gain": 1.0213
+      "beat_net_rate": 0.3734,
+      "avg_excess_gross": -0.00517,
+      "avg_excess_net": -0.01087,
+      "top2_share_of_gain": -0.4572
      },
-     "verdict": "RELIABLE_CANDIDATE"
+     "verdict": "INCONSISTENT_ACROSS_HALVES"
     },
     "m1": {
      "full": {
-      "n": 220,
-      "beat_rate": 0.4091,
+      "n": 263,
+      "beat_rate": 0.4259,
       "beat_ci": [
-       0.3462,
-       0.4751
+       0.3676,
+       0.4863
       ],
-      "beat_net_rate": 0.4,
-      "avg_excess_gross": 0.02649,
-      "avg_excess_net": 0.02079,
-      "top2_share_of_gain": 0.4783
+      "beat_net_rate": 0.4183,
+      "avg_excess_gross": 0.03154,
+      "avg_excess_net": 0.02584,
+      "top2_share_of_gain": 0.3361
      },
      "half1": {
-      "n": 150,
-      "beat_rate": 0.44,
+      "n": 175,
+      "beat_rate": 0.4457,
       "beat_ci": [
-       0.363,
-       0.52
+       0.374,
+       0.5197
       ],
-      "beat_net_rate": 0.4333,
-      "avg_excess_gross": 0.05999,
-      "avg_excess_net": 0.05429,
-      "top2_share_of_gain": 0.3098
+      "beat_net_rate": 0.4343,
+      "avg_excess_gross": 0.03798,
+      "avg_excess_net": 0.03228,
+      "top2_share_of_gain": 0.4195
      },
      "half2": {
-      "n": 70,
-      "beat_rate": 0.3429,
+      "n": 88,
+      "beat_rate": 0.3864,
       "beat_ci": [
-       0.2425,
-       0.4596
+       0.2914,
+       0.4908
       ],
-      "beat_net_rate": 0.3286,
-      "avg_excess_gross": -0.04529,
-      "avg_excess_net": -0.05099,
-      "top2_share_of_gain": -0.2701
+      "beat_net_rate": 0.3864,
+      "avg_excess_gross": 0.01873,
+      "avg_excess_net": 0.01303,
+      "top2_share_of_gain": 0.5947
      },
-     "verdict": "INCONSISTENT_ACROSS_HALVES"
+     "verdict": "RELIABLE_CANDIDATE"
     }
    },
    "verdict": "INCONSISTENT_ACROSS_HALVES"
@@ -1590,83 +1590,83 @@
    "name": "short_side_only",
    "description": "只看「看空」的部位（樣本小，驗證先前發現命中率較高是否成立）",
    "primary_horizon": "d3",
-   "n_positions_total": 52,
+   "n_positions_total": 60,
    "horizons": {
     "d3": {
      "full": {
-      "n": 51,
-      "beat_rate": 0.5686,
+      "n": 59,
+      "beat_rate": 0.5424,
       "beat_ci": [
-       0.4327,
-       0.695
+       0.4166,
+       0.663
       ],
-      "beat_net_rate": 0.549,
-      "avg_excess_gross": 0.01043,
-      "avg_excess_net": 0.00473,
-      "top2_share_of_gain": 0.5997
+      "beat_net_rate": 0.5254,
+      "avg_excess_gross": 0.00777,
+      "avg_excess_net": 0.00207,
+      "top2_share_of_gain": 0.6966
      },
      "half1": {
-      "n": 18,
-      "beat_rate": 0.6111,
+      "n": 26,
+      "beat_rate": 0.5,
       "beat_ci": [
-       0.3862,
-       0.797
+       0.3206,
+       0.6794
       ],
-      "beat_net_rate": 0.6111,
-      "avg_excess_gross": 0.00813,
-      "avg_excess_net": 0.00243,
-      "top2_share_of_gain": 1.3238
+      "beat_net_rate": 0.5,
+      "avg_excess_gross": 0.00289,
+      "avg_excess_net": -0.00281,
+      "top2_share_of_gain": 3.0604
      },
      "half2": {
       "n": 33,
-      "beat_rate": 0.5455,
+      "beat_rate": 0.5758,
       "beat_ci": [
-       0.3799,
-       0.7016
+       0.4081,
+       0.7276
       ],
-      "beat_net_rate": 0.5152,
-      "avg_excess_gross": 0.01169,
-      "avg_excess_net": 0.00599,
-      "top2_share_of_gain": 0.8269
+      "beat_net_rate": 0.5455,
+      "avg_excess_gross": 0.01161,
+      "avg_excess_net": 0.00591,
+      "top2_share_of_gain": 0.8333
      },
      "verdict": "RELIABLE_CANDIDATE_BUT_OUTLIER_DRIVEN"
     },
     "m1": {
      "full": {
-      "n": 46,
-      "beat_rate": 0.5217,
+      "n": 49,
+      "beat_rate": 0.5102,
       "beat_ci": [
-       0.3814,
-       0.6588
+       0.3747,
+       0.6443
       ],
-      "beat_net_rate": 0.5217,
-      "avg_excess_gross": -0.00975,
-      "avg_excess_net": -0.01545,
-      "top2_share_of_gain": -1.5533
+      "beat_net_rate": 0.5102,
+      "avg_excess_gross": -0.01453,
+      "avg_excess_net": -0.02023,
+      "top2_share_of_gain": -0.9783
      },
      "half1": {
-      "n": 18,
-      "beat_rate": 0.8333,
+      "n": 26,
+      "beat_rate": 0.6538,
       "beat_ci": [
-       0.6078,
-       0.9416
+       0.4622,
+       0.8059
       ],
-      "beat_net_rate": 0.8333,
-      "avg_excess_gross": 0.0605,
-      "avg_excess_net": 0.0548,
-      "top2_share_of_gain": 0.4602
+      "beat_net_rate": 0.6538,
+      "avg_excess_gross": 0.02879,
+      "avg_excess_net": 0.02309,
+      "top2_share_of_gain": 0.9305
      },
      "half2": {
-      "n": 28,
-      "beat_rate": 0.3214,
+      "n": 23,
+      "beat_rate": 0.3478,
       "beat_ci": [
-       0.1793,
-       0.5066
+       0.1881,
+       0.5511
       ],
-      "beat_net_rate": 0.3214,
-      "avg_excess_gross": -0.05491,
-      "avg_excess_net": -0.06061,
-      "top2_share_of_gain": -0.4079
+      "beat_net_rate": 0.3478,
+      "avg_excess_gross": -0.06351,
+      "avg_excess_net": -0.06921,
+      "top2_share_of_gain": -0.3394
      },
      "verdict": "INCONSISTENT_ACROSS_HALVES"
     }
@@ -1677,85 +1677,85 @@
    "name": "tw_listed_only_d3",
    "description": "只交易上市(.TW)，排除上櫃(.TWO)小型股",
    "primary_horizon": "d3",
-   "n_positions_total": 1143,
+   "n_positions_total": 1276,
    "horizons": {
     "d3": {
      "full": {
-      "n": 1097,
-      "beat_rate": 0.4512,
+      "n": 1254,
+      "beat_rate": 0.4354,
       "beat_ci": [
-       0.422,
-       0.4808
+       0.4082,
+       0.463
       ],
-      "beat_net_rate": 0.4148,
-      "avg_excess_gross": 0.00277,
-      "avg_excess_net": -0.00293,
-      "top2_share_of_gain": 0.2027
+      "beat_net_rate": 0.3995,
+      "avg_excess_gross": 0.00032,
+      "avg_excess_net": -0.00538,
+      "top2_share_of_gain": 1.5148
      },
      "half1": {
-      "n": 573,
-      "beat_rate": 0.4572,
+      "n": 669,
+      "beat_rate": 0.4589,
       "beat_ci": [
-       0.4169,
-       0.4982
+       0.4215,
+       0.4968
       ],
-      "beat_net_rate": 0.4206,
-      "avg_excess_gross": 0.00629,
-      "avg_excess_net": 0.00059,
-      "top2_share_of_gain": 0.1708
+      "beat_net_rate": 0.4215,
+      "avg_excess_gross": 0.00524,
+      "avg_excess_net": -0.00046,
+      "top2_share_of_gain": 0.1756
      },
      "half2": {
-      "n": 524,
-      "beat_rate": 0.4447,
+      "n": 585,
+      "beat_rate": 0.4085,
       "beat_ci": [
-       0.4027,
-       0.4875
+       0.3694,
+       0.4489
       ],
-      "beat_net_rate": 0.4084,
-      "avg_excess_gross": -0.00109,
-      "avg_excess_net": -0.00679,
-      "top2_share_of_gain": -0.8546
+      "beat_net_rate": 0.3744,
+      "avg_excess_gross": -0.0053,
+      "avg_excess_net": -0.011,
+      "top2_share_of_gain": -0.1585
      },
      "verdict": "INCONSISTENT_ACROSS_HALVES"
     },
     "m1": {
      "full": {
-      "n": 844,
-      "beat_rate": 0.3685,
+      "n": 1001,
+      "beat_rate": 0.3766,
       "beat_ci": [
-       0.3366,
-       0.4016
+       0.3471,
+       0.4071
       ],
-      "beat_net_rate": 0.3543,
-      "avg_excess_gross": -0.01025,
-      "avg_excess_net": -0.01595,
-      "top2_share_of_gain": -0.3424
+      "beat_net_rate": 0.3636,
+      "avg_excess_gross": -0.0084,
+      "avg_excess_net": -0.0141,
+      "top2_share_of_gain": -0.3522
      },
      "half1": {
-      "n": 573,
-      "beat_rate": 0.3665,
+      "n": 669,
+      "beat_rate": 0.3587,
       "beat_ci": [
-       0.328,
-       0.4067
+       0.3233,
+       0.3958
       ],
-      "beat_net_rate": 0.349,
-      "avg_excess_gross": -0.00614,
-      "avg_excess_net": -0.01184,
-      "top2_share_of_gain": -0.8419
+      "beat_net_rate": 0.3423,
+      "avg_excess_gross": -0.01632,
+      "avg_excess_net": -0.02202,
+      "top2_share_of_gain": -0.2712
      },
      "half2": {
-      "n": 271,
-      "beat_rate": 0.3727,
+      "n": 332,
+      "beat_rate": 0.4127,
       "beat_ci": [
-       0.3173,
-       0.4317
+       0.361,
+       0.4663
       ],
-      "beat_net_rate": 0.3653,
-      "avg_excess_gross": -0.01894,
-      "avg_excess_net": -0.02464,
-      "top2_share_of_gain": -0.2595
+      "beat_net_rate": 0.4066,
+      "avg_excess_gross": 0.00756,
+      "avg_excess_net": 0.00186,
+      "top2_share_of_gain": 0.5308
      },
-     "verdict": "NEGATIVE"
+     "verdict": "INCONSISTENT_ACROSS_HALVES"
     }
    },
    "verdict": "INCONSISTENT_ACROSS_HALVES"
