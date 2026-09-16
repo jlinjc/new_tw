@@ -1,0 +1,453 @@
+{
+ "episode_summary": "台積電8月營收首度突破5000億大關、年增逾50%，但大盤成交量卻萎縮至7100億顯得意興闌珊，市場觀望美國PPI、CPI數據；儘管如此，三位來賓一致認為設備、封測、被動元件、CPO與PCB供應鏈在營收創高、法人買盤加持下，目前偏冷的量縮環境反而是逢低布局的好時機。蘋果新款摺疊機iPhone Duo發表後，蘋概股股價普遍不漲反跌，來賓解讀為短線獲利了結的假摔，看好營收年增、月增雙升且有法人加碼的個股後續補漲。",
+ "market_view": "大盤在窒息量下呈現觀望格局，市場等待美國PPI/CPI數據及聯準會動向，但來賓認為台積電等權值股基本面持續走強，一旦利空(升息、通膨疑慮)出盡，冷清的量縮盤勢終將還股價一個公道，屬於健康的拉回整理而非轉空。",
+ "teachers": [
+  {
+   "name": "容逸燊",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "分批/定期定額買進",
+     "reasons": [
+      "8月營收首度突破5000億元，年增53%，前8月累計年增40%",
+      "AI、2奈米與先進封裝需求持續上修，市場預估明年EPS上看130元以上",
+      "月線整理近兩個月後本週跳高，外資出現轉買趨勢，融資維持低檔",
+      "資本支出可能調升，屬潛在利多"
+     ],
+     "target_price": "月線之下不易跌破，7月高檔區約2505元為壓力參考",
+     "confidence": "high",
+     "quote": "我覺得台積電其實你分批的定時定額去買是OK的...我覺得就看後續應該是會還它公道",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "被動元件族群",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低找買點，勿於低檔看壞或換股，待連續大漲後再分批調節",
+     "reasons": [
+      "日系大廠(村田)MLCC標準品傳出停產，激起轉單想像，族群齊漲",
+      "主力出現轉買、投信賣壓明顯減輕，籌碼變得乾淨",
+      "AI應用比重達16%，鉭質電容、第二極、車用需求同步回溫",
+      "上半年EPS已達8.48元，外資評等尚未調降，長線價值逐漸浮現"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "被動這個地方你要去做調節的話可能等到連續大漲的時候再去做一個調節，不要在低檔覺得說他沒希望或換股",
+     "name_note": "MLCC",
+     "tw_market": null
+    },
+    {
+     "stock_name": "CPO/光通訊族群",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低卡位佈局，暫不論本益比高低",
+     "reasons": [
+      "800G到1.6T傳輸升級與NPO應用為明年起的產業必備趨勢",
+      "美股指標股Lumentum、Coherent、Marvell等已從低檔翻揚",
+      "成長性已獲各大廠背書，目前處於等待點火發動的位置"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "我覺得未來光進同退是未來在傳輸升級的一個必備的一個這樣子一個技術...這邊就等一個點火",
+     "tw_market": null
+    },
+    {
+     "stock_name": "波若威",
+     "ticker": "3163",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "等待第四季放量",
+     "reasons": [
+      "台灣CPO供應鏈中屬於等待放量階段，需觀察第四季出貨狀況"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "台灣供應鏈來說PoloWay第四季等待放量",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "上詮",
+     "ticker": "3363",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回分批承接",
+     "reasons": [
+      "與台積電CPO合作進度為市場焦點，後續營收是否放量是關鍵",
+      "股價拉回量縮但未破前低，顯示籌碼未大舉出逃",
+      "法人仍願意進場布局，可能看好後續走勢",
+      "目前回到月線附近平台區間低點"
+     ],
+     "target_price": "月線附近視為支撐",
+     "confidence": "high",
+     "quote": "上全...現在剛好回到月線附近的支撐...可以往下分批的去做個承接",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "訊芯-KY",
+     "ticker": "6451",
+     "market": "TW",
+     "stance": "看空",
+     "action": "續觀望，營收未見起色前不宜介入",
+     "reasons": [
+      "1到8月營收表現不理想，年增未見起色"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "訊星KY也不理想",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯亞",
+     "ticker": "3081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意營收動能",
+     "reasons": [
+      "1到8月營收年增高達129%，為老牌CPO廠中表現最突出者"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "1到8月年增129%聯雅之優生啦",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "華星光",
+     "ticker": "4979",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "客戶Marvell出貨動能翻揚，主力轉買",
+      "800G模組出貨量原估3500萬支已直接翻倍",
+      "資料中心產品設計量產到位，同步開發1.6T NPO",
+      "屬於同時吃到NPO與光通訊模組雙題材且已有實質獲利的廠商"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "華新光就是其中的代表...而且他也算是有業績的啦",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "穩懋",
+     "ticker": "3105",
+     "market": "TW",
+     "stance": "看多",
+     "action": "低檔承接",
+     "reasons": [
+      "投信近期才開始進場，主力同步轉買",
+      "上半年EPS已累積3.56元",
+      "1.6T接收端PD第二季開始出貨、第三季規模可望擴大",
+      "低軌衛星題材加持，股價位階仍偏低尚未大幅反應"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "文貌是比較新的CPU最近投信才開始做進場...我覺得這個地方其實可以去做一個低檔的承接",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "全新",
+     "ticker": "2455",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "暫不追價，優先找中低位階或已修正標的",
+     "reasons": [
+      "股價已創歷史新高，量縮環境下族群無法齊漲，追高風險較高"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "已經突破歷史新高了...這類型我覺得可以先觀望一下，如果是空手的話先觀望一下",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "高憲容",
+   "picks": [
+    {
+     "stock_name": "家登",
+     "ticker": "3680",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點",
+     "reasons": [
+      "大戶提前兩週卡位，雖爆量未鎖住漲停顯示隔日沖賣壓",
+      "技術面出現第二次多方缺口，經驗上易被回補",
+      "月線季線出現黃金交叉，回測支撐後有機會續推升",
+      "與艾斯莫爾(ASML)合作先進光罩盒題材"
+     ],
+     "target_price": "前低約439.5元為支撐",
+     "confidence": "high",
+     "quote": "當天的一個低點大概在439.5未來能夠守得住股價這還是有機會繼續的推升",
+     "tw_market": "TPEX",
+     "spoken_name": "家登精密"
+    },
+    {
+     "stock_name": "京元電子",
+     "ticker": "2449",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回布局，等站上季線發動",
+     "reasons": [
+      "封測業績連續創高，7月營收39.98億、8月40.8億再創新高",
+      "第四季VeraRubin等新產品放量可期",
+      "K線出現多頭吞噬型態，站上均線結構後有望發動補漲"
+     ],
+     "target_price": "季線為發動觀察點",
+     "confidence": "medium",
+     "quote": "晶圓店看到業績當然也是跟著連續創新高...這邊也就可以來做留意",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "金像電",
+     "ticker": "2368",
+     "market": "TW",
+     "stance": "中性",
+     "action": "創高後不追價，等拉回再介入",
+     "reasons": [
+      "8月營收再創新高，外資買盤持續加持",
+      "前波遭南亞科拖累出現黑K，大戶本週小幅減碼"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "創高之後先不急著做追價等拉回我們再做觀察",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "雙鴻",
+     "ticker": "3324",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察處置整理結束後表現",
+     "reasons": [
+      "8月營收月減16%主因7月提前認列訂單遞延",
+      "排除遞延因素後8月營收31.4億仍優於第二季高點31.3億",
+      "可望帶動第三季獲利優於第二季",
+      "目前處於分盤處置整理階段"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "整個雙紅八月份是營收是31.4億它仍然是比第二季...第三季的獲利應該還是會比第二季來的更高",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "健鼎",
+     "ticker": "3044",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低承接/留意",
+     "reasons": [
+      "AI伺服器與記憶體模組營收占比達65%，AI伺服器比重逾4成",
+      "第二季EPS 7.4元，上半年已賺13元，營收連續創新高",
+      "估全年EPS約30元，本益比僅約16倍，估值具吸引力"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "算一算本益比大概16倍多這樣的股票我覺得倒是可以多加來做留意了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "富喬",
+     "ticker": "1815",
+     "market": "TW",
+     "stance": "看多",
+     "action": "持續留意，投信仍在買進",
+     "reasons": [
+      "股價自59元漲至141元，第二季EPS 1.37元年增75%",
+      "EGLASS與FLD2產品7月起漲價，8月營收連兩月創新高",
+      "第二季毛利率近4成，第三季有機會突破4成",
+      "投信持續買進卡位第三季財報"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "富橋是投信從60塊一路買到140還在買",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "建榮",
+     "ticker": "5340",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意月線突破季線後表現",
+     "reasons": [
+      "月線剛突破季線，產能利用率逼近九成滿載",
+      "8月營收創歷史新高",
+      "轉型高階T-Glass產品，預計年底占比達七成有助毛利率提升",
+      "外資買進，投信尚未進場，後續可期"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "建榮倒是外資蠻喜歡投信目前還沒有進來",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "欣興",
+     "ticker": "3037",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "先觀望，等震盪整理結束",
+     "reasons": [
+      "載板股營收持續創高，但檢調搜索案尚未落幕",
+      "大股東同步調節持股",
+      "本益比偏高(上半年賺3元多、股價800多元)"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "現在只是這地方檢調再搜索 後面會不會有起訴...所以我覺得股價還是先讓它震盪整理",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "陳唯泰",
+   "picks": [
+    {
+     "stock_name": "日月光投控",
+     "ticker": "3711",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意突破表態",
+     "reasons": [
+      "8月營收改寫單月新高，月增11.47%、年增45.66%",
+      "ADR表現多次優於台積電",
+      "股價於月季線附近強勢整理準備突破",
+      "外資陸續買回先前調節部位"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "日月光可能接下來在整個半導體族群當中很有可能會成為指標股之一",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯詠",
+     "ticker": "3034",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意/逢低布局",
+     "reasons": [
+      "下游庫存去化接近尾聲",
+      "除息缺口迅速填息，顯示市場認可目前價位",
+      "外資自6、7月起持續買超，大戶持股比例走升",
+      "若iPhone銷售佳，第四季業績可望亮眼",
+      "跨足ASIC相關業務"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "外資這一次大概從6月份7月份開始就一路站在這個買方也使得這個大戶的持股比例一直往上加度增加",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "精材",
+     "ticker": "3374",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱/留意",
+     "reasons": [
+      "股價創歷史新高，封測利基地位難以挑戰",
+      "外資連續買盤推升",
+      "8吋與12吋新專案逐步導入量產，為未來業績驅動主力"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "近期的一個這個外資連續性的買潮...我認為這個其實也是它未來的業績驅動的主力",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "正崴",
+     "ticker": "2392",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意，博蘋果/AI題材反彈",
+     "reasons": [
+      "第二季處分協創數據股權轉虧為盈，上半年EPS達12.56元(一次性認列)",
+      "交棒新任總經理後積極投入AI",
+      "外資以買超支持接班",
+      "股價相對委屈偏低"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "外資似乎對他接班用買超來投下一個贊成票...股價目前看起來都相對委屈",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台達電",
+     "ticker": "2308",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察，不需過度看空",
+     "reasons": [
+      "8月營收645.86億創同期新高、年增34.9%，但月減3.7%",
+      "年增幅度連續兩個月下滑，引發法人資金移情別戀轉買光寶"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "它的年增已經連續兩個月它年增的幅度是有下滑的所以可能法人會在於這一塊會稍微比較有點關心",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "偉創",
+     "ticker": null,
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察獲利了結賣壓是否消化",
+     "reasons": [
+      "8月營收年增166.48%、月增49.26%創單月新高，但股價不漲",
+      "市場疑慮9月難再交出年增佳績，較可能是獲利了結而非套利因素"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "改寫單月新高年增166.48月增49.26...股價也還是不買單",
+     "tw_market": null
+    },
+    {
+     "stock_name": "聯電",
+     "ticker": "2303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意",
+     "reasons": [
+      "投信賣超力道明顯收斂",
+      "外資小幅回補",
+      "股價收斂墊高，接近突破前的擠壓格局"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "本來在做賣超的這個投信現在已經不太賣了那麼外資也小幅度也在做回補",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台勝科",
+     "ticker": "3532",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意/拉回布局",
+     "reasons": [
+      "8月營收改寫32個月新高",
+      "矽晶圓需求隨晶圓廠擴產增加，價格維持高檔",
+      "投信持續買超",
+      "股價站穩月線季線，有望往上突破"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "它8月份營收改寫32個月的新高...股價也是站穩月線跟季線似乎也是有機會往上去做突破",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "yeUkGlwv1ZA",
+  "title": "【理財達人秀】台積營收5148億 大戶搶設備.封測！CPO發動 先買一線軍？蘋果摺疊機好貴 蘋概彎腰撿？外資狂搶PCB？｜李兆華、容逸燊、高憲容、陳唯泰2026.09.10【電視完整版】",
+  "date": "2026-09-10",
+  "duration": 2986,
+  "url": "https://www.youtube.com/watch?v=yeUkGlwv1ZA"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

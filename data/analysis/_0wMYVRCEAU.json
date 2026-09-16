@@ -1,0 +1,522 @@
+{
+ "episode_summary": "今日台股高開低走重挫尾盤,美股ADP數據雖降溫但盤面尾盤遭大量調節,南電、尖點等PCB載板股更以跌停作收,不過金融、傳產撐盤讓指數跌幅收斂。三位老師分別聚焦CPO/矽光子與航運轉機(容逸燊)、電力散熱股高低位階轉換與台達電轉強(高憲容),以及PCB載板三雄與多檔處置股的籌碼健診(權證小哥),多數認為今日重挫個股屬於「浪子回頭」的拉回買點。",
+ "market_view": "加權指數在月線附近整理,外資近兩日轉賣、投信調節中小型股造成尾盤重挫,但台幣升值趨勢與月線一帶仍有隱性買盤持續撐盤,整體對9月FOMC會議前的回檔仍偏多看待,月線關鍵支撐不看破。",
+ "teachers": [
+  {
+   "name": "容逸燊",
+   "picks": [
+    {
+     "stock_name": "CPO/矽光子族群",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回檔布局",
+     "reasons": [
+      "族群內個股高低落差大,部分已創新高、部分才漲一半仍有補漲空間",
+      "AI營收與資本支出持續看增,是未來趨勢",
+      "大戶籌碼仍支持,適合分散資金布局"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "CPO的延續性無庸置疑,反而應該趁著有回檔趕快來做一些布局",
+     "name_note": "泛用",
+     "tw_market": null
+    },
+    {
+     "stock_name": "上詮",
+     "ticker": "3363",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回頸線支撐找買點",
+     "reasons": [
+      "是台積電在矽光子領域第一個承認的合作夥伴",
+      "長期與台積電合作,2028年後自動化產線成熟可望貢獻約40億元營收",
+      "目前拉回接近7月高點頸線支撐,約650元附近為長期重要支撐"
+     ],
+     "target_price": "支撐約650元",
+     "confidence": "high",
+     "quote": "上詮應該是台積電第一個承認的合作夥伴在矽光子的部分...長期的底部就在這邊打了非常多的一個長期底部支撐也大概在這裡650左右",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "聯亙",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回月線分批布局",
+     "reasons": [
+      "股價已回到月線,處於上漲過程中的震盪走高第二段",
+      "外資、投信仍在轉買、加碼",
+      "可觀察8月低點支撐是否有效"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "這個聯軍的話是直接已經回到月線了...外資還在轉買包括投信也還在做一個加碼所以回檔我覺得反而這個區域可以去做一個分批的低接",
+     "name_note": "原文轉錄為聯軍,名稱待確認",
+     "tw_market": null
+    },
+    {
+     "stock_name": "聯亞光電",
+     "ticker": "3081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "不追高,續抱",
+     "reasons": [
+      "8月初已推薦,至今已上漲三、四成並創歷史新高",
+      "短線漲多,現階段不建議再追價"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "之前有跟大家講的聯亞跟這個全新啦,那已經快要過了一個月啊,所以至今日呢漲了三成四成了,這邊也不太建議再去追了",
+     "name_note": "名稱待確認",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "全新光電",
+     "ticker": "2455",
+     "market": "TW",
+     "stance": "看多",
+     "action": "不追高,續抱",
+     "reasons": [
+      "與聯亞同批8月初推薦標的,今日續創新高",
+      "短線漲多不建議追價"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "全新其實今天還在創一個高,但是也被壓下來,對那因為短線真的已經漲蠻多的",
+     "name_note": "名稱待確認",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "長榮",
+     "ticker": "2603",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回月線找買點",
+     "reasons": [
+      "貨櫃航運龍頭,月線支撐持續墊高、比大盤強勢",
+      "外資、大戶持續增持未見大賣",
+      "上半年EPS年增236%,運價與獲利表現亮眼",
+      "站上80元為觀察指標"
+     ],
+     "target_price": "80元(觀察站上與否)",
+     "confidence": "high",
+     "quote": "長榮是個貨櫃航運的大哥,那月線這邊支撐你看到最近慢慢往上墊高了,比台股稍微強勢,而且外資這地方還在加碼",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "航運股",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回分散布局",
+     "reasons": [
+      "散裝受惠鐵礦砂運送旺季",
+      "油輪受惠中東風險帶動運價",
+      "貨櫃輪進入第三季消費旺季備貨",
+      "本益比相對電子股偏低,獲利彈性反而更大",
+      "法人買進集中,大戶明顯增持"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "不管是散裝有在鐵礦砂運送的旺季來臨,以及油輪是在中東的風險推測運價...這都是一片紅,都是法人在做一個買進",
+     "name_note": "散裝/貨櫃/油輪,泛用",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "高憲容",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "站上2445偏多操作",
+     "reasons": [
+      "800張以上大戶連續四週增持",
+      "第三季營收上看1.4兆,8、9月營收有望突破5000億大關",
+      "站上2445有機會帶動大盤發動新一波攻勢"
+     ],
+     "target_price": "2445(季線壓力/突破買點)",
+     "confidence": "high",
+     "quote": "只要站上2445,其實帶動大盤準備在發動一波攻勢的機會了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台達電",
+     "ticker": "2308",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意,大戶認養訊號浮現",
+     "reasons": [
+      "明年法人預估EPS達63元,成長率約50%優於光寶科的35%",
+      "電容瑕疵爭議為供應商NCC問題,非設計缺陷,已更換供應商並在測試",
+      "高階電源技術能力業界領先,對手短期難以接手轉單",
+      "以明年本益比計算,與光寶科已相差不多,產業地位更值得留意"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果再考慮他的明年業績成長率跟產業的地位,我覺得台達電這個地方反而比光寶科來的更值得接下來注意",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "光寶科",
+     "ticker": "2301",
+     "market": "TW",
+     "stance": "中性",
+     "action": "獲利滿足,轉向關注台達電",
+     "reasons": [
+      "先前低本益比優勢已隨股價大漲而縮小",
+      "本益比與台達電已相當接近,相對優勢不再明顯"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "現在算一算光寶科今年大概賺9.2元,明年賺12.5元,成長率大概35%...如果以明年的EPS來做估計,光寶科26倍,台達電28倍,其實已經相差不多了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "小心觀察,留意大戶出貨疑慮",
+     "reasons": [
+      "8月營收雖創新高但月增率僅1.8%,較7月逾20%明顯放緩",
+      "納入MSCI成分股前爆出15萬張以上大量,疑似大戶趁機出貨",
+      "隔日外資已開始反手賣超"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "那一天的爆天量,還有接下來隔天外資也開始有反手賣超,我覺得這個部分稍微要去觀察一下",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "金豪科",
+     "ticker": null,
+     "market": "TW",
+     "stance": "中性",
+     "action": "留意能否再度過高",
+     "reasons": [
+      "8月營收創新高,月增率達16.5%,一度漲停並創历史新高309.5元",
+      "400張以上大戶持續增持",
+      "雖今日被大盤及南亞科拖累而利多出貨,但結構仍佳"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "金豪科今天開盤一度漲停板,那原因在於說他的營收也是創新高,但是這地方MOM是達到16.5%這個大幅度成長",
+     "name_note": "名稱待確認",
+     "tw_market": null
+    },
+    {
+     "stock_name": "騰輝電子",
+     "ticker": "6672",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意創高動能",
+     "reasons": [
+      "做銅箔基板(CCL)材料,8月營收創歷史新高",
+      "半導體特化材料需求增溫"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "有一些公司營收表現,穆德是做材料做銅箔基板的,騰輝還有新印財的部分,這個部分也在創歷史新高",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "新印財",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回726元附近留意布局",
+     "reasons": [
+      "股價自高點1200元腰斬至600多元,隨基本面增溫本益比已轉合理",
+      "新竹、高雄新廠陸續投產,上半年EPS創新高",
+      "8月營收月增16%創新高,第四季新產能開出動能可望延續",
+      "9月投信已小額買進並列入觀察名單"
+     ],
+     "target_price": "726元附近為支撐",
+     "confidence": "low",
+     "quote": "下半年8月營收月增率16%創新高,這個動能也是蠻強勁的...支撐低點大概在726塊附近不要去跌破",
+     "name_note": "名稱待確認",
+     "tw_market": null
+    },
+    {
+     "stock_name": "MOD",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回672元附近留意布局",
+     "reasons": [
+      "AI帶動自動光學檢測及光通訊需求增溫",
+      "上半年EPS達9.8元創新高,8月營收連6個月創新高",
+      "公司透露訂單能見度已看到明年上半年"
+     ],
+     "target_price": "672元附近為支撐",
+     "confidence": "low",
+     "quote": "這個點大概在67...這個換算一下應該在672塊附近,接下來拉回不要去跌破,我覺得股價應該在未來還是有繼續推升上去的機會",
+     "name_note": "名稱待確認,自動光學檢測/光通訊股",
+     "tw_market": null
+    },
+    {
+     "stock_name": "雙鴻",
+     "ticker": "3324",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "暫時觀望,等處置出關後再評估",
+     "reasons": [
+      "股價已大漲逾六成,本週因漲幅過大遭列處置股",
+      "建議等出關後再觀察是否有浪子回頭買點"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "雙鴻已經漲六成了...這個禮拜也是漲到被處置了...目前我們在雙鴻的部分就先保持觀望",
+     "tw_market": "TPEX"
+    }
+   ]
+  },
+  {
+   "name": "權證小哥",
+   "picks": [
+    {
+     "stock_name": "南電",
+     "ticker": "8046",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低找買點,浪子回頭",
+     "reasons": [
+      "今日雖以跌停作收,但籌碼並未同步轉差,主力仍持續買進",
+      "8月營收月減引發股價情緒性重挫,非籌碼面轉弱"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "藍電(南電)昨天、今天灌一根大黑,那其實他籌碼並沒有多醜,他主力還在買",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "欣興",
+     "ticker": "3037",
+     "market": "TW",
+     "stance": "看多",
+     "action": "籌碼最佳,可留意",
+     "reasons": [
+      "載板三雄中籌碼最漂亮,主力買賣超未見大幅下滑",
+      "雖經歷兩日跌停,但主力(含知名投資人)已在低檔進場承接"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "這個籌碼比較好的,你看我們剛剛講的星星跟南電、景碩,其實籌碼最好的是星星(欣興)",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "尖點",
+     "ticker": "8021",
+     "market": "TW",
+     "stance": "看空",
+     "action": "觀望,不建議承接",
+     "reasons": [
+      "載板三雄中籌碼相對最弱,主力籌碼在下方(疑似減碼)"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "比較醜的是尖點,尖點主力是在下方",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "富喬",
+     "ticker": "1815",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "留意是否二次拉回不創高",
+     "reasons": [
+      "近期連續長紅,線型漂亮但籌碼延續性不佳(紅K略大於黑K但不夠強)",
+      "第一次創高拉回月線不用太擔心,但若第二次拉回未再創高則需留意漲勢是否結束"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "看線型很漂亮,看籌碼並不漂亮...富喬以前的股性也不好,這次算已經沉很久了,最近呢看起來有點疲累的樣子",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "華通",
+     "ticker": "2313",
+     "market": "TW",
+     "stance": "中性",
+     "action": "股價在通道間操作,拉回下通道可偏多",
+     "reasons": [
+      "籌碼溫吞,股價在平行通道間整理",
+      "主力籌碼在下通道時相對漂亮,是較好的進場位置"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "他如果來到下通道可以接,勇敢做多...為什麼,因為主力籌碼是蠻漂亮的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台虹",
+     "ticker": "8039",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "觀察籌碼是否止穩再進場",
+     "reasons": [
+      "前波漲多,近期修正,但籌碼偏弱需持續觀察",
+      "若修正後籌碼持續流出,反彈力道恐有限"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "雖然籌碼最近是比較醜...修正完假如籌碼繼續流出,可能不會彈太高,要還是觀察一下籌碼狀況",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台燿",
+     "ticker": "6274",
+     "market": "TW",
+     "stance": "看空",
+     "action": "不建議承接",
+     "reasons": [
+      "主力與投信同步賣超(主投雙賣)",
+      "技術型態呈布林通道壓縮,一旦跌破恐加速打開續跌,難尋買點"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "最近主投賣的股票...台燿都被賣了...這種形態比較恐怖...我覺得不要撿比較好",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "盟立",
+     "ticker": "2464",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意族群連動風險",
+     "reasons": [
+      "Tesla/人形機器人概念認證,今日再創歷史新高並鎖漲停",
+      "但需留意若同族群明日未跟漲,個股承受賣壓風險較大"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "盟立再創新高很顯眼,今天他鎖得好好的...但這種最害怕就是全市場就你鎖得好好的,其他都不動,他明天壓力會很大",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "研華",
+     "ticker": "2395",
+     "market": "TW",
+     "stance": "中性",
+     "action": "高檔震盪,屬於盤整格局",
+     "reasons": [
+      "本波股災幾乎沒有影響,股性偏溫吞",
+      "籌碼面表現尚可,但目前處於高檔震盪"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "炎華(研華)其實這一波股災都沒他的事...那籌碼其實也蠻漂亮的,那這個最近呢也在這邊高檔震盪",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回修正找買點,勇敢承接",
+     "reasons": [
+      "處置期間股價下跌符合處置制度精神,未來兩三天可望出現浪子回頭",
+      "投信持續買超,籌碼表現漂亮"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "投信不離不棄,只要拉回修正,不錯買點請比較勇敢...因為最近的籌碼真的很漂亮",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯亙",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回黑K可進場",
+     "reasons": [
+      "同族群個股已出現處置後浪子回頭案例",
+      "若明日再跌出現黑K,傾向勇敢進場"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "聯軍呢,已經浪子回頭了...假如明天再跌跟黑K,我就會勇敢進場",
+     "name_note": "原文轉錄為聯軍,名稱待確認",
+     "tw_market": null
+    },
+    {
+     "stock_name": "華星光",
+     "ticker": "4979",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察出關後表現",
+     "reasons": [
+      "同族群中相對委屈,但處置天數短(5天),出關後常見補漲",
+      "處置天數越短代表籌碼相對健康"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "華星光通也是浪子回頭了...你看處置5天然後一下就長上去,多好啊",
+     "tw_market": "TPEX",
+     "spoken_name": "華星光通"
+    },
+    {
+     "stock_name": "波若威",
+     "ticker": "3163",
+     "market": "TW",
+     "stance": "看多",
+     "action": "期待出關表現",
+     "reasons": [
+      "同族群委屈型標的,股價受處置壓抑",
+      "出關後常有較明顯的補漲表現"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "波若威也是委屈型的...這種被處置所壓抑呢,出關就會比較厲害一點,所以我們期待一下",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "金居",
+     "ticker": "8358",
+     "market": "TW",
+     "stance": "看空",
+     "action": "保守以對,逢反彈減碼",
+     "reasons": [
+      "籌碼相對較差,投信賣超後尚未回補",
+      "建議承接位置應設定在更低檔以策安全"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "金居銅箔也回檔了...比較差的是他的籌碼比較爛,籌碼不好看,而且投信就是這邊賣完也不補",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "富世達",
+     "ticker": "6805",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察出關反彈機會",
+     "reasons": [
+      "前波急漲、處置後又急跌,漲跌乾脆的籌碼型態符合偏好模式",
+      "此類「效率型」個股出關後續漲機會較高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "富世達前波很快速的上漲,這波處置之後很快速的下跌,那這種很乾脆的,我覺得未來是蠻有機會的",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "_0wMYVRCEAU",
+  "title": "【理財達人秀】南電.尖點跌停 PCB籌碼體檢！CPO買低檔 航運剛起漲？8月營收創高設備奇兵 機器人續攻？光寶換台達？｜李兆華、容逸燊、高憲容、權證小哥2026.09.03【電視完整版】",
+  "date": "2026-09-03",
+  "duration": 2931,
+  "url": "https://www.youtube.com/watch?v=_0wMYVRCEAU"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

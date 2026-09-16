@@ -55,15 +55,24 @@ def load_picks() -> list[dict]:
 
 
 def fetch_prices(symbols: list[str], start: str) -> dict[str, pd.Series]:
-    """回傳 {symbol: close_series}（僅成功者）。"""
+    """回傳 {symbol: close_series}（僅成功者）。
+
+    注意：yf.download(list, group_by="ticker") 一律回傳以代號分層的
+    MultiIndex 欄位，即使清單只有 1 檔也一樣（跟傳純字串單一代號時的
+    扁平欄位格式不同）。過去用 len(batch) > 1 猜測欄位格式，只要某批次
+    剛好只剩 1 檔（例如符號總數不巧被 50 整除加 1），該檔就會被
+    KeyError 靜默吃掉，實測曾導致 ^TWII 大盤資料整批漏抓。改用欄位本身
+    是否為 MultiIndex 判斷，不再用批次大小猜測。
+    """
     out = {}
     for i in range(0, len(symbols), 50):
         batch = symbols[i:i + 50]
         df = yf.download(batch, start=start, auto_adjust=True,
                          progress=False, group_by="ticker")
+        is_multi = isinstance(df.columns, pd.MultiIndex)
         for sym in batch:
             try:
-                s = df[sym]["Close"].dropna() if len(batch) > 1 else df["Close"].dropna()
+                s = df[sym]["Close"].dropna() if is_multi else df["Close"].dropna()
                 if isinstance(s, pd.DataFrame):
                     s = s.iloc[:, 0].dropna()
                 if len(s) > 0:

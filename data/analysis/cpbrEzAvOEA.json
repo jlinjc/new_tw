@@ -1,0 +1,402 @@
+{
+ "episode_summary": "本集聚焦台股在聯準會利率決策前的震盪整理，三位老師分別從技術面（朱家泓）、PCB供應鏈規格升級題材（廖婉婷）、CPO與半導體設備股（王建文）切入選股。共識是中秋連假前盤勢仍將區間整理，連假後有機會迎接「光輝十月」，第四季AI相關基本面與PCB展、台積電技術論壇將是後續行情催化劑。",
+ "market_view": "大盤在聯準會利率決策前呈現量縮整理，官股買盤護盤明顯，加權指數守在前波高點附近不破前低支撐；多數來賓認為只要中秋連假前不破重要支撐，連假後可望展開「光輝十月」多頭行情，關鍵仍在於AI相關產業基本面能否延續強勁動能。",
+ "teachers": [
+  {
+   "name": "朱家泓",
+   "picks": [
+    {
+     "stock_name": "台塑化",
+     "ticker": "6505",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回月線季線找買點",
+     "reasons": [
+      "台塑四寶中唯一維持多頭回檔架構，其餘皆轉空或進入盤整",
+      "屬於回後買上漲的型態"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台塑四寶來說現在只有台塑化還比較好，其他的趨勢都改了，這是多頭的回檔，所以還可以等它上漲",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "站穩5日線與月線確認後再進場，未站上則觀望",
+     "reasons": [
+      "自研晶片題材前景看好，相對強勢",
+      "結構架構屬於目前較好的股票",
+      "股價偏高但成長性看好"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "聯發科盤中收盤最高點站上五均，那站上五均就是回後買上漲，只是它價位比較高，但前景成長性很看好",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望，等突破前高再追價",
+     "reasons": [
+      "底部支撐一直沒跌破，但高點也一直沒過",
+      "為指數最重要的護盤主角，需求面尚未看到轉弱"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台積電最高點也是次高點，跟大盤一樣，再上去就是歷史高點，那大盤要攻關還是要靠台積電",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "群創",
+     "ticker": "3481",
+     "market": "TW",
+     "stance": "看多",
+     "action": "等待放量突破壓力線再進場",
+     "reasons": [
+      "長期打底，均線壓力（季線）逐漸走平即將翻揚",
+      "前波大量支撐守住，籌碼面有大戶偷偷加碼"
+     ],
+     "target_price": "52.5元（季線壓力線）",
+     "confidence": "high",
+     "quote": "這條灰色的52.5你畫一條壓力線，如果有一天收盤突破，那這個底就做完了，這是一個鎖股的好股票",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "看空",
+     "action": "反彈視為出貨，壓力未過前不追價",
+     "reasons": [
+      "上檔壓力遲遲無法突破",
+      "下方支撐已經跌破，短線僅屬反彈"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "華邦電壓力沒過，下面的支撐又跌破了，所以它現在只是要反彈",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "陽明",
+     "ticker": "2609",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "型態畫出壓力支撐，等待突破機會",
+     "reasons": [
+      "中東情勢緊張推升航運運價，可關注運價變化",
+      "目前仍在區間盤整"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "因為中東很亂，航運的運價上漲，如果你對陽明有興趣，就把它畫好，一樣可以等這個機會",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "廖婉婷",
+   "picks": [
+    {
+     "stock_name": "富喬工業",
+     "ticker": "1815",
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線動能強，可續抱關注",
+     "reasons": [
+      "8月營收創歷史新高且優於預期",
+      "新產能尚未完全開出，今年供給仍吃緊"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "富喬優於預期，因為新產能還沒開出，今年很缺",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "騰輝電子薄膜科技",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "短線受惠訂單轉單，可續抱",
+     "reasons": [
+      "台光電、台燿無新產能，AI訂單滿載，將中低階訂單釋出給騰輝",
+      "稼動率提升帶動營收跳升"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台光台燿沒有新產能，AI太好，就把中低階丟給騰輝，它真的受惠了",
+     "ticker_unverified": "6841",
+     "tw_market": null
+    },
+    {
+     "stock_name": "台燿科技",
+     "ticker": "6274",
+     "market": "TW",
+     "stance": "看多",
+     "action": "長線布局，留意PCB展後的規格升級進度",
+     "reasons": [
+      "材料領先地位穩固，規格升級具優勢",
+      "為PTFE領先廠商，M9/M10世代材料題材可期，即便今年未入選明年仍有機會"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "我認為重點會回到材料領先的廠商身上，它現在是PTFE的領先廠商，就算今年沒進去，明年應該又會被拿出來講",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "南亞",
+     "ticker": "1303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "中長期布局",
+     "reasons": [
+      "垂直整合布、銅箔、CCL皆有利潤，整體利潤率可望提升",
+      "M9、M10世代題材具想像空間"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "南亞是垂直整合的廠商，布有利潤、銅箔有利潤、CCL有利潤，獲利還是會往上漲",
+     "tw_market": "TWSE",
+     "spoken_name": "南亞塑膠"
+    },
+    {
+     "stock_name": "金居開發",
+     "ticker": "8358",
+     "market": "TW",
+     "stance": "中性",
+     "action": "逢低關注，等法人買盤回補",
+     "reasons": [
+      "HVLP4銅箔第四季底新產能開出，明年獲利有機會倍增",
+      "目前投信外資買盤仍少，股價強度尚未展現"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "金居HVLP4第四季新產能開出，明年獲利也會有機會倍增，但法人買盤還不夠強",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "台光電",
+     "ticker": "2383",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局",
+     "reasons": [
+      "年底載板CCL新產能開出，切入BT CCL新領域",
+      "對業績有加分效果"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台光電除了原本的PCB CCL，今年底載板的CCL會開出，這對它業績也會有幫助",
+     "tw_market": "TWSE",
+     "spoken_name": "台光電子材料"
+    },
+    {
+     "stock_name": "金像電",
+     "ticker": "2368",
+     "market": "TW",
+     "stance": "看多",
+     "action": "第四季訂單數字轉強前留意布局",
+     "reasons": [
+      "ASIC、PCB、光模塊、衛星題材逐步轉為實際訂單數字"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "金像電、臻鼎、華通，他們往第四季走，訂單會從題材開始轉向真實的數字",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "臻鼎-KY",
+     "ticker": "4958",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望下一次新平台認證結果",
+     "reasons": [
+      "本次新平台認證未過，需等待下一輪送件",
+      "8月營收因既有產能接單優於預期，屬短線題材"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "臻鼎這一次認證沒有過，可能要等到下一次，8月營收比想的來得好，但現階段股價在打底做夢",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華通",
+     "ticker": "2313",
+     "market": "TW",
+     "stance": "看多",
+     "action": "等待第四季蘋果拉貨動能轉強",
+     "reasons": [
+      "近期股價弱勢因蘋果銷售拉貨延遲",
+      "第四季蘋果量產後，加上光模塊、衛星貢獻，動能可望轉強"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "隨著第四季Apple開始量產之後，光模塊衛星開始有貢獻，華通的動能就會轉強",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "牧德科技",
+     "ticker": "3563",
+     "market": "TW",
+     "stance": "看多",
+     "action": "PCB展前逢低留意",
+     "reasons": [
+      "設備股受惠未來兩年PCB與半導體大擴產",
+      "公司同時切入半導體光學檢測領域"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "設備股在未來兩年大擴產的環境下，這幾檔都是很靈活的公司，像穆德他有做半導體光學檢測",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "王建文",
+   "picks": [
+    {
+     "stock_name": "聯亞光電",
+     "ticker": "3081",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回季線可留意找買點，今日已強勢漲停",
+     "reasons": [
+      "CPO（共同封裝光學）題材族群指標股",
+      "股價已超越先前設定的回測支撐位置"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "聯亞今天漲停板，聯亞的價格已經超越我們上個禮拜講的支撐位置很多",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "友達",
+     "ticker": "2409",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局，型態優於同業",
+     "reasons": [
+      "攜手鴻海面板部門布局MicroLED CPO光學模組",
+      "與康寧合作開發510x515大尺寸玻璃基板，規格聯想台積電先進封裝",
+      "資產活化題材（新加坡廠、華亞廠、高雄廠處分）挹注正面消息"
+     ],
+     "target_price": "20幾元附近",
+     "confidence": "high",
+     "quote": "友達這檔股票大概20幾塊而已，如果到時候上來的話也是很有機會",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "群創",
+     "ticker": "3481",
+     "market": "TW",
+     "stance": "中性",
+     "action": "相對友達弱勢，先觀望",
+     "reasons": [
+      "同樣進行資產活化（新加坡廠、華亞廠、高雄廠），但型態上弱於友達"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "友達跟群創都在做藤龍換鳥式的資產調整，但形態上友達比群創好",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "家登",
+     "ticker": "3680",
+     "market": "TW",
+     "stance": "看多",
+     "action": "量縮價穩後找切入點",
+     "reasons": [
+      "受惠台積電與艾斯摩爾合作，晶圓傳送規格由6吋升級至12吋",
+      "同時切入極紫外光光罩規格與前開式晶圓傳送盒先進封裝應用，產品線擴大"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果對他來講是實質受惠的話，量縮價穩，反而要找他的切入點",
+     "tw_market": "TPEX",
+     "spoken_name": "家登精密"
+    },
+    {
+     "stock_name": "均豪",
+     "ticker": "5443",
+     "market": "TW",
+     "stance": "看多",
+     "action": "落後補漲，逢低分批布局",
+     "reasons": [
+      "持有均華57%股權，理論上應有良性互動挹注獲利",
+      "公司自結下半年接單金額較上半年成長一倍",
+      "聚焦先進封裝、晶圓再生、特殊載板三大市場"
+     ],
+     "target_price": "130幾元（前波高點）",
+     "confidence": "high",
+     "quote": "均豪下半年接單的金額比上半年要一倍，前面還有130幾塊的點，應該還有一些上攻空間",
+     "tw_market": "TPEX",
+     "spoken_name": "均豪精密"
+    },
+    {
+     "stock_name": "郁金光",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢壓回找切入點",
+     "reasons": [
+      "外資、投信同步買進，投信單日買超逾400張，大戶籌碼增加",
+      "外資報告調升目標價（雖同時降評等）"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "郁金光外資在買、投信在買400張、大戶也在買，今天就一馬當先衝上去",
+     "name_note": "語音辨識不確定，原文疑似相關光通訊個股",
+     "tw_market": null
+    },
+    {
+     "stock_name": "光聖",
+     "ticker": "6442",
+     "market": "TW",
+     "stance": "看多",
+     "action": "整理後留意突破前高機會",
+     "reasons": [
+      "股價自低點已有一大段漲幅後進入整理",
+      "若料源取得，長天期趨勢仍有機會挑戰今年高點"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "這檔股票在長天期趨勢稍微整理一下還是有機會上來，甚至有機會挑戰今年高點",
+     "name_note": "語音辨識不確定",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "環宇",
+     "ticker": "4991",
+     "market": "TW",
+     "stance": "看多",
+     "action": "接近前波低點，逢低分批布局",
+     "reasons": [
+      "800G PD產品全球市占第一",
+      "切入連續波雷射，多家客戶已完成驗證",
+      "帶有F35紅外線桿軍工概念"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "這檔股票接近前波低點，在這邊要破底的機會不高，可以等粗量勾上來再分批買",
+     "name_note": "語音辨識不確定",
+     "tw_market": "TPEX"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "cpbrEzAvOEA",
+  "title": "【理財達人秀】漢測抽完籤 8千億活水回籠？百元股價有好貨！迎PCB展 搶漲價要變賺升級？台積點亮成長股 CPO.設備嗨！｜李兆華、朱家泓、廖婉婷、王建文2026.09.16【電視完整版】",
+  "date": "2026-09-16",
+  "duration": 2984,
+  "url": "https://www.youtube.com/watch?v=cpbrEzAvOEA"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

@@ -1,0 +1,330 @@
+{
+ "episode_summary": "台股反彈已逼近歷史新高，僅差約640點，但本週CPI年增率與下週FOMC利率決議仍是關�asterisk變數；三位老師分別從基本面、記憶體／台積電設備供應鏈與量化籌碼角度切入，聚焦8月營收優異、位階仍低的記憶體與半導體設備概念股。",
+ "market_view": "大盤反彈力道強勁、距歷史高點僅一步之遙，但成交量能縮小，本週CPI與下週FOMC升息疑慮恐使9月呈現區間盤整；只要非暴力式升息，緩步升息歷史上不會扭轉多頭格局，第四季若指標轉強可望迎來下一波行情，短線建議站穩月線之上再積極操作。",
+ "teachers": [
+  {
+   "name": "蔡明翰",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀望，等待ADR補漲後再期待台股本身表態",
+     "reasons": [
+      "OpenAI等AI需求帶動GPU機櫃組裝需求，台廠可望吃到紅利",
+      "公司說法一向準確，8、9月營收可望續創歷史新高，全年營收估增4成",
+      "惟台積電ADR對現貨溢價已收斂至不到15%，顯示資金尚未完全回流半導體，短線仍有壓力"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "我希望看到是台積電ADR趕快往上衝把這個所謂的前高的距離明顯縮減，讓台積電ADR的溢價能夠拉出來",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "緯創",
+     "ticker": "3231",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望，不視為利空",
+     "reasons": [
+      "發GDR籌資是因看到成長機會而非缺錢危機，折價與股權稀釋幅度與去年廣達案例相近",
+      "公布當日恰逢大盤階段性低點，屬運氣而非趨勢反轉訊號",
+      "若指數後續走高而非橫盤整理，即可確認此非真正利空"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "結論而言就是這一塊不會是利空，這是可以確認的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "日月光投控",
+     "ticker": "3711",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意，相對安全",
+     "reasons": [
+      "封測龍頭大廠股價已整理一段時間，相對安全"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "日光不用講，這個封測的龍頭大廠，應該說也整理過，我覺得相對來講是比較安全",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "中性",
+     "action": "逢反彈觀望，不追高也不向下攤平",
+     "reasons": [
+      "8月營收不如預期，導致外資轉買為賣",
+      "距離AI相關產品真正貢獻營收恐仍需超過一年時間",
+      "股價若拉回恐需較長時間整理，套牢風險較高，建議等破月線就先出場，創高後再重新追買"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果他有辦法整理之後再創高你再重新追回來都沒關係，但是無論如何在向下的過程當中不要向下攤平",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點／續抱",
+     "reasons": [
+      "已取得訂單並將於年底前開始放量貢獻營收，故拉回空間有限",
+      "與大立光同樣具AI想像空間，但時間軸明確更快",
+      "過去股價曾跌破月線、五日線後仍能再創高，顯示基本面支撐力強"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "聯發科就算怎樣拉回的空間都不是很大，營收還沒出來還是維持在高檔，甚至準備創高",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "紀緯明",
+   "picks": [
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "記憶體純度最高（DRAM占比100%），故享有市場最高本益比",
+      "HBM與高階DDR佔供給比重持續提升，受惠AI伺服器需求"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "南亞科世界最強，可是除了南亞科，其他的都蠻弱的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華邦電",
+     "ticker": "2344",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低找買點，留意落後補漲機會",
+     "reasons": [
+      "客製化記憶體（CMS）平均單價翻倍，基本面不差",
+      "外資近期買多於賣，投信調節但大底有撐",
+      "雖因產品組合稀釋純度使毛利率不如南亞科亮眼，但具補漲空間"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "因為他畢竟有低潤，但是後面這個是有機會落後補漲的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "旺宏",
+     "ticker": "2337",
+     "market": "TW",
+     "stance": "中性",
+     "action": "股價若持續被季線下壓，建議換股至華邦電或南亞科",
+     "reasons": [
+      "本益比雖低（約6倍）於南亞科（約9倍），但反映Flash純度較低、毛利率不確定性高",
+      "第二季60幾%毛利率是受惠庫存回轉挹注，難以延續，後續須靠財報利多支撐"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果股價一直被季線往下壓的話，那我會建議找到機會還是盡可能的往華邦店或者是南亞科去做換股",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "力旺",
+     "ticker": "3529",
+     "market": "TW",
+     "stance": "看多",
+     "action": "買進，沿季線操作",
+     "reasons": [
+      "公司董事公開喊話帶動投信大幅買超",
+      "8月營收年增43%，先進製程3奈米、7奈米開案數已累積55件創高",
+      "先進製程占授權收入近5成，後續營收貢獻可望持續放大",
+      "股價以漲停站上季線，技術面轉強、位階具吸引力"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "今天的股價剛剛站上季線，而且是用漲停板去做突破，我認為這個位階非常非常的有吸引力",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "M31",
+     "ticker": "6643",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低佈局，具補漲空間",
+     "reasons": [
+      "8月營收年增73%，16奈米以下製程占收入67%",
+      "先進製程權利金年增近4倍",
+      "S-RAM／高速DRAM IP授權全球領先，受惠AI伺服器大量使用高速記憶體",
+      "位階遠低於同類股力旺，具補漲想像空間"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "在今年的下半年跟明年有機會M31要迎來一個爆發性的成長，最主要是位階低，大戶的持股有增加，而且外資是在這邊買上來的",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "大銀微系統",
+     "ticker": "4576",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意／布局",
+     "reasons": [
+      "矽光子對準平台第二季小量出貨，第三季放量，客戶訂單從個位數追加到數百台",
+      "8月營收年增翻倍，半導體營收占比已達50%",
+      "推出精度達1奈米的對準系統One Nano，是提升FAU良率的關鍵",
+      "外資買超力道加速、大戶籌碼進駐，但股價尚未反映"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "竟然股價沒有漲，所以對我來說，你又跟CPU有關又跟半導體有關，籌碼在這邊又漂亮，那股價沒漲就是最大的利多",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "均豪",
+     "ticker": "5443",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局，留意挑戰前高後的表現",
+     "reasons": [
+      "上半年半導體營收占比高達87%，純度高",
+      "第二季在手訂單68%為先進封裝",
+      "CPU封裝將成為設備廠下一條成長線，外資持續買超近乎只買不賣",
+      "股價位階相對偏低，已打出一個長期底部"
+     ],
+     "target_price": "142元（挑戰前高後）",
+     "confidence": "medium",
+     "quote": "它這邊幾乎就是只買不賣了啦，那我認為它的股價其實位階相對來講還是比較低",
+     "tw_market": "TPEX"
+    }
+   ]
+  },
+  {
+   "name": "張林忠",
+   "picks": [
+    {
+     "stock_name": "聯電",
+     "ticker": "2303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點／續抱觀察",
+     "reasons": [
+      "股期未平倉量最大，是市場人氣所在",
+      "KD黃金交叉、日均線上揚，符合多方篩選條件",
+      "DMI翻多顯示為波段買點，基期相對低，此波反彈尚未大幅反應"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "聯電常常會被人家塞出來……那其他基期相對低啦，這一波反彈其實他沒有什麼動到，所以我覺得聯電的這個續航力還是可以去觀察一下",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南亞科",
+     "ticker": "2408",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "股期紅綠線黃金交叉後持續維持多方格局",
+      "基本面優異"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "他就是一個持續多方的格局，我覺得你是可以續抱的，因為他基本面真的太好了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "威剛",
+     "ticker": "3260",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀望，等待訊號明確翻多",
+     "reasons": [
+      "技術指標仍糾結，尚未明確轉強",
+      "股價剛站上平緩的10日均線，方向未明"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "它這邊有一點糾纏，但是它剛翻紅，所以這邊可能有一些機會可以稍微去等待一下",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "鈺創",
+     "ticker": "5351",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢回留意",
+     "reasons": [
+      "8月25日KD黃金交叉訊號進場至今已獲利約11%",
+      "營收創高、股價亦創歷史新高"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "金豪科這個又跟明翰一樣了，這是營收創高、股價也創歷史新高的",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "玉山金",
+     "ticker": "2884",
+     "market": "TW",
+     "stance": "看多",
+     "action": "獲利續抱／留意加碼點",
+     "reasons": [
+      "今日股價創新高",
+      "KD黃金交叉訊號進場至今已獲利約26%，顯示金融股資金強勢"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "玉山金的話它今天是創新高，我們這邊有篩出來過，一樣是用KD的組合，那是26%",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "金像電",
+     "ticker": "2368",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "符合均線上揚、聰明融資增加、基金持有25檔以上、大盤站上月線之四大選股條件",
+      "近期融資明顯增加，DMI顯示已轉多方"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "金像電也是一樣，它其實比較好的買點這邊是出現過，確實有一小波出現，然後融資也是增加",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀望留意",
+     "reasons": [
+      "8月營收年增51%創歷史新高",
+      "符合基金持有檔數多、均線上揚等量化選股條件"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "甚至還有創歷史新高的國巨51%",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "xAXXXEbOd2k",
+  "title": "【理財達人秀】台股反彈高不怕升息？緯創GDR賣壓 給機會？記憶體快被買完？台積電論壇設備發威？獨家卡位8月營家！｜李兆華、蔡明翰、紀緯明、張林忠2026.09.08【電視完整版】",
+  "date": "2026-09-08",
+  "duration": 2927,
+  "url": "https://www.youtube.com/watch?v=xAXXXEbOd2k"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

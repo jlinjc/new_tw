@@ -1,0 +1,417 @@
+{
+ "episode_summary": "本集台股在Fed理事Waller鴿派發言激勵下大漲近700點，但鍾國忠提醒46000～47000點為歷史高檔壓力區，建議降持股至5成並轉進高息低本益比股；黃豐凱聚焦ABF載板三雄（欣興、南電、景碩）利空消化狀況與被動元件漲價題材；翁士峻則鎖定蘋果新機發表帶動的蘋概雙題材股，以及投信9月作帳可能回補的PCB、電力、封測舊愛股。",
+ "market_view": "聯準會官員Waller暗示9月升息機率下降，激勵台股與台幣走強，但日央、歐央仍有升息壓力，通膨風險未解；技術面上大盤逼近歷史高點區間(46000~48000)，量能不足且KD背離，鍾國忠建議降持股至5成並保守應對；翁士峻則指出9月歷史上有美股魔咒，但台股基本面（財報、半導體展、外資回流）較強，預期呈現高檔震盪、高出低進、選股不選市的格局。",
+ "teachers": [
+  {
+   "name": "鍾國忠",
+   "picks": [
+    {
+     "stock_name": "研華",
+     "ticker": "2395",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱/逢低承接",
+     "reasons": [
+      "穩健型持股，籌碼穩定，外資與投信持續加碼",
+      "獲利與股息配發佳，用價值角度看待勝過技術面",
+      "先前123~125元價位已屬底部區間"
+     ],
+     "target_price": "125元（先前提示的底部支撐位）",
+     "confidence": "high",
+     "quote": "所以你看我上次講125塊是先增價配你5塊的息就120塊就是一個底了",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "技嘉",
+     "ticker": "2376",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局",
+     "reasons": [
+      "上半年每股賺17.73元，本益比僅約10倍",
+      "估今年配息上看21元，較去年12元大幅成長",
+      "輝達新款AI電腦第四季出貨，題材延續",
+      "三大法人偏buy超"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "技嘉賺了17.73很漂亮，本益比大概10倍左右，去年配12塊，我大概算一算今年應該有機會配21塊左右",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "微星",
+     "ticker": "2377",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局",
+     "reasons": [
+      "上半年獲利7.59元，年成長1.65倍",
+      "本益比約10倍，估配息約11元"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "維新今年上半年賺7.59，成長1.65倍，本益比我們抓10倍左右",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華碩",
+     "ticker": "2357",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局/續抱",
+     "reasons": [
+      "上半年每股賺38元，去年股利42元，今年估賺約50元",
+      "本益比僅約13倍，殖利率約4~5%"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "他今年賺38塊，上半年賺38塊，去年股利42塊，今年大概賺應該有50塊，你看本益比才13倍",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "精華",
+     "ticker": "1565",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低布局",
+     "reasons": [
+      "隱形眼鏡本業獲利佳，上半年賺13元、成長28%",
+      "估今年配息上看12.5元，本益比不到15倍且高息",
+      "外資長期持續買進，成本估算獲利空間仍大"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "精華上半年賺13塊，28%成長，去年配10塊，今年我大概估應該配12塊半",
+     "tw_market": "TPEX",
+     "spoken_name": "精華光學"
+    },
+    {
+     "stock_name": "晶碩",
+     "ticker": "6491",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察",
+     "reasons": [
+      "隱形眼鏡類股，獲利成長約4成",
+      "本益比不到15倍，具高息題材"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "這個飼養也是一樣成長4成，然後8.4、10.1，你會發現這本益比都不到15倍",
+     "name_note": "語音辨識原文為「飼養」，公司名稱不確定",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "黃豐凱",
+   "picks": [
+    {
+     "stock_name": "南電",
+     "ticker": "8046",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察，逢低留意",
+     "reasons": [
+      "BT載板動能較弱，擴產速度相對慢，營收動能較弱",
+      "但長線ABF載板供需缺口仍在",
+      "未來仍看好續往上爬升"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "我覺得他接下來應該還是會往上爬，雖然他現在講說他的BT目前漲價漲不動，但沒有說要降價，只是漲不太動而已",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "景碩",
+     "ticker": "3189",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低承接/續抱",
+     "reasons": [
+      "ABF載板中權值與業績動能最強，營收創新高",
+      "外資、投信同步買超，籌碼穩定",
+      "大股東（和碩）調節賣股影響有限，非長期利空"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "所以我剛剛講說景碩目前看起來排名還是在第一的位置",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "欣興",
+     "ticker": "3037",
+     "market": "TW",
+     "stance": "看空",
+     "action": "留校查看，暫不建議進場",
+     "reasons": [
+      "內部人爆料引發公司治理疑慮，非美方紅線問題但信任受損",
+      "大股東持續賣壓尚未止穩，投信越賣越兇",
+      "短期不確定性高，需觀察聯電集團是否進場護盤"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "新興有一個不能買的問題，有公司治理的問題，所以對你來說還是留校查看，還沒有辦法完全置身事外",
+     "name_note": "語音辨識原文為「新興／星星」",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台達電",
+     "ticker": "2308",
+     "market": "TW",
+     "stance": "中性",
+     "action": "拉回找買點/逢回檢視",
+     "reasons": [
+      "鋁電容瑕疵疑慮遭市場過度解讀，全數轉單機率低",
+      "基本面無虞，利空已反應一段時間",
+      "拉回位置可作為評估買點"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台達這邊我覺得打回來是一個可以好好檢視的位置",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "臻鼎-KY",
+     "ticker": "4958",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察反彈",
+     "reasons": [
+      "因欣興（新興）產地疑慮遭錯殺，基本面PCB曝險被過度放大",
+      "市場錯誤聯想已逐漸降溫，預期回歸正常評價"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "所以我覺得它就是一瞬間而已，市場的想像，再來就回歸正常",
+     "name_note": "語音辨識原文為「真頂KY」",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "禾伸堂",
+     "ticker": "3026",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意續強",
+     "reasons": [
+      "屬標準型MLCC，9月起漲價,可望持續到年底甚至明年",
+      "近期表現最強，投信小幅買進、外資同步加碼"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "被動元件基本上和聲堂算是近期最強的，它來到這裡剛好就是布林上緣的位置",
+     "name_note": "語音辨識原文為「和聲堂／核生堂」",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "鈺邦",
+     "ticker": "6449",
+     "market": "TW",
+     "stance": "中性",
+     "action": "觀察是否突破前波大量高點再進場",
+     "reasons": [
+      "鋁電容瑕疵議題下的潛在替代方案受惠股",
+      "基本面數字不差，但投信尚未積極買進，籌碼面偏弱"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "如果過大量高就可以買，所以我覺得基本上你還是要優先買標準型的MLCC",
+     "name_note": "語音辨識原文為「玉邦」",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "國巨",
+     "ticker": "2327",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "不追價，等待表態",
+     "reasons": [
+      "本波標準型MLCC漲價主要受惠者非國巨",
+      "不宜預期其比照同業補漲"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "你要期待國劇大漲，基本上用這個邏輯是不太對的",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "翁士峻",
+   "picks": [
+    {
+     "stock_name": "新日興",
+     "ticker": "3376",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意轉強訊號",
+     "reasons": [
+      "掌握蘋果折疊機鉸鏈核心技術，與鴻海組裝合作密切",
+      "大戶籌碼近幾週持續增加，股價位階偏低",
+      "若折疊機出貨放量，獲利可能倍增"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果說折疊機出貨相當不錯，他的營收獲利可能會倍增",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台郡",
+     "ticker": "6269",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回月線附近找買點",
+     "reasons": [
+      "PTFE題材加上軟板本業，具雙題材",
+      "大戶連續四週增加，股價拉回起漲點（月線）附近",
+      "今日收紅站回月線"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台郡大戶是連續四週增加……今天是小小的收紅站回月線",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "GIS-KY",
+     "ticker": "6456",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意轉強訊號（均線糾結待突破）",
+     "reasons": [
+      "蘋果概念股加鴻海集團雙重身分",
+      "切入CPU外部光源模組，拿下相關封測訂單並砸33億擴產",
+      "大戶連續四週增加，均線糾結，一根紅K即有轉強機會"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "大戶也是連續四週都增加，這K線型態大概就是全部均線都結在一起，只要來一根紅K，我覺得就有機會轉強",
+     "tw_market": "TWSE",
+     "spoken_name": "GIS 業成"
+    },
+    {
+     "stock_name": "光寶科",
+     "ticker": "2301",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回十字線找買點",
+     "reasons": [
+      "投信作帳愛股，近期天天買超近9000多張",
+      "毛利率、EPS創歷史新高，法說內容優異",
+      "取得波蘭廠25%股權，跨入液冷散熱供應鏈"
+     ],
+     "target_price": "370元（元大證券目標價）",
+     "confidence": "high",
+     "quote": "目前市場上目標價最高是元大，目前是看到370元",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "京元電子",
+     "ticker": "2449",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回接近季線留意突破",
+     "reasons": [
+      "輝達Vera Rubin平台結構複雜，測試時程拉長，直接受惠",
+      "投信近期由大賣轉為回補買進",
+      "股價位階偏低，季線附近為短線壓力"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "因為這個VR Rubin要積極出貨，結構很複雜，測試的時間一定拉長，其實對晶圓電是有利的",
+     "name_note": "語音辨識原文為「晶圓電」",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "強茂",
+     "ticker": "2481",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意",
+     "reasons": [
+      "投信近期買進的二極體概念股",
+      "股價位階偏低"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "他也買一些二極體啊，就是強茂跟台辦",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "台半",
+     "ticker": "5425",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意",
+     "reasons": [
+      "投信近期買進的二極體概念股",
+      "股價位階偏低"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "他也買一些二極體啊，就是強茂跟台辦",
+     "name_note": "語音辨識原文為「台辦」",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "臻鼎-KY",
+     "ticker": "4958",
+     "market": "TW",
+     "stance": "看多",
+     "action": "跟投信買點，待突破季線轉強",
+     "reasons": [
+      "800G/1.6T光模組及AI高階板題材，目標成為全球最大光模組PCB廠",
+      "因欣興（新興）產地疑慮及大股東調節遭錯殺",
+      "投信於大跌當日已進場買超，位階相對低"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "如果再一次突破季線，我覺得就有機會轉強",
+     "name_note": "語音辨識原文為「真頂KY」",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "玉晶光",
+     "ticker": "3406",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱留意",
+     "reasons": [
+      "蘋果光學鏡頭與CPU散熱雙題材",
+      "土洋（外資、投信）同步買進",
+      "大戶籌碼持續增加"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "玉晶光是土洋同買，然後大戶也都增加",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "華通",
+     "ticker": "2313",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低留意",
+     "reasons": [
+      "同業PCB類股承壓下相對抗跌",
+      "具光模組與低軌衛星雙題材"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "華通最近表現不錯，因為最近PCB是多災多難，那華通反而沒什麼跌",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "5g8S5u5lHhk",
+  "title": "【理財達人秀】聯準會緩升息？南電凍漲.博通擴產 撿載板？台達電暴雷 被動轉單？蘋果發表會.投信作帳 下個光寶科？｜李兆華、鍾國忠、黃豐凱、翁士峻2026.09.04【電視完整版】",
+  "date": "2026-09-04",
+  "duration": 2977,
+  "url": "https://www.youtube.com/watch?v=5g8S5u5lHhk"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}
