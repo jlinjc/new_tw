@@ -6901,7 +6901,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-05-12",
-   "entry_price": 10.7,
+   "entry_price": 10.42,
    "ret": {
     "d3": -0.04112,
     "w1": -0.06262,
@@ -6940,7 +6940,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-05-12",
-   "entry_price": 55.6,
+   "entry_price": 53.83,
    "ret": {
     "d3": -0.04317,
     "w1": -0.07734,
@@ -9088,7 +9088,7 @@
     "d3": -0.02489,
     "w1": -0.02489,
     "w2": -0.00188,
-    "m1": null
+    "m1": -0.00188
    }
   },
   "bench": {
@@ -9096,20 +9096,20 @@
     "d3": -0.02014,
     "w1": -0.02388,
     "w2": 0.00591,
-    "m1": null
+    "m1": -0.00754
    }
   },
   "excess": {
    "d3": -0.00475,
    "w1": -0.00101,
    "w2": -0.00779,
-   "m1": null
+   "m1": 0.00566
   },
   "hit": {
    "d3": false,
    "w1": false,
    "w2": false,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -11454,7 +11454,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-05-13",
-   "entry_price": 28.69,
+   "entry_price": 28.07,
    "ret": {
     "d3": -0.03552,
     "w1": -0.07001,
@@ -18338,7 +18338,7 @@
    "entry_price": 21.27,
    "ret": {
     "d3": -0.01938,
-    "w1": null,
+    "w1": -0.03325,
     "w2": null,
     "m1": null
    }
@@ -18346,20 +18346,20 @@
   "bench": {
    "ret": {
     "d3": -0.01955,
-    "w1": null,
+    "w1": -0.03384,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.00017,
-   "w1": null,
+   "w1": 0.00059,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -18519,6 +18519,188 @@
    "w2": null,
    "m1": null
   }
+ },
+ {
+  "video_id": "c6NpDx5BC5Y",
+  "date": "2026-09-17",
+  "teacher": "林信富",
+  "stock_name": "台積電",
+  "ticker": "2330",
+  "symbol": "2330.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "c6NpDx5BC5Y",
+  "date": "2026-09-17",
+  "teacher": "林信富",
+  "stock_name": "華邦電",
+  "ticker": "2344",
+  "symbol": "2344.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "c6NpDx5BC5Y",
+  "date": "2026-09-17",
+  "teacher": "林信富",
+  "stock_name": "南亞科",
+  "ticker": "2408",
+  "symbol": "2408.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "c6NpDx5BC5Y",
+  "date": "2026-09-17",
+  "teacher": "林信富",
+  "stock_name": "旺宏",
+  "ticker": "2337",
+  "symbol": "2337.TW",
+  "stance": "觀望",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "c6NpDx5BC5Y",
+  "date": "2026-09-17",
+  "teacher": "陳唯泰",
+  "stock_name": "台光電",
+  "ticker": "2383",
+  "symbol": "2383.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "c6NpDx5BC5Y",
+  "date": "2026-09-17",
+  "teacher": "陳唯泰",
+  "stock_name": "台燿",
+  "ticker": "6274",
+  "symbol": "6274.TWO",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "c6NpDx5BC5Y",
+  "date": "2026-09-17",
+  "teacher": "陳唯泰",
+  "stock_name": "聯茂",
+  "ticker": "6213",
+  "symbol": "6213.TW",
+  "stance": "中性",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "c6NpDx5BC5Y",
+  "date": "2026-09-17",
+  "teacher": "陳唯泰",
+  "stock_name": "聯發科",
+  "ticker": "2454",
+  "symbol": "2454.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "c6NpDx5BC5Y",
+  "date": "2026-09-17",
+  "teacher": "陳唯泰",
+  "stock_name": "南茂",
+  "ticker": "8150",
+  "symbol": "8150.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "c6NpDx5BC5Y",
+  "date": "2026-09-17",
+  "teacher": "陳唯泰",
+  "stock_name": "華東",
+  "ticker": "8110",
+  "symbol": "8110.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "c6NpDx5BC5Y",
+  "date": "2026-09-17",
+  "teacher": "陳唯泰",
+  "stock_name": "均華",
+  "ticker": "6640",
+  "symbol": "6640.TWO",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "c6NpDx5BC5Y",
+  "date": "2026-09-17",
+  "teacher": "陳唯泰",
+  "stock_name": "帆宣系統科技",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "c6NpDx5BC5Y",
+  "date": "2026-09-17",
+  "teacher": "股魚",
+  "stock_name": "全新",
+  "ticker": "2455",
+  "symbol": "2455.TW",
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
+ },
+ {
+  "video_id": "c6NpDx5BC5Y",
+  "date": "2026-09-17",
+  "teacher": "股魚",
+  "stock_name": "營建與資產相關類股",
+  "ticker": null,
+  "symbol": null,
+  "stance": "看多",
+  "perf": null,
+  "bench": null,
+  "excess": null,
+  "hit": {}
  },
  {
   "video_id": "CiMoW7oNOCo",
@@ -19582,10 +19764,36 @@
   "ticker": "6505",
   "symbol": "6505.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 86.2,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19595,10 +19803,36 @@
   "ticker": "2454",
   "symbol": "2454.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 4500.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19608,9 +19842,30 @@
   "ticker": "2330",
   "symbol": "2330.TW",
   "stance": "中性",
-  "perf": null,
-  "bench": null,
-  "excess": null,
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 2425.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
   "hit": {}
  },
  {
@@ -19621,10 +19876,36 @@
   "ticker": "3481",
   "symbol": "3481.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 48.5,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19634,10 +19915,36 @@
   "ticker": "2344",
   "symbol": "2344.TW",
   "stance": "看空",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 170.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19647,9 +19954,30 @@
   "ticker": "2609",
   "symbol": "2609.TW",
   "stance": "觀望",
-  "perf": null,
-  "bench": null,
-  "excess": null,
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 62.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
   "hit": {}
  },
  {
@@ -19660,10 +19988,36 @@
   "ticker": "1815",
   "symbol": "1815.TWO",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 112.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19686,10 +20040,36 @@
   "ticker": "6274",
   "symbol": "6274.TWO",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 1320.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19699,10 +20079,36 @@
   "ticker": "1303",
   "symbol": "1303.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 236.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19712,9 +20118,30 @@
   "ticker": "8358",
   "symbol": "8358.TWO",
   "stance": "中性",
-  "perf": null,
-  "bench": null,
-  "excess": null,
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 478.5,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
   "hit": {}
  },
  {
@@ -19725,10 +20152,36 @@
   "ticker": "2383",
   "symbol": "2383.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 4695.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19738,10 +20191,36 @@
   "ticker": "2368",
   "symbol": "2368.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 950.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19751,9 +20230,30 @@
   "ticker": "4958",
   "symbol": "4958.TW",
   "stance": "中性",
-  "perf": null,
-  "bench": null,
-  "excess": null,
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 476.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
   "hit": {}
  },
  {
@@ -19764,10 +20264,36 @@
   "ticker": "2313",
   "symbol": "2313.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 218.5,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19777,10 +20303,36 @@
   "ticker": "3563",
   "symbol": "3563.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 659.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19790,10 +20342,36 @@
   "ticker": "3081",
   "symbol": "3081.TWO",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 2720.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19803,10 +20381,36 @@
   "ticker": "2409",
   "symbol": "2409.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 30.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19816,9 +20420,30 @@
   "ticker": "3481",
   "symbol": "3481.TW",
   "stance": "中性",
-  "perf": null,
-  "bench": null,
-  "excess": null,
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 48.5,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
   "hit": {}
  },
  {
@@ -19829,10 +20454,36 @@
   "ticker": "3680",
   "symbol": "3680.TWO",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 527.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19842,10 +20493,36 @@
   "ticker": "5443",
   "symbol": "5443.TWO",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 108.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19868,10 +20545,36 @@
   "ticker": "6442",
   "symbol": "6442.TW",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 1510.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpbrEzAvOEA",
@@ -19881,10 +20584,36 @@
   "ticker": "4991",
   "symbol": "4991.TWO",
   "stance": "看多",
-  "perf": null,
-  "bench": null,
-  "excess": null,
-  "hit": {}
+  "perf": {
+   "entry_date": "2026-09-17",
+   "entry_price": 431.0,
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "bench": {
+   "ret": {
+    "d3": null,
+    "w1": null,
+    "w2": null,
+    "m1": null
+   }
+  },
+  "excess": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  },
+  "hit": {
+   "d3": null,
+   "w1": null,
+   "w2": null,
+   "m1": null
+  }
  },
  {
   "video_id": "cpTdupsOvtE",
@@ -35978,7 +36707,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 323.5,
    "ret": {
-    "d3": null,
+    "d3": 0.03864,
     "w1": null,
     "w2": null,
     "m1": null
@@ -35986,20 +36715,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.03894,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36017,7 +36746,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 175.5,
    "ret": {
-    "d3": null,
+    "d3": 0.02279,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36025,20 +36754,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.02309,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36056,7 +36785,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 518.0,
    "ret": {
-    "d3": null,
+    "d3": -0.07625,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36064,20 +36793,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.07595,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36095,7 +36824,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 612.0,
    "ret": {
-    "d3": null,
+    "d3": 0.00327,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36103,20 +36832,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.00357,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36134,7 +36863,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 4560.0,
    "ret": {
-    "d3": null,
+    "d3": -0.01316,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36142,20 +36871,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.01286,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36173,7 +36902,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 248.5,
    "ret": {
-    "d3": null,
+    "d3": 0.00805,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36181,20 +36910,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.00835,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36212,7 +36941,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 731.0,
    "ret": {
-    "d3": null,
+    "d3": 0.03967,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36220,20 +36949,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.03997,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36251,7 +36980,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 293.5,
    "ret": {
-    "d3": null,
+    "d3": 0.03407,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36259,20 +36988,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.03437,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36290,7 +37019,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 545.0,
    "ret": {
-    "d3": null,
+    "d3": -0.02936,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36298,14 +37027,14 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.02906,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36324,7 +37053,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 5995.0,
    "ret": {
-    "d3": null,
+    "d3": 0.00417,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36332,20 +37061,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.00447,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36363,7 +37092,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 675.0,
    "ret": {
-    "d3": null,
+    "d3": -0.02963,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36371,20 +37100,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.02933,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36402,7 +37131,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 167.0,
    "ret": {
-    "d3": null,
+    "d3": 0.03593,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36410,14 +37139,14 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.03623,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36436,7 +37165,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 2373.01,
    "ret": {
-    "d3": null,
+    "d3": 0.02191,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36444,20 +37173,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.02221,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36475,7 +37204,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 5345.0,
    "ret": {
-    "d3": null,
+    "d3": -0.12161,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36483,20 +37212,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.12131,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36514,7 +37243,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 515.0,
    "ret": {
-    "d3": null,
+    "d3": -0.03883,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36522,20 +37251,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.03853,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36553,7 +37282,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 120.0,
    "ret": {
-    "d3": null,
+    "d3": -0.06667,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36561,20 +37290,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.06637,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36592,7 +37321,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 753.0,
    "ret": {
-    "d3": null,
+    "d3": 0.08234,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36600,20 +37329,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.08264,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36631,7 +37360,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 1020.0,
    "ret": {
-    "d3": null,
+    "d3": -0.06863,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36639,20 +37368,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": -0.06833,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": false,
    "w1": null,
    "w2": null,
    "m1": null
@@ -36670,7 +37399,7 @@
    "entry_date": "2026-09-14",
    "entry_price": 261.5,
    "ret": {
-    "d3": null,
+    "d3": 0.01338,
     "w1": null,
     "w2": null,
     "m1": null
@@ -36678,20 +37407,20 @@
   },
   "bench": {
    "ret": {
-    "d3": null,
+    "d3": -0.0003,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": null,
+   "d3": 0.01368,
    "w1": null,
    "w2": null,
    "m1": null
   },
   "hit": {
-   "d3": null,
+   "d3": true,
    "w1": null,
    "w2": null,
    "m1": null
@@ -38859,7 +39588,7 @@
   "stance": "看多",
   "perf": {
    "entry_date": "2026-06-23",
-   "entry_price": 63.2,
+   "entry_price": 61.19,
    "ret": {
     "d3": -0.06962,
     "w1": -0.01187,
@@ -39831,7 +40560,7 @@
    "entry_price": 2442.81,
    "ret": {
     "d3": -0.02653,
-    "w1": null,
+    "w1": -0.00729,
     "w2": null,
     "m1": null
    }
@@ -39839,20 +40568,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.00391,
-   "w1": null,
+   "w1": 0.01596,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -39870,7 +40599,7 @@
    "entry_price": 142.5,
    "ret": {
     "d3": -0.02807,
-    "w1": null,
+    "w1": 0.03509,
     "w2": null,
     "m1": null
    }
@@ -39878,20 +40607,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.00237,
-   "w1": null,
+   "w1": 0.05834,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -39909,7 +40638,7 @@
    "entry_price": 535.0,
    "ret": {
     "d3": -0.08692,
-    "w1": null,
+    "w1": -0.01495,
     "w2": null,
     "m1": null
    }
@@ -39917,20 +40646,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.05648,
-   "w1": null,
+   "w1": 0.0083,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -39961,7 +40690,7 @@
    "entry_price": 515.0,
    "ret": {
     "d3": -0.09612,
-    "w1": null,
+    "w1": -0.05243,
     "w2": null,
     "m1": null
    }
@@ -39969,20 +40698,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.06568,
-   "w1": null,
+   "w1": -0.02918,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -40000,7 +40729,7 @@
    "entry_price": 461.5,
    "ret": {
     "d3": -0.01625,
-    "w1": null,
+    "w1": 0.02059,
     "w2": null,
     "m1": null
    }
@@ -40008,20 +40737,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.01419,
-   "w1": null,
+   "w1": 0.04384,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -40039,7 +40768,7 @@
    "entry_price": 31.2,
    "ret": {
     "d3": -0.10577,
-    "w1": null,
+    "w1": -0.03846,
     "w2": null,
     "m1": null
    }
@@ -40047,20 +40776,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.07533,
-   "w1": null,
+   "w1": -0.01521,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -40078,7 +40807,7 @@
    "entry_price": 49.35,
    "ret": {
     "d3": -0.05167,
-    "w1": null,
+    "w1": -0.01722,
     "w2": null,
     "m1": null
    }
@@ -40086,14 +40815,14 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.02123,
-   "w1": null,
+   "w1": 0.00603,
    "w2": null,
    "m1": null
   },
@@ -40112,7 +40841,7 @@
    "entry_price": 218.36,
    "ret": {
     "d3": -0.02835,
-    "w1": null,
+    "w1": 0.00449,
     "w2": null,
     "m1": null
    }
@@ -40120,20 +40849,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.00209,
-   "w1": null,
+   "w1": 0.02774,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -40151,7 +40880,7 @@
    "entry_price": 326.57,
    "ret": {
     "d3": 0.01461,
-    "w1": null,
+    "w1": 0.03194,
     "w2": null,
     "m1": null
    }
@@ -40159,20 +40888,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.04505,
-   "w1": null,
+   "w1": 0.05519,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -40190,7 +40919,7 @@
    "entry_price": 185.0,
    "ret": {
     "d3": -0.01351,
-    "w1": null,
+    "w1": 0.00811,
     "w2": null,
     "m1": null
    }
@@ -40198,20 +40927,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.01693,
-   "w1": null,
+   "w1": 0.03136,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -40229,7 +40958,7 @@
    "entry_price": 336.0,
    "ret": {
     "d3": -0.00893,
-    "w1": null,
+    "w1": 0.02381,
     "w2": null,
     "m1": null
    }
@@ -40237,20 +40966,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.02151,
-   "w1": null,
+   "w1": 0.04706,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -40268,7 +40997,7 @@
    "entry_price": 2345.0,
    "ret": {
     "d3": -0.01279,
-    "w1": null,
+    "w1": -0.08955,
     "w2": null,
     "m1": null
    }
@@ -40276,20 +41005,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.01765,
-   "w1": null,
+   "w1": -0.0663,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -40307,7 +41036,7 @@
    "entry_price": 3460.0,
    "ret": {
     "d3": -0.09971,
-    "w1": null,
+    "w1": -0.07948,
     "w2": null,
     "m1": null
    }
@@ -40315,20 +41044,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.06927,
-   "w1": null,
+   "w1": -0.05623,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -40346,7 +41075,7 @@
    "entry_price": 2830.0,
    "ret": {
     "d3": -0.05477,
-    "w1": null,
+    "w1": -0.03887,
     "w2": null,
     "m1": null
    }
@@ -40354,20 +41083,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.02433,
-   "w1": null,
+   "w1": -0.01562,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -40385,7 +41114,7 @@
    "entry_price": 523.0,
    "ret": {
     "d3": -0.05832,
-    "w1": null,
+    "w1": 0.00382,
     "w2": null,
     "m1": null
    }
@@ -40393,20 +41122,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.02788,
-   "w1": null,
+   "w1": 0.02707,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -40424,7 +41153,7 @@
    "entry_price": 142.5,
    "ret": {
     "d3": -0.02807,
-    "w1": null,
+    "w1": 0.03509,
     "w2": null,
     "m1": null
    }
@@ -40432,20 +41161,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.00237,
-   "w1": null,
+   "w1": 0.05834,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -40463,7 +41192,7 @@
    "entry_price": 38.4,
    "ret": {
     "d3": -0.02214,
-    "w1": null,
+    "w1": -0.01042,
     "w2": null,
     "m1": null
    }
@@ -40471,20 +41200,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.0083,
-   "w1": null,
+   "w1": 0.01283,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -40502,7 +41231,7 @@
    "entry_price": 1070.0,
    "ret": {
     "d3": -0.14486,
-    "w1": null,
+    "w1": -0.09813,
     "w2": null,
     "m1": null
    }
@@ -40510,20 +41239,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.11442,
-   "w1": null,
+   "w1": -0.07488,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -40541,7 +41270,7 @@
    "entry_price": 6720.0,
    "ret": {
     "d3": -0.09896,
-    "w1": null,
+    "w1": -0.10417,
     "w2": null,
     "m1": null
    }
@@ -40549,20 +41278,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.06852,
-   "w1": null,
+   "w1": -0.08092,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -40580,7 +41309,7 @@
    "entry_price": 521.0,
    "ret": {
     "d3": -0.07486,
-    "w1": null,
+    "w1": -0.08157,
     "w2": null,
     "m1": null
    }
@@ -40588,14 +41317,14 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.04442,
-   "w1": null,
+   "w1": -0.05832,
    "w2": null,
    "m1": null
   },
@@ -40614,7 +41343,7 @@
    "entry_price": 244.0,
    "ret": {
     "d3": -0.09221,
-    "w1": null,
+    "w1": -0.03279,
     "w2": null,
     "m1": null
    }
@@ -40622,20 +41351,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.06177,
-   "w1": null,
+   "w1": -0.00954,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -40653,7 +41382,7 @@
    "entry_price": 519.0,
    "ret": {
     "d3": 0.0,
-    "w1": null,
+    "w1": -0.04624,
     "w2": null,
     "m1": null
    }
@@ -40661,14 +41390,14 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.03044,
-   "w1": null,
+   "w1": -0.02299,
    "w2": null,
    "m1": null
   },
@@ -40687,7 +41416,7 @@
    "entry_price": 5375.0,
    "ret": {
     "d3": -0.04837,
-    "w1": null,
+    "w1": -0.12651,
     "w2": null,
     "m1": null
    }
@@ -40695,20 +41424,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.01793,
-   "w1": null,
+   "w1": -0.10326,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -40726,7 +41455,7 @@
    "entry_price": 275.0,
    "ret": {
     "d3": -0.01818,
-    "w1": null,
+    "w1": -0.06545,
     "w2": null,
     "m1": null
    }
@@ -40734,20 +41463,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.01226,
-   "w1": null,
+   "w1": -0.0422,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": true,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -40778,7 +41507,7 @@
    "entry_price": 523.0,
    "ret": {
     "d3": -0.05832,
-    "w1": null,
+    "w1": 0.00382,
     "w2": null,
     "m1": null
    }
@@ -40786,20 +41515,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.02788,
-   "w1": null,
+   "w1": 0.02707,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": true,
    "w2": null,
    "m1": null
   }
@@ -40817,7 +41546,7 @@
    "entry_price": 31.2,
    "ret": {
     "d3": -0.10577,
-    "w1": null,
+    "w1": -0.03846,
     "w2": null,
     "m1": null
    }
@@ -40825,20 +41554,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.07533,
-   "w1": null,
+   "w1": -0.01521,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -40856,7 +41585,7 @@
    "entry_price": 5620.0,
    "ret": {
     "d3": -0.03203,
-    "w1": null,
+    "w1": -0.02135,
     "w2": null,
     "m1": null
    }
@@ -40864,20 +41593,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.00159,
-   "w1": null,
+   "w1": 0.0019,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -40895,7 +41624,7 @@
    "entry_price": 4055.0,
    "ret": {
     "d3": -0.17263,
-    "w1": null,
+    "w1": -0.18742,
     "w2": null,
     "m1": null
    }
@@ -40903,20 +41632,20 @@
   "bench": {
    "ret": {
     "d3": -0.03044,
-    "w1": null,
+    "w1": -0.02325,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.14219,
-   "w1": null,
+   "w1": -0.16417,
    "w2": null,
    "m1": null
   },
   "hit": {
    "d3": false,
-   "w1": null,
+   "w1": false,
    "w2": null,
    "m1": null
   }
@@ -40936,7 +41665,7 @@
     "d3": 0.04158,
     "w1": 0.07484,
     "w2": 0.07692,
-    "m1": null
+    "m1": 0.01455
    }
   },
   "bench": {
@@ -40944,14 +41673,14 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": 0.04062,
    "w1": 0.04995,
    "w2": 0.0446,
-   "m1": null
+   "m1": -0.01071
   },
   "hit": {}
  },
@@ -40970,7 +41699,7 @@
     "d3": 0.08651,
     "w1": 0.08142,
     "w2": 0.05089,
-    "m1": null
+    "m1": 0.00254
    }
   },
   "bench": {
@@ -40978,14 +41707,14 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": 0.08555,
    "w1": 0.05653,
    "w2": 0.01857,
-   "m1": null
+   "m1": -0.02272
   },
   "hit": {}
  },
@@ -41004,7 +41733,7 @@
     "d3": 0.11013,
     "w1": 0.05316,
     "w2": 0.0443,
-    "m1": null
+    "m1": 0.0
    }
   },
   "bench": {
@@ -41012,14 +41741,14 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": 0.10917,
    "w1": 0.02827,
    "w2": 0.01198,
-   "m1": null
+   "m1": -0.02526
   },
   "hit": {}
  },
@@ -41038,7 +41767,7 @@
     "d3": -0.07653,
     "w1": 0.00255,
     "w2": -0.06975,
-    "m1": null
+    "m1": -0.19788
    }
   },
   "bench": {
@@ -41046,20 +41775,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": -0.07749,
    "w1": -0.02234,
    "w2": -0.10207,
-   "m1": null
+   "m1": -0.22314
   },
   "hit": {
    "d3": false,
    "w1": true,
    "w2": false,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -41077,7 +41806,7 @@
     "d3": -0.08846,
     "w1": 0.0,
     "w2": 0.12981,
-    "m1": null
+    "m1": -0.08654
    }
   },
   "bench": {
@@ -41085,20 +41814,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": -0.08942,
    "w1": -0.02489,
    "w2": 0.09749,
-   "m1": null
+   "m1": -0.1118
   },
   "hit": {
    "d3": false,
    "w1": false,
    "w2": true,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -41116,7 +41845,7 @@
     "d3": -0.02973,
     "w1": 0.13333,
     "w2": 0.40721,
-    "m1": null
+    "m1": 0.08468
    }
   },
   "bench": {
@@ -41124,20 +41853,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": -0.03069,
    "w1": 0.10844,
    "w2": 0.37489,
-   "m1": null
+   "m1": 0.05942
   },
   "hit": {
    "d3": false,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -41155,7 +41884,7 @@
     "d3": 0.02394,
     "w1": 0.09437,
     "w2": 0.07887,
-    "m1": null
+    "m1": -0.08169
    }
   },
   "bench": {
@@ -41163,20 +41892,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": 0.02298,
    "w1": 0.06948,
    "w2": 0.04655,
-   "m1": null
+   "m1": -0.10695
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -41194,7 +41923,7 @@
     "d3": 0.17891,
     "w1": 0.32588,
     "w2": 0.34984,
-    "m1": null
+    "m1": 0.38019
    }
   },
   "bench": {
@@ -41202,20 +41931,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": 0.17795,
    "w1": 0.30099,
    "w2": 0.31752,
-   "m1": null
+   "m1": 0.35493
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -41233,7 +41962,7 @@
     "d3": 0.06842,
     "w1": 0.20526,
     "w2": 0.13158,
-    "m1": null
+    "m1": 0.24737
    }
   },
   "bench": {
@@ -41241,20 +41970,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": 0.06746,
    "w1": 0.18037,
    "w2": 0.09926,
-   "m1": null
+   "m1": 0.22211
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -41272,7 +42001,7 @@
     "d3": -0.02887,
     "w1": 0.06824,
     "w2": 0.05774,
-    "m1": null
+    "m1": -0.0315
    }
   },
   "bench": {
@@ -41280,20 +42009,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": -0.02983,
    "w1": 0.04335,
    "w2": 0.02542,
-   "m1": null
+   "m1": -0.05676
   },
   "hit": {
    "d3": false,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -41311,7 +42040,7 @@
     "d3": -0.07663,
     "w1": -0.00383,
     "w2": 0.02682,
-    "m1": null
+    "m1": -0.0728
    }
   },
   "bench": {
@@ -41319,20 +42048,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": -0.07759,
    "w1": -0.02872,
    "w2": -0.0055,
-   "m1": null
+   "m1": -0.09806
   },
   "hit": {
    "d3": false,
    "w1": false,
    "w2": true,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -41350,7 +42079,7 @@
     "d3": -0.0587,
     "w1": -0.03036,
     "w2": 0.0526,
-    "m1": null
+    "m1": 0.00951
    }
   },
   "bench": {
@@ -41358,20 +42087,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": -0.05966,
    "w1": -0.05525,
    "w2": 0.02028,
-   "m1": null
+   "m1": -0.01575
   },
   "hit": {
    "d3": false,
    "w1": false,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -41389,7 +42118,7 @@
     "d3": 0.05899,
     "w1": -0.04091,
     "w2": 0.00666,
-    "m1": null
+    "m1": 0.04662
    }
   },
   "bench": {
@@ -41397,14 +42126,14 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": 0.05803,
    "w1": -0.0658,
    "w2": -0.02566,
-   "m1": null
+   "m1": 0.02136
   },
   "hit": {}
  },
@@ -41423,7 +42152,7 @@
     "d3": 0.02893,
     "w1": 0.09091,
     "w2": 0.15702,
-    "m1": null
+    "m1": -0.0852
    }
   },
   "bench": {
@@ -41431,20 +42160,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": 0.02797,
    "w1": 0.06602,
    "w2": 0.1247,
-   "m1": null
+   "m1": -0.11046
   },
   "hit": {
    "d3": true,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -41462,7 +42191,7 @@
     "d3": -0.05586,
     "w1": 0.04853,
     "w2": 0.05678,
-    "m1": null
+    "m1": -0.01923
    }
   },
   "bench": {
@@ -41470,20 +42199,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": -0.05682,
    "w1": 0.02364,
    "w2": 0.02446,
-   "m1": null
+   "m1": -0.04449
   },
   "hit": {
    "d3": false,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -41501,7 +42230,7 @@
     "d3": -0.04336,
     "w1": 0.13287,
     "w2": 0.18042,
-    "m1": null
+    "m1": 0.16923
    }
   },
   "bench": {
@@ -41509,20 +42238,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": -0.04432,
    "w1": 0.10798,
    "w2": 0.1481,
-   "m1": null
+   "m1": 0.14397
   },
   "hit": {
    "d3": false,
    "w1": true,
    "w2": true,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -41540,7 +42269,7 @@
     "d3": -0.017,
     "w1": -0.0085,
     "w2": -0.01983,
-    "m1": null
+    "m1": -0.04533
    }
   },
   "bench": {
@@ -41548,20 +42277,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": -0.01796,
    "w1": -0.03339,
    "w2": -0.05215,
-   "m1": null
+   "m1": -0.07059
   },
   "hit": {
    "d3": false,
    "w1": false,
    "w2": false,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -41579,7 +42308,7 @@
     "d3": 0.09322,
     "w1": -0.02373,
     "w2": -0.02542,
-    "m1": null
+    "m1": 0.05085
    }
   },
   "bench": {
@@ -41587,20 +42316,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": 0.09226,
    "w1": -0.04862,
    "w2": -0.05774,
-   "m1": null
+   "m1": 0.02559
   },
   "hit": {
    "d3": true,
    "w1": false,
    "w2": false,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -41618,7 +42347,7 @@
     "d3": -0.00408,
     "w1": -0.0517,
     "w2": -0.04626,
-    "m1": null
+    "m1": 0.01088
    }
   },
   "bench": {
@@ -41626,20 +42355,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": -0.00504,
    "w1": -0.07659,
    "w2": -0.07858,
-   "m1": null
+   "m1": -0.01438
   },
   "hit": {
    "d3": false,
    "w1": false,
    "w2": false,
-   "m1": null
+   "m1": true
   }
  },
  {
@@ -41657,7 +42386,7 @@
     "d3": 0.02857,
     "w1": -0.02571,
     "w2": -0.05714,
-    "m1": null
+    "m1": -0.03429
    }
   },
   "bench": {
@@ -41665,20 +42394,20 @@
     "d3": 0.00096,
     "w1": 0.02489,
     "w2": 0.03232,
-    "m1": null
+    "m1": 0.02526
    }
   },
   "excess": {
    "d3": 0.02761,
    "w1": -0.0506,
    "w2": -0.08946,
-   "m1": null
+   "m1": -0.05955
   },
   "hit": {
    "d3": true,
    "w1": false,
    "w2": false,
-   "m1": null
+   "m1": false
   }
  },
  {
@@ -49512,14 +50241,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": 0.01447,
    "w1": 0.01147,
    "w2": -0.01099,
-   "m1": -0.00154
+   "m1": -0.00898
   },
   "hit": {
    "d3": true,
@@ -49551,14 +50280,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.06669,
    "w1": -0.00285,
    "w2": -0.04804,
-   "m1": -0.16332
+   "m1": -0.17076
   },
   "hit": {
    "d3": false,
@@ -49590,14 +50319,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": 0.0136,
    "w1": 0.00939,
    "w2": 0.04691,
-   "m1": 0.11024
+   "m1": 0.1028
   },
   "hit": {
    "d3": true,
@@ -49629,14 +50358,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.08275,
    "w1": -0.09524,
    "w2": -0.12311,
-   "m1": -0.18124
+   "m1": -0.18868
   },
   "hit": {
    "d3": false,
@@ -49668,14 +50397,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.0208,
    "w1": 0.00932,
    "w2": 0.18255,
-   "m1": 0.00454
+   "m1": -0.0029
   },
   "hit": {
    "d3": false,
@@ -49707,14 +50436,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": 0.01395,
    "w1": 0.01955,
    "w2": 0.07369,
-   "m1": 0.02739
+   "m1": 0.01995
   },
   "hit": {
    "d3": true,
@@ -49746,14 +50475,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.03504,
    "w1": 0.09532,
    "w2": 0.07266,
-   "m1": 0.01766
+   "m1": 0.01022
   },
   "hit": {
    "d3": false,
@@ -49785,14 +50514,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.01496,
    "w1": 0.00766,
    "w2": 0.00967,
-   "m1": 0.0368
+   "m1": 0.02936
   },
   "hit": {
    "d3": false,
@@ -49824,14 +50553,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.02257,
    "w1": 0.00163,
    "w2": -0.00459,
-   "m1": 0.00127
+   "m1": -0.00617
   },
   "hit": {
    "d3": false,
@@ -49863,14 +50592,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.15307,
    "w1": -0.18003,
    "w2": -0.22493,
-   "m1": -0.2749
+   "m1": -0.28234
   },
   "hit": {
    "d3": false,
@@ -49902,14 +50631,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": 0.00748,
    "w1": 0.08734,
    "w2": 0.00032,
-   "m1": 0.02624
+   "m1": 0.0188
   },
   "hit": {
    "d3": true,
@@ -49941,14 +50670,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.04232,
    "w1": -0.01018,
    "w2": 0.01093,
-   "m1": 0.01908
+   "m1": 0.01164
   },
   "hit": {
    "d3": false,
@@ -49980,14 +50709,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.02855,
    "w1": -0.01044,
    "w2": -0.05985,
-   "m1": -0.16664
+   "m1": -0.17408
   },
   "hit": {
    "d3": false,
@@ -50019,14 +50748,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": 0.06235,
    "w1": 0.08436,
    "w2": 0.39669,
-   "m1": 0.17227
+   "m1": 0.16483
   },
   "hit": {
    "d3": true,
@@ -50058,14 +50787,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.04632,
    "w1": 0.01037,
    "w2": 0.43095,
-   "m1": 0.46267
+   "m1": 0.45523
   },
   "hit": {
    "d3": false,
@@ -50097,14 +50826,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": 0.03936,
    "w1": 0.04557,
    "w2": 0.0263,
-   "m1": -0.01198
+   "m1": -0.01942
   },
   "hit": {}
  },
@@ -50131,14 +50860,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": 0.0271,
    "w1": -0.00664,
    "w2": -0.03037,
-   "m1": -0.04817
+   "m1": -0.05561
   },
   "hit": {
    "d3": true,
@@ -50170,14 +50899,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": 0.00596,
    "w1": 0.00307,
    "w2": -0.0321,
-   "m1": -0.02907
+   "m1": -0.03651
   },
   "hit": {
    "d3": false,
@@ -50209,14 +50938,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": 0.18757,
    "w1": 0.20783,
    "w2": 0.05428,
-   "m1": 0.09076
+   "m1": 0.08332
   },
   "hit": {
    "d3": true,
@@ -50248,14 +50977,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": 0.05858,
    "w1": 0.03668,
    "w2": -0.0362,
-   "m1": -0.00028
+   "m1": -0.00772
   },
   "hit": {
    "d3": true,
@@ -50287,14 +51016,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": 0.14065,
    "w1": 0.13474,
    "w2": -0.01129,
-   "m1": 0.06669
+   "m1": 0.05925
   },
   "hit": {
    "d3": true,
@@ -50326,14 +51055,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": 0.01421,
    "w1": 0.02776,
    "w2": 0.03338,
-   "m1": 0.06847
+   "m1": 0.06103
   },
   "hit": {
    "d3": true,
@@ -50365,14 +51094,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.03504,
    "w1": 0.09532,
    "w2": 0.07266,
-   "m1": 0.01766
+   "m1": 0.01022
   },
   "hit": {}
  },
@@ -50399,14 +51128,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.0366,
    "w1": -0.05737,
    "w2": -0.01147,
-   "m1": -0.06492
+   "m1": -0.07236
   },
   "hit": {
    "d3": false,
@@ -50438,14 +51167,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.04448,
    "w1": -0.04865,
    "w2": -0.06853,
-   "m1": -0.0853
+   "m1": -0.09274
   },
   "hit": {}
  },
@@ -50472,14 +51201,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.04473,
    "w1": -0.01485,
    "w2": 0.08925,
-   "m1": 0.20341
+   "m1": 0.19597
   },
   "hit": {
    "d3": false,
@@ -50511,14 +51240,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.061,
    "w1": -0.07503,
    "w2": -0.04428,
-   "m1": 0.09712
+   "m1": 0.08968
   },
   "hit": {
    "d3": false,
@@ -50550,14 +51279,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": 0.00015,
    "w1": 0.01504,
    "w2": 0.13474,
-   "m1": -0.04551
+   "m1": -0.05295
   },
   "hit": {
    "d3": false,
@@ -50589,14 +51318,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.02568,
    "w1": 0.00786,
    "w2": 0.21889,
-   "m1": 0.22905
+   "m1": 0.22161
   },
   "hit": {
    "d3": false,
@@ -50628,14 +51357,14 @@
     "d3": -0.00186,
     "w1": -0.00307,
     "w2": 0.0362,
-    "m1": 0.00448
+    "m1": 0.01192
    }
   },
   "excess": {
    "d3": -0.03727,
    "w1": 0.00742,
    "w2": 0.04881,
-   "m1": -0.0562
+   "m1": -0.06364
   },
   "hit": {
    "d3": false,
@@ -71866,14 +72595,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.00649,
-   "w1": 0.00379,
+   "w1": -0.00336,
    "w2": null,
    "m1": null
   },
@@ -71905,14 +72634,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.01434,
-   "w1": 0.00368,
+   "w1": -0.00347,
    "w2": null,
    "m1": null
   },
@@ -71939,14 +72668,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.01576,
-   "w1": -0.01926,
+   "w1": -0.02641,
    "w2": null,
    "m1": null
   },
@@ -71978,14 +72707,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.09938,
-   "w1": -0.05846,
+   "w1": -0.06561,
    "w2": null,
    "m1": null
   },
@@ -72012,14 +72741,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.01394,
-   "w1": 0.01489,
+   "w1": 0.00774,
    "w2": null,
    "m1": null
   },
@@ -72051,14 +72780,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.06761,
-   "w1": -0.02289,
+   "w1": -0.03004,
    "w2": null,
    "m1": null
   },
@@ -72090,14 +72819,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.09769,
-   "w1": -0.04107,
+   "w1": -0.04822,
    "w2": null,
    "m1": null
   },
@@ -72129,14 +72858,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.05501,
-   "w1": -0.02386,
+   "w1": -0.03101,
    "w2": null,
    "m1": null
   },
@@ -72163,14 +72892,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.01,
-   "w1": 0.00665,
+   "w1": -0.0005,
    "w2": null,
    "m1": null
   },
@@ -72202,14 +72931,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.00088,
-   "w1": 0.00541,
+   "w1": -0.00174,
    "w2": null,
    "m1": null
   },
@@ -72241,14 +72970,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.03758,
-   "w1": -0.00965,
+   "w1": -0.0168,
    "w2": null,
    "m1": null
   },
@@ -72280,14 +73009,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.05273,
-   "w1": -0.02287,
+   "w1": -0.03002,
    "w2": null,
    "m1": null
   },
@@ -72319,14 +73048,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.03506,
-   "w1": 0.03896,
+   "w1": 0.03181,
    "w2": null,
    "m1": null
   },
@@ -72358,14 +73087,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.06761,
-   "w1": -0.02289,
+   "w1": -0.03004,
    "w2": null,
    "m1": null
   },
@@ -72397,14 +73126,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.01182,
-   "w1": -0.00076,
+   "w1": -0.00791,
    "w2": null,
    "m1": null
   },
@@ -72431,14 +73160,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.0737,
-   "w1": -0.0705,
+   "w1": -0.07765,
    "w2": null,
    "m1": null
   },
@@ -72470,14 +73199,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.07545,
-   "w1": 0.08515,
+   "w1": 0.078,
    "w2": null,
    "m1": null
   },
@@ -72509,14 +73238,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.04474,
-   "w1": -0.06275,
+   "w1": -0.0699,
    "w2": null,
    "m1": null
   },
@@ -72548,14 +73277,14 @@
   "bench": {
    "ret": {
     "d3": -0.02799,
-    "w1": -0.03543,
+    "w1": -0.02828,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.00741,
-   "w1": -0.0159,
+   "w1": -0.02305,
    "w2": null,
    "m1": null
   },
@@ -72588,14 +73317,14 @@
    "ret": {
     "d3": 0.02516,
     "w1": 0.02207,
-    "w2": -0.01415,
+    "w2": -0.00684,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.08829,
    "w1": 0.0598,
-   "w2": 0.0738,
+   "w2": 0.06649,
    "m1": null
   },
   "hit": {
@@ -72627,14 +73356,14 @@
    "ret": {
     "d3": 0.02516,
     "w1": 0.02207,
-    "w2": -0.01415,
+    "w2": -0.00684,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.17241,
    "w1": -0.14243,
-   "w2": -0.18879,
+   "w2": -0.1961,
    "m1": null
   },
   "hit": {
@@ -72666,14 +73395,14 @@
    "ret": {
     "d3": 0.02516,
     "w1": 0.02207,
-    "w2": -0.01415,
+    "w2": -0.00684,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.12089,
    "w1": -0.1826,
-   "w2": -0.15963,
+   "w2": -0.16694,
    "m1": null
   },
   "hit": {
@@ -72705,14 +73434,14 @@
    "ret": {
     "d3": 0.02516,
     "w1": 0.02207,
-    "w2": -0.01415,
+    "w2": -0.00684,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.10265,
    "w1": -0.03868,
-   "w2": -0.03567,
+   "w2": -0.04298,
    "m1": null
   },
   "hit": {
@@ -72744,14 +73473,14 @@
    "ret": {
     "d3": 0.02516,
     "w1": 0.02207,
-    "w2": -0.01415,
+    "w2": -0.00684,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.04385,
    "w1": -0.08048,
-   "w2": -0.12604,
+   "w2": -0.13335,
    "m1": null
   },
   "hit": {
@@ -72783,14 +73512,14 @@
    "ret": {
     "d3": 0.02516,
     "w1": 0.02207,
-    "w2": -0.01415,
+    "w2": -0.00684,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.08471,
    "w1": -0.07418,
-   "w2": -0.04044,
+   "w2": -0.04775,
    "m1": null
   },
   "hit": {
@@ -72822,14 +73551,14 @@
    "ret": {
     "d3": 0.02516,
     "w1": 0.02207,
-    "w2": -0.01415,
+    "w2": -0.00684,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.00277,
    "w1": -0.02953,
-   "w2": -0.0754,
+   "w2": -0.08271,
    "m1": null
   },
   "hit": {
@@ -72861,14 +73590,14 @@
    "ret": {
     "d3": 0.02516,
     "w1": 0.02207,
-    "w2": -0.01415,
+    "w2": -0.00684,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.08713,
    "w1": -0.08768,
-   "w2": -0.111,
+   "w2": -0.11831,
    "m1": null
   },
   "hit": {
@@ -72900,14 +73629,14 @@
    "ret": {
     "d3": 0.02516,
     "w1": 0.02207,
-    "w2": -0.01415,
+    "w2": -0.00684,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.02203,
    "w1": 0.02182,
-   "w2": 0.00579,
+   "w2": -0.00152,
    "m1": null
   },
   "hit": {
@@ -72939,14 +73668,14 @@
    "ret": {
     "d3": 0.02516,
     "w1": 0.02207,
-    "w2": -0.01415,
+    "w2": -0.00684,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.04876,
    "w1": 0.02218,
-   "w2": 0.082,
+   "w2": 0.07469,
    "m1": null
   },
   "hit": {
@@ -72991,14 +73720,14 @@
    "ret": {
     "d3": 0.02516,
     "w1": 0.02207,
-    "w2": -0.01415,
+    "w2": -0.00684,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.05574,
    "w1": -0.08505,
-   "w2": -0.1832,
+   "w2": -0.19051,
    "m1": null
   },
   "hit": {
@@ -73030,14 +73759,14 @@
    "ret": {
     "d3": 0.02516,
     "w1": 0.02207,
-    "w2": -0.01415,
+    "w2": -0.00684,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.15016,
    "w1": -0.09707,
-   "w2": -0.06502,
+   "w2": -0.07233,
    "m1": null
   },
   "hit": {
@@ -73069,14 +73798,14 @@
    "ret": {
     "d3": 0.02516,
     "w1": 0.02207,
-    "w2": -0.01415,
+    "w2": -0.00684,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.0653,
    "w1": -0.06339,
-   "w2": -0.01773,
+   "w2": -0.02504,
    "m1": null
   },
   "hit": {}
@@ -73116,14 +73845,14 @@
    "ret": {
     "d3": 0.02516,
     "w1": 0.02207,
-    "w2": -0.01415,
+    "w2": -0.00684,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.00413,
    "w1": 0.01328,
-   "w2": 0.01516,
+   "w2": 0.00785,
    "m1": null
   },
   "hit": {
@@ -73824,7 +74553,7 @@
    "ret": {
     "d3": 0.08525,
     "w1": 0.08756,
-    "w2": null,
+    "w2": 0.03687,
     "m1": null
    }
   },
@@ -73832,14 +74561,14 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.05803,
    "w1": 0.06395,
-   "w2": null,
+   "w2": 0.03706,
    "m1": null
   },
   "hit": {}
@@ -73858,7 +74587,7 @@
    "ret": {
     "d3": 0.03347,
     "w1": 0.0251,
-    "w2": null,
+    "w2": 0.01763,
     "m1": null
    }
   },
@@ -73866,20 +74595,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.00625,
    "w1": 0.00149,
-   "w2": null,
+   "w2": 0.01782,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -73897,7 +74626,7 @@
    "ret": {
     "d3": -0.09091,
     "w1": -0.06014,
-    "w2": null,
+    "w2": -0.15804,
     "m1": null
    }
   },
@@ -73905,20 +74634,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.11813,
    "w1": -0.08375,
-   "w2": null,
+   "w2": -0.15785,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -73936,7 +74665,7 @@
    "ret": {
     "d3": 0.01917,
     "w1": 0.07972,
-    "w2": null,
+    "w2": -0.02624,
     "m1": null
    }
   },
@@ -73944,20 +74673,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.00805,
    "w1": 0.05611,
-   "w2": null,
+   "w2": -0.02605,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -73975,7 +74704,7 @@
    "ret": {
     "d3": -0.03147,
     "w1": -0.02797,
-    "w2": null,
+    "w2": -0.04545,
     "m1": null
    }
   },
@@ -73983,20 +74712,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.05869,
    "w1": -0.05158,
-   "w2": null,
+   "w2": -0.04526,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -74014,7 +74743,7 @@
    "ret": {
     "d3": 0.01948,
     "w1": 0.0303,
-    "w2": null,
+    "w2": 0.00216,
     "m1": null
    }
   },
@@ -74022,20 +74751,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.00774,
    "w1": 0.00669,
-   "w2": null,
+   "w2": 0.00235,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -74053,7 +74782,7 @@
    "ret": {
     "d3": -0.03025,
     "w1": -0.02521,
-    "w2": null,
+    "w2": -0.0084,
     "m1": null
    }
   },
@@ -74061,14 +74790,14 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.05747,
    "w1": -0.04882,
-   "w2": null,
+   "w2": -0.00821,
    "m1": null
   },
   "hit": {}
@@ -74087,7 +74816,7 @@
    "ret": {
     "d3": -0.08173,
     "w1": -0.09295,
-    "w2": null,
+    "w2": -0.12821,
     "m1": null
    }
   },
@@ -74095,20 +74824,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.10895,
    "w1": -0.11656,
-   "w2": null,
+   "w2": -0.12802,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -74126,7 +74855,7 @@
    "ret": {
     "d3": -0.01905,
     "w1": 0.01333,
-    "w2": null,
+    "w2": 0.01714,
     "m1": null
    }
   },
@@ -74134,20 +74863,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.04627,
    "w1": -0.01028,
-   "w2": null,
+   "w2": 0.01733,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -74165,7 +74894,7 @@
    "ret": {
     "d3": 0.01285,
     "w1": 0.00257,
-    "w2": null,
+    "w2": -0.08997,
     "m1": null
    }
   },
@@ -74173,20 +74902,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.01437,
    "w1": -0.02104,
-   "w2": null,
+   "w2": -0.08978,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -74204,7 +74933,7 @@
    "ret": {
     "d3": -0.04237,
     "w1": 0.01695,
-    "w2": null,
+    "w2": -0.14689,
     "m1": null
    }
   },
@@ -74212,20 +74941,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.06959,
    "w1": -0.00666,
-   "w2": null,
+   "w2": -0.1467,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -74243,7 +74972,7 @@
    "ret": {
     "d3": -0.02676,
     "w1": -0.02676,
-    "w2": null,
+    "w2": -0.07023,
     "m1": null
    }
   },
@@ -74251,20 +74980,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.05398,
    "w1": -0.05037,
-   "w2": null,
+   "w2": -0.07004,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -74282,7 +75011,7 @@
    "ret": {
     "d3": 0.02557,
     "w1": -0.0483,
-    "w2": null,
+    "w2": -0.04261,
     "m1": null
    }
   },
@@ -74290,14 +75019,14 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.00165,
    "w1": -0.07191,
-   "w2": null,
+   "w2": -0.04242,
    "m1": null
   },
   "hit": {}
@@ -74316,7 +75045,7 @@
    "ret": {
     "d3": -0.03333,
     "w1": -0.05556,
-    "w2": null,
+    "w2": -0.06889,
     "m1": null
    }
   },
@@ -74324,20 +75053,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.06055,
    "w1": -0.07917,
-   "w2": null,
+   "w2": -0.0687,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -74355,7 +75084,7 @@
    "ret": {
     "d3": 0.11488,
     "w1": 0.17514,
-    "w2": null,
+    "w2": 0.12994,
     "m1": null
    }
   },
@@ -74363,20 +75092,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.08766,
    "w1": 0.15153,
-   "w2": null,
+   "w2": 0.13013,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -74394,7 +75123,7 @@
    "ret": {
     "d3": 0.05528,
     "w1": 0.00813,
-    "w2": null,
+    "w2": 0.06504,
     "m1": null
    }
   },
@@ -74402,20 +75131,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.02806,
    "w1": -0.01548,
-   "w2": null,
+   "w2": 0.06523,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -74433,7 +75162,7 @@
    "ret": {
     "d3": -0.0112,
     "w1": 0.03359,
-    "w2": null,
+    "w2": 0.05487,
     "m1": null
    }
   },
@@ -74441,20 +75170,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.03842,
    "w1": 0.00998,
-   "w2": null,
+   "w2": 0.05506,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -74472,7 +75201,7 @@
    "ret": {
     "d3": 0.03347,
     "w1": 0.0251,
-    "w2": null,
+    "w2": 0.01763,
     "m1": null
    }
   },
@@ -74480,20 +75209,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.00625,
    "w1": 0.00149,
-   "w2": null,
+   "w2": 0.01782,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -74511,7 +75240,7 @@
    "ret": {
     "d3": -0.00442,
     "w1": 0.06195,
-    "w2": null,
+    "w2": 0.08186,
     "m1": null
    }
   },
@@ -74519,20 +75248,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.03164,
    "w1": 0.03834,
-   "w2": null,
+   "w2": 0.08205,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -74550,7 +75279,7 @@
    "ret": {
     "d3": 0.0,
     "w1": 0.03828,
-    "w2": null,
+    "w2": 0.06459,
     "m1": null
    }
   },
@@ -74558,20 +75287,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.02722,
    "w1": 0.01467,
-   "w2": null,
+   "w2": 0.06478,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -74589,7 +75318,7 @@
    "ret": {
     "d3": -0.03757,
     "w1": -0.01156,
-    "w2": null,
+    "w2": -0.0289,
     "m1": null
    }
   },
@@ -74597,20 +75326,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.06479,
    "w1": -0.03517,
-   "w2": null,
+   "w2": -0.02871,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -74628,7 +75357,7 @@
    "ret": {
     "d3": 0.04924,
     "w1": 0.10357,
-    "w2": null,
+    "w2": 0.04244,
     "m1": null
    }
   },
@@ -74636,20 +75365,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.02202,
    "w1": 0.07996,
-   "w2": null,
+   "w2": 0.04263,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -74680,7 +75409,7 @@
    "ret": {
     "d3": 0.01616,
     "w1": 0.01414,
-    "w2": null,
+    "w2": 0.01212,
     "m1": null
    }
   },
@@ -74688,14 +75417,14 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.01106,
    "w1": -0.00947,
-   "w2": null,
+   "w2": 0.01231,
    "m1": null
   },
   "hit": {}
@@ -74714,7 +75443,7 @@
    "ret": {
     "d3": -0.0209,
     "w1": 0.00299,
-    "w2": null,
+    "w2": 0.02687,
     "m1": null
    }
   },
@@ -74722,14 +75451,14 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.04812,
    "w1": -0.02062,
-   "w2": null,
+   "w2": 0.02706,
    "m1": null
   },
   "hit": {}
@@ -74748,7 +75477,7 @@
    "ret": {
     "d3": -0.01061,
     "w1": -0.01857,
-    "w2": null,
+    "w2": -0.01061,
     "m1": null
    }
   },
@@ -74756,20 +75485,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.03783,
    "w1": -0.04218,
-   "w2": null,
+   "w2": -0.01042,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": false,
-   "w2": null,
+   "w2": false,
    "m1": null
   }
  },
@@ -74787,7 +75516,7 @@
    "ret": {
     "d3": 0.11204,
     "w1": 0.07853,
-    "w2": null,
+    "w2": 0.02199,
     "m1": null
    }
   },
@@ -74795,14 +75524,14 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": 0.08482,
    "w1": 0.05492,
-   "w2": null,
+   "w2": 0.02218,
    "m1": null
   },
   "hit": {}
@@ -74821,7 +75550,7 @@
    "ret": {
     "d3": 0.02083,
     "w1": 0.12939,
-    "w2": null,
+    "w2": 0.00877,
     "m1": null
    }
   },
@@ -74829,20 +75558,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.00639,
    "w1": 0.10578,
-   "w2": null,
+   "w2": 0.00896,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -74860,7 +75589,7 @@
    "ret": {
     "d3": 0.00155,
     "w1": 0.0356,
-    "w2": null,
+    "w2": 0.02477,
     "m1": null
    }
   },
@@ -74868,20 +75597,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.02567,
    "w1": 0.01199,
-   "w2": null,
+   "w2": 0.02496,
    "m1": null
   },
   "hit": {
    "d3": true,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -74899,7 +75628,7 @@
    "ret": {
     "d3": -0.01703,
     "w1": 0.00701,
-    "w2": null,
+    "w2": 0.02204,
     "m1": null
    }
   },
@@ -74907,20 +75636,20 @@
    "ret": {
     "d3": 0.02722,
     "w1": 0.02361,
-    "w2": null,
+    "w2": -0.00019,
     "m1": null
    }
   },
   "excess": {
    "d3": -0.04425,
    "w1": -0.0166,
-   "w2": null,
+   "w2": 0.02223,
    "m1": null
   },
   "hit": {
    "d3": false,
    "w1": true,
-   "w2": null,
+   "w2": true,
    "m1": null
   }
  },
@@ -75935,14 +76664,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.00504,
+   "d3": -0.00227,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76000,14 +76729,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.00413,
+   "d3": -0.00318,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76034,14 +76763,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.01899,
+   "d3": 0.01168,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76073,14 +76802,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.04266,
+   "d3": 0.03535,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76112,14 +76841,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.0128,
+   "d3": 0.00549,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76151,14 +76880,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.04471,
+   "d3": 0.0374,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76190,14 +76919,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.09458,
+   "d3": 0.08727,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76229,14 +76958,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.01458,
+   "d3": 0.00727,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76263,14 +76992,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.01654,
+   "d3": 0.00923,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76302,14 +77031,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.00888,
+   "d3": 0.00157,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76341,14 +77070,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": -0.02231,
+   "d3": -0.02962,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76375,14 +77104,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.01458,
+   "d3": 0.00727,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76409,14 +77138,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.00671,
+   "d3": -0.0006,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76448,14 +77177,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": -0.05601,
+   "d3": -0.06332,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76487,14 +77216,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": -0.00754,
+   "d3": -0.01485,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76526,14 +77255,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": -0.0018,
+   "d3": -0.00911,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76560,14 +77289,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": -0.00646,
+   "d3": -0.01377,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76599,14 +77328,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.01641,
+   "d3": 0.0091,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76638,14 +77367,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": -0.07064,
+   "d3": -0.07795,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76677,14 +77406,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.00631,
+   "d3": -0.001,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76716,14 +77445,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.07014,
+   "d3": 0.06283,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76763,14 +77492,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.02526,
+   "d3": 0.01795,
    "w1": null,
    "w2": null,
    "m1": null
@@ -76802,14 +77531,14 @@
   },
   "bench": {
    "ret": {
-    "d3": -0.01458,
+    "d3": -0.00727,
     "w1": null,
     "w2": null,
     "m1": null
    }
   },
   "excess": {
-   "d3": 0.05477,
+   "d3": 0.04746,
    "w1": null,
    "w2": null,
    "m1": null
