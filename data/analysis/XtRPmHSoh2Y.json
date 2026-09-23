@@ -1,0 +1,364 @@
+{
+ "episode_summary": "台股盤中一度創下48601點歷史新高，尾盤拉回幾乎收平，留下逾800點上影線，但三位老師（蔡明翰、張林中、馮志源）一致認為這只是短線拉回，中長線反攻號角已響。理由是費半站上季線、Meta等AI股領漲美股、8月外銷訂單突破千億美元再創新高，AI供應鏈（先進封裝、記憶體、載板、散熱等）基本面全面走強，Q4歷史勝率高，建議逢回加碼並維持高持股，同時可透過中小型基金/ETF參與輪動快速的中小型股行情。",
+ "market_view": "台股雖創高後拉回收長上影線，但外銷訂單創新高、費半首度站上季線顯示基本面與資金面轉強，外資期貨尚未過前高具軋空空間，三位老師皆認為屬健康換手、非變盤，Q4波段行情機率偏高，建議逢低加碼而非減碼。",
+ "teachers": [
+  {
+   "name": "蔡明翰",
+   "picks": [
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "股價創歷史新高，市場強勢族群特色是2027年EPS大幅成長",
+      "今年EPS雖未成長，但市場預估明年獲利將翻倍"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "聯發科的部分來講確實還是相對強勢也在創歷史新高⋯雖然聯發科今年的EPS沒有動但是市場的均值都認為明年會獲利會翻倍所以股價的部分自然強勢",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "創意",
+     "ticker": "3443",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "今年獲利成長約八成，明年可望再成長130%",
+      "數字會說話，基本面支撐股價持續走高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "創意的部分呢就是非常不可思議的公司今年獲利成長八成明年還可以成長130%",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "日月光投控",
+     "ticker": "3711",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回找買點／核心持股",
+     "reasons": [
+      "全世界第一大封測廠，AI先進封裝需求強勁",
+      "今年獲利成長近一倍，明年估再成長五成，獲利預估持續上修",
+      "封測股熱度降溫、平常冷門時介入較能抱得住"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "以日月光來講今年獲利增長快一倍然後呢明年還有辦法增長五成",
+     "tw_market": "TWSE",
+     "spoken_name": "日月光"
+    },
+    {
+     "stock_name": "京元電子",
+     "ticker": "2449",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回找買點／核心持股",
+     "reasons": [
+      "今年帳面獲利無成長是因去年一次性業外墊高基期，本業獲利與營收成長皆強",
+      "明年預估EPS成長近六成"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "晶圓電也有一個比較特別要告訴大家他今年獲利看起來沒成長去年它有一個一次性的業外⋯所以明年預估還有接近6成的EPS成長",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯亙",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀望",
+     "reasons": [
+      "獲利成長優秀，營收表現不差",
+      "法人報告與訊息相對少，透明度較低，風險稍高"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "另外聯軍的部分也可以留意因為他是所謂的光通訊的封測⋯他的獲利成長也非常優秀營收表現也不差可是他有一個缺點就是他的透明度相對比較低一點",
+     "name_note": "光通訊封測股，語音辨識不確定，代號待查",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "張林中",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低買進／續抱",
+     "reasons": [
+      "歷史上Q4上漲機率高（66-80%），漲幅3.7-4.9%",
+      "外資期貨部位尚未過前高，具軋空空間，Q4有機會挑戰新高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台積電,我想大家也很清楚,應該每個人都有⋯這些是歷史上Q4上漲機率非常高的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "元大台灣50",
+     "ticker": "0050",
+     "market": "ETF",
+     "stance": "看多",
+     "action": "逢低買進",
+     "reasons": [
+      "與台積電同列Q4歷史高勝率標的"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "台積電跟0050,這個是一對的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "漢唐",
+     "ticker": "2404",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢低買進",
+     "reasons": [
+      "列入Q4歷史勝率較高的個股名單"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "然後像漢堂、中信晶、聯發科跟廣達,這些也都可以參考一下。這些是歷史上Q4上漲機率非常高的",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "中信金",
+     "ticker": "2891",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點",
+     "reasons": [
+      "DMI紅線在10日均線之上黃金交叉為最佳買點",
+      "目前股價正靠近前次最佳買點區間"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "中信金也是一樣。最好的買點在這個位置⋯現在有點靠近了。這個其實中信金的機會慢慢的出現",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點",
+     "reasons": [
+      "8月底9月初DMI黃金交叉後走勢盤整，等待再度靠近10日均線的買點"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "聯發科想它已經創高了⋯大概8月底9月初的時候,因為它這邊黃金交叉",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "廣達",
+     "ticker": "2382",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意布局",
+     "reasons": [
+      "DMI紅線轉為在上方，訊號轉強可留意"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "廣達也是一樣⋯現在紅色在上面。所以這個也可以去留意一下",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "友達",
+     "ticker": "2409",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意進場",
+     "reasons": [
+      "近兩日個股期貨量增、股價超熱",
+      "符合量增、站上10日均線向上、KD黃金交叉三條件"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "友達這兩天超熱。不論有多數、超熱",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯電",
+     "ticker": "2303",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "8月25日個股期貨KD黃金交叉率先出列，至今漲幅約28%"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "聯電在這一天它就衝出來就被抓到了⋯KD51下黃金交叉⋯那這邊大概到現在是28%",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "新興",
+     "ticker": "2605",
+     "market": "TW",
+     "stance": "觀望",
+     "action": "觀望",
+     "reasons": [
+      "昨日個股期貨KD黃金交叉，但今日翻黑棒，需觀察後續發展"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "那昨天交叉,今天是黑棒。所以你可以留意一下這個機會可能就會來了",
+     "name_note": "散裝航運",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "欣興電子",
+     "ticker": "3037",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意進場",
+     "reasons": [
+      "前波利空（鬼故事）後股價緩步向上",
+      "KD指標出現黃金交叉訊號"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "再來最後一檔是這個聯帽⋯那其實鬼故事之後慢慢的往上走。KD在這邊它有一點黃金交叉",
+     "name_note": "載板股，語音辨識不確定，代號待查",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "馮志源",
+   "picks": [
+    {
+     "stock_name": "Intel",
+     "ticker": null,
+     "market": "US",
+     "stance": "看多",
+     "action": "觀望",
+     "reasons": [
+      "股價線型轉強、跳空上攻，一改過去弱勢形象",
+      "美國政府介入為利多，並與友達合作跨入先進封裝"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "現在不能叫人家阿斗你看這個線型多強跳空⋯包括美國政府的一個介入也好",
+     "tw_market": null
+    },
+    {
+     "stock_name": "友達",
+     "ticker": "2409",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意進場",
+     "reasons": [
+      "跨入先進封裝並與Intel合作",
+      "連續兩日大漲，過去弱勢股轉強"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "過去被認為是大牛的友達現在也不得了 今天也是大漲而且是連續兩天都大漲的一個情況",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "AMD",
+     "ticker": null,
+     "market": "US",
+     "stance": "看多",
+     "action": "觀望",
+     "reasons": [
+      "今年以來投資報酬率高達180%",
+      "昨日股價創新高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "AMD的一個部分的話也是這樣的一個狀況就是它的一個今年以來的投資報酬率非常的高⋯180%那昨天的股價也是在創新高",
+     "tw_market": null
+    },
+    {
+     "stock_name": "創意",
+     "ticker": "3443",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "台積電產能支援",
+      "外資Alethia預估未來三年獲利成長8倍"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "創意當然我覺得它有幾個利多⋯外資Alethia 它預估說創意未來三年的獲利會增加8倍",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "南電",
+     "ticker": "8046",
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀望",
+     "reasons": [
+      "ABF載板需求強，先前利空未能打下股價",
+      "今日載板三雄表現強勢，股價在千元附近整理"
+     ],
+     "target_price": "千元附近",
+     "confidence": "medium",
+     "quote": "南電其實就在千元的附近進行震盪今天載板三雄也都非常的強",
+     "tw_market": "TWSE",
+     "spoken_name": "南亞電路板"
+    },
+    {
+     "stock_name": "施羅德台灣樂活中小基金",
+     "ticker": null,
+     "market": "OTHER",
+     "stance": "看多",
+     "action": "資產配置／定期定值",
+     "reasons": [
+      "今年以來報酬率近152%，領先同類基金與主動式ETF",
+      "操作靈活，6月獲利了結拉高現金水位、7月逢低加碼",
+      "成立逾10年，累積績效逾10倍",
+      "具TISA級別，手續費與經理費較低，適合小資族"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "施若德臺灣中小的部分的話,它到今年以來的一個投資績效已經⋯將近152%",
+     "tw_market": null
+    },
+    {
+     "stock_name": "主動式ETF 00981A",
+     "ticker": "00981A",
+     "market": "ETF",
+     "stance": "中性",
+     "action": null,
+     "reasons": [
+      "今年以來報酬率78.3%，為主動式ETF中表現最佳",
+      "但績效仍落後施羅德台灣樂活中小基金"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "如果跟主動式ETF比,你會發現到981A是今年以來的冠軍,是78.3",
+     "tw_market": null
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "XtRPmHSoh2Y",
+  "title": "【理財達人秀】漲點被沒收 台股節後會再攻！漢測上市狂 封測明年更爆？外銷訂單又創高 Q4高勝率名單！KD黃金交叉量增股！｜李兆華、蔡明翰、張林忠、馮志源2026.09.22【電視完整版】",
+  "date": "2026-09-22",
+  "duration": 2930,
+  "url": "https://www.youtube.com/watch?v=XtRPmHSoh2Y"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}

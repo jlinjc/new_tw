@@ -1,0 +1,397 @@
+{
+ "episode_summary": "本集台股創收盤新高後小幅拉回整理，三位老師均看多後市：朱家泓聚焦技術面，認為矽晶圓與功率元件族群補漲行情才剛開始；紀緯明聚焦Meta Connect大會AI眼鏡帶動的光學供應鏈與低位階設備股；張捷延續台積電OIP論壇話題，看好EUV／先進封裝供應鏈家登及ASIC概念股聯發科、晶心科。三人皆看好台積電補漲有望推升大盤挑戰5萬點。",
+ "market_view": "大盤創收盤新高後短線滿足，朱家泓依喇叭型態測算短線目標約5萬點，認為中秋節後拉回是正常且屬買點；紀緯明與張捷皆認為台積電一旦過歷史高點，指數將順勢挑戰5萬點，操作上建議維持6到7成持股水位、拉回找買點。",
+ "teachers": [
+  {
+   "name": "朱家泓",
+   "picks": [
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "大盤創高但台積電尚未創高，是個伏筆，若補漲大盤可望挑戰5萬點",
+      "近期漲勢相對緩慢但仍算強勢，值得耐心持有"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "如果有台積電最近比較好像跟別的股票比比較慢嘛，那你現在沒什麼大漲，不過也相對算強啦，那你就抱著它，後面一定會有很好的報酬給你，要對它有耐性。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "中砂",
+     "ticker": "1560",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點",
+     "reasons": [
+      "矽晶圓族群領頭股，長期盤整後創新高",
+      "底部打很久，預期後續還有高點"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "中砂算是領頭，它很早就開始這個長期的盤整就已經出來了，創新高，那如果你要去做，當然這就現成的一支多頭股票，就等它拉回你就可以做。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "嘉晶",
+     "ticker": "3016",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點",
+     "reasons": [
+      "12吋矽晶圓明年長約看漲，屬低位階補漲股",
+      "連三紅反彈後在月線整理，突破後噴出",
+      "外資投信剛開始進場買超"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "我們來看最強的家經，家經是不是連三紅反彈然後在月線上整理，這邊是盤整，然後你在高點畫一條線，是不是一突破就開始漲了。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "漢磊",
+     "ticker": "3707",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回找買點",
+     "reasons": [
+      "矽晶圓相關族群補漲股之一"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "那這個漢壘拉回來都可以做多。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "中美晶",
+     "ticker": "5483",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回布局",
+     "reasons": [
+      "前一波漲多回檔消化賣壓，基本面已做好，可期待後續表現"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "中美金環球金都漲很多，那回來休息可能還在消化一些賣壓，但是它的現行都已經做好了，所以可以去期待。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "環球晶",
+     "ticker": "6488",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回布局",
+     "reasons": [
+      "同中美晶，前波漲多回檔整理，基本面已到位"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "這兩個在前一陣子都漲得非常多，中美金環球金都漲很多，那回來休息可能還在消化一些賣壓。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "強茂",
+     "ticker": "2481",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意突破買進",
+     "reasons": [
+      "功率半導體中大型股，均線多頭排列（月線穿季線）",
+      "底部量能已做足，形態與嘉晶、漢磊相似"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "強茂算是裡面的比較大型股中大型股，是不是長的一樣，也站上所有均線了，那是不是月線穿過季線，這隻強茂是隨時都會有表態。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "德微",
+     "ticker": "3675",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回買進",
+     "reasons": [
+      "功率元件補漲股，已站上均線並過關鍵壓力",
+      "高點仍有想像空間"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "德維也是一樣一模一樣的，這個壓力一過，今天也過了，那今天過了，那個均線月線明後天就穿上來，也是一樣做到，他的高點還很高。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "近期急漲熱門股",
+     "ticker": null,
+     "market": "TW",
+     "stance": "中性",
+     "action": "跌破5日均線則出場，未破則續抱",
+     "reasons": [
+      "連三根急漲後爆大量收長黑，短線賣壓浮現",
+      "短線操作以5日均線作防守"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "這三檔其實都有同樣的性質，心權跟金元電都是放量今天大黑K，都是連三紅跳空連三紅爆量。",
+     "name_note": "原音「心權」，股名不明",
+     "tw_market": null
+    },
+    {
+     "stock_name": "近期急漲熱門股",
+     "ticker": null,
+     "market": "TW",
+     "stance": "中性",
+     "action": "跌破5日均線則出場，未破則續抱",
+     "reasons": [
+      "同上，連續急漲後爆量收黑，短線宜觀察5日均線"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "今天大黑K，都是連三紅跳空連三紅爆量，那昨天也是就像這樣出現一個黑K，那第二天今天就跌破不去，這超大黑K。",
+     "name_note": "原音「金元電」，股名不明",
+     "tw_market": null
+    },
+    {
+     "stock_name": "功率元件族群個股",
+     "ticker": null,
+     "market": "TW",
+     "stance": "看多",
+     "action": "觀察壓力區突破買進",
+     "reasons": [
+      "今日出量並接近前波壓力，過壓力後可望展開攻勢"
+     ],
+     "target_price": null,
+     "confidence": "low",
+     "quote": "大家也可以看今天有漲停的，有『貿易』這個就出來了，這邊有個壓力，過了其實它就是，就像我們剛剛那幾隻就在等這一隻。",
+     "name_note": "原音「貿易」，股名不明，疑為語音辨識錯誤",
+     "tw_market": null
+    }
+   ]
+  },
+  {
+   "name": "紀緯明",
+   "picks": [
+    {
+     "stock_name": "META",
+     "ticker": "META",
+     "market": "US",
+     "stance": "看多",
+     "action": "關注Connect大會催化",
+     "reasons": [
+      "股價突破前波頸線創波段新高，線型偏多",
+      "Connect 2026大會聚焦AI眼鏡從無顯示升級為有顯示，將帶動光學零組件BOM成本與台廠利潤上升"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "以META的股價線型來講，它會是一個多頭的股票，那既然是多頭的股票，今天晚上的這一個Connect大會一定就是有看頭。",
+     "tw_market": null
+    },
+    {
+     "stock_name": "台積電",
+     "ticker": "2330",
+     "market": "TW",
+     "stance": "看多",
+     "action": "拉回承接、續抱",
+     "reasons": [
+      "大盤若挑戰5萬點，台積電應同步走高",
+      "外銷訂單創歷史新高，半導體與AI成長趨勢未見放緩"
+     ],
+     "target_price": "2600元（大盤上看5萬點情境下）",
+     "confidence": "high",
+     "quote": "就算我們只看到5萬點的話呢，以台積電的股價，你上看2600，這個真的都還太保守。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "大立光",
+     "ticker": "3008",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回找買點、耐心持有",
+     "reasons": [
+      "近期遭兩家外資降評但投信已進場小幅布局，利空已一日消化完畢",
+      "以明後年EPS超過200元估算，本益比約30倍並不算貴",
+      "靜待股價站回月線展開新一波段"
+     ],
+     "target_price": "挑戰八字頭（800元以上）",
+     "confidence": "high",
+     "quote": "你以大力光明後年的EPS超過200塊錢去做估計的話，現在本益比30倍，我真的不認為他特別的貴。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "英濟",
+     "ticker": "3294",
+     "market": "TW",
+     "stance": "看多",
+     "action": "回測5日均線找買點，5日均線防守",
+     "reasons": [
+      "今日長紅漲停鎖死並帶量，上週已有400張大戶進場卡位",
+      "位階極低，現價距年線36.61元仍有相當空間",
+      "子公司鷹（英）晶科技投入微光機技術，受惠AI眼鏡與機器人多題材"
+     ],
+     "target_price": "年線36.61元（支撐參考）",
+     "confidence": "high",
+     "quote": "而鷹記呢，他旗下有一間子公司叫做鷹琪科技，鷹琪他在做的就是微光機……以目前來講AI眼鏡微光機也算是純度高的。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "帆宣",
+     "ticker": "6196",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意營收、逢拉回買進",
+     "reasons": [
+      "悄悄站上所有均線，法人也同步布局",
+      "在手訂單1351億元，能見度看到2028年",
+      "受惠台積電美國、德國海外建廠"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "他在手的訂單1351億，這個能見度直接看到2028……他跟台積電的海外建廠，還有德國這些海外廠，其實他都有辦法拿到相關的訂單。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "漢唐",
+     "ticker": "2404",
+     "market": "TW",
+     "stance": "看多",
+     "action": "不宜追價，回測5日均線找買點",
+     "reasons": [
+      "訂單滿手非問題所在，屬低基期股",
+      "股價剛從年線穿過季線，位階不算高"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "以漢堂的股性不宜在這邊追價……可是因為你五日均線很快的就會往上翻揚，所以後面有盤中回測五日均線，一樣是買點。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "高位階成長股，拉回找買點續抱",
+     "reasons": [
+      "ASIC商機驅動，屬高位階成長股代表"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "我們的選股呢往兩個方向走，第一個就是高位階的成長股票，包含什麼聯發科、大力光這些的。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "創意",
+     "ticker": "3443",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱",
+     "reasons": [
+      "續創歷史新高，今日再度鎖漲停"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "創意是續創歷史新高。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "世芯-KY",
+     "ticker": "3661",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回布局",
+     "reasons": [
+      "低位階題材股，市場先前因封裝規格利空跌停未鎖住，反映市場已消化",
+      "股價相對高點仍屬右下角低位階"
+     ],
+     "target_price": "12000元（原文目標價，代號待確認）",
+     "confidence": "low",
+     "quote": "而Lysia現在看它的目標價是一萬兩千塊……即便今天再繼續往上漲了6%，你如果今天把K線拉的更大，它股價其實還在右下角，所以我喜歡這種低位階的股票。",
+     "name_note": "原音Lysia／立望／利望，股名比對不確定",
+     "tw_market": "TWSE"
+    }
+   ]
+  },
+  {
+   "name": "張捷",
+   "picks": [
+    {
+     "stock_name": "家登",
+     "ticker": "3680",
+     "market": "TW",
+     "stance": "看多",
+     "action": "逢拉回買進",
+     "reasons": [
+      "EUV機台獨家供應鏈，與ASML、台積電、Intel合作，屬寡占中的寡占",
+      "先進製程光罩層數增加（7奈米、4奈米到2奈米，層數從20-30層增至40-70層），帶動營收成長",
+      "多家法人（元大、凱基、元富、統一等）上修財測，短線爆量拉回視為過程而非轉弱"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "加登其實只要先進製程，基本上都妥妥的……所以回檔反而要把握買點。",
+     "tw_market": "TPEX"
+    },
+    {
+     "stock_name": "上品",
+     "ticker": "4770",
+     "market": "TW",
+     "stance": "看多",
+     "action": "留意法說會後表態",
+     "reasons": [
+      "台積電潮車（化學液運輸槽車）ISOTEC獨家供應商，在美台具技術與純度優勢",
+      "在手訂單400多台且翻倍成長，8月營收創歷史新高",
+      "公司經營轉趨活躍，明年新產能開出，法人期待重回歷史高點"
+     ],
+     "target_price": null,
+     "confidence": "high",
+     "quote": "那經營階層透露出整個過去接的單子已經過去了，然後新的單子，其中你看像這個在手訂單400多台，然後這個翻倍成長。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "聯發科",
+     "ticker": "2454",
+     "market": "TW",
+     "stance": "看多",
+     "action": "續抱，長線看多",
+     "reasons": [
+      "先前喊價5000元已到價，法人續上修目標至6800元",
+      "ASIC市場規模上修至700-800億美元，聯發科市占率上看20%",
+      "輝達、Google參與39億美元海外可轉債認購，強強聯手",
+      "8月營收歷史新高，手機晶片與ASIC雙引擎成長，明年營收可能翻倍"
+     ],
+     "target_price": "6800元（法人上修目標，原目標5000元已達成）",
+     "confidence": "high",
+     "quote": "發哥自己也上修，他兩次法說會說這個市場……上修到700億到800億……你看人家已經上修到6800。",
+     "tw_market": "TWSE"
+    },
+    {
+     "stock_name": "晶心科",
+     "ticker": "6533",
+     "market": "TW",
+     "stance": "看多",
+     "action": "潛力股關注",
+     "reasons": [
+      "聯發科集團成員，同集團達發今日漲停顯示題材延燒",
+      "過去替Meta供應相關技術，今年由虧轉盈，法人開始估算獲利成長"
+     ],
+     "target_price": null,
+     "confidence": "medium",
+     "quote": "當然寡占的就那一些，那你可以來看，例如說6533的金星科……雖然今年虧轉盈，這個看起來本益比超級高，但明年有一些法人開始估算它賺錢。",
+     "tw_market": "TWSE"
+    }
+   ]
+  }
+ ],
+ "video": {
+  "id": "SMgwD-npq3g",
+  "title": "【理財達人秀】Meta大會登場 AI眼鏡雙題材！台積電OIP 10檔賺算力財！聯發科帶頭 ASIC誰接棒？矽晶圓.功率元件安心抱？｜李兆華、朱家泓、紀緯明、張捷2026.09.23【電視完整版】",
+  "date": "2026-09-23",
+  "duration": 2979,
+  "url": "https://www.youtube.com/watch?v=SMgwD-npq3g"
+ },
+ "_usage": {
+  "mode": "claude-code-cli",
+  "model": "sonnet"
+ }
+}
